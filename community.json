@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 1,
-  "updatedAt": "2026-11-13T00:00:00Z",
+  "revision": 2,
+  "updatedAt": "2026-11-12T00:00:00Z",
   "tagline": "Kit Go · DSH Go ئۇيغۇرچە نۇسخىسى",
   "plugins": [],
   "prompts": [],
@@ -17,13 +17,25 @@
       "title": "问题反馈",
       "subtitle": "GitHub Issues",
       "url": "https://github.com/Mr-losfer/dsh-go-ug/issues"
+    },
+    {
+      "kind": "github",
+      "title": "获取 API Key",
+      "subtitle": "api.losfer.cn",
+      "url": "https://api.losfer.cn/pc/api-list/keys/"
+    },
+    {
+      "kind": "github",
+      "title": "版本更新",
+      "subtitle": "GitHub Releases",
+      "url": "https://github.com/Mr-losfer/dsh-go-ug/releases/latest"
     }
   ],
   "updates": [
     {
-      "date": "2026-11-13",
+      "date": "2026-11-12",
       "title": "Kit Go 维吾尔语版",
-      "summary": "接入 LOSFER AI，新增 ئۇيغۇرچە 界面与 UKIJ Tuz 字体。",
+      "summary": "接入 LOSFER AI，新增 ئۇيغۇرچە 界面与 UKIJ Tuz 字体；更新与社区迁到本仓库。",
       "url": "https://github.com/Mr-losfer/dsh-go-ug"
     }
   ]
