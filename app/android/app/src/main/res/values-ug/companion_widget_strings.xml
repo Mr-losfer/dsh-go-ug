@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 伙伴小屋 home-screen widget, Uyghur. -->
+<resources>
+    <string name="companion_widget_label">ھەمراھ ئۆيى</string>
+    <string name="companion_widget_description">ئۇ ئېكرانىڭىزدا، چېكىپ كۆرۈڭ</string>
+    <string name="companion_widget_name">كىت قىز</string>
+    <string name="companion_widget_waiting">ئۆيدە سىزنى كۈتۈۋاتىدۇ</string>
+    <string name="companion_widget_asleep">ئۇخلاۋاتىدۇ</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The most visible self-update strings in Uyghur; the rest fall back to
+     values/ (English) until translated. -->
+<resources>
+    <string name="self_update_confirm_title">Kit Go يېڭىلانمىسىنى قاچىلامسىز؟</string>
+    <string name="self_update_allow_once">يېڭىلانمىنى قاچىلاش</string>
+    <string name="self_update_wait_title">قاچىلاش كۈتۈشىنى ئاخىرلاشتۇرامسىز؟</string>
+    <string name="self_update_wait_end">كۈتۈش خاتىرىسىنى ئۆچۈرۈش</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher shortcuts / Quick Settings tile, Uyghur. Other native strings
+     fall back to values/ (English) until translated. -->
+<resources>
+    <string name="shortcut_new_chat">يېڭى پاراڭ</string>
+    <string name="shortcut_voice_input">ئاۋاز كىرگۈزۈش</string>
+    <string name="tile_new_chat">يېڭى پاراڭ</string>
+</resources>

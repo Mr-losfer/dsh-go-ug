@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "Kit Go 插件市场",
+    "en": "Kit Go plugin market",
+    "ug": "Kit Go قىستۇرما بازىرى"
+  },
+  "description": {
+    "zh": "Mr-losfer/dsh-go-ug 维护的插件市场",
+    "en": "Plugin market maintained by Mr-losfer/dsh-go-ug",
+    "ug": "Mr-losfer/dsh-go-ug ئاسرايدىغان قىستۇرما بازىرى"
+  },
+  "metadata": {},
+  "plugins": []
+}
