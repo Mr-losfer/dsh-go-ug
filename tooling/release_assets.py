@@ -39,7 +39,7 @@ from build_number import MAX_VERSION_CODE, decode
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FLAVORS = ("arm64", "x64")
 FLAVOR_ABI = {"arm64": "arm64-v8a", "x64": "x86_64"}
-REPO = "ccch1mneyyy/dsh-go"
+REPO = "Mr-losfer/dsh-go-ug"
 VERSION_RE = re.compile(r"^(\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?)(?:\+(\d+))?$")
 BADGING_RE = re.compile(r"^package: .*?\bversionCode='(\d*)' versionName='([^']*)'", re.MULTILINE)
 CACHE = pathlib.Path.home() / ".cache" / "dshgo-release" / "apk"
@@ -155,7 +155,7 @@ def listed(sums: pathlib.Path, name: str) -> str | None:
 def published_apk(tag: str, cache: pathlib.Path) -> pathlib.Path:
     """[tag]'s arm64 APK from its GitHub release, kept in [cache], as the
     release's SHA256SUMS says it is."""
-    name = f"dsh-go-{tag.removeprefix('v')}-arm64.apk"
+    name = f"kitgo-{tag.removeprefix('v')}-arm64.apk"
     apk, sums = cache / tag / name, cache / tag / "SHA256SUMS"
     if not (apk.is_file() and listed(sums, name) == sha256(apk)):
         gh("release", "download", tag, "--pattern", name, "--pattern", "SHA256SUMS", "--dir", str(cache / tag), "--clobber")
@@ -189,7 +189,7 @@ def patch_from(old: pathlib.Path, old_version: str, new: pathlib.Path, name: str
         new_base = base_layer_sha256(new)
         if new_base is not None and old_base != new_base:
             print(f"WARNING: base layer SHA-256 changed from {old_version}: {old_base} -> {new_base}; delta savings may be reduced")
-    patch = out / f"dsh-go-{name}-from-{old_version.partition('+')[0]}-arm64.dshdelta"
+    patch = out / f"kitgo-{name}-from-{old_version.partition('+')[0]}-arm64.dshdelta"
     apk_delta.make(old, new, patch)
     size = patch.stat().st_size
     share = size / new.stat().st_size
@@ -260,7 +260,7 @@ def main() -> None:
     assets = {}
     sums = []
     for flavor, path in sources.items():
-        asset = f"dsh-go-{name}-{flavor}.apk"
+        asset = f"kitgo-{name}-{flavor}.apk"
         target = args.out / asset
         shutil.copyfile(path, target)
         digest = sha256(target)

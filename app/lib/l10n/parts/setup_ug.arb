@@ -1,9 +1,10 @@
 {
-  "setupAppearanceTitle": "选择外观",
-  "setupAppearanceMessage": "随时可以在设置里更改",
-  "setupLightMode": "轻量模式",
-  "setupCapsulePreparing": "准备运行环境",
-  "setupCapsuleProgress": "运行环境 {percent}%",
+  "@@locale": "ug",
+  "setupAppearanceTitle": "كۆرۈنۈشنى تاللاڭ",
+  "setupAppearanceMessage": "خالىغان ۋاقىتتا تەڭشەكتە ئۆزگەرتەلەيسىز",
+  "setupLightMode": "يېنىك ھالەت",
+  "setupCapsulePreparing": "يۈرگۈزۈش مۇھىتى تەييارلىنىۋاتىدۇ",
+  "setupCapsuleProgress": "يۈرگۈزۈش مۇھىتى {percent}%",
   "@setupCapsuleProgress": {
     "placeholders": {
       "percent": {
@@ -11,7 +12,7 @@
       }
     }
   },
-  "setupCapsuleProgressSemantics": "正在准备运行环境，已完成 {percent}%",
+  "setupCapsuleProgressSemantics": "يۈرگۈزۈش مۇھىتى تەييارلىنىۋاتىدۇ، {percent}% تاماملاندى",
   "@setupCapsuleProgressSemantics": {
     "placeholders": {
       "percent": {
@@ -19,9 +20,9 @@
       }
     }
   },
-  "setupCapsuleReady": "运行环境已就绪",
-  "setupCapsuleFailed": "安装未完成",
-  "setupWaitingBody": "完成后自动进入",
-  "setupNotifyWhenDone": "完成时会通知你",
-  "setupAwaitSignIn": "就绪后自动继续配置"
+  "setupCapsuleReady": "يۈرگۈزۈش مۇھىتى تەييار",
+  "setupCapsuleFailed": "قاچىلاش تاماملانمىدى",
+  "setupWaitingBody": "تاماملانغاندىن كېيىن ئاپتوماتىك كىرىدۇ",
+  "setupNotifyWhenDone": "تاماملانغاندا سىزگە ئۇقتۇرۇش قىلىنىدۇ",
+  "setupAwaitSignIn": "يۈرگۈزۈش مۇھىتى تەييار بولغاندىن كېيىن ئاپتوماتىك باشلىنىدۇ"
 }

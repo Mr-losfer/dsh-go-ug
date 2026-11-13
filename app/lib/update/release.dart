@@ -22,11 +22,14 @@ enum ApkFlavor {
   };
 }
 
-/// File name of the APK for [version] and [flavor]: `dsh-go-1.2.0-arm64.apk`.
+/// File name of the APK for [version] and [flavor]: `kitgo-1.2.0-arm64.apk`.
 /// No build number: GitHub rewrites `+` in asset names.
-String apkAssetName(AppVersion version, ApkFlavor flavor) => 'dsh-go-${version.name}-${flavor.name}.apk';
+String apkAssetName(AppVersion version, ApkFlavor flavor) => 'kitgo-${version.name}-${flavor.name}.apk';
 
-final _apkAssetPattern = RegExp(r'^dsh-go-(.+)-(arm64|x64)\.apk$');
+/// `kitgo-…` is this fork's name; `dsh-go-…` is what the upstream releases
+/// (and this fork before 1.0.17) used, still accepted so an older release can
+/// be offered without re-uploading it.
+final _apkAssetPattern = RegExp(r'^(?:kitgo|dsh-go)-(.+)-(arm64|x64)\.apk$');
 
 /// What a manifest may name a file: it becomes a path in the download
 /// directory, so nothing that climbs out of it.

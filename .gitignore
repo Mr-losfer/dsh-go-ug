@@ -39,3 +39,6 @@ site/build/
 app/android/key.properties
 *.jks
 *.keystore
+
+# 维吾尔语翻译缓存（tool/translate_ug.py，可重新生成）
+app/.ug_cache.json

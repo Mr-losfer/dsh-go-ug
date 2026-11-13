@@ -1,13 +1,14 @@
 {
-  "plugslotsSurfaceComposerTools": "加号面板",
-  "plugslotsSurfaceSessionActions": "对话操作",
-  "plugslotsSurfaceTurnNote": "回合尾注",
-  "plugslotsSurfaceComposerActions": "输入框按钮",
-  "plugslotsSurfaceMessageActions": "消息菜单",
-  "plugslotsSurfaceComposerStrip": "状态条",
-  "plugslotsSurfacePanel": "面板",
-  "plugslotsNativeUi": "原生界面",
-  "plugslotsIssueCount": "{count} 项有误",
+  "@@locale": "ug",
+  "plugslotsSurfaceComposerTools": "قوشۇش تاختىسى",
+  "plugslotsSurfaceSessionActions": "سۆھبەت مەشغۇلاتلىرى",
+  "plugslotsSurfaceTurnNote": "ئايلانما ئاخىر ئىزاھاتى",
+  "plugslotsSurfaceComposerActions": "كىرگۈزۈش رامكىسى كۇنۇپكىلىرى",
+  "plugslotsSurfaceMessageActions": "ئۇچۇر تىزىملىكى",
+  "plugslotsSurfaceComposerStrip": "ھالەت بالدىقى",
+  "plugslotsSurfacePanel": "تاختا",
+  "plugslotsNativeUi": "ئەسلى كۆرۈنۈش",
+  "plugslotsIssueCount": "{count} تۈر خاتا",
   "@plugslotsIssueCount": {
     "placeholders": {
       "count": {
@@ -15,8 +16,8 @@
       }
     }
   },
-  "plugslotsAllGood": "正常",
-  "plugslotsViewSize": "视图 {size}",
+  "plugslotsAllGood": "نورمال",
+  "plugslotsViewSize": "كۆرۈنۈش {size}",
   "@plugslotsViewSize": {
     "placeholders": {
       "size": {
@@ -24,7 +25,7 @@
       }
     }
   },
-  "plugslotsInvokeMs": "响应 {ms} ms",
+  "plugslotsInvokeMs": "ئىنكاس {ms} ms",
   "@plugslotsInvokeMs": {
     "placeholders": {
       "ms": {
@@ -32,11 +33,11 @@
       }
     }
   },
-  "plugslotsLastView": "最近视图",
-  "plugslotsLastInvoke": "最近响应",
-  "plugslotsProblems": "问题",
-  "plugslotsNoProblems": "没有问题",
-  "plugslotsWantsDraft": "「{plugin}」要读取输入框",
+  "plugslotsLastView": "ئەڭ ئاخىرقى كۆرۈنۈش",
+  "plugslotsLastInvoke": "ئەڭ ئاخىرقى ئىنكاس",
+  "plugslotsProblems": "مەسىلىلەر",
+  "plugslotsNoProblems": "مەسىلە يوق",
+  "plugslotsWantsDraft": "«{plugin}» كىرگۈزۈش رامكىسىنى ئوقۇماقچى",
   "@plugslotsWantsDraft": {
     "placeholders": {
       "plugin": {
@@ -44,7 +45,7 @@
       }
     }
   },
-  "plugslotsWantsClipboard": "「{plugin}」要读取剪贴板",
+  "plugslotsWantsClipboard": "«{plugin}» چاپلاش تاختىسىنى ئوقۇماقچى",
   "@plugslotsWantsClipboard": {
     "placeholders": {
       "plugin": {
@@ -52,7 +53,7 @@
       }
     }
   },
-  "plugslotsWantsBoth": "「{plugin}」要读取输入框和剪贴板",
+  "plugslotsWantsBoth": "«{plugin}» كىرگۈزۈش رامكىسى ۋە چاپلاش تاختىسىنى ئوقۇماقچى",
   "@plugslotsWantsBoth": {
     "placeholders": {
       "plugin": {
@@ -60,9 +61,9 @@
       }
     }
   },
-  "plugslotsWantsWhen": "只在点按它时读取",
-  "plugslotsAllow": "允许",
-  "plugslotsNoResponse": "「{plugin}」没有响应",
+  "plugslotsWantsWhen": "پەقەت ئۇنى باسقاندا ئوقۇيدۇ",
+  "plugslotsAllow": "رۇخسەت قىلىش",
+  "plugslotsNoResponse": "«{plugin}» ئىنكاس قايتۇرمىدى",
   "@plugslotsNoResponse": {
     "placeholders": {
       "plugin": {
@@ -70,7 +71,7 @@
       }
     }
   },
-  "plugslotsFailed": "「{plugin}」出错了",
+  "plugslotsFailed": "«{plugin}» دا خاتالىق كۆرۈلدى",
   "@plugslotsFailed": {
     "placeholders": {
       "plugin": {
@@ -78,8 +79,8 @@
       }
     }
   },
-  "plugslotsNeedsChat": "先打开一个对话",
-  "plugslotsFromPlugin": "来自「{plugin}」",
+  "plugslotsNeedsChat": "ئاۋۋال بىر سۆھبەت ئېچىڭ",
+  "plugslotsFromPlugin": "«{plugin}» دىن",
   "@plugslotsFromPlugin": {
     "placeholders": {
       "plugin": {
@@ -87,8 +88,8 @@
       }
     }
   },
-  "plugslotsPanelOffline": "连不上插件",
-  "plugslotsIssueTooMany": "最多 {max} 个，其余不显示",
+  "plugslotsPanelOffline": "قىستۇرمىغا ئۇلانغىلى بولمىدى",
+  "plugslotsIssueTooMany": "ئەڭ كۆپ {max} دانە، قالغىنى كۆرسىتىلمەيدۇ",
   "@plugslotsIssueTooMany": {
     "placeholders": {
       "max": {
@@ -96,7 +97,7 @@
       }
     }
   },
-  "plugslotsIssueTrimmed": "超过 {max} 字，已截断",
+  "plugslotsIssueTrimmed": "{max} ھەرپتىن ئېشىپ كەتتى، قىسقارتىلدى",
   "@plugslotsIssueTrimmed": {
     "placeholders": {
       "max": {
@@ -104,7 +105,7 @@
       }
     }
   },
-  "plugslotsIssueNeedsApp": "需要 Kit Go {version} 或更新版本",
+  "plugslotsIssueNeedsApp": "Kit Go {version} ياكى ئۇنىڭدىن يېڭى نەشرى كېرەك",
   "@plugslotsIssueNeedsApp": {
     "placeholders": {
       "version": {
@@ -112,9 +113,9 @@
       }
     }
   },
-  "plugslotsIssueNewerProtocol": "需要更新 App",
-  "plugslotsIssueUnknownIcon": "不认识的图标，已换成默认图标",
-  "plugslotsIssueUnknownEffect": "不支持的效果「{name}」",
+  "plugslotsIssueNewerProtocol": "ئەپنى يېڭىلاش كېرەك",
+  "plugslotsIssueUnknownIcon": "تونۇلمىغان سىنبەلگە، سۈكۈتتىكى سىنبەلگىگە ئالماشتۇرۇلدى",
+  "plugslotsIssueUnknownEffect": "قوللانمايدىغان ئۈنۈم «{name}»",
   "@plugslotsIssueUnknownEffect": {
     "placeholders": {
       "name": {
@@ -122,9 +123,9 @@
       }
     }
   },
-  "plugslotsIssueLate": "点按 3 秒后才返回，已忽略",
-  "plugslotsIssueHttps": "只支持 https 链接",
-  "plugslotsIssueUnknownPage": "没有「{page}」这个页面",
+  "plugslotsIssueLate": "3 سېكۇنتتىن كېيىن قايتۇرۇلدى، ھېسابقا ئېلىنمىدى",
+  "plugslotsIssueHttps": "پەقەت https ئۇلانمىسى قوللىنىدۇ",
+  "plugslotsIssueUnknownPage": "«{page}» دېگەن بەت يوق",
   "@plugslotsIssueUnknownPage": {
     "placeholders": {
       "page": {
@@ -132,8 +133,8 @@
       }
     }
   },
-  "plugslotsIssueThrottled": "提示太频繁，已略过",
-  "plugslotsIssueInvoke": "调用失败：{message}",
+  "plugslotsIssueThrottled": "ئەسكەرتىش بەك كۆپ، ئاتلاپ كېتىلدى",
+  "plugslotsIssueInvoke": "چاقىرىش مەغلۇپ بولدى: {message}",
   "@plugslotsIssueInvoke": {
     "placeholders": {
       "message": {
@@ -141,7 +142,7 @@
       }
     }
   },
-  "plugslotsIssueStream": "数据出错：{message}",
+  "plugslotsIssueStream": "سانلىق مەلۇمات خاتا: {message}",
   "@plugslotsIssueStream": {
     "placeholders": {
       "message": {
@@ -149,10 +150,10 @@
       }
     }
   },
-  "plugslotsIssueMissing": "缺少必填项",
-  "plugslotsIssueDuplicate": "id 重复，已略过",
-  "plugslotsIssueNoPlacement": "没有可放的位置",
-  "plugslotsWantsMessage": "「{plugin}」要读取这条回复",
+  "plugslotsIssueMissing": "تەلەپ قىلىنغان تۈرلەر كەم",
+  "plugslotsIssueDuplicate": "id تەكرارلاندى، ئاتلاپ كېتىلدى",
+  "plugslotsIssueNoPlacement": "قويغىلى بولىدىغان ئورۇن يوق",
+  "plugslotsWantsMessage": "«{plugin}» بۇ جاۋابنى ئوقۇماقچى",
   "@plugslotsWantsMessage": {
     "placeholders": {
       "plugin": {
@@ -160,17 +161,17 @@
       }
     }
   },
-  "plugslotsCodeInvalidManifest": "声明有误，原生部分已停用",
-  "plugslotsCodeInvalidField": "格式不对，已略过",
-  "plugslotsCodeUnknownField": "不认识的字段，已忽略",
-  "plugslotsCodeUnknownSurface": "这个位置还不支持，已忽略",
-  "plugslotsCodeTooMany": "超出数量，多余的不显示",
-  "plugslotsCodeTooLong": "文字太长，已截断",
-  "plugslotsCodeNoHandler": "插件还没处理这一项，暂不显示",
-  "plugslotsCodeUndeclared": "注册了清单里没有的项，已忽略",
-  "plugslotsCodeViewFile": "视图文件读不出",
-  "plugslotsCodeBadEffect": "动作格式不对，已略过",
-  "plugslotsCodeViolation": "出错 {count} 次",
+  "plugslotsCodeInvalidManifest": "دەلىللەشتە خاتالىق بار، يەرلىك قىسمى ئىشلىتىلمەيدۇ",
+  "plugslotsCodeInvalidField": "فورماتى خاتا، ئاتلاپ كېتىلدى",
+  "plugslotsCodeUnknownField": "تونۇلمىغان ئۆزەك، ھېسابقا ئېلىنمىدى",
+  "plugslotsCodeUnknownSurface": "بۇ ئورۇن تېخى قوللانمايدۇ، ھېسابقا ئېلىنمىدى",
+  "plugslotsCodeTooMany": "سانى ئېشىپ كەتتى، ئارتۇقى كۆرسىتىلمەيدۇ",
+  "plugslotsCodeTooLong": "تېكىست بەك ئۇزۇن، قىسقارتىلدى",
+  "plugslotsCodeNoHandler": "قىستۇرما بۇ تۈرنى تېخى بىر تەرەپ قىلمىدى، ھازىرچە كۆرسىتىلمەيدۇ",
+  "plugslotsCodeUndeclared": "تىزىملىكتە يوق تۈر تىزىملاندى، ئىگىلىككە ئېلىنمىدى",
+  "plugslotsCodeViewFile": "كۆرۈنۈش ھۆججىتىنى ئوقۇغىلى بولمىدى",
+  "plugslotsCodeBadEffect": "ھەرىكەت فورماتى خاتا، ئاتلىتىلدى",
+  "plugslotsCodeViolation": "{count} قېتىم خاتالىق كۆرۈلدى",
   "@plugslotsCodeViolation": {
     "placeholders": {
       "count": {
@@ -178,21 +179,21 @@
       }
     }
   },
-  "plugslotsCodeDegraded": "出错太多，已停用到下次启动",
-  "plugslotsCodeTimeout": "插件没有及时响应",
-  "plugslotsCodeRateLimited": "点得太快了",
-  "plugslotsCodeNotFound": "插件已停用或找不到",
-  "plugslotsCodePluginError": "插件出错",
-  "plugslotsCodeInvalidView": "视图有误",
-  "plugslotsCodeLimit": "订阅太多",
-  "plugslotsCodeOther": "其他问题",
-  "plugslotsCodeUnknownEffect": "不支持的动作，已略过",
-  "plugslotsNotDone": "没完成",
-  "plugslotsWorking": "进行中",
-  "plugslotsTapToCancel": "点按取消",
-  "plugslotsCodeTooManyPending": "还有两件没做完",
-  "plugslotsCodeNoStream": "连接断了",
-  "plugslotsVoiceAsk": "允许「{plugin}」听你开口？",
+  "plugslotsCodeDegraded": "خاتالىق بەك كۆپ، كېيىنكى قوزغىتىشقىچە ئىشلىتىلمەيدۇ",
+  "plugslotsCodeTimeout": "قىستۇرما ۋاقتىدا ئىنكاس قايتۇرمىدى",
+  "plugslotsCodeRateLimited": "بەك تېز بېسىلدى",
+  "plugslotsCodeNotFound": "قىستۇرما ئىشلىتىلمەيدۇ ياكى تېپىلمىدى",
+  "plugslotsCodePluginError": "قىستۇرمىدا خاتالىق",
+  "plugslotsCodeInvalidView": "كۆرۈنۈشتە خاتالىق بار",
+  "plugslotsCodeLimit": "مۇشتەرىلىك بەك كۆپ",
+  "plugslotsCodeOther": "باشقا مەسىلىلەر",
+  "plugslotsCodeUnknownEffect": "قوللىنىلمايدىغان ھەرىكەت، ئاتلىتىلدى",
+  "plugslotsNotDone": "تاماملانمىدى",
+  "plugslotsWorking": "ئىجرا قىلىنىۋاتىدۇ",
+  "plugslotsTapToCancel": "بىكار قىلىش ئۈچۈن چېكىڭ",
+  "plugslotsCodeTooManyPending": "تېخى ئىككى ئىش تاماملانمىدى",
+  "plugslotsCodeNoStream": "ئۇلىنىش ئۈزۈلدى",
+  "plugslotsVoiceAsk": "«{plugin}» نىڭ سىزنىڭ سۆزلىشىڭىزنى ئاڭلىشىغا رۇخسەت قىلامسىز؟",
   "@plugslotsVoiceAsk": {
     "placeholders": {
       "plugin": {
@@ -200,12 +201,12 @@
       }
     }
   },
-  "plugslotsVoiceWhen": "朗读时你一开口就停。声音只在手机上判断，不保存、不上传",
-  "plugslotsVoiceDeny": "不允许",
-  "plugslotsVoiceSwitch": "听你开口",
-  "plugslotsPickerUnavailable": "此设备暂不支持文件选择",
-  "plugslotsPickerBusy": "请先完成当前文件选择",
-  "plugslotsPickerLimit": "最多选 {count} 个文件，单个 8 MiB，总计 16 MiB",
+  "plugslotsVoiceWhen": "ئوقۇۋاتقاندا سىز سۆزلەشكە باشلىسىڭىز توختايدۇ. ئاۋاز پەقەت تېلېفوندا باھالىنىدۇ، ساقلانمايدۇ، يۈكلەنمەيدۇ",
+  "plugslotsVoiceDeny": "رۇخسەت قىلمايمەن",
+  "plugslotsVoiceSwitch": "سۆزلىشىڭىزنى ئاڭلاش",
+  "plugslotsPickerUnavailable": "بۇ ئۈسكۈنە ھازىرچە ھۆججەت تاللاشنى قوللىمايدۇ",
+  "plugslotsPickerBusy": "ئاۋۋال نۆۋەتتىكى ھۆججەت تاللاشنى تاماملاڭ",
+  "plugslotsPickerLimit": "ئەڭ كۆپ {count} ھۆججەت تاللاڭ، بىر ھۆججەت 8 MiB، جەمئىي 16 MiB",
   "@plugslotsPickerLimit": {
     "placeholders": {
       "count": {
@@ -213,22 +214,22 @@
       }
     }
   },
-  "plugslotsPickerFailed": "文件未能交给插件，请重试",
-  "plugslotsWebPlacesTitle": "网页版界面",
-  "plugslotsPlaceBesideComposer": "输入框旁",
-  "plugslotsPlaceHeader": "对话顶栏",
-  "plugslotsPlaceMessages": "消息里",
-  "plugslotsPlaceOverlay": "浮层",
-  "plugslotsPlaceSidebar": "侧栏",
-  "plugslotsPlaceRightbar": "右侧栏",
-  "plugslotsPlaceFiles": "文件预览",
-  "plugslotsPlaceSettings": "设置",
-  "plugslotsPlacePlugins": "插件页",
-  "plugslotsPlaceNewChat": "新对话页",
-  "plugslotsPlaceElsewhere": "其他位置",
-  "plugslotsPlaceUnknown": "它的网页界面",
-  "plugslotsChatEntry": "插件",
-  "plugslotsChatWebFrom": "网页插件 · {names}",
+  "plugslotsPickerFailed": "ھۆججەتنى قىستۇرمىغا تاپشۇرالمىدى، قايتا سىناڭ",
+  "plugslotsWebPlacesTitle": "توربەت نۇسخىسىدىكى كۆرۈنمە يۈز",
+  "plugslotsPlaceBesideComposer": "كىرگۈزۈش رامكىسى يېنىدا",
+  "plugslotsPlaceHeader": "سۆھبەت ئۈستى بالدىقىدا",
+  "plugslotsPlaceMessages": "ئۇچۇر ئىچىدە",
+  "plugslotsPlaceOverlay": "قوزغىما قەۋەت",
+  "plugslotsPlaceSidebar": "يان بالداق",
+  "plugslotsPlaceRightbar": "ئوڭ يان بالداق",
+  "plugslotsPlaceFiles": "ھۆججەت ئالدىن كۆرۈش",
+  "plugslotsPlaceSettings": "تەڭشەك",
+  "plugslotsPlacePlugins": "قىستۇرما بېتى",
+  "plugslotsPlaceNewChat": "يېڭى سۆھبەت بېتى",
+  "plugslotsPlaceElsewhere": "باشقا ئورۇن",
+  "plugslotsPlaceUnknown": "ئۇنىڭ توربەت كۆرۈنمە يۈزى",
+  "plugslotsChatEntry": "قىستۇرما",
+  "plugslotsChatWebFrom": "توربەت قىستۇرمىسى · {names}",
   "@plugslotsChatWebFrom": {
     "placeholders": {
       "names": {

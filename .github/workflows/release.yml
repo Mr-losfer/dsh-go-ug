@@ -202,6 +202,27 @@ jobs:
           done
           cat dist/*.sha256
 
+      # The in-app updater reads `update.json` before it ever asks the
+      # rate-limited REST API: with this manifest on the release, checking and
+      # downloading work through the gh-proxy accelerator alone.
+      - name: Write update.json and SHA256SUMS
+        run: |
+          set -euo pipefail
+          cat > notes.md <<'EOF'
+          Kit Go ${VERSION} · DSH Go 维吾尔语版 / ئۇيغۇرچە نۇسخىسى
+
+          - 维吾尔语全量翻译：7385 条界面文案 100% 覆盖
+          - 更新：内置下载，代理优先（gh-proxy → 直连），随包发布 update.json / SHA256SUMS
+          - 模型：默认 LOSFER Flash，1M 上下文，支持图片输入与工具调用，思考档位 off/low/medium/high
+          - 包名 `can.losfer.dshgo`，内置 PRoot 运行时（Ubuntu 24.04 + Node + DSH）
+
+          安装前请核对 SHA256SUMS。
+          EOF
+          sed -i "s/\${VERSION}/${VERSION}/g" notes.md
+          # versionCode comes from the APK (the build minute), not pubspec's `+N`:
+          # a manifest saying +1 would read as a downgrade and never be offered.
+          python3 tooling/make_update_manifest.py --dist dist --only "$VERSION" --notes-file notes.md
+
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: kitgo-apk-${{ inputs.abi || 'arm64' }}
@@ -216,16 +237,8 @@ jobs:
           set -euo pipefail
           tag="${GITHUB_REF_NAME}"
           case "$tag" in v*) ;; *) tag="v${VERSION}" ;; esac
-          notes="Kit Go ${VERSION} · DSH Go 维吾尔语版 / ئۇيغۇرچە نۇسخىسى
-
-          - 包名 \`can.losfer.dshgo\`，内置 PRoot 运行时（Ubuntu 24.04 + Node + DSH）
-          - AI 接口：LOSFER AI \`https://api.losfer.cn/v1\`（仅 API Key）
-          - 语言：简体中文 / English / ئۇيغۇرچە（UKIJ Tuz）
-          - 更新与社区：本仓库 Releases 与 Discussions
-
-          安装前请核对同名的 \`.sha256\` 文件。"
           if gh release view "$tag" >/dev/null 2>&1; then
             gh release upload "$tag" dist/* --clobber
           else
-            gh release create "$tag" dist/* --title "Kit Go ${VERSION}" --notes "$notes" --target "$GITHUB_SHA"
+            gh release create "$tag" dist/* --title "Kit Go ${VERSION}" --notes-file notes.md --target "$GITHUB_SHA"
           fi

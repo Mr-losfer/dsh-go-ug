@@ -1,18 +1,19 @@
 {
-  "botsFolderGone": "这个文件夹已经不在了",
-  "botsFolderReadFailed": "没能读取这个文件夹",
-  "botsFolderOpenFailed": "打不开这个文件夹",
-  "botsFolderCount": "{count} 个文件夹",
-  "botsWorkingFolder": "工作目录",
-  "botsFolderTeamDefault": "团队工作区",
-  "botsFolderRoomDefault": "每位 Bot 各自的目录",
-  "botsFolderHint": "目录位于已连接的主机。",
-  "botsFolderCurrent": "当前目录",
-  "botsFolderUnavailable": "连接或目录已变化，请重新打开。",
-  "botsFolderNoChoices": "主机上暂无其他目录。",
-  "botsFolderConfirm": "使用此工作目录？",
-  "botsFolderRefused": "主机拒绝了此目录：它可能已不存在、无法访问或受保护。请另选目录或重试。",
-  "botsChildCount": "{count} 个下级",
+  "@@locale": "ug",
+  "botsFolderGone": "بۇ قىسقۇچ ئەمدى يوق",
+  "botsFolderReadFailed": "بۇ قىسقۇچنى ئوقۇيالمىدى",
+  "botsFolderOpenFailed": "بۇ قىسقۇچنى ئاچالمىدى",
+  "botsFolderCount": "{count} قىسقۇچ",
+  "botsWorkingFolder": "خىزمەت مۇندەرىجىسى",
+  "botsFolderTeamDefault": "گۇرۇپپا خىزمەت رايونى",
+  "botsFolderRoomDefault": "ھەر بىر Bot نىڭ ئۆز مۇندەرىجىسى",
+  "botsFolderHint": "مۇندەرىجە ئۇلانغان ساھىبجامالدا.",
+  "botsFolderCurrent": "نۆۋەتتىكى مۇندەرىجە",
+  "botsFolderUnavailable": "ئۇلىنىش ياكى مۇندەرىجە ئۆزگەردى، قايتا ئېچىڭ.",
+  "botsFolderNoChoices": "ساھىبجامالدا باشقا مۇندەرىجە يوق.",
+  "botsFolderConfirm": "بۇ خىزمەت مۇندەرىجىسىنى ئىشلىتىمسىز؟",
+  "botsFolderRefused": "ساھىبجامال بۇ مۇندەرىجىنى رەت قىلدى: ئۇ مەۋجۇت ئەمەس، زىيارەت قىلغىلى بولمايدۇ ياكى قوغدىلغان بولۇشى مۇمكىن. باشقا مۇندەرىجە تاللاڭ ياكى قايتا سىناڭ.",
+  "botsChildCount": "{count} تارماق",
   "@botsChildCount": {
     "placeholders": {
       "count": {
@@ -20,8 +21,8 @@
       }
     }
   },
-  "botsCurrentChat": "当前对话",
-  "botsSubagentCount": "{count} 个子代理",
+  "botsCurrentChat": "نۆۋەتتىكى سۆھبەت",
+  "botsSubagentCount": "{count} تارماق ئاگېنت",
   "@botsSubagentCount": {
     "placeholders": {
       "count": {
@@ -29,7 +30,7 @@
       }
     }
   },
-  "botsRunningCount": "{count} 个运行中",
+  "botsRunningCount": "{count} ئىجرا بولۇۋاتىدۇ",
   "@botsRunningCount": {
     "placeholders": {
       "count": {
@@ -37,7 +38,7 @@
       }
     }
   },
-  "botsFailedCount": "{count} 个出错",
+  "botsFailedCount": "{count} خاتالىق",
   "@botsFailedCount": {
     "placeholders": {
       "count": {
@@ -45,7 +46,7 @@
       }
     }
   },
-  "botsNestedCount": "含 {count} 个下级",
+  "botsNestedCount": "{count} تارماق بار",
   "@botsNestedCount": {
     "placeholders": {
       "count": {
@@ -53,7 +54,7 @@
       }
     }
   },
-  "botsBackToParent": "返回「{title}」",
+  "botsBackToParent": "«{title}» غا قايتىش",
   "@botsBackToParent": {
     "placeholders": {
       "title": {
@@ -61,7 +62,7 @@
       }
     }
   },
-  "botsTeamMemberCount": "智能体团队，{count} 位成员",
+  "botsTeamMemberCount": "ئاگېنت گۇرۇپپىسى، {count} ئەزا",
   "@botsTeamMemberCount": {
     "placeholders": {
       "count": {
@@ -69,8 +70,8 @@
       }
     }
   },
-  "botsAgentTeam": "智能体团队",
-  "botsSubagentRunningCount": "{count} 个子代理，{running} 个运行中",
+  "botsAgentTeam": "ئاگېنت گۇرۇپپىسى",
+  "botsSubagentRunningCount": "{count} تارماق ئاگېنت، {running} ئىجرا بولۇۋاتىدۇ",
   "@botsSubagentRunningCount": {
     "placeholders": {
       "count": {
@@ -81,16 +82,16 @@
       }
     }
   },
-  "botsSubagents": "子代理",
-  "botsNoSubagents": "没有派出子代理",
-  "botsOpenChatFirst": "先打开一个对话",
-  "botsTeamReadFailed": "没能读到团队",
-  "botsNoTeamOnHost": "这台主机没有智能体团队",
-  "botsTeamNotEnabled": "智能体团队未开启",
-  "botsTeamDescription": "多个智能体分工协作，共用一块任务板",
-  "botsTeamEnabling": "正在开启…",
-  "botsTeamEnable": "开启团队",
-  "botsMembersWorking": "{count} 位成员在工作",
+  "botsSubagents": "تارماق ئاگېنتلار",
+  "botsNoSubagents": "تارماق ئاگېنت ئەۋەتىلمىدى",
+  "botsOpenChatFirst": "ئاۋۋال بىر سۆھبەتنى ئېچىڭ",
+  "botsTeamReadFailed": "گۇرۇپپىنى ئوقۇيالمىدى",
+  "botsNoTeamOnHost": "بۇ ماشىنىدا ئاگېنت گۇرۇپپىسى يوق",
+  "botsTeamNotEnabled": "ئاگېنت گۇرۇپپىسى ئېچىلمىغان",
+  "botsTeamDescription": "بىر قانچە ئاگېنت ۋەزىپە تاختىسىنى ئورتاقلىشىپ ھەمكارلىشىدۇ",
+  "botsTeamEnabling": "ئېچىلىۋاتىدۇ…",
+  "botsTeamEnable": "گۇرۇپپىنى ئېچىش",
+  "botsMembersWorking": "{count} ئەزا خىزمەت قىلىۋاتىدۇ",
   "@botsMembersWorking": {
     "placeholders": {
       "count": {
@@ -98,18 +99,18 @@
       }
     }
   },
-  "botsTeamStandby": "都在待命",
-  "botsMembers": "成员",
-  "botsTasks": "任务",
-  "botsTeamRecordUnreadable": "团队记录有一条读不出来",
-  "botsMessages": "消息",
-  "botsOwner": "负责人",
-  "botsTeamCreateHint": "在对话里请 AI 组建团队",
-  "botsCurrent": "当前",
-  "botsNoTasks": "还没有任务",
-  "botsTodo": "待办",
-  "botsUnassigned": "未分配",
-  "botsTaskWaitingFor": "等 {dependencies}",
+  "botsTeamStandby": "ھەممىسى كۈتۈۋاتىدۇ",
+  "botsMembers": "ئەزالار",
+  "botsTasks": "ۋەزىپىلەر",
+  "botsTeamRecordUnreadable": "گۇرۇپپا خاتىرىسىدىن بىرىنى ئوقۇيالمىدى",
+  "botsMessages": "ئۇچۇرلار",
+  "botsOwner": "مەسئۇل",
+  "botsTeamCreateHint": "سۆھبەتتە AI دىن گۇرۇپپا قۇرۇشنى تەلەپ قىلىڭ",
+  "botsCurrent": "نۆۋەتتىكى",
+  "botsNoTasks": "تېخى ۋەزىپە يوق",
+  "botsTodo": "قىلىنىدىغان",
+  "botsUnassigned": "تەقسىملەنمىگەن",
+  "botsTaskWaitingFor": "{dependencies} نى كۈتۈۋاتىدۇ",
   "@botsTaskWaitingFor": {
     "placeholders": {
       "dependencies": {
@@ -117,15 +118,15 @@
       }
     }
   },
-  "botsWriteOverlap": "写入范围重叠",
-  "botsWaitingDependencies": "等依赖",
-  "botsReadyToStart": "可开始",
-  "botsTaskId": "编号",
-  "botsDependencies": "依赖",
-  "botsWriteScopes": "写入范围",
-  "botsMessagesReadFailed": "没能读到消息",
-  "botsNoMemberMessages": "成员之间还没有消息",
-  "botsMessagesIncomplete": "部分成员的消息没能读到 · 重试",
+  "botsWriteOverlap": "يېزىش دائىرىسى قاپلىشىدۇ",
+  "botsWaitingDependencies": "باغلىنىشلارنى كۈتۈۋاتىدۇ",
+  "botsReadyToStart": "باشلاشقا بولىدۇ",
+  "botsTaskId": "نومۇر",
+  "botsDependencies": "باغلىنىشلار",
+  "botsWriteScopes": "يېزىش دائىرىسى",
+  "botsMessagesReadFailed": "ئۇچۇرلارنى ئوقۇيالمىدى",
+  "botsNoMemberMessages": "ئەزالار ئارىسىدا تېخى ئۇچۇر يوق",
+  "botsMessagesIncomplete": "بەزى ئەزالارنىڭ ئۇچۇرلىرى ئوقۇلمىدى · قايتا سىناش",
   "botsDateTime": "{date} {time}",
   "@botsDateTime": {
     "placeholders": {
@@ -137,17 +138,17 @@
       }
     }
   },
-  "botsViewDetails": "查看详情",
-  "botsAdmin": "管理员",
-  "botsFullTextChanged": "对话已变化",
-  "botsFullTextReopen": "请重新打开这条消息",
-  "botsFullTextReadFailed": "没能读取全文",
-  "botsShowAll": "显示全部",
-  "botsImagePlaceholder": "［图片］",
-  "botsSending": "发送中",
-  "botsWriteOwn": "自己写",
-  "botsSubmit": "提交",
-  "botsChooseModelFor": "给 {name} 选一个模型",
+  "botsViewDetails": "تەپسىلاتىنى كۆرۈش",
+  "botsAdmin": "باشقۇرغۇچى",
+  "botsFullTextChanged": "سۆھبەت ئۆزگەردى",
+  "botsFullTextReopen": "بۇ ئۇچۇرنى قايتا ئېچىڭ",
+  "botsFullTextReadFailed": "تولۇق تېكىستنى ئوقۇيالمىدى",
+  "botsShowAll": "ھەممىسىنى كۆرسىتىش",
+  "botsImagePlaceholder": "［رەسىم］",
+  "botsSending": "ئەۋەتىلىۋاتىدۇ",
+  "botsWriteOwn": "ئۆزىڭىز يېزىڭ",
+  "botsSubmit": "يوللاش",
+  "botsChooseModelFor": "{name} ئۈچۈن مودېل تاللاڭ",
   "@botsChooseModelFor": {
     "placeholders": {
       "name": {
@@ -155,17 +156,17 @@
       }
     }
   },
-  "botsModelGreeting": "选好后它就会打招呼",
-  "botsChooseModel": "选择模型",
-  "botsSkipAnswer": "不回答",
-  "botsBotGone": "这个 Bot 已不在",
-  "botsWaitingModel": "等你选模型",
-  "botsThinking": "正在思考",
-  "botsMainBot": "主 Bot",
-  "botsIdle": "空闲",
-  "botsAnsweredQuestion": "你回答了它的问题",
-  "botsEarlierMessages": "更早的部分",
-  "botsComposerHint": "给 {name} 发消息…",
+  "botsModelGreeting": "تاللىغاندىن كېيىن سالاملىشىدۇ",
+  "botsChooseModel": "مودېل تاللاش",
+  "botsSkipAnswer": "جاۋاب بەرمەسلىك",
+  "botsBotGone": "بۇ Bot ئەمدى يوق",
+  "botsWaitingModel": "مودېل تاللىشىڭىزنى كۈتمەكتە",
+  "botsThinking": "ئويلاۋاتىدۇ",
+  "botsMainBot": "ئاساسلىق Bot",
+  "botsIdle": "بىكار",
+  "botsAnsweredQuestion": "ئۇنىڭ سوئالىغا جاۋاب بەردىڭىز",
+  "botsEarlierMessages": "ئىلگىرىكى قىسمى",
+  "botsComposerHint": "{name} غا ئۇچۇر ئەۋەتىش…",
   "@botsComposerHint": {
     "placeholders": {
       "name": {
@@ -173,7 +174,7 @@
       }
     }
   },
-  "botsDeleteNamed": "删除「{name}」？",
+  "botsDeleteNamed": "«{name}» ئۆچۈرۈلسۇنما؟",
   "@botsDeleteNamed": {
     "placeholders": {
       "name": {
@@ -181,25 +182,25 @@
       }
     }
   },
-  "botsDeleteBotBody": "它的对话还在，记忆会移到归档里。",
-  "botsTokensToday": "24 小时 tokens",
-  "botsMemoryUnit": "条记忆",
-  "botsRoomUnit": "个群聊",
-  "botsProfile": "资料",
-  "botsModel": "模型",
-  "botsBotName": "名字",
-  "botsRole": "角色",
-  "botsWriterExample": "比如：写手",
-  "botsInstructions": "说明",
-  "botsInstructionsHint": "它该怎么做事",
-  "botsColor": "颜色",
-  "botsUsage": "用量",
-  "botsUsageScanning": "正在统计历史对话，数据稍后补全。",
-  "botsUsageRefresh": "刷新",
-  "botsToday": "近 24 小时",
-  "botsLastWeek": "近 7 天",
-  "botsLastMonth": "近 30 天",
-  "botsMonthCalls": "近 30 天 · {count} 次调用",
+  "botsDeleteBotBody": "ئۇنىڭ سۆھبىتى تېخى بار، ئەسلىمىسى ئارخىپقا يۆتكىلىدۇ.",
+  "botsTokensToday": "24 سائەتلىك token",
+  "botsMemoryUnit": "ئەسلىمە",
+  "botsRoomUnit": "گۇرۇپپا سۆھبەت",
+  "botsProfile": "ئۇچۇر",
+  "botsModel": "مودېل",
+  "botsBotName": "ئىسىم",
+  "botsRole": "رول",
+  "botsWriterExample": "مەسىلەن: يازغۇچى",
+  "botsInstructions": "چۈشەندۈرۈش",
+  "botsInstructionsHint": "ئۇ قانداق ئىش قىلىشى كېرەك",
+  "botsColor": "رەڭ",
+  "botsUsage": "ئىشلىتىش",
+  "botsUsageScanning": "تارىخىي سۆھبەتلەر سانلىۋاتىدۇ، سانلىق مەلۇمات كېيىن تولۇقلىنىدۇ.",
+  "botsUsageRefresh": "يېڭىلاش",
+  "botsToday": "يېقىنقى 24 سائەت",
+  "botsLastWeek": "يېقىنقى 7 كۈن",
+  "botsLastMonth": "يېقىنقى 30 كۈن",
+  "botsMonthCalls": "ئاخىرقى 30 كۈن · {count} قېتىم چاقىرىش",
   "@botsMonthCalls": {
     "placeholders": {
       "count": {
@@ -207,18 +208,18 @@
       }
     }
   },
-  "botsFullRecord": "完整记录",
-  "botsEveryToolCall": "每一步工具调用",
-  "botsUnsetMain": "取消主 Bot",
-  "botsSetMain": "设为主 Bot",
-  "botsDeleteBot": "删除 Bot",
-  "botsEffortOff": "不思考",
-  "botsEffortMinimal": "极少",
-  "botsEffortLow": "低",
-  "botsEffortMedium": "中",
-  "botsEffortHigh": "高",
-  "botsEffortMax": "最高",
-  "botsNamedRecord": "{name} · 完整记录",
+  "botsFullRecord": "تولۇق خاتىرە",
+  "botsEveryToolCall": "ھەر بىر قورال چاقىرىشى",
+  "botsUnsetMain": "ئاساسلىق Bot نى بىكار قىلىش",
+  "botsSetMain": "ئاساسلىق Bot قىلىش",
+  "botsDeleteBot": "Bot نى ئۆچۈرۈش",
+  "botsEffortOff": "ئويلىماسلىق",
+  "botsEffortMinimal": "بەك ئاز",
+  "botsEffortLow": "تۆۋەن",
+  "botsEffortMedium": "ئوتتۇرا",
+  "botsEffortHigh": "يۇقىرى",
+  "botsEffortMax": "ئەڭ يۇقىرى",
+  "botsNamedRecord": "{name} · تولۇق خاتىرە",
   "@botsNamedRecord": {
     "placeholders": {
       "name": {
@@ -226,21 +227,21 @@
       }
     }
   },
-  "botsOrganizingNotes": "正在整理笔记",
-  "botsToolRun": "运行命令",
-  "botsToolRead": "查看文件",
-  "botsToolEdit": "修改文件",
-  "botsToolSearch": "联网搜索",
-  "botsToolBrowse": "看网页",
-  "botsToolMessage": "联系其他 Bot",
-  "botsToolGroup": "在群里沟通",
-  "botsToolMemory": "整理记忆",
-  "botsToolRecall": "翻看记录",
-  "botsToolTeam": "安排团队",
-  "botsToolAsk": "准备问你",
-  "botsToolWork": "干活",
-  "botsJustNow": "刚刚",
-  "botsCountHundredMillion": "{value} 亿",
+  "botsOrganizingNotes": "خاتىرىلەر تەرتىپلىنىۋاتىدۇ",
+  "botsToolRun": "بۇيرۇق ئىجرا قىلىش",
+  "botsToolRead": "ھۆججەت كۆرۈش",
+  "botsToolEdit": "ھۆججەت ئۆزگەرتىش",
+  "botsToolSearch": "تور ئىزدەش",
+  "botsToolBrowse": "تور بېتىنى كۆرۈش",
+  "botsToolMessage": "باشقا Bot بىلەن ئالاقىلىشىش",
+  "botsToolGroup": "گۇرۇپپىدا سۆزلىشىش",
+  "botsToolMemory": "ئەستە قويۇش",
+  "botsToolRecall": "خاتىرىلەرنى ئاختۇرۇش",
+  "botsToolTeam": "گۇرۇپپىنى ترتىپلەش",
+  "botsToolAsk": "سىزدىن سوراشقا تەييار",
+  "botsToolWork": "ئىشلەۋاتىدۇ",
+  "botsJustNow": "ھازىرلا",
+  "botsCountHundredMillion": "{value} يۈز مىليون",
   "@botsCountHundredMillion": {
     "placeholders": {
       "value": {
@@ -248,7 +249,7 @@
       }
     }
   },
-  "botsCountTenThousand": "{value} 万",
+  "botsCountTenThousand": "{value} ئون مىڭ",
   "@botsCountTenThousand": {
     "placeholders": {
       "value": {
@@ -256,8 +257,8 @@
       }
     }
   },
-  "botsModelNotSelected": "未选择",
-  "botsYourPreview": "你：{preview}",
+  "botsModelNotSelected": "تاللانمىدى",
+  "botsYourPreview": "سىز: {preview}",
   "@botsYourPreview": {
     "placeholders": {
       "preview": {
@@ -265,7 +266,7 @@
       }
     }
   },
-  "botsEventWorking": "{name} 开始干活",
+  "botsEventWorking": "{name} ئىشلەشنى باشلىدى",
   "@botsEventWorking": {
     "placeholders": {
       "name": {
@@ -273,7 +274,7 @@
       }
     }
   },
-  "botsEventApproval": "{name} 在等你批准",
+  "botsEventApproval": "{name} سىزنىڭ تەستىقىڭىزنى كۈتۈۋاتىدۇ",
   "@botsEventApproval": {
     "placeholders": {
       "name": {
@@ -281,7 +282,7 @@
       }
     }
   },
-  "botsEventDone": "{name} 完成了工作",
+  "botsEventDone": "{name} خىزمىتىنى تاماملىدى",
   "@botsEventDone": {
     "placeholders": {
       "name": {
@@ -289,7 +290,7 @@
       }
     }
   },
-  "botsEventStopped": "你停下了 {name} 的工作",
+  "botsEventStopped": "سىز {name} نىڭ خىزمىتىنى توختاتتىڭىز",
   "@botsEventStopped": {
     "placeholders": {
       "name": {
@@ -297,7 +298,7 @@
       }
     }
   },
-  "botsEventFailed": "{name} 没能回答",
+  "botsEventFailed": "{name} جاۋاب بېرەلمىدى",
   "@botsEventFailed": {
     "placeholders": {
       "name": {
@@ -305,7 +306,7 @@
       }
     }
   },
-  "botsEventMissed": "{name} 没有及时回应",
+  "botsEventMissed": "{name} ۋاقتىدا ئىنكاس قايتۇرمىدى",
   "@botsEventMissed": {
     "placeholders": {
       "name": {
@@ -313,7 +314,7 @@
       }
     }
   },
-  "botsEventLookup": "{name} 翻看了自己的聊天",
+  "botsEventLookup": "{name} ئۆزىنىڭ سۆھبىتىنى ئاختۇردى",
   "@botsEventLookup": {
     "placeholders": {
       "name": {
@@ -321,7 +322,7 @@
       }
     }
   },
-  "botsEventLookupQuery": "{name} 在自己的聊天里找「{query}」",
+  "botsEventLookupQuery": "{name} ئۆز سۆھبىتىدىن «{query}» نى ئىزدىدى",
   "@botsEventLookupQuery": {
     "placeholders": {
       "name": {
@@ -332,7 +333,7 @@
       }
     }
   },
-  "botsEventResumed": "{name} 重启后接着干",
+  "botsEventResumed": "{name} قايتا قوزغىتىلغاندىن كېيىن داۋاملاشتۇردى",
   "@botsEventResumed": {
     "placeholders": {
       "name": {
@@ -340,7 +341,7 @@
       }
     }
   },
-  "botsEventCut": "{name} 又被重启打断，停下了",
+  "botsEventCut": "{name} يەنە قايتا قوزغىتىش بىلەن بۆلۈنۈپ توختىدى",
   "@botsEventCut": {
     "placeholders": {
       "name": {
@@ -348,8 +349,8 @@
       }
     }
   },
-  "botsAutomation": "定时任务",
-  "botsAutomationText": "定时任务：{text}",
+  "botsAutomation": "ۋاقىتلىق ۋەزىپە",
+  "botsAutomationText": "ۋاقىتلىق ۋەزىپە: {text}",
   "@botsAutomationText": {
     "placeholders": {
       "text": {
@@ -357,8 +358,8 @@
       }
     }
   },
-  "botsOtherBot": "其他 Bot",
-  "botsMessageFrom": "来自 {name} 的消息",
+  "botsOtherBot": "باشقا Bot",
+  "botsMessageFrom": "{name} دىن كەلگەن ئۇچۇر",
   "@botsMessageFrom": {
     "placeholders": {
       "name": {
@@ -366,7 +367,7 @@
       }
     }
   },
-  "botsEventReplied": "{name} 回复了",
+  "botsEventReplied": "{name} جاۋاب بەردى",
   "@botsEventReplied": {
     "placeholders": {
       "name": {
@@ -374,8 +375,8 @@
       }
     }
   },
-  "botsGroupReplied": "群里有了回复",
-  "botsNamedGroupReplied": "「{name}」里有了回复",
+  "botsGroupReplied": "گۇرۇپپىدا جاۋاب بار",
+  "botsNamedGroupReplied": "«{name}» دە جاۋاب بار",
   "@botsNamedGroupReplied": {
     "placeholders": {
       "name": {
@@ -383,7 +384,7 @@
       }
     }
   },
-  "botsEventCalledStop": "{name} 叫停了工作",
+  "botsEventCalledStop": "{name} خىزمەتنى توختاتتى",
   "@botsEventCalledStop": {
     "placeholders": {
       "name": {
@@ -391,12 +392,12 @@
       }
     }
   },
-  "botsChooseMember": "选择成员",
-  "botsMentionMember": "提到成员",
-  "botsRelayUnavailable": "经中转连接时用不了 Bot",
-  "botsUseSsh": "用 SSH 连接这台电脑即可使用",
-  "botsTeamLoadFailed": "没能读取 Bot 团队",
-  "botsBotCount": "{count} 个 Bot",
+  "botsChooseMember": "ئەزا تاللاڭ",
+  "botsMentionMember": "ئەزاغا ئەسكەرتىش",
+  "botsRelayUnavailable": "ئارىلاش ئۇلىنىشتا Bot ئىشلەتمەيدۇ",
+  "botsUseSsh": "بۇ كومپيۇتېرغا SSH بىلەن ئۇلانسىڭىزلا ئىشلىتىسىز",
+  "botsTeamLoadFailed": "Bot گۇرۇپپىسىنى ئوقۇيالمىدى",
+  "botsBotCount": "{count} دانە Bot",
   "@botsBotCount": {
     "placeholders": {
       "count": {
@@ -404,7 +405,7 @@
       }
     }
   },
-  "botsRoomCount": "{count} 个群聊",
+  "botsRoomCount": "{count} گۇرۇپپا سۆھبەت",
   "@botsRoomCount": {
     "placeholders": {
       "count": {
@@ -412,14 +413,14 @@
       }
     }
   },
-  "botsNewBot": "新建 Bot",
-  "botsGroupChat": "群聊",
-  "botsNewGroup": "新建群聊",
-  "botsDuplicateCreated": "已复制，稍后会出现在列表中。",
-  "botsDuplicate": "复制 Bot",
-  "botsDuplicateHint": "沿用设置，对话与记忆从头开始",
-  "botsDuplicateNamed": "复制 {name}？",
-  "botsDuplicateBody": "新 Bot 沿用职责、指令和模型设置，对话与个人记忆从头开始，名称由主机分配。模型可用时，它会先发送一句问候。",
+  "botsNewBot": "يېڭى Bot",
+  "botsGroupChat": "گۇرۇپپا سۆھبەت",
+  "botsNewGroup": "يېڭى گۇرۇپپا سۆھبەت",
+  "botsDuplicateCreated": "كۆچۈرۈلدى، كېيىن تىزىملىكتە كۆرۈنىدۇ.",
+  "botsDuplicate": "Bot نى كۆچۈرۈش",
+  "botsDuplicateHint": "تەڭشەكلەر ساقلىنىپ، سۆھبەت ۋە ئەستە قايتىدىن باشلىنىدۇ",
+  "botsDuplicateNamed": "{name} نى كۆچۈرەمسىز؟",
+  "botsDuplicateBody": "يېڭى Bot مەسئۇلىيەت، كۆرسەتمە ۋە مودېل تەڭشەكلىرىنى ساقلايدۇ، سۆھبەت ۋە شەخسىي ئەستە قايتىدىن باشلىنىدۇ، نامىنى باشقۇرغۇچى بېكىتىدۇ. مودېل ئىشلەتكىلى بولسا، ئالدى بىلەن بىر ئامانلىق ئەۋەتىدۇ.",
   "@botsDuplicateNamed": {
     "placeholders": {
       "name": {
@@ -427,9 +428,9 @@
       }
     }
   },
-  "botsChooseModelStart": "选一个模型开始",
-  "botsNoChats": "还没有对话",
-  "botsUnreadCount": "{count} 条未读",
+  "botsChooseModelStart": "باشلاش ئۈچۈن مودېل تاللاڭ",
+  "botsNoChats": "تېخى سۆھبەت يوق",
+  "botsUnreadCount": "{count} ئوقۇلمىغان",
   "@botsUnreadCount": {
     "placeholders": {
       "count": {
@@ -437,9 +438,9 @@
       }
     }
   },
-  "botsMainTag": "主",
-  "botsMemberNeedsApproval": "有成员等你批准",
-  "botsNamedWorking": "{name} 正在干活",
+  "botsMainTag": "ئاساسىي",
+  "botsMemberNeedsApproval": "بىر ئەزا تەستىقىڭىزنى كۈتۈۋاتىدۇ",
+  "botsNamedWorking": "{name} ئىشلەۋاتىدۇ",
   "@botsNamedWorking": {
     "placeholders": {
       "name": {
@@ -447,7 +448,7 @@
       }
     }
   },
-  "botsNamesWorking": "{names} 正在干活",
+  "botsNamesWorking": "{names} ئىشلەۋاتىدۇ",
   "@botsNamesWorking": {
     "placeholders": {
       "names": {
@@ -455,7 +456,7 @@
       }
     }
   },
-  "botsMemberCount": "{count} 位成员",
+  "botsMemberCount": "{count} ئەزا",
   "@botsMemberCount": {
     "placeholders": {
       "count": {
@@ -463,11 +464,11 @@
       }
     }
   },
-  "botsUpdateRequired": "DS Bot 需要更新",
-  "botsInstall": "安装 DS Bot",
-  "botsUpdateForPhone": "新版才能在手机上用",
-  "botsInstallDescription": "一组长期在线的 Bot，各有记忆和分工",
-  "botsInstallOnHost": "在{host}上装好后就能用",
+  "botsUpdateRequired": "DS Bot يېڭىلاش كېرەك",
+  "botsInstall": "DS Bot قاچىلاش",
+  "botsUpdateForPhone": "يېڭى نۇسخىسىلا تېلېفوندا ئىشلەيدۇ",
+  "botsInstallDescription": "ئۇزۇن مۇددەت توردا تۇرىدىغان، ھەر بىرىنىڭ ئېسىسى ۋە ۋەزىپىسى ئايرىلغان Bot توپى",
+  "botsInstallOnHost": "{host} غا قاچىلىسىڭىزلا ئىشلەيدۇ",
   "@botsInstallOnHost": {
     "placeholders": {
       "host": {
@@ -475,7 +476,7 @@
       }
     }
   },
-  "botsRunsOnHost": "在{host}上运行",
+  "botsRunsOnHost": "{host} دا ئىشلەيدۇ",
   "@botsRunsOnHost": {
     "placeholders": {
       "host": {
@@ -483,13 +484,13 @@
       }
     }
   },
-  "botsInstalling": "正在安装",
-  "botsMemory": "记忆",
-  "botsEditMemory": "编辑记忆",
-  "botsAddMemory": "添加记忆",
-  "botsMemoryReplyExample": "比如：回复尽量简短",
-  "botsMemoryDraftExample": "比如：周五前交初稿",
-  "botsMemoryCount": "记忆 · {count}",
+  "botsInstalling": "قاچىلىنىۋاتىدۇ",
+  "botsMemory": "ئېسى",
+  "botsEditMemory": "ئېسىنى تەھرىرلەش",
+  "botsAddMemory": "ئېسى قوشۇش",
+  "botsMemoryReplyExample": "مەسىلەن: جاۋابنى قىسقا قىلىڭ",
+  "botsMemoryDraftExample": "مەسىلەن: جۈمە كۈنىگىچە دەسلەپكى نۇسخىنى تاپشۇرۇڭ",
+  "botsMemoryCount": "ئېسى · {count}",
   "@botsMemoryCount": {
     "placeholders": {
       "count": {
@@ -497,19 +498,19 @@
       }
     }
   },
-  "botsMemoryReadFailed": "没能读取记忆",
-  "botsSummary": "概要",
-  "botsNoMemory": "还没有记忆",
-  "botsTeam": "团队",
-  "botsSelf": "自己",
-  "botsWrittenByYou": "你写的",
-  "botsNameRequired": "起个名字",
-  "botsRoleHint": "一句话说它是做什么的",
-  "botsNewInstructionsHint": "它该怎么做事，有什么要注意的",
-  "botsAppearance": "外观",
-  "botsCreating": "正在创建",
-  "botsGroupNameOptional": "群名（可不填）",
-  "botsMembersSelected": "成员 · 已选 {count}",
+  "botsMemoryReadFailed": "ئېسىنى ئوقۇيالمىدى",
+  "botsSummary": "خۇلاسە",
+  "botsNoMemory": "تېخى ئېسى يوق",
+  "botsTeam": "گۇرۇپپا",
+  "botsSelf": "ئۆزى",
+  "botsWrittenByYou": "سىز يازغان",
+  "botsNameRequired": "بىر ئىسىم قويۇڭ",
+  "botsRoleHint": "بىر جۈملە بىلەن نېمە قىلىدىغانلىقىنى ئېيتىڭ",
+  "botsNewInstructionsHint": "قانداق ئىشلەيدۇ، نېمىلەرگە دىققەت قىلىش كېرەك",
+  "botsAppearance": "كۆرۈنۈشى",
+  "botsCreating": "قۇرۇلۇۋاتىدۇ",
+  "botsGroupNameOptional": "گۇرۇپپا ئاتى (تولدۇرۇش شەرت ئەمەس)",
+  "botsMembersSelected": "ئەزا · {count} تاللاندى",
   "@botsMembersSelected": {
     "placeholders": {
       "count": {
@@ -517,9 +518,9 @@
       }
     }
   },
-  "botsPickTwoBots": "至少选两个 Bot",
-  "botsFullText": "全文",
-  "botsTextPartial": "仅显示前 {count} 个字符",
+  "botsPickTwoBots": "كەم دېگەندە ئىككى Bot تاللاڭ",
+  "botsFullText": "تولۇق تېكىست",
+  "botsTextPartial": "پەقەت ئالدىنقى {count} ھەرپ كۆرسىتىلىدۇ",
   "@botsTextPartial": {
     "placeholders": {
       "count": {
@@ -527,9 +528,9 @@
       }
     }
   },
-  "botsTextCompletenessUnknown": "无法确认是否为完整内容",
-  "botsRoomGone": "这个群聊已不在",
-  "botsNamedSpeaking": "{name} 正在发言",
+  "botsTextCompletenessUnknown": "تولۇق مەزمۇن ئىكەنلىكىنى جەزملەشتۈرگىلى بولمايدۇ",
+  "botsRoomGone": "بۇ گۇرۇپپا سۆھبەت ئەمدى يوق",
+  "botsNamedSpeaking": "{name} سۆزلەۋاتىدۇ",
   "@botsNamedSpeaking": {
     "placeholders": {
       "name": {
@@ -548,17 +549,17 @@
       }
     }
   },
-  "botsWorking": "正在干活",
-  "botsDiscussing": "正在讨论",
-  "botsTyping": "正在输入",
-  "botsGroupComposerHint": "给大家发消息…",
-  "botsDecline": "拒绝",
-  "botsAllowOnce": "允许本次",
-  "botsPrivateChat": "私聊",
-  "botsSetAdmin": "设为管理员",
-  "botsRemoveMember": "移出群聊",
-  "botsDeleteRoomBody": "群里的记录还在，群记忆会移到归档里。",
-  "botsNamedAdmin": "管理员 {name}",
+  "botsWorking": "ئىشلەۋاتىدۇ",
+  "botsDiscussing": "مۇزاكىرىلىشىۋاتىدۇ",
+  "botsTyping": "كىرگۈزۈۋاتىدۇ",
+  "botsGroupComposerHint": "ھەممىگە ئۇچۇر ئەۋەتىش…",
+  "botsDecline": "رەت قىلىش",
+  "botsAllowOnce": "بۇ قېتىم رۇخسەت قىلىش",
+  "botsPrivateChat": "شەخسىي سۆھبەت",
+  "botsSetAdmin": "باشقۇرغۇچى قىلىش",
+  "botsRemoveMember": "گۇرۇپپىدىن چىقىرىش",
+  "botsDeleteRoomBody": "گۇرۇپپىدىكى خاتىرىلەر ساقلىنىدۇ، گۇرۇپپا ئېسىسى ئارخىپقا يۆتكىلىدۇ.",
+  "botsNamedAdmin": "باشقۇرغۇچى {name}",
   "@botsNamedAdmin": {
     "placeholders": {
       "name": {
@@ -566,7 +567,7 @@
       }
     }
   },
-  "botsRoomWorkingCount": "{count} 位在干活",
+  "botsRoomWorkingCount": "{count} كىشى ئىشلەۋاتىدۇ",
   "@botsRoomWorkingCount": {
     "placeholders": {
       "count": {
@@ -574,7 +575,7 @@
       }
     }
   },
-  "botsMembersCountTitle": "成员 · {count}",
+  "botsMembersCountTitle": "ئەزا · {count}",
   "@botsMembersCountTitle": {
     "placeholders": {
       "count": {
@@ -582,56 +583,56 @@
       }
     }
   },
-  "botsStopMember": "停下",
-  "botsAddMember": "添加成员",
-  "botsWhoAnswers": "谁先回答",
-  "botsAdminFirst": "管理员先答",
-  "botsEveryoneInTurn": "全员轮流",
-  "botsGroupName": "群名",
-  "botsGroupNotice": "群公告",
-  "botsGroupNoticeHint": "每个成员发言前都会看到",
-  "botsDeleteGroup": "删除群聊",
-  "botsDiscardTitle": "放弃修改？",
-  "botsKeepEditing": "继续编辑",
-  "botsDiscard": "放弃",
-  "botsProgress": "进度",
-  "botsGlyphRun": "运行",
-  "botsGlyphJobOutput": "查看后台任务",
-  "botsGlyphJobs": "后台任务",
-  "botsGlyphStopJob": "停止后台任务",
-  "botsGlyphRead": "读取",
-  "botsGlyphImage": "查看图片",
-  "botsGlyphDeliver": "交付文件",
-  "botsGlyphWrite": "写入",
-  "botsGlyphSearch": "搜索",
-  "botsGlyphFindFiles": "查找文件",
-  "botsGlyphOpenWeb": "打开网页",
-  "botsGlyphMessageAgent": "发消息给子代理",
-  "botsGlyphInterruptAgent": "打断子代理",
-  "botsGlyphListModels": "列出子代理模型",
-  "botsGlyphWorkflow": "工作流",
-  "botsGlyphLoop": "循环任务",
-  "botsGlyphSkill": "使用技能",
-  "botsGlyphTodo": "更新待办",
-  "botsGlyphSetGoal": "设定目标",
-  "botsGlyphViewGoal": "查看目标",
-  "botsGlyphUpdateGoal": "更新目标",
-  "botsGlyphAsk": "提问",
-  "botsCommunityEmpty": "暂时没有内容",
-  "botsCommunityGroups": "交流群",
-  "botsCommunity": "社区",
-  "botsForum": "论坛",
-  "botsForumSubtitle": "提问、分享、找同好",
-  "botsProjectHome": "Kit Go 项目主页",
-  "botsOpenSource": "开源项目",
-  "botsPluginCatalogFailed": "插件目录没打开",
-  "botsTapRetry": "点一下重试",
-  "botsFeaturedPlugins": "精选插件",
-  "botsPluginSource": "插件信息来自 dshfind",
-  "botsPromptIdeas": "玩法",
-  "botsUpdates": "更新动态",
-  "botsLink": "链接",
-  "botsLinkOpenFailed": "没能打开 {host}",
+  "botsStopMember": "توختىتىش",
+  "botsAddMember": "ئەزا قوشۇش",
+  "botsWhoAnswers": "كىم ئاۋۋال جاۋاب بېرىدۇ",
+  "botsAdminFirst": "باشقۇرغۇچى ئاۋۋال جاۋاب بېرىدۇ",
+  "botsEveryoneInTurn": "ھەممە ئادەم نۆۋەت بىلەن",
+  "botsGroupName": "گۇرۇپپا ئىسمى",
+  "botsGroupNotice": "گۇرۇپپا ئۇقتۇرۇشى",
+  "botsGroupNoticeHint": "ھەر بىر ئەزا سۆز قىلىشتىن بۇرۇن كۆرىدۇ",
+  "botsDeleteGroup": "گۇرۇپپا سۆھبىتىنى ئۆچۈرۈش",
+  "botsDiscardTitle": "ئۆزگەرتىشلەردىن ۋاز كېچەمسىز؟",
+  "botsKeepEditing": "تەھرىرلەشنى داۋاملاشتۇرۇش",
+  "botsDiscard": "ۋاز كېچىش",
+  "botsProgress": "ئىلگىرىلەش",
+  "botsGlyphRun": "ئىجرا قىلىش",
+  "botsGlyphJobOutput": "ئارقا سەپ ۋەزىپىسىنى كۆرۈش",
+  "botsGlyphJobs": "ئارقا سەپ ۋەزىپىلىرى",
+  "botsGlyphStopJob": "ئارقا سەپ ۋەزىپىسىنى توختىتىش",
+  "botsGlyphRead": "ئوقۇش",
+  "botsGlyphImage": "رەسىمنى كۆرۈش",
+  "botsGlyphDeliver": "ھۆججەت تاپشۇرۇش",
+  "botsGlyphWrite": "يېزىش",
+  "botsGlyphSearch": "ئىزدەش",
+  "botsGlyphFindFiles": "ھۆججەت ئىزدەش",
+  "botsGlyphOpenWeb": "تور بېتىنى ئېچىش",
+  "botsGlyphMessageAgent": "تارماق ئاگېنتقا ئۇچۇر ئەۋەتىش",
+  "botsGlyphInterruptAgent": "تارماق ئاگېنتنى بۆلۈش",
+  "botsGlyphListModels": "تارماق ئاگېنت مودېللىرىنى تىزىش",
+  "botsGlyphWorkflow": "خىزمەت ئېقىمى",
+  "botsGlyphLoop": "تەكرار ۋەزىپە",
+  "botsGlyphSkill": "ماھارەت ئىشلىتىش",
+  "botsGlyphTodo": "ۋەزىپە يېڭىلاش",
+  "botsGlyphSetGoal": "نىشان بەلگىلەش",
+  "botsGlyphViewGoal": "نىشاننى كۆرۈش",
+  "botsGlyphUpdateGoal": "نىشاننى يېڭىلاش",
+  "botsGlyphAsk": "سوراق سېلىش",
+  "botsCommunityEmpty": "ھازىرچە مەزمۇن يوق",
+  "botsCommunityGroups": "مۇنازىرە گۇرۇپپىلىرى",
+  "botsCommunity": "جامائەت",
+  "botsForum": "مۇنبەر",
+  "botsForumSubtitle": "سوراق سېلىڭ، ھەمبەھىرلەڭ، تەڭقۇرلارنى تېپىڭ",
+  "botsProjectHome": "Kit Go قۇرۇلۇش باش بېتى",
+  "botsOpenSource": "ئوچۇق كود قۇرۇلۇشى",
+  "botsPluginCatalogFailed": "قىستۇرما مۇندەرىجىسى ئېچىلمىدى",
+  "botsTapRetry": "قايتا سىناش ئۈچۈن چېكىڭ",
+  "botsFeaturedPlugins": "تاللانما قىستۇرمىلار",
+  "botsPluginSource": "قىستۇرما ئۇچۇرى dshfind دىن",
+  "botsPromptIdeas": "ئىشلىتىش ئۇسۇللىرى",
+  "botsUpdates": "يېڭىلانمىلار",
+  "botsLink": "ئۇلىنىش",
+  "botsLinkOpenFailed": "{host} نى ئاچالمىدى",
   "@botsLinkOpenFailed": {
     "placeholders": {
       "host": {
@@ -639,7 +640,7 @@
       }
     }
   },
-  "botsYearMonth": "{year}年{month}月",
+  "botsYearMonth": "{year} يىل {month} ئاي",
   "@botsYearMonth": {
     "placeholders": {
       "year": {
@@ -650,8 +651,8 @@
       }
     }
   },
-  "botsCopyGroupNumber": "复制群号",
-  "botsQrCodeLabel": "{title}二维码",
+  "botsCopyGroupNumber": "گۇرۇپپا نومۇرىنى كۆچۈرۈش",
+  "botsQrCodeLabel": "{title} ئىككىلىك كود",
   "@botsQrCodeLabel": {
     "placeholders": {
       "title": {
@@ -659,9 +660,9 @@
       }
     }
   },
-  "botsFiles": "文件",
-  "botsEmptyCell": "（空）",
-  "botsYesterdayTime": "昨天 {time}",
+  "botsFiles": "ھۆججەتلەر",
+  "botsEmptyCell": "(بوش)",
+  "botsYesterdayTime": "تۈنۈگۈن {time}",
   "@botsYesterdayTime": {
     "placeholders": {
       "time": {
@@ -669,14 +670,14 @@
       }
     }
   },
-  "botsOutsideWorkspace": "不在工作区里",
-  "botsNotFolder": "这不是文件夹",
-  "botsChatNotFound": "找不到这个对话",
-  "botsBrowseUnsupported": "这个连接不支持浏览文件",
-  "botsWorkspace": "工作区",
-  "botsSearchFiles": "搜索文件",
-  "botsGoUp": "回到上一级",
-  "botsEmptyFolder": "空文件夹",
+  "botsOutsideWorkspace": "خىزمەت رايونىدا ئەمەس",
+  "botsNotFolder": "بۇ قىسقۇچ ئەمەس",
+  "botsChatNotFound": "بۇ سۆھبەت تېپىلمىدى",
+  "botsBrowseUnsupported": "بۇ ئۇلىنىش ھۆججەت كۆرۈشنى قوللىمايدۇ",
+  "botsWorkspace": "خىزمەت رايونى",
+  "botsSearchFiles": "ھۆججەت ئىزدەش",
+  "botsGoUp": "ئۈستى بىر قاتلامغا قايتىش",
+  "botsEmptyFolder": "قۇرۇق قىسقۇچ",
   "@botsFolderCount": {
     "placeholders": {
       "count": {
@@ -684,7 +685,7 @@
       }
     }
   },
-  "botsFileCount": "{count} 个文件",
+  "botsFileCount": "{count} ھۆججەت",
   "@botsFileCount": {
     "placeholders": {
       "count": {
@@ -692,7 +693,7 @@
       }
     }
   },
-  "botsTruncatedItems": "只列出了前 {count} 项",
+  "botsTruncatedItems": "پەقەت ئالدىنقى {count} تۈر كۆرسىتىلدى",
   "@botsTruncatedItems": {
     "placeholders": {
       "count": {
@@ -700,19 +701,19 @@
       }
     }
   },
-  "botsMoreActions": "更多操作",
-  "botsSearchFailed": "没能搜索",
-  "botsNoResults": "没有找到",
-  "botsCopyPath": "复制路径",
-  "botsPetOutsideApp": "App 外显示",
-  "botsPetNotAuthorized": "未授权",
-  "botsPetDisplayWhen": "显示时机",
-  "botsPetWhenActive": "有事时显示",
-  "botsPetAlways": "一直显示",
-  "botsPetOverlayShows": "悬浮窗里显示",
-  "botsPetOverlayPixel": "像素宠物",
-  "botsPetOverlayCompanion": "小屋里的她",
-  "botsPetOverlayCompanionNamed": "小屋里的{name}",
+  "botsMoreActions": "تېخىمۇ كۆپ مەشغۇلات",
+  "botsSearchFailed": "ئىزدەش مەغلۇپ بولدى",
+  "botsNoResults": "ھېچنېمە تېپىلمىدى",
+  "botsCopyPath": "يولنى كۆچۈرۈش",
+  "botsPetOutsideApp": "ئەپ سىرتىدا كۆرسىتىش",
+  "botsPetNotAuthorized": "ھوقۇق بېرىلمىگەن",
+  "botsPetDisplayWhen": "كۆرسىتىش ۋاقتى",
+  "botsPetWhenActive": "ئىش بولغاندا كۆرسىتىش",
+  "botsPetAlways": "ھەمىشە كۆرسىتىش",
+  "botsPetOverlayShows": "لەيلىمە كۆزنەكتە كۆرسىتىش",
+  "botsPetOverlayPixel": "پىكسېل ھايۋان",
+  "botsPetOverlayCompanion": "ئۆيىدىكى ئۇ",
+  "botsPetOverlayCompanionNamed": "ئۆيىدىكى {name}",
   "@botsPetOverlayCompanionNamed": {
     "placeholders": {
       "name": {
@@ -720,46 +721,46 @@
       }
     }
   },
-  "botsPetOverlayNoPack": "先去伙伴小屋里请一位角色",
-  "botsPetOverlayPackBroken": "角色包不完整，去伙伴小屋里重新导入",
-  "botsPetOverlayUnavailable": "这台手机暂时请不出她",
-  "botsPetOverlayCompanionHint": "点一下和她互动，连点两下打开对话。比像素宠物更耗电，熄屏和隐藏时会停下来",
-  "botsPetOverlayLoading": "正在请她出来…",
-  "botsPetOverlayFallback": "她没能出来，先由像素宠物顶班",
-  "botsPetOverlayFraming": "取景",
-  "botsPetOverlayFramingFull": "全身",
-  "botsPetOverlayFramingHalf": "半身",
-  "botsPetOverlayFramingHint": "换取景会重新加载她",
-  "botsPetSwitchDisabled": "开关点不动",
-  "botsPetRestrictedSettings": "允许受限制的设置",
-  "botsPetHiddenToday": "今天不再显示",
-  "botsPetRestore": "恢复",
-  "botsPetChange": "换宠物",
-  "botsPetHideHour": "藏起来 1 小时",
-  "botsPetSettings": "宠物设置",
-  "botsPetDeepy": "Deepy 小鲸鱼",
-  "botsPetWhaleGirl": "鲸娘",
-  "botsPetNone": "不显示",
-  "botsPets": "宠物",
-  "botsPetSource": "来自 DSH-TUI",
-  "botsPetImport": "导入",
-  "botsPetImportHint": "导入你自己的像素宠物：一个 zip，里面是 pack.json 和序列帧 PNG，格式见仓库里的 docs/design/pets.md。长按导入的宠物可以删除。",
-  "botsPetImportDone": "「{name}」来了",
-  "botsPetCodexTitle": "「{name}」是从 Codex 宠物转过来的",
-  "botsPetCodexBody": "大部分照原样，有几处不完全一样：",
-  "botsPetCodexOk": "知道了",
-  "botsPetCodexLoops": "动作会一直循环到状态变化，不像 Codex 里跑几遍就回到待机",
-  "botsPetCodexRoamLeft": "往左走用的是往右走那一行的镜像",
-  "botsPetCodexDrag": "拖着它时一律用朝右的那一行",
-  "botsPetCodexSleep": "睡觉时用待机的第一帧",
-  "botsPetCodexLook": "看向不同方向的那些格子没用上",
-  "botsPetCodexWebp": "WebP 图转成了 PNG",
-  "botsPetCodexCustomTracks": "自定义的动作行没接到任何状态上",
-  "botsPetCodexFps": "帧率换算成毫秒时取了整",
-  "botsPetCodexOneShot": "只播一次的动作，播完回到哪里由 DSH 决定",
-  "botsPetCodexMissingAuthor": "包里没写作者",
-  "botsPetCodexMissingLicense": "包里没写授权",
-  "botsPetCodexMissingSource": "包里没写来源",
+  "botsPetOverlayNoPack": "ئاۋۋال ھەمراھ ئۆيىدىن بىر رول تەكلىپ قىلىڭ",
+  "botsPetOverlayPackBroken": "رول بوغچىسى تولۇق ئەمەس، ھەمراھ ئۆيىدىن قايتا ئىمپورت قىلىڭ",
+  "botsPetOverlayUnavailable": "بۇ تېلېفون ھازىرچە ئۇنى تەكلىپ قىلالمايدۇ",
+  "botsPetOverlayCompanionHint": "بىر قېتىم چېكىپ ئۇنىڭ بىلەن ئىشلەشتۈرۈڭ، ئىككى قېتىم چېكىپ سۆھبەت ئېچىڭ. پىكسېل ھايۋاندىن كۆپرەك قۇۋۋەت سەرپ قىلىدۇ، ئېكران ئۆچكەندە ۋە يوشۇرغاندا توختايدۇ",
+  "botsPetOverlayLoading": "ئۇنى تەكلىپ قىلىۋاتىدۇ…",
+  "botsPetOverlayFallback": "ئۇ چىقالمىدى، ئاۋۋال پىكسېل ھايۋان ئورنىنى تولدۇرىدۇ",
+  "botsPetOverlayFraming": "كۆرۈنۈش دائىرىسى",
+  "botsPetOverlayFramingFull": "پۈتۈن بەدەن",
+  "botsPetOverlayFramingHalf": "يېرىم بەدەن",
+  "botsPetOverlayFramingHint": "كۆرۈنۈش دائىرىسىنى ئالماشتۇرغاندا ئۇ قايتا يۈكلىنىدۇ",
+  "botsPetSwitchDisabled": "چېكىش ئالمىشى չېكىلىدۇ",
+  "botsPetRestrictedSettings": "چەكلەنگەن تەڭشەكلەرگە يول قويۇش",
+  "botsPetHiddenToday": "بۈگۈن قايتا كۆرسەتمەسلىك",
+  "botsPetRestore": "ئەسلىگە كەلتۈرۈش",
+  "botsPetChange": "ھايۋان ئالماشتۇرۇش",
+  "botsPetHideHour": "1 سائەت يوشۇرۇش",
+  "botsPetSettings": "ھايۋان تەڭشەكلىرى",
+  "botsPetDeepy": "Deepy كىچىك كىت",
+  "botsPetWhaleGirl": "كىت قىز",
+  "botsPetNone": "كۆرسىتىلمەيدۇ",
+  "botsPets": "ئۆي ھايۋانلىرى",
+  "botsPetSource": "DSH-TUI دىن",
+  "botsPetImport": "ئەكىرىش",
+  "botsPetImportHint": "ئۆزىڭىزنىڭ پىكسېل ھايۋىنىنى ئەكىرىڭ: بىر zip ئىچىدە pack.json ۋە كەرتىشكىلىك رامكا PNG، فورماتى ئامباردىكى docs/design/pets.md دا. ئەكىرگەن ھايۋاننى ئۇزۇن بېسىپ ئۆچۈرەلەيسىز.",
+  "botsPetImportDone": "«{name}» كەلدى",
+  "botsPetCodexTitle": "«{name}» Codex ھايۋىنىدىن ئۆزگەرتىلگەن",
+  "botsPetCodexBody": "كۆپىنچىسى ئەسلىدىكىدەك، بىر قانچە يېرى پۈتۈن ئوخشاش ئەمەس:",
+  "botsPetCodexOk": "چۈشەندىم",
+  "botsPetCodexLoops": "ھەرىكەتلەر ھالەت ئۆزگەرگۈچە داۋاملىق تەكرارلىنىدۇ، Codex دىكىدەك بىر قانچە قېتىم يۈرۈپلا بىكار تۇرۇشقا قايتمايدۇ",
+  "botsPetCodexRoamLeft": "سولغا ماڭغاندا ئوڭغا ماڭىدىغان قۇرنىڭ ئەكس ئەتتۈرۈلگىنى ئىشلىتىلىدۇ",
+  "botsPetCodexDrag": "سۆرەلگەندە ھەمىشە ئوڭغا قارىغان قۇر ئىشلىتىلىدۇ",
+  "botsPetCodexSleep": "ئۇخلىغاندا بىكار تۇرۇشنىڭ بىرىنچى رامكىسى ئىشلىتىلىدۇ",
+  "botsPetCodexLook": "تۈرلۈك يۆنىلىشكە قارايدىغان كاتەكچىلەر ئىشلىتىلمىدى",
+  "botsPetCodexWebp": "WebP رەسىم PNG غا ئايلاندۇرۇلدى",
+  "botsPetCodexCustomTracks": "ئۆزلۈكىدىن بەلگىلەنگەن ھەرىكەت قۇرلىرى ھېچقانداق ھالەتكە ئۇلانمىدى",
+  "botsPetCodexFps": "رامكا تېزلىكى مىللىسېكۇنتقا ئايلاندۇرغاندا پۈتۈنلەندى",
+  "botsPetCodexOneShot": "پەقەت بىر قېتىم قويۇلىدىغان ھەرىكەت، قويۇلۇپ بولغاندىن كېيىن قەيەرگە قايتىشىنى DSH بەلگىلەيدۇ",
+  "botsPetCodexMissingAuthor": "بوغچىدا ئاپتور يېزىلمىغان",
+  "botsPetCodexMissingLicense": "بوغچىدا ئىجازەتنامە يېزىلمىغان",
+  "botsPetCodexMissingSource": "بوغچىدا مەنبە يېزىلمىغان",
   "@botsPetImportDone": {
     "placeholders": {
       "name": {
@@ -774,7 +775,7 @@
       }
     }
   },
-  "botsPetImportReplaced": "「{name}」换成了新的",
+  "botsPetImportReplaced": "«{name}» يېڭىسى بىلەن ئالماشتۇرۇلدى",
   "@botsPetImportReplaced": {
     "placeholders": {
       "name": {
@@ -782,9 +783,9 @@
       }
     }
   },
-  "botsPetImportNotZip": "这不是 zip 文件",
-  "botsPetImportNoPack": "zip 里没有 pack.json",
-  "botsPetImportBadPack": "pack.json 有问题：{detail}",
+  "botsPetImportNotZip": "بۇ zip ھۆججىتى ئەمەس",
+  "botsPetImportNoPack": "zip ئىچىدە pack.json يوق",
+  "botsPetImportBadPack": "pack.json دا مەسىلە بار: {detail}",
   "@botsPetImportBadPack": {
     "placeholders": {
       "detail": {
@@ -792,7 +793,7 @@
       }
     }
   },
-  "botsPetImportMissingSheet": "zip 里少了序列帧图 {name}",
+  "botsPetImportMissingSheet": "zip ئىچىدە {name} رامكا تىزىقى رەسىمى كەم",
   "@botsPetImportMissingSheet": {
     "placeholders": {
       "name": {
@@ -800,7 +801,7 @@
       }
     }
   },
-  "botsPetImportBadSheet": "序列帧图不对：{name}（要完整的 PNG，每边不超过 4096 像素，每一帧都在图内）",
+  "botsPetImportBadSheet": "رامكا تىزىقى رەسىمى خاتا: {name} (تولۇق PNG بولۇشى كېرەك، ھەر تەرىپى 4096 پىكسېلدىن ئاشماسلىقى، ھەر رامكا رەسىم ئىچىدە بولۇشى كېرەك)",
   "@botsPetImportBadSheet": {
     "placeholders": {
       "name": {
@@ -808,9 +809,9 @@
       }
     }
   },
-  "botsPetImportTooLarge": "这个宠物包太大了",
-  "botsPetImportStorage": "没能存到手机上，再试一次",
-  "botsPetRemoveTitle": "删除「{name}」？",
+  "botsPetImportTooLarge": "بۇ ئەرمەك ھايۋان بوغچىسى بەك چوڭ",
+  "botsPetImportStorage": "تېلېفونغا ساقلىيالمىدى، قايتا سىناڭ",
+  "botsPetRemoveTitle": "«{name}» ئۆچۈرۈلسۇن؟",
   "@botsPetRemoveTitle": {
     "placeholders": {
       "name": {
@@ -818,8 +819,8 @@
       }
     }
   },
-  "botsPetRemoveBody": "删除后可以再导入。",
-  "botsPetRemoveFailed": "没能删除「{name}」，再试一次",
+  "botsPetRemoveBody": "ئۆچۈرۈلگەندىن كېيىن قايتا ئەكىرسىڭىز بولىدۇ.",
+  "botsPetRemoveFailed": "«{name}» نى ئۆچۈرەلمىدى، قايتا سىناڭ",
   "@botsPetRemoveFailed": {
     "placeholders": {
       "name": {
@@ -827,11 +828,11 @@
       }
     }
   },
-  "botsPetSize": "大小",
-  "botsPetQuiet": "安静模式",
-  "botsPetQuietSubtitle": "只做动作，不冒气泡",
-  "botsPetShowNow": "立即显示",
-  "botsPetHiddenUntil": "藏到 {time}",
+  "botsPetSize": "چوڭلۇقى",
+  "botsPetQuiet": "جىمجىت ھالەت",
+  "botsPetQuietSubtitle": "پەقەت ھەرىكەت قىلىدۇ، كۆپۈكچە چىقارمايدۇ",
+  "botsPetShowNow": "دەرھال كۆرسىتىش",
+  "botsPetHiddenUntil": "{time} غىچە يوشۇرۇلغان",
   "@botsPetHiddenUntil": {
     "placeholders": {
       "time": {
@@ -839,21 +840,21 @@
       }
     }
   },
-  "botsKeyEsc": "发送 Esc",
-  "botsKeyTab": "发送 Tab",
-  "botsKeyLeft": "左",
-  "botsKeyUp": "上",
-  "botsKeyDown": "下",
-  "botsKeyRight": "右",
-  "botsKeyPipe": "竖线",
-  "botsKeyTilde": "波浪号",
-  "botsKeySlash": "斜杠",
-  "botsKeyDash": "短横线",
-  "botsTerminal": "终端",
-  "botsTerminalRename": "重命名终端",
-  "botsTerminalName": "终端名称",
-  "botsTerminalRenameFailed": "没能重命名",
-  "botsTerminalCloseNamed": "关闭「{title}」？",
+  "botsKeyEsc": "Esc ئەۋەتىش",
+  "botsKeyTab": "Tab ئەۋەتىش",
+  "botsKeyLeft": "سول",
+  "botsKeyUp": "ئۈستى",
+  "botsKeyDown": "ئاستى",
+  "botsKeyRight": "ئوڭ",
+  "botsKeyPipe": "تىك سىزىق",
+  "botsKeyTilde": "تولقۇن بەلگىسى",
+  "botsKeySlash": "قىيپاش سىزىق",
+  "botsKeyDash": "قىسقا سىزىق",
+  "botsTerminal": "تېرمىنال",
+  "botsTerminalRename": "تېرمىنالنىڭ ئىسمىنى ئۆزگەرتىش",
+  "botsTerminalName": "تېرمىنال ئىسمى",
+  "botsTerminalRenameFailed": "ئىسمىنى ئۆزگەرتكىلى بولمىدى",
+  "botsTerminalCloseNamed": "«{title}» تاقالسۇن؟",
   "@botsTerminalCloseNamed": {
     "placeholders": {
       "title": {
@@ -861,25 +862,25 @@
       }
     }
   },
-  "botsTerminalCloseBody": "里面的进程会结束",
-  "botsTerminalUnsupported": "这个连接用不了终端",
-  "botsTerminalSupportedHosts": "在本机、SSH 主机或 Remote 电脑上可用",
-  "botsTerminalOpening": "正在打开终端…",
-  "botsTerminalNone": "没有打开的终端",
-  "botsTerminalNew": "新建终端",
-  "botsTerminalClose": "关闭终端",
-  "botsTerminalChooseShell": "选择 Shell",
-  "botsTerminalShellFailed": "没能读取 Shell",
-  "botsTerminalReading": "正在读取…",
-  "botsTerminalDefaultShell": "默认 Shell",
-  "botsTerminalOtherDevice": "其他设备正在输入",
-  "botsTerminalTakeOver": "接管",
-  "botsTerminalStarting": "正在启动…",
-  "botsTerminalConnecting": "正在连接…",
-  "botsTerminalDisconnected": "连接已断开",
-  "botsTerminalReconnect": "重新连接",
-  "botsTerminalEnded": "已结束",
-  "botsTerminalExitCode": "已结束 · 退出码 {code}",
+  "botsTerminalCloseBody": "ئىچىدىكى جەريانلار ئاخىرلىشىدۇ",
+  "botsTerminalUnsupported": "بۇ ئۇلىنىشتا تېرمىنال ئىشلىتىلەلمەيدۇ",
+  "botsTerminalSupportedHosts": "يەرلىك كومپيۇتېر، SSH ئۆز ئارا تورى ياكى Remote كومپيۇتېرىدا ئىشلىتىلىدۇ",
+  "botsTerminalOpening": "تېرمىنال ئېچىلىۋاتىدۇ…",
+  "botsTerminalNone": "ئېچىلغان تېرمىنال يوق",
+  "botsTerminalNew": "يېڭى تېرمىنال",
+  "botsTerminalClose": "تېرمىنالنى تاقاش",
+  "botsTerminalChooseShell": "Shell تاللاش",
+  "botsTerminalShellFailed": "Shell نى ئوقۇغىلى بولمىدى",
+  "botsTerminalReading": "ئوقۇلۇۋاتىدۇ…",
+  "botsTerminalDefaultShell": "كۆڭۈلدىكى Shell",
+  "botsTerminalOtherDevice": "باشقا ئۈسكۈنە كىرگۈزۈۋاتىدۇ",
+  "botsTerminalTakeOver": "ئۆتكۈزۈۋېلىش",
+  "botsTerminalStarting": "باشلىنىۋاتىدۇ…",
+  "botsTerminalConnecting": "ئۇلىنىۋاتىدۇ…",
+  "botsTerminalDisconnected": "ئۇلىنىش ئۈزۈلدى",
+  "botsTerminalReconnect": "قايتا ئۇلاش",
+  "botsTerminalEnded": "ئاخىرلاشتى",
+  "botsTerminalExitCode": "ئاخىرلاشتى · چېكىنىش كودى {code}",
   "@botsTerminalExitCode": {
     "placeholders": {
       "code": {
@@ -887,10 +888,10 @@
       }
     }
   },
-  "botsTerminalGone": "这个终端已不在了",
-  "botsTerminalLimit": "先关掉不用的终端",
-  "botsToolWorkingRun": "正在运行命令",
-  "botsToolApprovalRun": "{name} 想运行命令",
+  "botsTerminalGone": "بۇ تېرمىنال ئەمدى يوق",
+  "botsTerminalLimit": "ئىشلەتمىگەن تېرمىناللارنى ئاۋۋال تاقاڭ",
+  "botsToolWorkingRun": "بۇيرۇق ئىجرا قىلىنىۋاتىدۇ",
+  "botsToolApprovalRun": "{name} بۇيرۇق ئىجرا قىلماقچى",
   "@botsToolApprovalRun": {
     "placeholders": {
       "name": {
@@ -898,8 +899,8 @@
       }
     }
   },
-  "botsToolWorkingRead": "正在查看文件",
-  "botsToolApprovalRead": "{name} 想查看文件",
+  "botsToolWorkingRead": "ھۆججەت كۆرۈلۈۋاتىدۇ",
+  "botsToolApprovalRead": "{name} ھۆججەت كۆرمەكچى",
   "@botsToolApprovalRead": {
     "placeholders": {
       "name": {
@@ -907,8 +908,8 @@
       }
     }
   },
-  "botsToolWorkingEdit": "正在修改文件",
-  "botsToolApprovalEdit": "{name} 想修改文件",
+  "botsToolWorkingEdit": "ھۆججەت ئۆزگەرتىلىۋاتىدۇ",
+  "botsToolApprovalEdit": "{name} ھۆججەت ئۆزگەرتمەكچى",
   "@botsToolApprovalEdit": {
     "placeholders": {
       "name": {
@@ -916,8 +917,8 @@
       }
     }
   },
-  "botsToolWorkingSearch": "正在联网搜索",
-  "botsToolApprovalSearch": "{name} 想联网搜索",
+  "botsToolWorkingSearch": "توردا ئىزدەۋاتىدۇ",
+  "botsToolApprovalSearch": "{name} توردا ئىزدىمەكچى",
   "@botsToolApprovalSearch": {
     "placeholders": {
       "name": {
@@ -925,8 +926,8 @@
       }
     }
   },
-  "botsToolWorkingBrowse": "正在看网页",
-  "botsToolApprovalBrowse": "{name} 想看网页",
+  "botsToolWorkingBrowse": "تور بېتى كۆرۈلۈۋاتىدۇ",
+  "botsToolApprovalBrowse": "{name} تور بېتى كۆرمەكچى",
   "@botsToolApprovalBrowse": {
     "placeholders": {
       "name": {
@@ -934,8 +935,8 @@
       }
     }
   },
-  "botsToolWorkingMessage": "正在联系其他 Bot",
-  "botsToolApprovalMessage": "{name} 想联系其他 Bot",
+  "botsToolWorkingMessage": "باشقا Bot بىلەن ئالاقىلىشىۋاتىدۇ",
+  "botsToolApprovalMessage": "{name} باشقا Bot بىلەن ئالاقىلاشماقچى",
   "@botsToolApprovalMessage": {
     "placeholders": {
       "name": {
@@ -943,8 +944,8 @@
       }
     }
   },
-  "botsToolWorkingGroup": "正在在群里沟通",
-  "botsToolApprovalGroup": "{name} 想在群里沟通",
+  "botsToolWorkingGroup": "گۇرۇپپىدا سۆزلىشىۋاتىدۇ",
+  "botsToolApprovalGroup": "{name} گۇرۇپپىدا سۆزلەشمەكچى",
   "@botsToolApprovalGroup": {
     "placeholders": {
       "name": {
@@ -952,8 +953,8 @@
       }
     }
   },
-  "botsToolWorkingMemory": "正在整理记忆",
-  "botsToolApprovalMemory": "{name} 想整理记忆",
+  "botsToolWorkingMemory": "ئېسىمنى تەرتىپلەۋاتىدۇ",
+  "botsToolApprovalMemory": "{name} ئېسىمنى تەرتىپلىمەكچى",
   "@botsToolApprovalMemory": {
     "placeholders": {
       "name": {
@@ -961,8 +962,8 @@
       }
     }
   },
-  "botsToolWorkingRecall": "正在翻看记录",
-  "botsToolApprovalRecall": "{name} 想翻看记录",
+  "botsToolWorkingRecall": "خاتىرىلەرنى ئاقتۇرۇۋاتىدۇ",
+  "botsToolApprovalRecall": "{name} خاتىرىلەرنى ئاقتۇرماقچى",
   "@botsToolApprovalRecall": {
     "placeholders": {
       "name": {
@@ -970,8 +971,8 @@
       }
     }
   },
-  "botsToolWorkingTeam": "正在安排团队",
-  "botsToolApprovalTeam": "{name} 想安排团队",
+  "botsToolWorkingTeam": "گۇرۇپپىنى سەپلەۋاتىدۇ",
+  "botsToolApprovalTeam": "{name} گۇرۇپپىنى سەپلىمەكچى",
   "@botsToolApprovalTeam": {
     "placeholders": {
       "name": {
@@ -979,8 +980,8 @@
       }
     }
   },
-  "botsToolWorkingAsk": "正在准备问你",
-  "botsToolApprovalAsk": "{name} 想准备问你",
+  "botsToolWorkingAsk": "سىزدىن سوراشقا تەييارلىق قىلىۋاتىدۇ",
+  "botsToolApprovalAsk": "{name} سىزدىن سوراشقا تەييارلىق قىلماقچى",
   "@botsToolApprovalAsk": {
     "placeholders": {
       "name": {
@@ -988,8 +989,8 @@
       }
     }
   },
-  "botsToolWorkingWork": "正在干活",
-  "botsToolApprovalWork": "{name} 想干活",
+  "botsToolWorkingWork": "ئىشلەۋاتىدۇ",
+  "botsToolApprovalWork": "{name} خىزمەت قىلماقچى",
   "@botsToolApprovalWork": {
     "placeholders": {
       "name": {
@@ -997,12 +998,12 @@
       }
     }
   },
-  "botsEveryone": "所有人",
-  "botsActivelyRunning": "正在运行",
-  "botsListSeparator": "，",
-  "botsNameSeparator": "、",
-  "botsGlyphSubagent": "子代理",
-  "botsGlyphWebSearch": "联网搜索",
+  "botsEveryone": "ھەممەيلەن",
+  "botsActivelyRunning": "ئىجرا بولۇۋاتىدۇ",
+  "botsListSeparator": "،",
+  "botsNameSeparator": "،",
+  "botsGlyphSubagent": "تارماق ۋاكالەتچى",
+  "botsGlyphWebSearch": "تور ئىزدەش",
   "botsSenderPreview": "{name}：{preview}",
   "@botsSenderPreview": {
     "placeholders": {
@@ -1014,7 +1015,7 @@
       }
     }
   },
-  "botsAgentSemantics": "{title}，{state}",
+  "botsAgentSemantics": "{title}، {state}",
   "@botsAgentSemantics": {
     "placeholders": {
       "title": {
@@ -1036,13 +1037,13 @@
       }
     }
   },
-  "botsEffortXhigh": "超高",
-  "botsRelayLimit": "Bot 互叫上限",
-  "botsRelayLimitHint": "从你最近一次发言起，Bot 之间互叫达到此次数后暂停。填写 1–200 的整数，留空使用默认值。",
-  "botsRelayLimitDefault": "默认：{count}",
-  "botsRelayLimitInvalid": "请填写 1–200 的整数",
-  "botsRelayLimitRestore": "恢复默认",
-  "botsRelayLimitConnectionChanged": "连接已变化，请关闭后重新打开。",
+  "botsEffortXhigh": "ئىنتايىن يۇقىرى",
+  "botsRelayLimit": "Bot ئۆزئارا چاقىرىش چېكى",
+  "botsRelayLimitHint": "سىزنىڭ ئەڭ ئاخىرقى سۆزلىشىشىڭىزدىن باشلاپ، Botلار ئارىسىدىكى ئۆزئارا چاقىرىش بۇ سانغا يەتكەندە توختىتىلىدۇ. 1–200 ئارىلىقىدىكى پۈتۈن ساننى كىرگۈزۈڭ، بوش قويۇلسا سۈكۈتتىكى قىممەت ئىشلىتىلىدۇ.",
+  "botsRelayLimitDefault": "سۈكۈتتىكى: {count}",
+  "botsRelayLimitInvalid": "1–200 ئارىلىقىدىكى پۈتۈن ساننى كىرگۈزۈڭ",
+  "botsRelayLimitRestore": "سۈكۈتتىكىگە قايتۇرۇش",
+  "botsRelayLimitConnectionChanged": "ئۇلىنىش ئۆزگەردى، تاقىغاندىن كېيىن قايتا ئېچىڭ.",
   "@botsRelayLimitDefault": {
     "placeholders": {
       "count": {
@@ -1050,8 +1051,8 @@
       }
     }
   },
-  "botsMobileUnsupportedTitle": "DS Bot 暂不支持手机端",
-  "botsMobileApiRequired": "可先在网页版中使用",
-  "botsMobileApiMissing": "手机端暂不支持，可先在网页版中使用",
-  "botsCreationConnectionChanged": "连接已变化，请重新打开创建页面后再操作。"
+  "botsMobileUnsupportedTitle": "DS Bot ھازىرچە يانفوندا قوللانمايدۇ",
+  "botsMobileApiRequired": "ئالدى بىلەن تور نەشرىدە ئىشلىتىڭ",
+  "botsMobileApiMissing": "يانفوندا ھازىرچە قوللانمايدۇ، ئالدى بىلەن تور نەشرىدە ئىشلىتىڭ",
+  "botsCreationConnectionChanged": "ئۇلىنىش ئۆزگەردى، قۇرۇش بېتىنى قايتا ئېچىپ ئاندىن مەشغۇلات قىلىڭ."
 }

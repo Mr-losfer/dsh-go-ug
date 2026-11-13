@@ -1,31 +1,32 @@
 {
-  "voiceSettingsTitle": "ئاۋاز تەڭشىكى",
-  "voiceModeAuto": "自动",
-  "voiceModeSystem": "系统",
-  "voiceModeEngine": "语音模型",
-  "voiceModeAutoHint": "有语音模型时用它，否则用系统识别",
-  "voiceModeSystemHint": "使用手机设置中的识别服务",
-  "voiceModeEngineHint": "用引擎里的语音模型识别",
-  "voiceFallbackStarted": "已改用语音模型，请再说一次",
-  "voiceChooseSystem": "请在系统设置中选择语音识别服务",
-  "voiceConfigureEngine": "请先在语音设置里下载语音模型",
-  "voiceConfigureEither": "系统识别用不了，可以在语音设置里下载语音模型",
-  "voiceErrorNetworkTimeout": "语音识别连接超时，请检查网络",
-  "voiceErrorNetwork": "语音识别网络连接失败",
-  "voiceErrorAudio": "语音录音失败，请检查麦克风",
-  "voiceErrorServer": "系统识别服务出错，请稍后再试",
-  "voiceErrorClient": "无法启动系统识别，请检查语音服务",
-  "voiceErrorSpeechTimeout": "没有听到声音，请再说一次",
-  "voiceErrorNoMatch": "没有听清，再说一次",
-  "voiceErrorBusy": "系统识别正忙，请稍后再试",
-  "voiceErrorPermission": "需要麦克风权限才能语音输入",
-  "voiceErrorTooManyRequests": "语音识别请求太频繁，请稍后再试",
-  "voiceErrorDisconnected": "系统识别服务已断开",
-  "voiceErrorLanguageUnsupported": "系统识别不支持这种语言",
-  "voiceErrorLanguageUnavailable": "请先在语音服务中下载这种语言",
-  "voiceErrorSupportCheck": "语音服务不支持检查识别能力",
-  "voiceErrorDownloadEvents": "语音服务不支持查询模型下载进度",
-  "voiceErrorUnknown": "语音服务返回错误 {code}，请更换识别服务",
+  "@@locale": "ug",
+  "voiceSettingsTitle": "ئاۋاز كىرگۈزۈش",
+  "voiceModeAuto": "ئاپتوماتىك",
+  "voiceModeSystem": "سىستېما",
+  "voiceModeEngine": "ئاۋاز مودېلى",
+  "voiceModeAutoHint": "ئاۋاز مودېلى بولسا شۇنى، بولمىسا سىستېما تونۇشىنى ئىشلىتىدۇ",
+  "voiceModeSystemHint": "تېلېفون تەڭشىكىدىكى تونۇش مۇلازىمىتىنى ئىشلىتىدۇ",
+  "voiceModeEngineHint": "ماتوردىكى ئاۋاز مودېلى بىلەن تونۇيدۇ",
+  "voiceFallbackStarted": "ئاۋاز مودېلىغا ئالماشتۇرۇلدى، قايتا ئېيتىڭ",
+  "voiceChooseSystem": "سىستېما تەڭشىكىدىن ئاۋاز تونۇش مۇلازىمىتىنى تاللاڭ",
+  "voiceConfigureEngine": "ئالدى بىلەن ئاۋاز تەڭشىكىدىن ئاۋاز مودېلىنى چۈشۈرۈڭ",
+  "voiceConfigureEither": "سىستېما تونۇشى ئىشلىمىدى، ئاۋاز تەڭشىكىدىن ئاۋاز مودېلىنى چۈشۈرەلەيسىز",
+  "voiceErrorNetworkTimeout": "ئاۋاز تونۇش ئۇلىنىشى ۋاقىتتىن ئېشىپ كەتتى، تورنى تەكشۈرۈڭ",
+  "voiceErrorNetwork": "ئاۋاز تونۇش تور ئۇلىنىشى مەغلۇپ بولدى",
+  "voiceErrorAudio": "ئاۋاز خاتىرىلەش مەغلۇپ بولدى، مىكروفوننى تەكشۈرۈڭ",
+  "voiceErrorServer": "سىستېما تونۇش مۇلازىمىتىدە خاتالىق كۆرۈلدى، سەل تۇرۇپ قايتا سىناڭ",
+  "voiceErrorClient": "سىستېما تونۇشنى قوزغىتالمىدى، ئاۋاز مۇلازىمىتىنى تەكشۈرۈڭ",
+  "voiceErrorSpeechTimeout": "ئاۋاز ئاڭلانمىدى، قايتا ئېيتىڭ",
+  "voiceErrorNoMatch": "ئېنىق ئاڭلالمىدى، قايتا ئېيتىڭ",
+  "voiceErrorBusy": "سىستېما تونۇشى ئالدىراش، سەل تۇرۇپ قايتا سىناڭ",
+  "voiceErrorPermission": "ئاۋاز كىرگۈزۈش ئۈچۈن مىكروفون ھوقۇقى كېرەك",
+  "voiceErrorTooManyRequests": "ئاۋاز تونۇش تەلىپى بەك كۆپ بولدى، سەل تۇرۇپ قايتا سىناڭ",
+  "voiceErrorDisconnected": "سىستېما تونۇش مۇلازىمىتى ئۈزۈلدى",
+  "voiceErrorLanguageUnsupported": "سىستېما تونۇشى بۇ تىلنى قوللىمايدۇ",
+  "voiceErrorLanguageUnavailable": "ئالدى بىلەن ئاۋاز مۇلازىمىتىدىن بۇ تىلنى چۈشۈرۈڭ",
+  "voiceErrorSupportCheck": "ئاۋاز مۇلازىمىتى تونۇش ئىقتىدارىنى تەكشۈرۈشنى قوللىمايدۇ",
+  "voiceErrorDownloadEvents": "ئاۋاز مۇلازىمىتى مودېل چۈشۈرۈش ئەھۋالىنى سۈرۈشتۈرۈشنى قوللىمايدۇ",
+  "voiceErrorUnknown": "ئاۋاز مۇلازىمىتى خاتالىق قايتۇردى {code}، تونۇش مۇلازىمىتىنى ئالماشتۇرۇڭ",
   "@voiceErrorUnknown": {
     "placeholders": {
       "code": {
@@ -33,17 +34,17 @@
       }
     }
   },
-  "voiceSettingsFailed": "没能读取语音设置，请重试",
-  "voiceModeSection": "ئاۋاز تونۇش ئۇسۇلى",
-  "voiceModelSection": "تورسىز ئاۋاز مودېلى",
-  "voiceModelFooter": "下载后在手机上识别中文、英文、粤语、日语和韩语，录音不出手机。",
-  "voiceModelWaiting": "引擎启动后可以下载",
-  "voiceModelUnsupported": "当前引擎不支持语音模型",
-  "voiceModelAbsent": "未下载",
-  "voiceModelDownloading": "下载中",
-  "voiceModelPreparing": "正在校验和加载",
-  "voiceModelReady": "已就绪",
-  "voiceModelFailed": "下载失败",
+  "voiceSettingsFailed": "ئاۋاز تەڭشەكلىرىنى ئوقۇيالمىدى، قايتا سىناڭ",
+  "voiceModeSection": "تونۇش ئۇسۇلى",
+  "voiceModelSection": "ئاۋاز مودېلى",
+  "voiceModelFooter": "چۈشۈرۈپ بولغاندىن كېيىن تېلېفوندا خەنزۇچە، ئىنگلىزچە، كانتونچە، ياپونچە ۋە كورىيەچە تونۇيدۇ، ئۈنئالغۇ تېلېفوندىن چىقمايدۇ.",
+  "voiceModelWaiting": "ماتور قوزغىتىلغاندىن كېيىن چۈشۈرگىلى بولىدۇ",
+  "voiceModelUnsupported": "نۆۋەتتىكى ماتور ئاۋاز مودېلىنى قوللىمايدۇ",
+  "voiceModelAbsent": "چۈشۈرۈلمىگەن",
+  "voiceModelDownloading": "چۈشۈرۈلۈۋاتىدۇ",
+  "voiceModelPreparing": "تەكشۈرۈلۈپ يۈكلىنىۋاتىدۇ",
+  "voiceModelReady": "تەييار",
+  "voiceModelFailed": "چۈشۈرۈش مەغلۇپ بولدى",
   "voiceModelBytes": "{done} / {total}",
   "@voiceModelBytes": {
     "placeholders": {
@@ -55,7 +56,7 @@
       }
     }
   },
-  "voiceModelReadyNote": "已占用 {size}，可以离线使用",
+  "voiceModelReadyNote": "{size} ئىگىلىدى، تورسىز ئىشلەتكىلى بولىدۇ",
   "@voiceModelReadyNote": {
     "placeholders": {
       "size": {
@@ -63,7 +64,7 @@
       }
     }
   },
-  "voiceModelAbsentNote": "下载约 {size}",
+  "voiceModelAbsentNote": "تەخمىنەن {size} چۈشۈرۈلىدۇ",
   "@voiceModelAbsentNote": {
     "placeholders": {
       "size": {
@@ -71,13 +72,13 @@
       }
     }
   },
-  "voiceModelWaitingNote": "下载会在引擎启动后开始",
-  "voiceModelFailNetwork": "网络连接失败",
-  "voiceModelFailTimeout": "下载长时间没有进展",
-  "voiceModelFailCertificate": "安全连接失败，请检查手机时间",
-  "voiceModelFailServer": "下载源暂时不可用",
-  "voiceModelFailIntegrity": "文件校验没有通过",
-  "voiceModelFailStorage": "存储空间不足，还需要约 {size}",
+  "voiceModelWaitingNote": "چۈشۈرۈش ماتور قوزغىتىلغاندىن كېيىن باشلىنىدۇ",
+  "voiceModelFailNetwork": "تور ئۇلىنىشى مەغلۇپ بولدى",
+  "voiceModelFailTimeout": "چۈشۈرۈش ئۇزۇن ۋاقىت ئىلگىرىلىمىدى",
+  "voiceModelFailCertificate": "بىخەتەر ئۇلىنىش مەغلۇپ بولدى، تېلېفون ۋاقتىنى تەكشۈرۈڭ",
+  "voiceModelFailServer": "چۈشۈرۈش مەنبەسى ۋاقىتلىق ئىشلەتكىلى بولمايدۇ",
+  "voiceModelFailIntegrity": "ھۆججەت تەكشۈرۈشتىن ئۆتمىدى",
+  "voiceModelFailStorage": "ساقلاش بوشلۇقى يېتىشمەيدۇ، يەنە تەخمىنەن {size} كېرەك",
   "@voiceModelFailStorage": {
     "placeholders": {
       "size": {
@@ -85,13 +86,13 @@
       }
     }
   },
-  "voiceModelFailEngine": "引擎没有响应",
-  "voiceModelFailUnknown": "下载没有完成",
-  "voiceModelDownload": "下载",
-  "voiceModelResume": "继续下载",
-  "voiceModelRedownload": "重新下载",
-  "voiceModelMeteredTitle": "用移动数据下载？",
-  "voiceModelMeteredBody": "语音模型约 {size}，会使用移动数据流量。",
+  "voiceModelFailEngine": "ماتور ئىنكاس قايتۇرمىدى",
+  "voiceModelFailUnknown": "چۈشۈرۈش تاماملانمىدى",
+  "voiceModelDownload": "چۈشۈرۈش",
+  "voiceModelResume": "چۈشۈرۈشنى داۋاملاشتۇرۇش",
+  "voiceModelRedownload": "قايتا چۈشۈرۈش",
+  "voiceModelMeteredTitle": "كۆچمە توردا چۈشۈرەمسىز؟",
+  "voiceModelMeteredBody": "ئاۋاز مودېلى تەخمىنەن {size}، كۆچمە تور ئېقىمىنى ئىشلىتىدۇ.",
   "@voiceModelMeteredBody": {
     "placeholders": {
       "size": {
@@ -99,11 +100,11 @@
       }
     }
   },
-  "voiceModelDeleteTitle": "删除语音模型？",
-  "voiceModelDeleteBody": "删除后语音输入改用系统识别，需要时可以重新下载。",
-  "voiceModelDeleteFailed": "没能删除语音模型，请重试",
-  "voiceModelDeleteStopping": "下载还在停止，请稍后再删",
-  "voiceModelStartedToast": "语音模型开始下载 · 约 {size}",
+  "voiceModelDeleteTitle": "ئاۋاز مودېلىنى ئۆچۈرەمسىز؟",
+  "voiceModelDeleteBody": "ئۆچۈرگەندىن كېيىن ئاۋاز كىرگۈزۈش سىستېما تونۇشىغا ئالمىشىدۇ، كېرەك بولغاندا قايتا چۈشۈرگىلى بولىدۇ.",
+  "voiceModelDeleteFailed": "ئاۋاز مودېلىنى ئۆچۈرەلمىدى، قايتا سىناڭ",
+  "voiceModelDeleteStopping": "چۈشۈرۈش توختىتىلىۋاتىدۇ، سەل تۇرۇپ ئۆچۈرۈڭ",
+  "voiceModelStartedToast": "ئاۋاز مودېلى چۈشۈرۈش باشلاندى · تەخمىنەن {size}",
   "@voiceModelStartedToast": {
     "placeholders": {
       "size": {
@@ -111,7 +112,7 @@
       }
     }
   },
-  "voiceModelResumedToast": "继续下载语音模型 · 还剩约 {size}",
+  "voiceModelResumedToast": "ئاۋاز مودېلى چۈشۈرۈش داۋاملاشتى · تەخمىنەن {size} قالدى",
   "@voiceModelResumedToast": {
     "placeholders": {
       "size": {
@@ -119,8 +120,8 @@
       }
     }
   },
-  "voiceModelReadyToast": "语音输入已就绪",
-  "voiceModelFailedToast": "语音模型下载失败：{reason}",
+  "voiceModelReadyToast": "ئاۋاز كىرگۈزۈش تەييار",
+  "voiceModelFailedToast": "ئاۋاز مودېلىنى چۈشۈرۈش مەغلۇپ بولدى: {reason}",
   "@voiceModelFailedToast": {
     "placeholders": {
       "reason": {
@@ -128,7 +129,7 @@
       }
     }
   },
-  "voiceModelNoticeDownloading": "正在下载语音模型 {percent}%",
+  "voiceModelNoticeDownloading": "ئاۋاز مودېلى چۈشۈرۈلۈۋاتىدۇ {percent}%",
   "@voiceModelNoticeDownloading": {
     "placeholders": {
       "percent": {
@@ -136,6 +137,6 @@
       }
     }
   },
-  "voiceModelNoticePreparing": "正在校验语音模型",
-  "voiceModelNoticeFailed": "语音模型下载失败，打开 App 重试"
+  "voiceModelNoticePreparing": "ئاۋاز مودېلى تەكشۈرۈلۈۋاتىدۇ",
+  "voiceModelNoticeFailed": "ئاۋاز مودېلىنى چۈشۈرۈش مەغلۇپ بولدى، ئەپنى ئېچىپ قايتا سىناڭ"
 }

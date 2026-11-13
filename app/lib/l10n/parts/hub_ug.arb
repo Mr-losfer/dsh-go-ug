@@ -1,103 +1,104 @@
 {
-  "hubSessionDetails": "对话详情",
+  "@@locale": "ug",
+  "hubSessionDetails": "سۆھبەت تەپسىلاتى",
   "hubTerminal": "تېرمىنال",
-  "hubSessionNoTurns": "还没有完整的一轮",
-  "hubSessionElapsed": "用时",
-  "hubSessionSteps": "步骤",
-  "hubSessionChangedFiles": "改动文件",
-  "hubSessionTrajectoryHint": "每一轮的步骤和用时会排在这里",
-  "hubSessionLoadEarlier": "加载更早的轮次",
-  "hubSessionError": "出错",
-  "hubSessionInterrupted": "被中断",
-  "hubSessionOutputLimit": "达到输出上限",
-  "hubSessionNoChanges": "还没有改过文件",
-  "hubSessionShellChangesHint": "用 shell 命令改的文件不在这里",
-  "hubSessionChanges": "对话改动",
-  "hubSessionChangesNote": "只统计已加载的记录里，用写入和编辑工具做的改动",
-  "hubSessionNoGoal": "还没有目标或待办",
-  "hubSessionGoalHint": "复杂任务里 AI 会列出待办，进度在这里看",
-  "hubSessionGoal": "目标",
-  "hubSessionPlanMode": "计划模式",
-  "hubSessionPlanSwitching": "正在切换计划模式",
-  "hubSessionPlanHint": "AI 先出方案，不改文件",
-  "hubSessionTodos": "待办",
-  "hubSessionNotStarted": "未开始",
-  "hubSessionTurnUsage": "每轮用量",
-  "hubSessionNoSubagents": "没有派出子代理",
-  "hubSessionDelegations": "派活记录",
-  "hubTabTrajectory": "轨迹",
-  "hubTabChanges": "改动",
-  "hubTabFiles": "文件",
-  "hubTabProgress": "进度",
-  "hubTabContext": "上下文",
-  "hubTabSubagents": "子代理",
+  "hubSessionNoTurns": "تېخى تولۇق بىر قېتىملىق ئايلىنىش يوق",
+  "hubSessionElapsed": "سەرپ بولغان ۋاقىت",
+  "hubSessionSteps": "باسقۇچلار",
+  "hubSessionChangedFiles": "ئۆزگەرتىلگەن ھۆججەتلەر",
+  "hubSessionTrajectoryHint": "ھەر بىر ئايلىنىشنىڭ باسقۇچلىرى ۋە ۋاقتى بۇ يەردە تىزىلىدۇ",
+  "hubSessionLoadEarlier": "ئالدىنقى ئايلىنىشلارنى يۈكلەش",
+  "hubSessionError": "خاتالىق كۆرۈلدى",
+  "hubSessionInterrupted": "ۋاقىتلىق توختىتىلدى",
+  "hubSessionOutputLimit": "چىقىرىش چېكىگە يەتتى",
+  "hubSessionNoChanges": "تېخى ھۆججەت ئۆزگەرتىلمىدى",
+  "hubSessionShellChangesHint": "shell بۇيرۇقى بىلەن ئۆزگەرتىلگەن ھۆججەتلەر بۇ يەردە يوق",
+  "hubSessionChanges": "سۆھبەت ئۆزگىرىشلىرى",
+  "hubSessionChangesNote": "پەقەت يۈكلەنگەن خاتىرىلەردىكى يېزىش ۋە تەھرىرلەش قوراللىرى بىلەن قىلىنغان ئۆزگەرتىشلەرلا ھېسابلىنىدۇ",
+  "hubSessionNoGoal": "تېخى نىشان ياكى قىلىنىدىغان ئىش يوق",
+  "hubSessionGoalHint": "مۇرەككەپ ۋەزىپىلەردە AI قىلىنىدىغان ئىشلارنى تىزىپ چىقىدۇ، تەرەققىيات بۇ يەردە كۆرۈلىدۇ",
+  "hubSessionGoal": "نىشان",
+  "hubSessionPlanMode": "پىلانلاش ھالىتى",
+  "hubSessionPlanSwitching": "پىلانلاش ھالىتىگە ئالمىشىۋاتىدۇ",
+  "hubSessionPlanHint": "AI ئاۋۋال لايىھە چىقىرىدۇ، ھۆججەت ئۆزگەرتمەيدۇ",
+  "hubSessionTodos": "قىلىنىدىغان ئىشلار",
+  "hubSessionNotStarted": "باشلانمىدى",
+  "hubSessionTurnUsage": "ھەر ئايلىنىش ئىشلىتىشى",
+  "hubSessionNoSubagents": "تارماق ئاگېنت ئەۋەتىلمىدى",
+  "hubSessionDelegations": "ۋەزىپە خاتىرىسى",
+  "hubTabTrajectory": "ئىز",
+  "hubTabChanges": "ئۆزگەرتىشلەر",
+  "hubTabFiles": "ھۆججەتلەر",
+  "hubTabProgress": "تەرەققىيات",
+  "hubTabContext": "مەزمۇن دائىرىسى",
+  "hubTabSubagents": "تارماق ئاگېنتلار",
   "hubPlugins": "قىستۇرما",
-  "hubSettingsFullAccessTitle": "开启完全权限？",
-  "hubSettingsFullAccessBody": "AI 执行命令、改动文件前不再问你。",
-  "hubSettingsStorageTitle": "让 AI 访问手机文件？",
-  "hubSettingsStorageAllow": "允许读写",
-  "hubSettingsStorageDenied": "没有拿到存储权限。到系统设置里给 Kit Go 开启「所有文件访问」后再试",
-  "hubSettingsRestartRequired": "重启引擎后生效",
-  "hubSettingsRestartNow": "立即重启",
-  "hubSettingsInterface": "كۆرۈنمە يۈز",
-  "hubSettingsChat": "对话",
-  "hubSettingsAutoCommands": "自动执行命令",
-  "hubSettingsPhoneFiles": "访问手机文件",
-  "hubSettingsPhoneFilesHint": "AI 可读写手机存储",
-  "hubSettingsVisualReplies": "可视化回复",
-  "hubSettingsVisualRepliesHint": "图表、对比卡和可点的选项",
-  "hubSettingsPhoneControl": "手机操控",
-  "hubSettingsPhoneControlHint": "看屏幕、帮你点按",
-  "hubSettingsPreferences": "个人偏好",
-  "hubSettingsAppearance": "كۆرۈنۈش",
-  "hubSettingsChatTextSize": "对话字号",
-  "hubSettingsCollapseSteps": "完成后收起过程",
-  "hubSettingsCollapseStepsHint": "思考与工具调用收成一行",
-  "hubSettingsWebPhoneLayout": "网页版手机布局",
-  "hubSettingsWebPhoneLayoutHint": "为手机屏幕重排网页版",
-  "hubSettingsEngineExtensions": "引擎与扩展",
-  "hubSettingsEngine": "ماتور",
-  "hubSettingsProviders": "مودېل يوللىرى",
-  "hubSettingsEngineSettings": "引擎参数",
-  "hubSettingsShareConfig": "分享配置",
-  "hubSettingsAllFeatures": "بارلىق ئىقتىدارلار",
+  "hubSettingsFullAccessTitle": "تولۇق ھوقۇق ئېچىلسۇن؟",
+  "hubSettingsFullAccessBody": "AI بۇيرۇق ئىجرا قىلغاندا ۋە ھۆججەت ئۆزگەرتكەندە سىزدىن سورىمايدۇ.",
+  "hubSettingsStorageTitle": "AI تېلېفون ھۆججەتلىرىگە كىرسۇن؟",
+  "hubSettingsStorageAllow": "ئوقۇش-يېزىشقا يول قويۇش",
+  "hubSettingsStorageDenied": "ساقلاش ھوقۇقى ئېلىنمىدى. سىستېما تەڭشىكىدە Kit Go غا «بارلىق ھۆججەتلەرگە كىرىش» نى ئېچىپ قايتا سىناڭ",
+  "hubSettingsRestartRequired": "ماتورنى قايتا باشلىغاندىن كېيىن كۈچكە ئىگە بولىدۇ",
+  "hubSettingsRestartNow": "دەرھال قايتا باشلاش",
+  "hubSettingsInterface": "كۆرۈنۈش",
+  "hubSettingsChat": "سۆھبەت",
+  "hubSettingsAutoCommands": "بۇيرۇقلارنى ئاپتوماتىك ئىجرا قىلىش",
+  "hubSettingsPhoneFiles": "تېلېفون ھۆججەتلىرىگە كىرىش",
+  "hubSettingsPhoneFilesHint": "AI تېلېفون ساقلاش ئورنىنى ئوقۇيالايدۇ ۋە يازالايدۇ",
+  "hubSettingsVisualReplies": "كۆرۈنەرلىك جاۋابلار",
+  "hubSettingsVisualRepliesHint": "دىئاگرامما، سېلىشتۇرما كارتىلىرى ۋە بېسىلىدىغان تاللانمىلار",
+  "hubSettingsPhoneControl": "تېلېفوننى باشقۇرۇش",
+  "hubSettingsPhoneControlHint": "ئېكراننى كۆرۈش، سىز ئۈچۈن بېسىش",
+  "hubSettingsPreferences": "شەخسىي مايىللىق",
+  "hubSettingsAppearance": "تاشقى كۆرۈنۈش",
+  "hubSettingsChatTextSize": "سۆھبەت خەت چوڭلۇقى",
+  "hubSettingsCollapseSteps": "تاماملانغاندىن كېيىن جەرياننى يىغىش",
+  "hubSettingsCollapseStepsHint": "ئويلىنىش ۋە قورال چاقىرىشىنى بىر قۇرغا يىغىش",
+  "hubSettingsWebPhoneLayout": "تور نەشرىنىڭ تېلېفون ئورۇنلاشتۇرۇلۇشى",
+  "hubSettingsWebPhoneLayoutHint": "تور نەشرىنى تېلېفون ئېكرانىغا قايتا ئورۇنلاشتۇرۇش",
+  "hubSettingsEngineExtensions": "ماتور ۋە كېڭەيتىلمىلەر",
+  "hubSettingsEngine": "يەرلىك ماتور",
+  "hubSettingsProviders": "مودېللار",
+  "hubSettingsEngineSettings": "ماتور پارامېتىرلىرى",
+  "hubSettingsShareConfig": "سەپلىمىنى ھەمبەھىرلەش",
+  "hubSettingsAllFeatures": "ھەممە ئىقتىدار",
   "hubSettingsAbout": "ھەققىدە",
-  "hubSettingsCommunity": "جامائەت",
-  "hubSettingsLicenses": "ئىجازەتنامە",
+  "hubSettingsCommunity": "جامائىەت",
+  "hubSettingsLicenses": "ئوچۇق كود ئىجازەتنامىسى",
   "hubSettingsAccount": "LOSFER AI",
-  "hubSettingsSigningIn": "正在登录…",
-  "hubSettingsInvalidKey": "Key 无效，查不到余额",
-  "hubSettingsNoApiKey": "API ئاچقۇچى يوق",
-  "hubSettingsApiKeyHint": "API ئاچقۇچىنى كىرگۈزۈڭ",
+  "hubSettingsSigningIn": "كىرىۋاتىدۇ…",
+  "hubSettingsInvalidKey": "Key ئىناۋەتسىز، قالدۇقنى تېپىلمىدى",
+  "hubSettingsNoApiKey": "API Key تەڭشەلمىگەن",
+  "hubSettingsApiKeyHint": "Key نى تولدۇرغاندىن كېيىن سۆھبەتلىشەلەيسىز",
   "hubSettingsSignInAccount": "LOSFER AI غا ئۇلىنىش",
-  "hubSettingsOrApiKey": "API Key نى تولدۇرغاندىن كېيىن پاراڭلىشالايسىز",
-  "hubPluginShare": "分享插件",
-  "hubPluginDetails": "插件详情",
-  "hubPluginFeatured": "dshfind 推荐",
-  "hubPluginWebOnly": "仅网页版",
-  "hubPluginStars": "星标",
-  "hubPluginSource": "来源",
-  "hubPluginInstalledVersion": "已装版本",
-  "hubPluginRequiresDsh": "需要 DSH",
-  "hubPluginPackageName": "包名",
-  "hubPluginHomepage": "主页",
-  "hubPluginRepository": "代码仓库",
-  "hubPluginManageTitle": "管理插件",
-  "hubPluginManage": "管理",
-  "hubPluginSafeModeInstall": "安全模式下不能安装",
-  "hubPluginInstallCommand": "获取安装命令",
-  "hubPluginInstallComputer": "在电脑上安装",
-  "hubPluginInstalling": "安装中…",
-  "hubPluginAllowBuilds": "允许构建脚本并重试",
-  "hubPluginRetryInstall": "重试安装",
-  "hubPluginOfficial": "DSH 官方",
-  "hubPluginNotLoaded": "没有正常加载",
-  "hubPluginComponents": "组件",
-  "hubPluginSafeModeRemove": "安全模式下不能卸载",
-  "hubPluginRemoveCommand": "获取卸载命令",
-  "hubPluginRemoveComputer": "在电脑上卸载",
-  "hubPluginUninstall": "卸载",
-  "hubSessionTurns": "共 {count} 轮",
+  "hubSettingsOrApiKey": "API Key نى تولدۇرغاندىن كېيىن سۆھبەتلىشەلەيسىز",
+  "hubPluginShare": "قىستۇرمىنى ھەمبەھىرلەش",
+  "hubPluginDetails": "قىستۇرما تەپسىلاتى",
+  "hubPluginFeatured": "dshfind تەۋسىيەسى",
+  "hubPluginWebOnly": "پەقەت تور نەشرىدە",
+  "hubPluginStars": "يۇلتۇز بەلگىسى",
+  "hubPluginSource": "مەنبە",
+  "hubPluginInstalledVersion": "قاچىلانغان نەشرى",
+  "hubPluginRequiresDsh": "DSH كېرەك",
+  "hubPluginPackageName": "بوغچا نامى",
+  "hubPluginHomepage": "باش بەت",
+  "hubPluginRepository": "كود ئامبىرى",
+  "hubPluginManageTitle": "قىستۇرمىنى باشقۇرۇش",
+  "hubPluginManage": "باشقۇرۇش",
+  "hubPluginSafeModeInstall": "بىخەتەر ھالەتتە قاچىلاشقا بولمايدۇ",
+  "hubPluginInstallCommand": "قاچىلاش بۇيرۇقىنى ئېلىش",
+  "hubPluginInstallComputer": "كومپيۇتېردا قاچىلاش",
+  "hubPluginInstalling": "قاچىلىنىۋاتىدۇ…",
+  "hubPluginAllowBuilds": "قۇرۇش سىكرىپىغا رۇخسەت قىلىپ قايتا سىناش",
+  "hubPluginRetryInstall": "قاچىلاشنى قايتا سىناش",
+  "hubPluginOfficial": "DSH رەسمىي",
+  "hubPluginNotLoaded": "نورمال يۈكلەنمىدى",
+  "hubPluginComponents": "بۆلەكلەر",
+  "hubPluginSafeModeRemove": "بىخەتەر ھالەتتە چىقىرىۋېتىشكە بولمايدۇ",
+  "hubPluginRemoveCommand": "چىقىرىۋېتىش بۇيرۇقىنى ئېلىش",
+  "hubPluginRemoveComputer": "كومپيۇتېردا چىقىرىۋېتىش",
+  "hubPluginUninstall": "چىقىرىۋېتىش",
+  "hubSessionTurns": "جەمئىي {count} ئايلانما",
   "@hubSessionTurns": {
     "placeholders": {
       "count": {
@@ -105,7 +106,7 @@
       }
     }
   },
-  "hubSessionTurnsRunning": "共 {count} 轮 · 进行中",
+  "hubSessionTurnsRunning": "جەمئىي {count} ئايلانما · داۋاملىشىۋاتىدۇ",
   "@hubSessionTurnsRunning": {
     "placeholders": {
       "count": {
@@ -113,7 +114,7 @@
       }
     }
   },
-  "hubSessionStepCount": "{count} 步",
+  "hubSessionStepCount": "{count} قەدەم",
   "@hubSessionStepCount": {
     "placeholders": {
       "count": {
@@ -121,7 +122,7 @@
       }
     }
   },
-  "hubSessionWaitTime": "等你 {duration}",
+  "hubSessionWaitTime": "سىزنى {duration} ساقلىدى",
   "@hubSessionWaitTime": {
     "placeholders": {
       "duration": {
@@ -129,7 +130,7 @@
       }
     }
   },
-  "hubSessionTurn": "第 {turn} 轮",
+  "hubSessionTurn": "{turn}-ئايلانما",
   "@hubSessionTurn": {
     "placeholders": {
       "turn": {
@@ -137,7 +138,7 @@
       }
     }
   },
-  "hubSessionFileCount": "改动了 {count} 个文件",
+  "hubSessionFileCount": "{count} ھۆججەت ئۆزگەرتىلدى",
   "@hubSessionFileCount": {
     "placeholders": {
       "count": {
@@ -145,7 +146,7 @@
       }
     }
   },
-  "hubSessionEditCount": "改了 {count} 次",
+  "hubSessionEditCount": "{count} قېتىم ئۆزگەرتىلدى",
   "@hubSessionEditCount": {
     "placeholders": {
       "count": {
@@ -153,7 +154,7 @@
       }
     }
   },
-  "hubSessionTurnOf": "第 {turn} / {total} 轮",
+  "hubSessionTurnOf": "{turn} / {total}-ئايلانما",
   "@hubSessionTurnOf": {
     "placeholders": {
       "turn": {
@@ -164,7 +165,7 @@
       }
     }
   },
-  "hubSessionCacheHit": "命中 {percent}",
+  "hubSessionCacheHit": "ئۇچرىشىش {percent}",
   "@hubSessionCacheHit": {
     "placeholders": {
       "percent": {
@@ -172,8 +173,8 @@
       }
     }
   },
-  "hubSessionBlocked": "受阻",
-  "hubSessionBlockedReason": "受阻：{reason}",
+  "hubSessionBlocked": "توسۇلدى",
+  "hubSessionBlockedReason": "توسۇلدى: {reason}",
   "@hubSessionBlockedReason": {
     "placeholders": {
       "reason": {
@@ -192,8 +193,8 @@
       }
     }
   },
-  "hubSettingsStorageBody": "AI 能读取和修改相册、下载、文档等手机文件，引擎会重启一次。",
-  "hubSettingsBalance": "余额 {amount}",
+  "hubSettingsStorageBody": "AI تېلېفون ھۆججەتلىرىنى، يەنى ئالبوم، چۈشۈرۈش ۋە ھۆججەتلەر قاتارلىقلارنى ئوقۇيالايدۇ ۋە ئۆزگەرتەلەيدۇ، ماتور بىر قېتىم قايتا قوزغىتىلىدۇ.",
+  "hubSettingsBalance": "قالدۇق {amount}",
   "@hubSettingsBalance": {
     "placeholders": {
       "amount": {
@@ -201,7 +202,7 @@
       }
     }
   },
-  "hubSettingsBalanceLow": "余额 {amount} · 余额不足",
+  "hubSettingsBalanceLow": "قالدۇق {amount} · قالدۇق يېتىشمەيدۇ",
   "@hubSettingsBalanceLow": {
     "placeholders": {
       "amount": {
@@ -209,7 +210,7 @@
       }
     }
   },
-  "hubSettingsAccountSemantics": "账号：{title}，{subtitle}",
+  "hubSettingsAccountSemantics": "ھېسابات: {title}، {subtitle}",
   "@hubSettingsAccountSemantics": {
     "placeholders": {
       "title": {
@@ -220,7 +221,7 @@
       }
     }
   },
-  "hubSettingsHostSemantics": "远程主机：{name}，{status}",
+  "hubSettingsHostSemantics": "يىراق مۇلازىمېتىر: {name}، {status}",
   "@hubSettingsHostSemantics": {
     "placeholders": {
       "name": {
@@ -232,7 +233,7 @@
     }
   },
   "hubSettingsApiKey": "LOSFER AI API Key",
-  "hubPluginBrowserFailed": "没能打开浏览器，请手动访问 {address}",
+  "hubPluginBrowserFailed": "توركۆرگۈنى ئېچىلمىدى، قولدا {address} نى زىيارەت قىلىڭ",
   "@hubPluginBrowserFailed": {
     "placeholders": {
       "address": {
@@ -240,7 +241,7 @@
       }
     }
   },
-  "hubPluginYearMonth": "{year}年{month}月",
+  "hubPluginYearMonth": "{year}يىلى {month}ئاي",
   "@hubPluginYearMonth": {
     "placeholders": {
       "year": {
@@ -251,7 +252,7 @@
       }
     }
   },
-  "hubPluginUpdateTo": "更新到 {version}",
+  "hubPluginUpdateTo": "{version} غا يېڭىلاش",
   "@hubPluginUpdateTo": {
     "placeholders": {
       "version": {
@@ -259,7 +260,7 @@
       }
     }
   },
-  "hubPluginInstallOn": "安装到{host}",
+  "hubPluginInstallOn": "{host} غا قاچىلاش",
   "@hubPluginInstallOn": {
     "placeholders": {
       "host": {
@@ -267,7 +268,7 @@
       }
     }
   },
-  "hubPluginComponentCount": "{count} 个",
+  "hubPluginComponentCount": "{count} دانە",
   "@hubPluginComponentCount": {
     "placeholders": {
       "count": {
@@ -275,41 +276,41 @@
       }
     }
   },
-  "hubPluginComponentSeparator": "、",
+  "hubPluginComponentSeparator": "،",
   "hubGroupAi": "AI",
-  "hubGroupCapabilities": "能力",
-  "hubGroupGeneral": "通用",
-  "hubGroupHosts": "主机",
-  "hubGroupHelp": "帮助与关于",
-  "hubPersonalization": "个性化",
-  "hubPersonalizationAboutYou": "关于你",
-  "hubPersonalizationReplies": "回答",
-  "hubPersonalizationWorkStyle": "工作方式",
-  "hubPrivacy": "隐私与分享",
-  "hubPrivacySharing": "分享",
-  "hubInterfaceHome": "首页",
-  "hubInterfaceWebHint": "DSH 官方网页版",
-  "hubInterfaceOpenWeb": "打开网页版",
-  "hubInterfacePhoneLayout": "手机布局",
-  "hubTableTint": "表格底色",
-  "hubTableTintFollow": "跟随主题",
-  "hubTableTintFill": "淡底整表",
-  "hubTableTintNone": "无底色",
-  "hubTableTintFillHint": "隔行淡一档，长表格更好扫读",
-  "hubTableTintFollowHint": "表头浅底，表身跟随正文",
-  "hubTableTintNoneHint": "只剩网格线，最轻",
+  "hubGroupCapabilities": "ئىقتىدار",
+  "hubGroupGeneral": "ئومۇمىي",
+  "hubGroupHosts": "مۇلازىمېتىر",
+  "hubGroupHelp": "ياردەم ۋە ھەققىدە",
+  "hubPersonalization": "شەخسىيلەشتۈرۈش",
+  "hubPersonalizationAboutYou": "سىز ھەققىدە",
+  "hubPersonalizationReplies": "جاۋاب",
+  "hubPersonalizationWorkStyle": "خىزمەت ئۇسۇلى",
+  "hubPrivacy": "شەخسىيەت ۋە ھەمبەھىرلەش",
+  "hubPrivacySharing": "ھەمبەھىرلەش",
+  "hubInterfaceHome": "باش بەت",
+  "hubInterfaceWebHint": "DSH رەسمىي تور نەشرى",
+  "hubInterfaceOpenWeb": "تور نەشرىنى ئېچىش",
+  "hubInterfacePhoneLayout": "تېلېفون ئورۇنلاشتۇرۇشى",
+  "hubTableTint": "جەدۋەل ئاستى رەڭگى",
+  "hubTableTintFollow": "تېمىغا ئەگىشىش",
+  "hubTableTintFill": "ئاستى رەڭلىك پۈتۈن جەدۋەل",
+  "hubTableTintNone": "ئاستى رەڭسىز",
+  "hubTableTintFillHint": "قۇرلار ئارىسى ئازراق ئېنىق، ئۇزۇن جەدۋەلنى تېز كۆرۈشكە قولايلىق",
+  "hubTableTintFollowHint": "جەدۋەل بېشى ئازراق ئاستى رەڭلىك، جەدۋەل بەدىنى ئاساسىي تېكىستكە ئەگىشىدۇ",
+  "hubTableTintNoneHint": "پەقەت تور سىزىقلىرى، ئەڭ يېنىك",
   "hubAbout": "Kit Go ھەققىدە",
-  "hubAboutAuthor": "تۈرنى ئاسرىغۇچى",
-  "hubAboutBilibili": "B站主页",
-  "hubAboutX": "X 主页",
-  "hubAboutGithub": "GitHub بېتى",
-  "hubAboutNewVersion": "يېڭى نەشر بار",
-  "hubValueSet": "已设置",
-  "hubValueOff": "未开启",
-  "hubValueOneStep": "还差一步",
-  "hubValueAllowed": "已允许",
-  "hubValueNeedsSetup": "需设置",
-  "hubValueHosts": "{count} 台",
+  "hubAboutAuthor": "قۇرۇلۇش قوغدىغۇچىسى",
+  "hubAboutBilibili": "Bilibili باش بېتى",
+  "hubAboutX": "X باش بېتى",
+  "hubAboutGithub": "GitHub باش بېتى",
+  "hubAboutNewVersion": "يېڭى نەشرى بار",
+  "hubValueSet": "تەڭشەلدى",
+  "hubValueOff": "ئېچىلمىدى",
+  "hubValueOneStep": "بىر قەدەم قالدى",
+  "hubValueAllowed": "رۇخسەت قىلىندى",
+  "hubValueNeedsSetup": "تەڭشەش كېرەك",
+  "hubValueHosts": "{count} دانە",
   "@hubValueHosts": {
     "placeholders": {
       "count": {
@@ -317,8 +318,8 @@
       }
     }
   },
-  "hubValueNoHosts": "未添加",
-  "hubValuePlugins": "{count} 个",
+  "hubValueNoHosts": "قوشۇلمىدى",
+  "hubValuePlugins": "{count} دانە",
   "@hubValuePlugins": {
     "placeholders": {
       "count": {
@@ -326,15 +327,15 @@
       }
     }
   },
-  "hubEngineStartup": "启动",
-  "hubThemeLightDark": "明暗",
-  "hubPermissionPhone": "手机",
-  "hubPermissionPhoneConfirm": "手机操控确认",
-  "hubHardwareEnterSends": "外接键盘按 Enter 发送",
-  "hubHardwareEnterSendsHint": "开启后，Shift+Enter 换行。屏幕键盘仍换行；Ctrl/⌘+Enter 始终可发送。",
-  "hubQuickPanel": "左滑快捷入口",
-  "hubQuickPanelSwipe": "左滑打开",
-  "hubQuickPanelSwipeHint": "在对话里从右向左滑。代码块、表格这些能横向滚动的内容不受影响。",
-  "hubQuickPanelItems": "显示的入口",
-  "hubQuickPanelItemsNone": "没有选择，左滑不会打开"
+  "hubEngineStartup": "قوزغىتىش",
+  "hubThemeLightDark": "يورۇق-قاراڭغۇ",
+  "hubPermissionPhone": "تېلېفون",
+  "hubPermissionPhoneConfirm": "تېلېفون كونترول قىلىشنى جەزملەشتۈرۈش",
+  "hubHardwareEnterSends": "سىرتقى كۇنۇپكا تاختىسىدا Enter باسسا ئەۋەتىلىدۇ",
+  "hubHardwareEnterSendsHint": "ئېچىلغاندىن كېيىن، Shift+Enter يېڭى قۇرغا ئۆتىدۇ. ئېكران كۇنۇپكا تاختىسى يەنىلا يېڭى قۇرغا ئۆتىدۇ؛ Ctrl/⌘+Enter ھەرۋاقىت ئەۋەتەلەيدۇ.",
+  "hubQuickPanel": "سولغا سىيرىش تېز كىرىش ئېغىزى",
+  "hubQuickPanelSwipe": "سولغا سىيرىپ ئېچىش",
+  "hubQuickPanelSwipeHint": "سۆھبەت ئىچىدە ئوڭدىن سولغا سىيرىڭ. كود بۆلىكى، جەدۋەل قاتارلىق توغرا سىيرىلالايدىغان مەزمۇنلارغا تەسىر كۆرسەتمەيدۇ.",
+  "hubQuickPanelItems": "كۆرسىتىلىدىغان ئېغىزلار",
+  "hubQuickPanelItemsNone": "تاللانمىدى، سولغا سىيرىش ئېچىلمايدۇ"
 }

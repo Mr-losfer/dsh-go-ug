@@ -1,6 +1,6 @@
 {
   "@@locale": "ug",
-  "phoneKeepTitle": "{mode, select, shizuku{保持 Shizuku 通道} sui{保持 Sui 通道} root{保持 root 通道} adb{保持自连 ADB 通道} other{保持这个通道}}",
+  "phoneKeepTitle": "{mode, select, shizuku{Shizuku يولىنى ساقلاش} sui{Sui يولىنى ساقلاش} root{root يولىنى ساقلاش} adb{ADB ئۆزى-ئۇلىنىش يولىنى ساقلاش} other{بۇ يولنى ساقلاش}}",
   "@phoneKeepTitle": {
     "placeholders": {
       "mode": {
@@ -8,14 +8,14 @@
       }
     }
   },
-  "phoneKeepRootDescription": "断开、重开 App 或重启手机后，Kit Go 会自己再向 root 管理器申请；给不给仍由管理器决定。",
-  "phoneKeepSharedDescription": "断开、重开 App 或重启手机后，Kit Go 用已有的授权自己连回去，不会替你申请授权。",
-  "phoneKeepAdbDescription": "断开、重开 App 或重启手机后，Kit Go 用已有的配对在 Wi‑Fi 下自己连回去；有「自动恢复无障碍」的权限时，还会试着打开一次无线调试。",
-  "phoneKeepRestoring": "正在重新连接",
-  "phoneKeepWaiting": "等通道可用后再连",
-  "phoneKeepWaitingService": "等所选服务运行后再连",
-  "phoneKeepWaitingPermission": "还没有授权；授权后会自己连上",
-  "phoneKeepWaitingNetwork": "等连上 Wi‑Fi 后再连",
-  "phoneKeepNotPaired": "还没有配对，请先完成无线调试配对",
-  "phoneKeepFailed": "没连上；下次打开 App 或开始操控时再试"
+  "phoneKeepRootDescription": "ئۈزۈلگەندىن، ئەپنى قايتا ئاچقاندىن ياكى تېلېفوننى قايتا قوزغاتقاندىن كېيىن، Kit Go ئۆزى root باشقۇرغۇچىسىدىن قايتا تىلەيدۇ؛ بېرەلەيدىغان-بېرەلمەيدىغانلىقىنى يەنىلا باشقۇرغۇچى بەلگىلەيدۇ.",
+  "phoneKeepSharedDescription": "ئۈزۈلگەندىن، ئەپنى قايتا ئاچقاندىن ياكى تېلېفوننى قايتا قوزغاتقاندىن كېيىن، Kit Go بار بولغان ھوقۇقى بىلەن ئۆزى قايتا ئۇلىنىدۇ، سىز ئۈچۈن ھوقۇق تىلىمەيدۇ.",
+  "phoneKeepAdbDescription": "ئۈزۈلگەندىن، ئەپنى قايتا ئاچقاندىن ياكى تېلېفوننى قايتا قوزغاتقاندىن كېيىن، Kit Go بار بولغان جۈپلىشىش ئارقىلىق Wi‑Fi دا ئۆزى قايتا ئۇلىنىدۇ؛ «توسالغۇسىزلارنى ئاپتوماتىك ئەسلىگە كەلتۈرۈش» ھوقۇقى بولغاندا، تىسسىز سەپلىمىنى بىر قېتىم ئېچىپ باقىدۇ.",
+  "phoneKeepRestoring": "قايتا ئۇلىنىۋاتىدۇ",
+  "phoneKeepWaiting": "يول ئىشلىگەندىن كېيىن ئۇلىنىدۇ",
+  "phoneKeepWaitingService": "تاللانغان مۇلازىمەت ئىشلىگەندىن كېيىن ئۇلىنىدۇ",
+  "phoneKeepWaitingPermission": "تېخى ھوقۇق بېرىلمىدى؛ ھوقۇق بېرىلگەندىن كېيىن ئۆزى ئۇلىنىدۇ",
+  "phoneKeepWaitingNetwork": "Wi‑Fi غا ئۇلانغاندىن كېيىن ئۇلىنىدۇ",
+  "phoneKeepNotPaired": "تېخى جۈپلەشمىدى، ئاۋۋال تىسسىز سەپلىمە جۈپلىشىشنى تاماملاڭ",
+  "phoneKeepFailed": "ئۇلانمىدى؛ كېيىنكى قېتىم ئەپنى ئاچقاندا ياكى باشقۇرۇشنى باشلىغاندا قايتا سىنايدۇ"
 }

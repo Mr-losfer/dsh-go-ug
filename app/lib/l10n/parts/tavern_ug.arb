@@ -1,11 +1,12 @@
 {
-  "tavernTitle": "酒馆",
-  "tavernImport": "导入",
-  "tavernEmptyTitle": "还没有角色",
-  "tavernEmptyMessage": "导入一张角色卡：PNG、JSON 或 CHARX",
-  "tavernContinue": "继续",
-  "tavernCharacters": "角色",
-  "tavernImported": "已导入「{name}」",
+  "@@locale": "ug",
+  "tavernTitle": "مەيسار",
+  "tavernImport": "ئەكىرىش",
+  "tavernEmptyTitle": "تېخى پېرسوناژ يوق",
+  "tavernEmptyMessage": "پېرسوناژ كارتىسى ئەكىرىڭ: PNG، JSON ياكى CHARX",
+  "tavernContinue": "داۋاملاشتۇرۇش",
+  "tavernCharacters": "پېرسوناژلار",
+  "tavernImported": "«{name}» ئەكىرىلدى",
   "@tavernImported": {
     "placeholders": {
       "name": {
@@ -13,11 +14,11 @@
       }
     }
   },
-  "tavernImportLorebook": "这是一本世界书，不是角色卡",
-  "tavernImportFailed": "这张卡读不出来",
-  "tavernCharacterGone": "这个角色已经不在了",
-  "tavernDeleteCharacter": "删除角色",
-  "tavernDeleteCharacterTitle": "删除「{name}」？",
+  "tavernImportLorebook": "بۇ دۇنيا كىتابى، پېرسوناژ كارتىسى ئەمەس",
+  "tavernImportFailed": "بۇ كارتىنى ئوقۇغىلى بولمىدى",
+  "tavernCharacterGone": "بۇ پېرسوناژ ئەمدى يوق",
+  "tavernDeleteCharacter": "پېرسوناژنى ئۆچۈرۈش",
+  "tavernDeleteCharacterTitle": "«{name}» ئۆچۈرۈلسۇنمۇ؟",
   "@tavernDeleteCharacterTitle": {
     "placeholders": {
       "name": {
@@ -25,9 +26,9 @@
       }
     }
   },
-  "tavernDeleteCharacterMessage": "它的对话也会一起删掉。",
-  "tavernGreeting": "开场白",
-  "tavernGreetingOf": "开场白 {index}/{count}",
+  "tavernDeleteCharacterMessage": "ئۇنىڭ سۆھبىتىمۇ بىرگە ئۆچۈرۈلىدۇ.",
+  "tavernGreeting": "ئېچىلىش سۆزى",
+  "tavernGreetingOf": "ئېچىلىش سۆزى {index}/{count}",
   "@tavernGreetingOf": {
     "placeholders": {
       "index": {
@@ -38,11 +39,11 @@
       }
     }
   },
-  "tavernStart": "开始",
-  "tavernContinueLast": "继续上次",
-  "tavernStartNew": "用这个开场白开始新对话",
-  "tavernChats": "对话",
-  "tavernMessageCount": "{count} 条消息",
+  "tavernStart": "باشلاش",
+  "tavernContinueLast": "ئالدىنقىسىدىن داۋاملاشتۇرۇش",
+  "tavernStartNew": "بۇ ئېچىلىش سۆزى بىلەن يېڭى سۆھبەت باشلاش",
+  "tavernChats": "سۆھبەتلەر",
+  "tavernMessageCount": "{count} ئۇچۇر",
   "@tavernMessageCount": {
     "placeholders": {
       "count": {
@@ -50,9 +51,9 @@
       }
     }
   },
-  "tavernCreatorNotes": "作者说明",
-  "tavernDefinition": "设定",
-  "tavernComposerHint": "对{name}说…",
+  "tavernCreatorNotes": "ئاپتورنىڭ ئىزاھاتى",
+  "tavernDefinition": "تەڭشەك",
+  "tavernComposerHint": "{name} غا ئېيتىڭ…",
   "@tavernComposerHint": {
     "placeholders": {
       "name": {
@@ -60,26 +61,26 @@
       }
     }
   },
-  "tavernReplying": "正在回复…",
-  "tavernReady": "就绪",
-  "tavernPreviewStatus": "预览 · 回复是示例，还没接上模型",
-  "tavernRegenerate": "重新生成",
-  "tavernContinueReply": "接着写",
-  "tavernDeleteFrom": "删除这条及以后",
-  "tavernPrevious": "上一个回答",
-  "tavernNext": "下一个回答",
-  "tavernErrorNoKey": "先在设置里填 LOSFER AI API Key",
-  "tavernKeyMissing": "还没填 LOSFER AI API Key，填好就能开始。",
-  "tavernKeyMissingAction": "去填写",
-  "tavernErrorBadKey": "API Key 不对，去设置里检查一下",
-  "tavernErrorBusy": "模型现在有点忙，稍后再试",
-  "tavernErrorNetwork": "连不上，检查网络后重试",
-  "tavernErrorTooLong": "对话太长了，超出了模型的上下文",
-  "tavernCutShort": "回复写到回复上限，在这里断开了。可以接着写，或在酒馆设置 › 生成里把回复上限调高。",
-  "tavernFiltered": "这条回复被模型的内容过滤拦下了一部分。",
-  "tavernErrorBalance": "LOSFER AI 账户余额不足，充值后再试",
-  "tavernErrorParameters": "模型不接受这次请求的参数",
-  "tavernErrorParametersDetail": "模型不接受这次请求的参数：{detail}",
+  "tavernReplying": "جاۋاب بېرىلىۋاتىدۇ…",
+  "tavernReady": "تەييار",
+  "tavernPreviewStatus": "ئالدىن كۆرۈش · جاۋاب ئۈلگە، تېخى مودېلغا ئۇلانمىدى",
+  "tavernRegenerate": "قايتا ھاسىل قىلىش",
+  "tavernContinueReply": "داۋاملىق يېزىش",
+  "tavernDeleteFrom": "بۇنى ۋە كېيىنكىلىرىنى ئۆچۈرۈش",
+  "tavernPrevious": "ئالدىنقى جاۋاب",
+  "tavernNext": "كېيىنكى جاۋاب",
+  "tavernErrorNoKey": "ئالدى بىلەن تەڭشەكتە LOSFER AI API Key نى تولدۇرۇڭ",
+  "tavernKeyMissing": "LOSFER AI API Key تېخى تولدۇرۇلمىدى، تولدۇرسىڭىز باشلىيالايسىز.",
+  "tavernKeyMissingAction": "تولدۇرۇشقا بارىمەن",
+  "tavernErrorBadKey": "API Key خاتا، تەڭشەكتە تەكشۈرۈڭ",
+  "tavernErrorBusy": "مودېل ھازىر بىر ئاز ئالدىراش، سەل تۇرۇپ قايتا سىناڭ",
+  "tavernErrorNetwork": "ئۇلانالمىدى، تورنى تەكشۈرۈپ قايتا سىناڭ",
+  "tavernErrorTooLong": "سۆھبەت بەك ئۇزۇن بولدى، مودېلنىڭ مەزمۇن دائىرىسىدىن ئېشىپ كەتتى",
+  "tavernCutShort": "جاۋاب چېكىگە يېتىپ، مۇشۇ يەردە ئۈزۈلدى. داۋاملىق يازسىڭىز بولىدۇ، ياكى tavern تەڭشەكى › ھاسىللاش ئىچىدە جاۋاب چېكىنى ئۆرلىتىڭ.",
+  "tavernFiltered": "بۇ جاۋابنىڭ بىر قىسمى مودېلنىڭ مەزمۇن سۈزگۈچى تەرىپىدىن توسۇلدى.",
+  "tavernErrorBalance": "LOSFER AI ھېساباتىدىكى قالدۇق يېتىشمەيدۇ، پۇل قاچىلاپ قايتا سىناڭ",
+  "tavernErrorParameters": "مودېل بۇ قېتىملىق تەلەپنىڭ پارامېتىرلىرىنى قوبۇل قىلمايدۇ",
+  "tavernErrorParametersDetail": "مودېل بۇ قېتىملىق تەلەپنىڭ پارامېتىرلىرىنى قوبۇل قىلمايدۇ: {detail}",
   "@tavernErrorParametersDetail": {
     "placeholders": {
       "detail": {
@@ -87,7 +88,7 @@
       }
     }
   },
-  "tavernErrorDetail": "出错了：{detail}",
+  "tavernErrorDetail": "خاتالىق كۆرۈلدى: {detail}",
   "@tavernErrorDetail": {
     "placeholders": {
       "detail": {
@@ -95,19 +96,19 @@
       }
     }
   },
-  "tavernSettings": "酒馆设置",
-  "tavernSettingsModel": "模型",
+  "tavernSettings": "tavern تەڭشىكى",
+  "tavernSettingsModel": "مودېل",
   "tavernModelFlash": "Flash",
   "tavernModelPro": "V4 Pro",
-  "tavernThinking": "思考",
-  "tavernThinkingSubtitle": "回复前先想一想",
+  "tavernThinking": "ئويلىنىش",
+  "tavernThinkingSubtitle": "جاۋاب بېرىشتىن بۇرۇن ئويلىنىپ باق",
   "tavernApiKey": "LOSFER AI API Key",
-  "tavernApiKeySet": "已填",
-  "tavernApiKeyMissing": "未填",
-  "tavernDeleteChat": "删除对话",
-  "tavernDeleteChatTitle": "删除这段对话？",
-  "tavernDeleteChatMessage": "删除后就找不回来了。",
-  "tavernDeleteFromTitle": "{count, plural, =1{删除这条消息？} other{删除这 {count} 条消息？}}",
+  "tavernApiKeySet": "تولدۇرۇلغان",
+  "tavernApiKeyMissing": "تولدۇرۇلمىغان",
+  "tavernDeleteChat": "سۆھبەتنى ئۆچۈرۈش",
+  "tavernDeleteChatTitle": "بۇ سۆھبەتنى ئۆچۈرەمسىز؟",
+  "tavernDeleteChatMessage": "ئۆچۈرۈلگەندىن كېيىن قايتۇرۇپ كەلگىلى بولمايدۇ.",
+  "tavernDeleteFromTitle": "{count, plural, =1{بۇ ئۇچۇرنى ئۆچۈرەمسىز؟} other{بۇ {count} ئۇچۇرنى ئۆچۈرەمسىز؟}}",
   "@tavernDeleteFromTitle": {
     "placeholders": {
       "count": {
@@ -115,20 +116,20 @@
       }
     }
   },
-  "tavernDeleteFromMessage": "从这条到最新一条，连同它们的备选回复和分支。删除后就找不回来了。",
-  "tavernSwitchedBranch": "切到了另一条分支",
-  "tavernUndo": "撤销",
-  "tavernSettingsDisplay": "显示",
-  "tavernPresets": "预设",
-  "tavernPresetImport": "导入预设",
-  "tavernPresetStDefault": "SillyTavern 默认预设",
-  "tavernPresetStDefaultNote": "没选预设时用它",
-  "tavernPresetDefault": "默认",
-  "tavernPresetSetDefault": "设为默认",
-  "tavernPresetUnsetDefault": "不再作为默认",
-  "tavernPresetExport": "导出预设",
-  "tavernPresetDelete": "删除预设",
-  "tavernPresetDeleteTitle": "删除预设「{name}」？",
+  "tavernDeleteFromMessage": "بۇ ئۇچۇردىن باشلاپ ئەڭ يېڭىسىغىچە، ئۇلارنىڭ تاللانمىلىق جاۋابلىرى ۋە شاخلىرى بىلەن بىرگە. ئۆچۈرۈلگەندىن كېيىن قايتۇرۇپ كەلگىلى بولمايدۇ.",
+  "tavernSwitchedBranch": "باشقا شاخقا ئالماشتۇرۇلدى",
+  "tavernUndo": "يېنىۋېلىش",
+  "tavernSettingsDisplay": "كۆرسىتىش",
+  "tavernPresets": "ئالدىن بەلگىلەش",
+  "tavernPresetImport": "ئالدىن بەلگىلەشنى كىرگۈزۈش",
+  "tavernPresetStDefault": "SillyTavern سۈكۈتتە ئالدىن بەلگىلەش",
+  "tavernPresetStDefaultNote": "ئالدىن بەلگىلەش تاللانمىسا شۇنى ئىشلىتىدۇ",
+  "tavernPresetDefault": "سۈكۈتتىكى",
+  "tavernPresetSetDefault": "سۈكۈتتىكى قىلىش",
+  "tavernPresetUnsetDefault": "سۈكۈتتىكى ئەمەس قىلىش",
+  "tavernPresetExport": "ئالدىن بەلگىلەشنى چىقىرىش",
+  "tavernPresetDelete": "ئالدىن بەلگىلەشنى ئۆچۈرۈش",
+  "tavernPresetDeleteTitle": "«{name}» ئالدىن بەلگىلەشنى ئۆچۈرەمسىز؟",
   "@tavernPresetDeleteTitle": {
     "placeholders": {
       "name": {
@@ -136,8 +137,8 @@
       }
     }
   },
-  "tavernPresetDeleteMessage": "用它的对话会改用默认预设。删除后就找不回来了。",
-  "tavernPresetImported": "已导入「{name}」",
+  "tavernPresetDeleteMessage": "ئۇنى ئىشلەتكەن سۆھبەتلەر سۈكۈتتىكى ئالدىن بەلگىلەشكە ئالماشتۇرۇلىدۇ. ئۆچۈرۈلگەندىن كېيىن قايتۇرۇپ كەلگىلى بولمايدۇ.",
+  "tavernPresetImported": "«{name}» ئىمپورت قىلىندى",
   "@tavernPresetImported": {
     "placeholders": {
       "name": {
@@ -145,7 +146,7 @@
       }
     }
   },
-  "tavernPresetImportedWithIssues": "已导入「{name}」，有 {count} 处提示",
+  "tavernPresetImportedWithIssues": "«{name}» ئىمپورت قىلىندى، {count} ئورۇندا ئەسكەرتىش بار",
   "@tavernPresetImportedWithIssues": {
     "placeholders": {
       "name": {
@@ -156,7 +157,7 @@
       }
     }
   },
-  "tavernPresetImportFailed": "没能导入：{reason}",
+  "tavernPresetImportFailed": "ئىمپورت قىلىنالمىدى: {reason}",
   "@tavernPresetImportFailed": {
     "placeholders": {
       "reason": {
@@ -164,20 +165,20 @@
       }
     }
   },
-  "tavernPresetNotText": "这个文件不是文本",
-  "tavernPresetsEmpty": "还没有预设",
-  "tavernPresetsEmptyMessage": "SillyTavern 导出的预设 JSON 和 dsh-preset-enhance 的分享包都能导入。",
-  "tavernPresetEnvelope": "分享包",
-  "tavernPresetCount": "{count} 个",
-  "tavernRegex": "正则",
-  "tavernRegexImport": "导入正则",
-  "tavernRegexOn": "开",
-  "tavernRegexOff": "关",
-  "tavernRegexEnable": "启用",
-  "tavernRegexDisable": "停用",
-  "tavernRegexExport": "导出正则",
-  "tavernRegexDelete": "删除正则",
-  "tavernRegexDeleteTitle": "删除正则「{name}」？",
+  "tavernPresetNotText": "بۇ ھۆججەت تېكىست ئەمەس",
+  "tavernPresetsEmpty": "تېخى ئالدىن بەلگىلەش يوق",
+  "tavernPresetsEmptyMessage": "SillyTavern چىقارغان ئالدىن بەلگىلەش JSON ۋە dsh-preset-enhance ھەمبەھىر بولىقىنى ئىمپورت قىلغىلى بولىدۇ.",
+  "tavernPresetEnvelope": "ھەمبەھىر بولىقى",
+  "tavernPresetCount": "{count} دانە",
+  "tavernRegex": "رېگېكس",
+  "tavernRegexImport": "رېگېكس ئىمپورت قىلىش",
+  "tavernRegexOn": "ئېچىك",
+  "tavernRegexOff": "تاقاق",
+  "tavernRegexEnable": "قوزغىتىش",
+  "tavernRegexDisable": "توختىتىش",
+  "tavernRegexExport": "رېگېكس چىقىرىش",
+  "tavernRegexDelete": "رېگېكس ئۆچۈرۈش",
+  "tavernRegexDeleteTitle": "«{name}» رېگېكسى ئۆچۈرۈلسۇن؟",
   "@tavernRegexDeleteTitle": {
     "placeholders": {
       "name": {
@@ -185,7 +186,7 @@
       }
     }
   },
-  "tavernRegexImported": "导入了 {count} 条正则",
+  "tavernRegexImported": "{count} دانە رېگېكس ئىمپورت قىلىندى",
   "@tavernRegexImported": {
     "placeholders": {
       "count": {
@@ -193,19 +194,19 @@
       }
     }
   },
-  "tavernRegexIncompatible": "这里运行不了，已跳过",
-  "tavernRegexEmpty": "还没有全局正则",
-  "tavernRegexEmptyMessage": "SillyTavern 导出的正则 JSON（一条或一组）都能导入。全局正则对所有对话生效；卡和预设自带的正则跟着它们走。",
-  "tavernRegexUnnamed": "未命名",
-  "tavernRegexCount": "{count} 条",
-  "tavernLorebooks": "世界书",
-  "tavernLorebookImport": "导入世界书",
-  "tavernLorebookGlobal": "全局",
-  "tavernLorebookBindGlobal": "对所有对话生效",
-  "tavernLorebookUnbindGlobal": "不再对所有对话生效",
-  "tavernLorebookExport": "导出世界书",
-  "tavernLorebookDelete": "删除世界书",
-  "tavernLorebookDeleteTitle": "删除世界书「{name}」？",
+  "tavernRegexIncompatible": "بۇ يەردە ئىجرا قىلغىلى بولمايدۇ، ئاتلاپ كەتتى",
+  "tavernRegexEmpty": "تېخى ئومۇمىي رېگېكس يوق",
+  "tavernRegexEmptyMessage": "SillyTavern چىقارغان رېگېكس JSON (بىر ياكى بىر گۇرۇپپا) نى ئىمپورت قىلغىلى بولىدۇ. ئومۇمىي رېگېكس بارلىق سۆھبەتلەرگە كۈچكە ئىگە؛ كارتا ۋە ئالدىن بەلگىلەش ئۆزى بىلەن ئېلىپ ماڭىدۇ.",
+  "tavernRegexUnnamed": "نامسىز",
+  "tavernRegexCount": "{count} دانە",
+  "tavernLorebooks": "دۇنيا كىتابى",
+  "tavernLorebookImport": "دۇنيا كىتابىنى ئەكىرىش",
+  "tavernLorebookGlobal": "ئومۇمىي",
+  "tavernLorebookBindGlobal": "بارلىق سۆھبەتلەرگە ئىجرا بولىدۇ",
+  "tavernLorebookUnbindGlobal": "بارلىق سۆھبەتلەرگە ئىجرا بولمايدۇ",
+  "tavernLorebookExport": "دۇنيا كىتابىنى چىقىرىش",
+  "tavernLorebookDelete": "دۇنيا كىتابىنى ئۆچۈرۈش",
+  "tavernLorebookDeleteTitle": "«{name}» دۇنيا كىتابىنى ئۆچۈرەمسىز؟",
   "@tavernLorebookDeleteTitle": {
     "placeholders": {
       "name": {
@@ -213,8 +214,8 @@
       }
     }
   },
-  "tavernLorebookDeleteMessage": "绑定它的地方会跳过它。删除后就找不回来了。",
-  "tavernLorebookImported": "已导入「{name}」，{count} 条",
+  "tavernLorebookDeleteMessage": "ئۇنى باغلىغان يەرلەر ئۇنى ئاتلاپ ئۆتىدۇ. ئۆچۈرگەندىن كېيىن ئۇنى قايتا تاپقىلى بولمايدۇ.",
+  "tavernLorebookImported": "«{name}» ئەكىرىلدى، {count} پارچە",
   "@tavernLorebookImported": {
     "placeholders": {
       "name": {
@@ -225,9 +226,9 @@
       }
     }
   },
-  "tavernLorebooksEmpty": "还没有独立世界书",
-  "tavernLorebooksEmptyMessage": "SillyTavern 导出的世界书 JSON 都能导入。设为全局后对所有对话生效；卡自带的世界书跟着卡走。",
-  "tavernLorebookCount": "{count} 本",
+  "tavernLorebooksEmpty": "تېخى مۇستەقىل دۇنيا كىتابى يوق",
+  "tavernLorebooksEmptyMessage": "SillyTavern چىقارغان دۇنيا كىتابى JSON لىرىنىڭ ھەممىسىنى ئەكىرگىلى بولىدۇ. ئومۇمىي قىلىپ تەڭشىگەندە بارلىق سۆھبەتلەرگە ئىجرا بولىدۇ؛ كارتىغا خاس دۇنيا كىتابى كارتىغا ئەگىشىپ ماڭىدۇ.",
+  "tavernLorebookCount": "{count} دانە",
   "@tavernLorebookCount": {
     "placeholders": {
       "count": {
@@ -242,16 +243,16 @@
       }
     }
   },
-  "tavernPresetEdit": "编辑预设",
-  "tavernPresetParams": "参数",
-  "tavernPresetPrompts": "提示词（按发送顺序）",
-  "tavernPresetMarker": "占位",
-  "tavernPresetPromptsEmpty": "这个预设没写提示词顺序，发送时用 SillyTavern 的默认顺序。",
-  "tavernReport": "导入体检",
-  "tavernVerdictUsable": "能用",
-  "tavernVerdictPartial": "部分能用",
-  "tavernVerdictPreserve": "只保留，不执行",
-  "tavernReportChecked": "检查于 {time}",
+  "tavernPresetEdit": "ئالدىن بەلگىلىمىنى تەھرىرلەش",
+  "tavernPresetParams": "پارامېتىرلار",
+  "tavernPresetPrompts": "كۆرسەتمىلەر (ئەۋەتىش تەرتىپى بويىچە)",
+  "tavernPresetMarker": "ئورۇن بەلگىسى",
+  "tavernPresetPromptsEmpty": "بۇ ئالدىن بەلگىلىمىدە كۆرسەتمە تەرتىپى يېزىلمىغان، ئەۋەتكەندە SillyTavern نىڭ كۆڭۈلدىكى تەرتىپى ئىشلىتىلىدۇ.",
+  "tavernReport": "ئەكىرىش تەكشۈرۈشى",
+  "tavernVerdictUsable": "ئىشلەتكىلى بولىدۇ",
+  "tavernVerdictPartial": "قىسمەن ئىشلەتكىلى بولىدۇ",
+  "tavernVerdictPreserve": "پەقەت ساقلايمىز، ئىجرا قىلمايمىز",
+  "tavernReportChecked": "{time} دە تەكشۈرۈلدى",
   "@tavernReportChecked": {
     "placeholders": {
       "time": {
@@ -259,20 +260,20 @@
       }
     }
   },
-  "tavernReportStale": "资料改过了，这份体检是旧的",
-  "tavernReportRecheck": "重新检查",
-  "tavernReportNone": "还没有体检",
-  "tavernReportNoneMessage": "这份资料是加体检之前导入的，检查一下就有了。",
-  "tavernReportCheckNow": "检查一下",
-  "tavernReportRender0": "建议显示方式：原生",
-  "tavernReportRender1": "建议显示方式：单条消息里的网页",
-  "tavernReportRender2": "建议显示方式：整页画布",
-  "tavernReportCounts": "里面有",
-  "tavernReportFindings": "没执行或要留意的",
-  "tavernReportNoFindings": "没有要留意的",
-  "tavernPresetForChat": "这段对话用的预设",
-  "tavernPresetFollow": "跟随默认",
-  "tavernPresetFollowDefault": "跟随默认（{name}）",
+  "tavernReportStale": "ماتېرىيال ئۆزگەرتىلگەن، بۇ تەكشۈرۈش كونا",
+  "tavernReportRecheck": "قايتا تەكشۈرۈش",
+  "tavernReportNone": "تېخى تەكشۈرۈش ئېلىپ بېرىلمىدى",
+  "tavernReportNoneMessage": "بۇ ماتېرىيال تەكشۈرۈشتىن ئىلگىرى كىرگۈزۈلگەن، تەكشۈرۈپ باقسىڭىز بولىدۇ.",
+  "tavernReportCheckNow": "تەكشۈرۈپ بېقىڭ",
+  "tavernReportRender0": "تەۋسىيە قىلىنغان كۆرسىتىش ئۇسۇلى: ئەسلى",
+  "tavernReportRender1": "تەۋسىيە قىلىنغان كۆرسىتىش ئۇسۇلى: بىر ئۇچۇردىكى تور بەت",
+  "tavernReportRender2": "تەۋسىيە قىلىنغان كۆرسىتىش ئۇسۇلى: پۈتۈن بەت كانۋىسى",
+  "tavernReportCounts": "ئىچىدە",
+  "tavernReportFindings": "ئىجرا قىلىنمىغان ياكى دىققەت قىلىشقا تېگىشلىك",
+  "tavernReportNoFindings": "دىققەت قىلىشقا تېگىشلىك يوق",
+  "tavernPresetForChat": "بۇ سۆھبەتتە ئىشلىتىلگەن ئالدىن بەلگىلەش",
+  "tavernPresetFollow": "كۆڭۈلدىكىگە ئەگىشىش",
+  "tavernPresetFollowDefault": "كۆڭۈلدىكىگە ئەگىشىش ({name})",
   "@tavernPresetFollowDefault": {
     "placeholders": {
       "name": {
@@ -280,7 +281,7 @@
       }
     }
   },
-  "tavernPresetPickerEmpty": "在 资源库 › 预设 里导入以后，就能给这段对话换别的。",
+  "tavernPresetPickerEmpty": "مەنبە ئامبىرى › ئالدىن بەلگىلەش ئىچىگە كىرگۈزگەندىن كېيىن، بۇ سۆھبەتكە باشقىسىنى تاللىيالايسىز.",
   "@tavernPresetCount": {
     "placeholders": {
       "count": {
@@ -288,42 +289,42 @@
       }
     }
   },
-  "tavernSectionShelf": "书架",
-  "tavernSectionChats": "对话",
-  "tavernSectionLibrary": "资源库",
-  "tavernSectionMe": "我的",
-  "tavernNoChats": "还没有对话",
-  "tavernNoChatsMessage": "在书架里点开一个角色，开始第一段对话。",
-  "tavernSettingsGeneration": "生成",
-  "tavernMaxContext": "上下文上限",
-  "tavernMaxReply": "回复上限",
-  "tavernTemperature": "温度",
-  "tavernGenerationNote": "上下文越长，角色记得越多，每回合也越贵；数字是 token。这里改的是默认预设，自带预设的对话以它自己的为准。",
-  "tavernLayout": "排版",
-  "tavernLayoutBubble": "气泡",
-  "tavernLayoutNovel": "小说",
-  "tavernYou": "你",
-  "tavernSearchHint": "搜索角色、作者、标签",
-  "tavernAllTags": "全部",
-  "tavernNoMatch": "没有符合的角色",
-  "tavernLayoutVisualNovel": "视觉小说",
-  "tavernCharacterDetails": "角色详情",
-  "tavernChatLayout": "这段对话的排版",
-  "tavernFollowSettings": "跟随酒馆设置",
-  "tavernLog": "记录",
-  "tavernEditCharacter": "编辑角色",
-  "tavernNameNeeded": "名字不能空着",
-  "tavernFieldsBasics": "基本",
-  "tavernFieldNickname": "昵称",
-  "tavernFieldNicknameHelp": "填了的话，对话里用它称呼角色",
-  "tavernFieldTags": "标签",
-  "tavernFieldTagsHelp": "用逗号隔开",
-  "tavernFieldCreator": "作者",
-  "tavernFieldVersion": "版本",
-  "tavernFieldDescription": "描述",
-  "tavernFieldPersonality": "性格",
-  "tavernFieldScenario": "场景",
-  "tavernGreetingNumber": "开场白 {n}",
+  "tavernSectionShelf": "كۆرفە",
+  "tavernSectionChats": "سۆھبەتلەر",
+  "tavernSectionLibrary": "مەنبە ئامبىرى",
+  "tavernSectionMe": "مېنىڭ",
+  "tavernNoChats": "تېخى سۆھبەت يوق",
+  "tavernNoChatsMessage": "كۆرفەدىن بىر رولنى تاللاپ، تۇنجى سۆھبەتنى باشلاڭ.",
+  "tavernSettingsGeneration": "ھاسىل قىلىش",
+  "tavernMaxContext": "مەزمۇن دائىرىسى چېكى",
+  "tavernMaxReply": "جاۋاب چېكى",
+  "tavernTemperature": "تېمپېراتۇرا",
+  "tavernGenerationNote": "مەزمۇن دائىرىسى قانچە ئۇزۇن بولسا، رول شۇنچە كۆپ ئېسىدە قالىدۇ، ھەر بىر ئايلانما شۇنچە قىممەت بولىدۇ؛ سان token. بۇ يەردە ئۆزگەرتىلىدىغىنى كۆڭۈلدىكى ئالدىن بەلگىلەش، ئۆز ئالدىن بەلگىلىمىسى بار سۆھبەت ئۇنىڭغا ئاساسلىنىدۇ.",
+  "tavernLayout": "تەرتىپ",
+  "tavernLayoutBubble": "كۆپۈك",
+  "tavernLayoutNovel": "رومان",
+  "tavernYou": "سىز",
+  "tavernSearchHint": "رول، ئاپتور، بەلگە ئىزدەش",
+  "tavernAllTags": "ھەممىسى",
+  "tavernNoMatch": "ماس كېلىدىغان رول يوق",
+  "tavernLayoutVisualNovel": "كۆرۈنمە رومان",
+  "tavernCharacterDetails": "رول تەپسىلاتى",
+  "tavernChatLayout": "بۇ سۆھبەتنىڭ تەرتىپى",
+  "tavernFollowSettings": "تاۋېرنا تەڭشىكىگە ئەگىشىش",
+  "tavernLog": "خاتىرە",
+  "tavernEditCharacter": "رولنى تەھرىرلەش",
+  "tavernNameNeeded": "ئىسم قۇرۇق بولسا بولمايدۇ",
+  "tavernFieldsBasics": "ئاساسىي",
+  "tavernFieldNickname": "لەقەم",
+  "tavernFieldNicknameHelp": "تولدۇرسىڭىز، سۆھبەتتە رولنى شۇ نام بىلەن چاقىرىدۇ",
+  "tavernFieldTags": "بەلگىلەر",
+  "tavernFieldTagsHelp": "پەش بىلەن ئايرىڭ",
+  "tavernFieldCreator": "ئاپتور",
+  "tavernFieldVersion": "نەشرى",
+  "tavernFieldDescription": "تەسۋىر",
+  "tavernFieldPersonality": "خاراكتېر",
+  "tavernFieldScenario": "سېنارىيە",
+  "tavernGreetingNumber": "مۇقەددىمە {n}",
   "@tavernGreetingNumber": {
     "placeholders": {
       "n": {
@@ -331,18 +332,18 @@
       }
     }
   },
-  "tavernFieldGreetingsNote": "新对话可以从任意一条开场白开始。",
-  "tavernAddGreeting": "加一条开场白",
-  "tavernMoreFields": "更多字段",
-  "tavernMoreFieldsSubtitle": "示例对话、系统提示、历史后指令",
-  "tavernFieldExamples": "示例对话",
-  "tavernFieldExamplesHelp": "每段示例用一行 <START> 开头",
-  "tavernFieldPrompts": "提示词",
-  "tavernFieldPromptsNote": "填了就替换预设里对应的那一段；留空用预设的。",
-  "tavernFieldSystemPrompt": "系统提示",
-  "tavernFieldPostHistory": "历史后指令",
-  "tavernFieldNotesNote": "写给看卡的人，不发给模型。",
-  "tavernEditKeeps": "卡里还有 {count} 项这里改不了的内容（世界书、扩展等），保存时原样保留；已有的对话也不会变。",
+  "tavernFieldGreetingsNote": "يېڭى سۆھبەتنى ھەر قانداق بىر مۇقەددىمىدىن باشلاشقا بولىدۇ.",
+  "tavernAddGreeting": "مۇقەددىمە قوشۇش",
+  "tavernMoreFields": "تېخىمۇ كۆپ ئۆزەك",
+  "tavernMoreFieldsSubtitle": "ئۈلگە سۆھبەت، سىستېما كۆرسەتمىسى، تارىختىن كېيىنكى كۆرسەتمە",
+  "tavernFieldExamples": "ئۈلگە سۆھبەت",
+  "tavernFieldExamplesHelp": "ھەر بىر ئۈلگە بىر قۇر <START> بىلەن باشلىنىدۇ",
+  "tavernFieldPrompts": "كۆرسەتمە",
+  "tavernFieldPromptsNote": "تولدۇرسىڭىز ئالدىن بەلگىلەنگەننىڭ مۇناسىۋەتلىك قىسمىنى ئالماشتۇرىدۇ؛ قۇرۇق قالدۇرسىڭىز ئالدىن بەلگىلەنگەننى ئىشلىتىدۇ.",
+  "tavernFieldSystemPrompt": "سىستېما كۆرسەتمىسى",
+  "tavernFieldPostHistory": "تارىختىن كېيىنكى كۆرسەتمە",
+  "tavernFieldNotesNote": "كارتىنى كۆرگۈچىلەرگە يېزىلغان، مودېلغا ئەۋەتىلمەيدۇ.",
+  "tavernEditKeeps": "كارتادا يەنە {count} تۈر بار، بۇ يەردە ئۆزگەرتكىلى بولمايدۇ (دۇنيا كىتابى، كېڭەيتىش قاتارلىقلار)، ساقلىغاندا ئەسلىچە ساقلىنىدۇ؛ مەۋجۇت سۆھبەتلەرمۇ ئۆزگەرمەيدۇ.",
   "@tavernEditKeeps": {
     "placeholders": {
       "count": {
@@ -350,16 +351,16 @@
       }
     }
   },
-  "tavernEditKeepsChats": "保存后，已有的对话不会变。",
-  "tavernPersonas": "人设",
-  "tavernPersona": "人设",
-  "tavernPersonaNew": "新建人设",
-  "tavernPersonasEmpty": "还没有人设",
-  "tavernPersonasEmptyMessage": "人设是你在对话里扮演的人：一个名字和一段介绍，角色就知道你是谁。",
-  "tavernPersonasNote": "长按设为默认或删除。没有单独选人设的对话用默认的。",
-  "tavernPersonaUnsetDefault": "不再作为默认",
-  "tavernPersonaSetDefault": "设为默认人设",
-  "tavernPersonaDeleteTitle": "删除「{name}」？",
+  "tavernEditKeepsChats": "ساقلىغاندىن كېيىن، مەۋجۇت سۆھبەتلەر ئۆزگەرمەيدۇ.",
+  "tavernPersonas": "شەخسىيەت",
+  "tavernPersona": "شەخسىيەت",
+  "tavernPersonaNew": "يېڭى شەخسىيەت",
+  "tavernPersonasEmpty": "تېخى شەخسىيەت يوق",
+  "tavernPersonasEmptyMessage": "شەخسىيەت سىزنىڭ سۆھبەتتە رول ئالغان كىشىڭىز: بىر ئىسىم ۋە بىر تونۇشتۇرۇش، رول سىزنىڭ كىملىكىڭىزنى بىلىدۇ.",
+  "tavernPersonasNote": "ئۇزۇن بېسىپ سۈكۈتتىكى قىلىش ياكى ئۆچۈرۈش. ئايرىم شەخسىيەت تاللانمىغان سۆھبەتلەر سۈكۈتتىكىنى ئىشلىتىدۇ.",
+  "tavernPersonaUnsetDefault": "سۈكۈتتىكى ئەمەس",
+  "tavernPersonaSetDefault": "سۈكۈتتىكى شەخسىيەت قىلىش",
+  "tavernPersonaDeleteTitle": "«{name}» ئۆچۈرۈلسۇنمۇ؟",
   "@tavernPersonaDeleteTitle": {
     "placeholders": {
       "name": {
@@ -367,18 +368,18 @@
       }
     }
   },
-  "tavernPersonaDeleteMessage": "用它的对话会改用默认人设，已经写下的内容不变。",
-  "tavernPersonaEdit": "编辑人设",
-  "tavernPersonaPickAvatar": "换头像",
-  "tavernPersonaRemoveAvatar": "去掉头像",
-  "tavernPersonaAvatarFailed": "没能用上这张图片",
-  "tavernPersonaNameHint": "角色怎么称呼你",
-  "tavernPersonaDescriptionHelp": "模型会读到这段：你是谁、什么样子、和角色是什么关系。",
-  "tavernPersonaDescriptionHint": "比如：镇上新来的医生，话不多，总拎着一个旧皮箱。",
-  "tavernPersonaDefaultSubtitle": "新对话和没有单独选人设的对话都用它",
-  "tavernPersonaDelete": "删除人设",
-  "tavernPersonaNone": "没有人设",
-  "tavernPersonaAs": "以「{name}」的身份",
+  "tavernPersonaDeleteMessage": "ئۇنى ئىشلەتكەن سۆھبەتلەر سۈكۈتتىكى شەخسىيەتكە ئۆتىدۇ، يېزىلغان مەزمۇنلار ئۆزگەرمەيدۇ.",
+  "tavernPersonaEdit": "شەخسىيەتنى تەھرىرلەش",
+  "tavernPersonaPickAvatar": "باش سۈرەتنى ئالماشتۇرۇش",
+  "tavernPersonaRemoveAvatar": "باش سۈرەتنى چىقىرىۋېتىش",
+  "tavernPersonaAvatarFailed": "بۇ رەسىمنى ئىشلىتەلمىدى",
+  "tavernPersonaNameHint": "روۇل سىزنى قانداق ئاتايدۇ",
+  "tavernPersonaDescriptionHelp": "مودېل بۇنى ئوقۇيدۇ: سىز كىم، قانداق كۆرۈنىسىز، روۇل بىلەن قانداق مۇناسىۋىتىڭىز بار.",
+  "tavernPersonaDescriptionHint": "مەسىلەن: يېڭى كەلگەن دوختۇر، كۆپ گەپ قىلمايدۇ، ھەمىشە كونا تېرە جابدۇق كۆتۈرۈپ يۈرىدۇ.",
+  "tavernPersonaDefaultSubtitle": "يېڭى سۆھبەت ۋە ئايرىم شەخسىيەت تاللانمىغان سۆھبەتلەر بۇنى ئىشلىتىدۇ",
+  "tavernPersonaDelete": "شەخسىيەتنى ئۆچۈرۈش",
+  "tavernPersonaNone": "شەخسىيەت يوق",
+  "tavernPersonaAs": "«{name}» شەخسىيىتىدە",
   "@tavernPersonaAs": {
     "placeholders": {
       "name": {
@@ -386,34 +387,34 @@
       }
     }
   },
-  "tavernPersonaForChat": "这段对话里你是",
-  "tavernPersonaFollowDefault": "跟随默认",
-  "tavernPersonasManage": "管理人设",
-  "tavernSettingsYou": "你",
-  "tavernDefaultPersona": "默认人设",
-  "tavernPersonaNotSet": "未设置",
-  "tavernFieldName": "名字",
-  "tavernOpenFailed": "酒馆没能打开",
-  "tavernOpenFailedMessage": "存角色和对话的数据没能打开。重试一下；还不行的话，重启 App 再试。",
-  "tavernExportPng": "导出角色卡（PNG）",
-  "tavernExportPngSubtitle": "设定藏在图片里，SillyTavern 等酒馆都能导入",
-  "tavernExportJson": "导出为 JSON",
-  "tavernExportFailed": "没能导出这张卡",
-  "tavernInspectTitle": "这一回合发了什么",
-  "tavernInspectMenu": "看看发了什么",
-  "tavernInspectLatest": "上一回合发了什么",
-  "tavernInspectNone": "这条没有记录",
-  "tavernInspectNoneMessage": "开场白、接上引擎之前的消息和示例回复没有检视记录。",
-  "tavernInspectSummary": "概况",
-  "tavernInspectKind": "类型",
-  "tavernTurnSend": "发送",
-  "tavernTurnImpersonate": "代写",
-  "tavernInspectStatus": "结果",
-  "tavernInspectPreparing": "准备中",
-  "tavernInspectReady": "已发出",
-  "tavernInspectCompleted": "完成",
-  "tavernInspectFailed": "失败",
-  "tavernInspectPrompt": "提示词",
+  "tavernPersonaForChat": "بۇ سۆھبەتتە سىز",
+  "tavernPersonaFollowDefault": "سۈكۈتتىكىگە ئەگىشىش",
+  "tavernPersonasManage": "شەخسىيەتلەرنى باشقۇرۇش",
+  "tavernSettingsYou": "سىز",
+  "tavernDefaultPersona": "سۈكۈتتىكى شەخسىيەت",
+  "tavernPersonaNotSet": "تەڭشەلمىگەن",
+  "tavernFieldName": "ئىسىم",
+  "tavernOpenFailed": "مەيخانا ئېچىلمىدى",
+  "tavernOpenFailedMessage": "روۇل ۋە سۆھبەت سانلىق مەلۇماتلىرىنى ساقلاش ئامبىرى ئېچىلمىدى. قايتا سىناڭ؛ بولمىسا ئەپنى قايتا قوزغىتىپ سىناڭ.",
+  "tavernExportPng": "روۇل كارتىسىنى چىقىرىش (PNG)",
+  "tavernExportPngSubtitle": "تەڭشەكلەر رەسىم ئىچىدە يوشۇرۇنغان، SillyTavern قاتارلىق مەيخانىلار كىرگۈزەلەيدۇ",
+  "tavernExportJson": "JSON غا چىقىرىش",
+  "tavernExportFailed": "بۇ كارتىنى چىقىرالمىدى",
+  "tavernInspectTitle": "بۇ ئايلانمىدا نېمە ئەۋەتىلدى",
+  "tavernInspectMenu": "نېمە ئەۋەتىلگەنلىكىنى كۆرۈش",
+  "tavernInspectLatest": "ئالدىنقى ئايلانمىدا نېمە ئەۋەتىلدى",
+  "tavernInspectNone": "بۇنىڭ خاتىرىسى يوق",
+  "tavernInspectNoneMessage": "ئاچقۇچ سۆز، ماتورغا ئۇلانغاندىن بۇرۇنقى ئۇچۇرلار ۋە ئۈلگە جاۋابلارنىڭ تەكشۈرۈش خاتىرىسى يوق.",
+  "tavernInspectSummary": "ئومۇمىي ئەھۋال",
+  "tavernInspectKind": "تىپى",
+  "tavernTurnSend": "ئەۋەتىش",
+  "tavernTurnImpersonate": "ئورنىغا يېزىش",
+  "tavernInspectStatus": "نەتىجە",
+  "tavernInspectPreparing": "تەييارلىنىۋاتىدۇ",
+  "tavernInspectReady": "ئەۋەتىلدى",
+  "tavernInspectCompleted": "تامام",
+  "tavernInspectFailed": "مەغلۇب بولدى",
+  "tavernInspectPrompt": "كۆرسەتمە",
   "tavernTokens": "{count} tokens",
   "@tavernTokens": {
     "placeholders": {
@@ -422,7 +423,7 @@
       }
     }
   },
-  "tavernTokensAbout": "约 {count} tokens",
+  "tavernTokensAbout": "تەخمىنەن {count} tokens",
   "@tavernTokensAbout": {
     "placeholders": {
       "count": {
@@ -430,10 +431,10 @@
       }
     }
   },
-  "tavernInspectBudget": "上下文预算剩余",
-  "tavernInspectUsage": "模型报告的用量",
-  "tavernInspectNoUsage": "没报告",
-  "tavernInspectUsageValue": "输入 {prompt}（缓存 {hit}）· 输出 {completion}",
+  "tavernInspectBudget": "مەزمۇن دائىرىسى قالدۇقى",
+  "tavernInspectUsage": "مودېل دوكلات قىلغان ئىشلىتىش",
+  "tavernInspectNoUsage": "دوكلات قىلىنمىدى",
+  "tavernInspectUsageValue": "كىرگۈزۈش {prompt} (غەملەك {hit}) · چىقىرىش {completion}",
   "@tavernInspectUsageValue": {
     "placeholders": {
       "prompt": {
@@ -447,7 +448,7 @@
       }
     }
   },
-  "tavernInspectSegments": "发出去的 {count} 段",
+  "tavernInspectSegments": "ئەۋەتىلگەن {count} پارچە",
   "@tavernInspectSegments": {
     "placeholders": {
       "count": {
@@ -455,8 +456,8 @@
       }
     }
   },
-  "tavernInspectSegmentsNote": "按发送顺序。点开看全文，长按复制。",
-  "tavernInspectWorld": "世界书命中 {count} 条",
+  "tavernInspectSegmentsNote": "ئەۋەتىش تەرتىپى بويىچە. تولۇق تېكىستنى كۆرۈش ئۈچۈن چېكىڭ، كۆچۈرۈش ئۈچۈن ئۇزۇن بېسىڭ.",
+  "tavernInspectWorld": "دۇنيا كىتابىدىن {count} تۈر ماسلاشتى",
   "@tavernInspectWorld": {
     "placeholders": {
       "count": {
@@ -464,7 +465,7 @@
       }
     }
   },
-  "tavernInspectWorldKey": "关键词「{key}」",
+  "tavernInspectWorldKey": "ئاچقۇچلۇق سۆز «{key}»",
   "@tavernInspectWorldKey": {
     "placeholders": {
       "key": {
@@ -472,7 +473,7 @@
       }
     }
   },
-  "tavernInspectExcluded": "没发出去的 {count} 段",
+  "tavernInspectExcluded": "تارقىتىلمىغان {count} پارچە",
   "@tavernInspectExcluded": {
     "placeholders": {
       "count": {
@@ -480,30 +481,30 @@
       }
     }
   },
-  "tavernExcludeDisabled": "关着",
-  "tavernExcludeTrigger": "不在这种生成里",
-  "tavernExcludeHidden": "对模型隐藏",
-  "tavernExcludeSystem": "系统消息",
-  "tavernExcludeHistoryBudget": "超出上下文预算",
-  "tavernExcludeExampleBudget": "示例超出预算",
-  "tavernRoleSystem": "系统",
-  "tavernRoleUser": "你",
-  "tavernRoleCharacter": "角色",
-  "tavernSourcePreset": "预设",
-  "tavernSourceCard": "角色卡",
-  "tavernSourceWorld": "世界书",
-  "tavernSourcePersona": "人设",
-  "tavernSourceHistory": "对话",
-  "tavernSourceControl": "控制",
-  "tavernWriteForMe": "帮我写",
-  "tavernHide": "对模型隐藏",
-  "tavernUnhide": "让模型看到",
-  "tavernHiddenFromModel": "模型看不到这条",
-  "tavernTrySample": "试试示范卡",
-  "tavernImportChats": "导入聊天记录",
-  "tavernImportChatsSubtitle": "SillyTavern 的 .jsonl，可以一次选几个",
-  "tavernOnlyJsonl": "只能导入 .jsonl 聊天记录",
-  "tavernImportChatsFailed": "没能导入：{detail}",
+  "tavernExcludeDisabled": "تاقالق",
+  "tavernExcludeTrigger": "بۇنداق ھاسىلاتا ئىچىدە ئەمەس",
+  "tavernExcludeHidden": "مودېلدىن يوشۇرۇلغان",
+  "tavernExcludeSystem": "سىستېما ئۇچۇرى",
+  "tavernExcludeHistoryBudget": "مەزمۇن دائىرىسى باجىدىن ئاشتى",
+  "tavernExcludeExampleBudget": "مىسال باجىدىن ئاشتى",
+  "tavernRoleSystem": "سىستېما",
+  "tavernRoleUser": "سەن",
+  "tavernRoleCharacter": "رول",
+  "tavernSourcePreset": "ئالدىن بەلگىلەش",
+  "tavernSourceCard": "رول كارتىسى",
+  "tavernSourceWorld": "دۇنيا كىتابى",
+  "tavernSourcePersona": "شەخسىيەت",
+  "tavernSourceHistory": "سۆھبەت",
+  "tavernSourceControl": "كونتروللاش",
+  "tavernWriteForMe": "ماڭا ياز",
+  "tavernHide": "مودېلدىن يوشۇرۇش",
+  "tavernUnhide": "مودېلگە كۆرسىتىش",
+  "tavernHiddenFromModel": "مودېل بۇنى كۆرەلمەيدۇ",
+  "tavernTrySample": "ئۈلگە كارتىسىنى سىناپ بېقىڭ",
+  "tavernImportChats": "سۆھبەت خاتىرىسىنى ئىمپورت قىلىش",
+  "tavernImportChatsSubtitle": "SillyTavern نىڭ .jsonl، بىر قانچىسىنى تاللىساڭ بولىدۇ",
+  "tavernOnlyJsonl": "پەقەت .jsonl سۆھبەت خاتىرىسىنىلا كىرگۈزگىلى بولىدۇ",
+  "tavernImportChatsFailed": "كىرگۈزەلمىدى: {detail}",
   "@tavernImportChatsFailed": {
     "placeholders": {
       "detail": {
@@ -511,7 +512,7 @@
       }
     }
   },
-  "tavernImportedChats": "导入了 {count} 段对话",
+  "tavernImportedChats": "{count} پارچە سۆھبەت كىرگۈزۈلدى",
   "@tavernImportedChats": {
     "placeholders": {
       "count": {
@@ -519,12 +520,12 @@
       }
     }
   },
-  "tavernImportNoticesTitle": "导入时注意到",
-  "tavernExportChat": "导出聊天记录",
-  "tavernExportChatFailed": "没能导出这段对话",
-  "tavernLorebook": "世界书",
-  "tavernLorebookSubtitle": "这张卡自带的设定条目",
-  "tavernLorebookEntries": "{count} 条",
+  "tavernImportNoticesTitle": "كىرگۈزگەندە دىققەت قىلىندى",
+  "tavernExportChat": "سۆھبەت خاتىرىسىنى چىقىرىش",
+  "tavernExportChatFailed": "بۇ سۆھبەتنى چىقىرىلمىدى",
+  "tavernLorebook": "دۇنيا كىتابى",
+  "tavernLorebookSubtitle": "بۇ كارتىغا ئىچىلغان تەڭشەك تۈرلىرى",
+  "tavernLorebookEntries": "{count} تۈر",
   "@tavernLorebookEntries": {
     "placeholders": {
       "count": {
@@ -532,8 +533,8 @@
       }
     }
   },
-  "tavernLorebookNote": "对话里提到关键词时，对应条目会带进提示词；「常驻」的每次都带。",
-  "tavernLorebookKeys": "关键词：{keys}",
+  "tavernLorebookNote": "سۆھبەتتە ئاچقۇچلۇق سۆزلەر تىلغا ئېلىنسا، مۇناسىۋەتلىك تۈرلەر كۆرسەتمىگە كىرگۈزۈلىدۇ؛ «داۋاملىق» تۈرلەر ھەر قېتىم كىرگۈزۈلىدۇ.",
+  "tavernLorebookKeys": "ئاچقۇچلۇق سۆزلەر: {keys}",
   "@tavernLorebookKeys": {
     "placeholders": {
       "keys": {
@@ -541,16 +542,16 @@
       }
     }
   },
-  "tavernLorebookConstant": "常驻",
-  "tavernLorebookOff": "已关",
-  "tavernLorebookEmpty": "这张卡没有世界书",
-  "tavernImportFromFile": "从文件导入",
-  "tavernImportFromFileSubtitle": "角色卡、预设、世界书、正则、快速回复或聊天记录，会自己认出来",
-  "tavernImportFromLink": "从链接导入",
-  "tavernImportFromLinkSubtitle": "Chub、RisuRealm 的角色页，或卡文件的直链",
-  "tavernLinkInvalid": "这不是一个网址",
-  "tavernLinkFailed": "下载失败，检查网络或链接",
-  "tavernLinkStatus": "下载失败（HTTP {status}）",
+  "tavernLorebookConstant": "داۋاملىق",
+  "tavernLorebookOff": "تاقالغان",
+  "tavernLorebookEmpty": "بۇ كارتىدا دۇنيا كىتابى يوق",
+  "tavernImportFromFile": "ھۆججەتتىن كىرگۈزۈش",
+  "tavernImportFromFileSubtitle": "رول كارتىسى، ئالدىن بەلگىلەش، دۇنيا كىتابى، رېگۇلار ئىپادىسى، تېز جاۋاب ياكى سۆھبەت خاتىرىسى، ئۆزى تونۇيدۇ",
+  "tavernImportFromLink": "ئۇلانمىدىن كىرگۈزۈش",
+  "tavernImportFromLinkSubtitle": "Chub، RisuRealm نىڭ رول بېتى ياكى كارتا ھۆججىتىنىڭ بىۋاسىتە ئۇلانمىسى",
+  "tavernLinkInvalid": "بۇ تور ئادرېسى ئەمەس",
+  "tavernLinkFailed": "چۈشۈرۈش مەغلۇپ بولدى، تور ياكى ئۇلانمىنى تەكشۈرۈڭ",
+  "tavernLinkStatus": "چۈشۈرۈش مەغلۇپ بولدى (HTTP {status})",
   "@tavernLinkStatus": {
     "placeholders": {
       "status": {
@@ -558,14 +559,14 @@
       }
     }
   },
-  "tavernLinkIsPage": "这是网页，不是卡文件。Chub 和 RisuRealm 的角色页可以直接贴；别的站打开网页找「下载」，拿到 .png 或 .json 的链接再试。",
-  "tavernLinkSiteMissing": "站上没有这个角色，可能删了或没公开",
-  "tavernQuickReplies": "快速回复",
-  "tavernQuickRepliesEmpty": "还没有快速回复",
-  "tavernQuickRepliesNote": "对话里输入框上方会出现这些：点一下直接发出去，长按放进输入框再改。",
-  "tavernQuickReplyAdd": "加一条",
-  "tavernQuickReplyHint": "比如：*环顾四周，看有没有别人*",
-  "tavernQuickReplyCount": "{count} 条",
+  "tavernLinkIsPage": "بۇ تور بەت، كارتا ھۆججىتى ئەمەس. Chub ۋە RisuRealm نىڭ رول بېتىنى بىۋاسىتە چاپلىسىڭىز بولىدۇ؛ باشقا تور بېكەتلەردە تور بەتنى ئېچىپ «چۈشۈرۈش» نى تېپىپ، .png ياكى .json ئۇلانمىسىنى ئېلىپ قايتا سىناڭ.",
+  "tavernLinkSiteMissing": "بۇ رول تور بېكەتتە يوق، ئۆچۈرۈلگەن ياكى ئاشكارىلانمىغان بولۇشى مۇمكىن",
+  "tavernQuickReplies": "تېز جاۋابلار",
+  "tavernQuickRepliesEmpty": "تېز جاۋابلار يوق",
+  "tavernQuickRepliesNote": "سۆھبەتتە كىرگۈزۈش رامكىسىنىڭ ئۈستىدە كۆرۈنىدۇ: بىر قېتىم بېسىڭلا ئەۋەتىلىدۇ، ئۇزۇن بېسىپ كىرگۈزۈش رامكىسىغا سېلىپ تەھرىرلىگىلى بولىدۇ.",
+  "tavernQuickReplyAdd": "بىرنى قوشۇش",
+  "tavernQuickReplyHint": "مەسىلەن: *ئەتراپقا قاراپ، باشقىلارنىڭ بار-يوقلۇقىنى كۆرۈش*",
+  "tavernQuickReplyCount": "{count} دانە",
   "@tavernQuickReplyCount": {
     "placeholders": {
       "count": {
@@ -573,22 +574,22 @@
       }
     }
   },
-  "tavernEditMessage": "编辑消息",
-  "tavernBackground": "背景图",
-  "tavernBackgroundNone": "无",
-  "tavernBackgroundChange": "换一张",
-  "tavernBackgroundRemove": "去掉背景图",
-  "tavernDice": "掷骰",
-  "tavernDiceCount": "个数",
-  "tavernDiceModifier": "加值",
-  "tavernDiceFewer": "少一个骰子",
-  "tavernDiceMore": "多一个骰子",
-  "tavernDiceModifierDown": "加值减 1",
-  "tavernDiceModifierUp": "加值加 1",
-  "tavernDiceRoll": "掷",
-  "tavernDiceAgain": "再掷一次",
-  "tavernDiceUse": "放进输入框",
-  "tavernDiceLine": "🎲 {notation} 掷出 {total}{working}",
+  "tavernEditMessage": "ئۇچۇرنى تەھرىرلەش",
+  "tavernBackground": "ئارقا كۆرۈنۈش رەسىمى",
+  "tavernBackgroundNone": "يوق",
+  "tavernBackgroundChange": "باشقىسىغا ئالماشتۇرۇش",
+  "tavernBackgroundRemove": "ئارقا كۆرۈنۈش رەسىمىنى چىقىرىۋېتىش",
+  "tavernDice": "شاي تاشلاش",
+  "tavernDiceCount": "سانى",
+  "tavernDiceModifier": "قوشۇلما قىممەت",
+  "tavernDiceFewer": "بىر شاي ئاز",
+  "tavernDiceMore": "بىر شاي كۆپ",
+  "tavernDiceModifierDown": "قوشۇلما قىممەتنى 1 ئازايتىش",
+  "tavernDiceModifierUp": "قوشۇلما قىممەتنى 1 ئاشۇرۇش",
+  "tavernDiceRoll": "تاشلاش",
+  "tavernDiceAgain": "قايتا تاشلاش",
+  "tavernDiceUse": "كىرگۈزۈش رامكىسىغا سېلىش",
+  "tavernDiceLine": "🎲 {notation} تاشلاندى {total}{working}",
   "@tavernDiceLine": {
     "placeholders": {
       "notation": {
@@ -610,10 +611,10 @@
       }
     }
   },
-  "tavernStorybook": "故事书",
-  "tavernStorybookMenu": "导出成故事书",
-  "tavernStorybookTitle": "书名",
-  "tavernStorybookDefaultTitle": "{name}的故事",
+  "tavernStorybook": "ھېكايە كىتابى",
+  "tavernStorybookMenu": "ھېكايە كىتابى قىلىپ چىقىرىش",
+  "tavernStorybookTitle": "كىتاب نامى",
+  "tavernStorybookDefaultTitle": "{name}نىڭ ھېكايىسى",
   "@tavernStorybookDefaultTitle": {
     "placeholders": {
       "name": {
@@ -621,7 +622,7 @@
       }
     }
   },
-  "tavernStorybookByline": "{character} 和 {you}",
+  "tavernStorybookByline": "{character} ۋە {you}",
   "@tavernStorybookByline": {
     "placeholders": {
       "character": {
@@ -632,8 +633,8 @@
       }
     }
   },
-  "tavernStorybookWhole": "整本",
-  "tavernStorybookWholeNote": "一共 {count} 句，隐藏的消息不放进去。EPUB 能用微信读书、Apple 图书等打开。",
+  "tavernStorybookWhole": "پۈتۈن كىتاب",
+  "tavernStorybookWholeNote": "جەمئىي {count} جۈملە، يوشۇرۇلغان ئۇچۇرلار كىرگۈزۈلمەيدۇ. EPUB نى WeChat كىتاب ئوقۇش، Apple Books قاتارلىقلاردا ئېچىشقا بولىدۇ.",
   "@tavernStorybookWholeNote": {
     "placeholders": {
       "count": {
@@ -641,11 +642,11 @@
       }
     }
   },
-  "tavernStorybookEpub": "电子书（EPUB）",
-  "tavernStorybookText": "纯文本（TXT）",
-  "tavernStorybookImage": "长图",
-  "tavernStorybookLatest": "放最近",
-  "tavernStorybookLines": "{count} 句",
+  "tavernStorybookEpub": "ئېلېكترونلۇق كىتاب (EPUB)",
+  "tavernStorybookText": "ساپ تېكىست (TXT)",
+  "tavernStorybookImage": "ئۇزۇن رەسىم",
+  "tavernStorybookLatest": "ئەڭ يېقىنقىنى قويۇش",
+  "tavernStorybookLines": "{count} جۈملە",
   "@tavernStorybookLines": {
     "placeholders": {
       "count": {
@@ -653,9 +654,9 @@
       }
     }
   },
-  "tavernStorybookSave": "存到相册",
-  "tavernStorybookShare": "分享长图",
-  "tavernStorybookEarlier": "前面还有 {count} 句没放进图里，整段请导出电子书。",
+  "tavernStorybookSave": "ئالبومغا ساقلاش",
+  "tavernStorybookShare": "ئۇزۇن رەسىمنى ھەمبەھىرلەش",
+  "tavernStorybookEarlier": "ئالدىدا يەنە {count} جۈملە رەسىمگە كىرگۈزۈلمىگەن، پۈتۈن قىسمىنى ئېلېكترونلۇق كىتاب قىلىپ چىقىرىڭ.",
   "@tavernStorybookEarlier": {
     "placeholders": {
       "count": {
@@ -663,7 +664,7 @@
       }
     }
   },
-  "tavernStorybookEarlierShort": "…… 前面还有 {count} 句 ……",
+  "tavernStorybookEarlierShort": "…… ئالدىدا يەنە {count} جۈملە ……",
   "@tavernStorybookEarlierShort": {
     "placeholders": {
       "count": {
@@ -671,9 +672,9 @@
       }
     }
   },
-  "tavernStorybookMadeWith": "用 Kit Go 酒馆写成",
-  "tavernStorybookContents": "目录",
-  "tavernStorybookChapter": "第 {n} 章",
+  "tavernStorybookMadeWith": "Kit Go مەيخانىسىدا يېزىلغان",
+  "tavernStorybookContents": "مەزمۇنلار",
+  "tavernStorybookChapter": "{n}-باب",
   "@tavernStorybookChapter": {
     "placeholders": {
       "n": {
@@ -681,63 +682,63 @@
       }
     }
   },
-  "tavernStorybookSaved": "已存到相册",
-  "tavernStorybookFailed": "没能导出，再试一次",
-  "tavernLive2d": "Live2D 形象",
-  "tavernLive2dSubtitle": "视觉小说排版里用它代替卡面，会动、说话时会张嘴",
-  "tavernLive2dNone": "未导入",
-  "tavernLive2dSet": "已导入",
-  "tavernLive2dImported": "导入好了，切到视觉小说排版就能看到她。",
-  "tavernLive2dReplace": "换一个",
-  "tavernLive2dRemove": "去掉 Live2D 形象",
-  "tavernLive2dNoRuntime": "手机上还没有 Live2D 运行库：先在伙伴小屋装一个形象，或者导入完整的素材包。",
-  "tavernTextSize": "正文字号",
-  "tavernTextSmall": "小",
-  "tavernTextMedium": "中",
-  "tavernTextLarge": "大",
-  "tavernTextHuge": "特大",
-  "tavernLineHeight": "行距",
-  "tavernLineTight": "紧凑",
-  "tavernLineNormal": "适中",
-  "tavernLineLoose": "宽松",
-  "tavernReadingSample": "*她把陶杯推到你面前，炉火在她眼里跳了一下。*\n\n「这么晚了还在赶路？外头的雪今晚停不了，你要是赶路，最好等天亮。」",
-  "tavernPalette": "配色",
-  "tavernPalettePlain": "素",
-  "tavernPaletteEmber": "暖",
-  "tavernPaletteOcean": "冷",
-  "tavernPaletteRose": "粉",
-  "tavernTextSpeed": "逐字速度",
-  "tavernTextSlow": "慢",
-  "tavernTextNormal": "中",
-  "tavernTextFast": "快",
-  "tavernTextInstant": "立即",
-  "tavernVnAuto": "自动",
-  "tavernVnSkip": "跳过",
-  "tavernStage": "舞台",
-  "tavernStageSession": "本局",
-  "tavernSessionUsing": "正在用",
-  "tavernSessionLook": "外观",
-  "tavernSessionMore": "更多",
-  "tavernStageState": "状态",
-  "tavernStageDirector": "导演",
-  "tavernStageTurn": "本回合",
-  "tavernStageStateEmpty": "这张卡还没有状态",
-  "tavernStageStateNote": "卡里定义了状态以后，好感、属性、背包、时间地点都会在这里，每回合变了什么会标出来（「+5」），你也能直接改。没定义的老卡会在这里列出它的变量。",
-  "tavernStageDirectorEmpty": "导演还没上场",
-  "tavernStageDirectorNote": "打开导演后，它会在每回合之后在后台读剧情：给下一回合留一条看不见的提示，记下自己的笔记（默认藏着，怕剧透），再在输入框上方给你三个建议回复。它不替你说话，也不写正文。",
-  "tavernStageTurnNone": "还没有可看的回合",
-  "tavernStageTokensIn": "提示词",
-  "tavernStageCache": "缓存命中",
-  "tavernStageTokensOut": "回复",
-  "tavernStageWorld": "这回合用上的世界书",
-  "tavernStageWorldNone": "这回合没有条目被触发",
-  "tavernStageInspect": "看完整的检视",
-  "tavernLorebookNone": "无",
-  "tavernLorebooksBound": "绑定的世界书",
-  "tavernLorebooksBoundCharacter": "这个角色的每段对话都会用",
-  "tavernLorebooksBoundPersona": "用这个人设的对话都会用",
-  "tavernLorebookForChat": "这段对话的世界书",
-  "tavernLorebookForCharacter": "「{name}」的世界书",
+  "tavernStorybookSaved": "ئالبومغا ساقلاندى",
+  "tavernStorybookFailed": "چىقىرىش مۇۋەپپەقىيەتسىز، قايتا سىناڭ",
+  "tavernLive2d": "Live2D كۆرۈنۈشى",
+  "tavernLive2dSubtitle": "كۆرۈنمە رومان تىزىلىشىدا كارتىسىنىڭ ئورنىغا ئىشلىتىلىدۇ، ھەرىكەتلىنىدۇ، سۆزلىگەندە ئېغىزى ئېچىلىدۇ",
+  "tavernLive2dNone": "ئىمپورت قىلىنمىغان",
+  "tavernLive2dSet": "ئىمپورت قىلىنغان",
+  "tavernLive2dImported": "ئىمپورت قىلىندى، كۆرۈنمە رومان تىزىلىشىغا ئالماشتۇرسىڭىز ئۇنى كۆرەلەيسىز.",
+  "tavernLive2dReplace": "باشقىسىغا ئالماشتۇرۇش",
+  "tavernLive2dRemove": "Live2D كۆرۈنۈشىنى چىقىرىۋېتىش",
+  "tavernLive2dNoRuntime": "تېلېفوندا تېخى Live2D ئىجرا كۇتۇپخانىسى يوق: ئالدى بىلەن ھەمبەھىر ئۆيىدە بىر كۆرۈنۈش قاچىلاڭ ياكى تولۇق ماتېرىيال بوغچىسىنى ئىمپورت قىلىڭ.",
+  "tavernTextSize": "ئاساسىي تېكىست چوڭلۇقى",
+  "tavernTextSmall": "كىچىك",
+  "tavernTextMedium": "ئوتتۇرا",
+  "tavernTextLarge": "چوڭ",
+  "tavernTextHuge": "ئالاھىدە چوڭ",
+  "tavernLineHeight": "قۇر ئارىلىقى",
+  "tavernLineTight": "تار",
+  "tavernLineNormal": "مۇۋاپىق",
+  "tavernLineLoose": "كەڭ",
+  "tavernReadingSample": "*ئۇ سېنىڭ ئالدىڭغا ساپال چىنەنى ئىتتىرىپ قويدى، ئوچاقتىكى ئوت ئۇنىڭ كۆزلىرىدە چاقناپ كەتتى.*\n\n«بۇنچە كېچىدە يەنىلا يول يۈرۈۋاتامسەن؟ سىرتىدىكى قار بۈگۈن كېچە توختىمايدۇ، ئەگەر يول يۈرمەكچى بولساڭ، تاڭ ئاتقىچە ساقلىغىنىڭ ياخشى.»",
+  "tavernPalette": "رەڭ ئۇيغۇنلۇقى",
+  "tavernPalettePlain": "ساددە",
+  "tavernPaletteEmber": "ئىللىق",
+  "tavernPaletteOcean": "سوغۇق",
+  "tavernPaletteRose": "ھالرەڭ",
+  "tavernTextSpeed": "ھەرپمۇ-ھەرپ سۈرئىتى",
+  "tavernTextSlow": "ئاستا",
+  "tavernTextNormal": "ئوتتۇرا",
+  "tavernTextFast": "تېز",
+  "tavernTextInstant": "دەرھال",
+  "tavernVnAuto": "ئاپتوماتىك",
+  "tavernVnSkip": "ئاتلاش",
+  "tavernStage": "سەھنە",
+  "tavernStageSession": "بۇ ئويۇن",
+  "tavernSessionUsing": "ئىشلىتىۋاتىدۇ",
+  "tavernSessionLook": "كۆرۈنۈش",
+  "tavernSessionMore": "تېخىمۇ كۆپ",
+  "tavernStageState": "ھالەت",
+  "tavernStageDirector": "رېژىسسور",
+  "tavernStageTurn": "بۇ ئايلانما",
+  "tavernStageStateEmpty": "بۇ كارتىدا تېخى ھالەت يوق",
+  "tavernStageStateNote": "كارتادا ھالەت ئېنىقلانغاندىن كېيىن، ياقتۇرۇش، خاسلىق، يۈك سومكىسى، ۋاقىت-ماكان مۇشۇ يەردە بولىدۇ، ھەر ئايلانمىدا نېمە ئۆزگەرگەنلىكى بەلگىلىنىدۇ («+5»)، سىز قولدا ئۆزگەرتەلەيسىز. ئېنىقلانمىغان كونا كارتىلارنىڭ ئۆزگەرگۈچىلىرى مۇشۇ يەردە تىزىملىنىدۇ.",
+  "tavernStageDirectorEmpty": "رېژىسسور تېخى سەھنىگە چىقمىدى",
+  "tavernStageDirectorNote": "رېژىسسورنى ئاچقاندىن كېيىن، ئۇ ھەر ئايلانمىدىن كېيىن ئارقا سەھنىدە ۋەقەلىكنى ئوقۇيدۇ: كېيىنكى ئايلانمىغا كۆرۈنمەيدىغان بىر كۆرسەتمە قالدۇرىدۇ، ئۆز خاتىرىلىرىنى يازىدۇ (سۈكۈتتە يوشۇرۇن، ۋەقەنى ئاشكارىلاپ قويۇشتىن قورقۇپ)، ئاندىن كىرگۈزۈش رامكىسىنىڭ ئۈستىدە سىزگە ئۈچ تەۋسىيە جاۋاب بېرىدۇ. ئۇ سىزنىڭ ئورنىڭىزا سۆزلەمەيدۇ، ئاساسىي تېكىستنىمۇ يازمايدۇ.",
+  "tavernStageTurnNone": "تېخى كۆرگىلى بولىدىغان ئايلانما يوق",
+  "tavernStageTokensIn": "كۆرسەتمە",
+  "tavernStageCache": "غەملەكنىڭ بېرىلىشى",
+  "tavernStageTokensOut": "جاۋاب",
+  "tavernStageWorld": "بۇ ئايلانمىدا ئىشلىتىلگەن دۇنيا كىتابى",
+  "tavernStageWorldNone": "بۇ ئايلانمىدا ھېچقانداق تۈر قوزغىتىلمىدى",
+  "tavernStageInspect": "تولۇق تەكشۈرۈشنى كۆرۈش",
+  "tavernLorebookNone": "يوق",
+  "tavernLorebooksBound": "باغلانغان دۇنيا كىتابى",
+  "tavernLorebooksBoundCharacter": "بۇ پېرسوناژنىڭ ھەر بىر سۆھبىتىدە ئىشلىتىلىدۇ",
+  "tavernLorebooksBoundPersona": "بۇ شەخسىيەتنى ئىشلىتىدىغان سۆھبەتلەردە ئىشلىتىلىدۇ",
+  "tavernLorebookForChat": "بۇ سۆھبەتنىڭ دۇنيا كىتابى",
+  "tavernLorebookForCharacter": "«{name}» نىڭ دۇنيا كىتابى",
   "@tavernLorebookForCharacter": {
     "placeholders": {
       "name": {
@@ -745,7 +746,7 @@
       }
     }
   },
-  "tavernLorebookForPersona": "用「{name}」时的世界书",
+  "tavernLorebookForPersona": "«{name}» نى ئىشلەتكەندىكى دۇنيا كىتابى",
   "@tavernLorebookForPersona": {
     "placeholders": {
       "name": {
@@ -753,27 +754,27 @@
       }
     }
   },
-  "tavernLorebookChatNote": "只在这段对话里用。标着「全局」的本来就对所有对话生效。",
-  "tavernLorebookCharacterNote": "这个角色的每段对话都会用，卡自带的世界书照常一起用。",
-  "tavernLorebookPersonaNote": "你用这个人设时，每段对话都会用。",
-  "tavernLorebookPickEmpty": "资源库里还没有世界书",
-  "tavernLorebookOpenLibrary": "去资源库导入",
-  "tavernLorebookMissing": "已删除的世界书",
-  "tavernLorebookMissingSubtitle": "还绑着，生成时会跳过；关掉就解除",
-  "tavernPresetOrder": "调整顺序",
-  "tavernPresetOrderNote": "按住右边的把手拖动。提示词按这个顺序发给模型，关着的也留在原位。",
-  "tavernPresetPromptOff": "已关",
-  "tavernPrefill": "预填充",
-  "tavernPrefillOn": "回复从这段开头",
-  "tavernPrefillOnSubtitle": "模型接着这段往下写",
-  "tavernPrefillText": "开头的文字",
-  "tavernPrefillTextEmpty": "还没写",
-  "tavernPrefillTarget": "放在",
-  "tavernPrefillContent": "正文",
-  "tavernPrefillReasoning": "思考",
-  "tavernPrefillNote": "开着时，这段文字作为回复的开头发给模型，模型从这里接着写。放在「思考」只在开了思考时生效，没开就放进正文。「接着写」的回合不用它。",
-  "tavernPresetPromptEmpty": "空着",
-  "tavernThinkingSeconds": "{seconds} 秒",
+  "tavernLorebookChatNote": "پەقەت بۇ سۆھبەتتە ئىشلىتىلىدۇ. «گلوبال» دەپ بەلگىلەنگەنلىرى ئەسلىدىنلا بارلىق سۆھبەتلەرگە ئۈنۈملۈك.",
+  "tavernLorebookCharacterNote": "بۇ رولنىڭ ھەر بىر سۆھبىتىدە ئىشلىتىلىدۇ، كارتىغا بىرگە كەلگەن دۇنيا كىتابىمۇ ئادەتتىكىدەك بىرگە ئىشلىتىلىدۇ.",
+  "tavernLorebookPersonaNote": "بۇ شەخسىيەتنى ئىشلەتكەندە، ھەر بىر سۆھبەتتە ئىشلىتىلىدۇ.",
+  "tavernLorebookPickEmpty": "مەنبە ئامبىرىدا تېخى دۇنيا كىتابى يوق",
+  "tavernLorebookOpenLibrary": "مەنبە ئامبىرىغا كىرىپ ئەكىرىش",
+  "tavernLorebookMissing": "ئۆچۈرۈلگەن دۇنيا كىتابى",
+  "tavernLorebookMissingSubtitle": "يەنىلا باغلانغان، ھاسىل قىلغاندا ئاتلاپ ئۆتىدۇ؛ تاقىسىڭىز ئۈزۈلىدۇ",
+  "tavernPresetOrder": "تەرتىپنى تەڭشەش",
+  "tavernPresetOrderNote": "ئوڭ تەرەپتىكى تۇتقۇچنى بېسىپ تارتىڭ. كۆرسەتمىلەر بۇ تەرتىپ بويىچە مودېلغا ئەۋەتىلىدۇ، تاقالغانلىرى ئورنىدا قالىدۇ.",
+  "tavernPresetPromptOff": "تاقالغان",
+  "tavernPrefill": "ئالدىن تولدۇرۇش",
+  "tavernPrefillOn": "جاۋاب بۇ پارچىدىن باشلىنىدۇ",
+  "tavernPrefillOnSubtitle": "مودېل بۇ پارچىدىن داۋاملاشتۇرۇپ يازىدۇ",
+  "tavernPrefillText": "باشلىنىش تېكىستى",
+  "tavernPrefillTextEmpty": "تېخى يېزىلمىدى",
+  "tavernPrefillTarget": "ئورۇنلاشتۇرۇش",
+  "tavernPrefillContent": "ئاساسىي تېكىست",
+  "tavernPrefillReasoning": "ئويلىنىش",
+  "tavernPrefillNote": "ئېچىلغاندا، بۇ تېكىست جاۋابنىڭ باشلىنىشى سۈپىتىدە مودېلغا ئەۋەتىلىدۇ، مودېل بۇ يەردىن داۋاملاشتۇرۇپ يازىدۇ. «ئويلىنىش» كە قويۇلغاندا پەقەت ئويلىنىش ئېچىلغاندا ئۈنۈملۈك بولىدۇ، ئېچىلمىسا ئاساسىي تېكىستكە كىرگۈزۈلىدۇ. «داۋاملاشتۇرۇپ يېزىش» نىڭ ئايلانمىسىدا ئىشلىتىلمەيدۇ.",
+  "tavernPresetPromptEmpty": "بوش",
+  "tavernThinkingSeconds": "{seconds} سېكۇنت",
   "@tavernThinkingSeconds": {
     "placeholders": {
       "seconds": {
@@ -781,7 +782,7 @@
       }
     }
   },
-  "tavernDeletedCount": "{count, plural, =1{删掉了 1 条} other{删掉了 {count} 条}}",
+  "tavernDeletedCount": "{count, plural, =1{1 ئۇچۇر ئۆچۈرۈلدى} other{{count} ئۇچۇر ئۆچۈرۈلدى}}",
   "@tavernDeletedCount": {
     "placeholders": {
       "count": {
@@ -789,11 +790,11 @@
       }
     }
   },
-  "tavernDeleteFromUndoable": "从这条到最新一条，连同它们的备选回复和分支。删完几秒内可以撤销。",
-  "tavernUndoFailed": "没能撤销",
-  "tavernShowUsage": "每条回复下显示用量",
-  "tavernShowUsageSubtitle": "模型报告的输入、输出 token 数；不估算费用",
-  "tavernUsageLine": "输入 {input} · 输出 {output}",
+  "tavernDeleteFromUndoable": "بۇ ئۇچۇردىن تارتىپ ئەڭ يېڭىسىغىچە، ئۇلارنىڭ تاللانما جاۋابلىرى ۋە تارمىقى بىلەن بىرگە. ئۆچۈرۈلگەندىن كېيىن بىر نەچچە سېكۇنت ئىچىدە يېنىۋېلىشقا بولىدۇ.",
+  "tavernUndoFailed": "يېنىۋېلىش مەغلۇپ بولدى",
+  "tavernShowUsage": "ھەر بىر جاۋاب ئاستىدا ئىشلىتىش مىقدارىنى كۆرسىتىش",
+  "tavernShowUsageSubtitle": "مودېل دوكلات قىلغان كىرگۈزۈش ۋە چىقىرىش token سانى؛ چىقىم مۆلچەرلەنمەيدۇ",
+  "tavernUsageLine": "كىرگۈزۈش {input} · چىقىرىش {output}",
   "@tavernUsageLine": {
     "placeholders": {
       "input": {
@@ -806,7 +807,7 @@
       }
     }
   },
-  "tavernUsageLineCached": "输入 {input}（命中缓存 {cached}）· 输出 {output}",
+  "tavernUsageLineCached": "كىرگۈزۈش {input} (غەملەكتىن {cached}) · چىقىرىش {output}",
   "@tavernUsageLineCached": {
     "placeholders": {
       "input": {
@@ -823,10 +824,10 @@
       }
     }
   },
-  "tavernSearchChat": "在对话里搜索",
-  "tavernSearchChatHint": "一句话、一个词",
-  "tavernSearchChatIdle": "搜的是这段对话的所有分支，包括隐藏的消息；不搜思考过程。点一条看全文。",
-  "tavernSearchChatNone": "没有找到「{query}」",
+  "tavernSearchChat": "سۆھبەتتىن ئىزدەش",
+  "tavernSearchChatHint": "بىر جۈملە، بىر سۆز",
+  "tavernSearchChatIdle": "بۇ سۆھبەتنىڭ بارلىق تارمىقىدىن ئىزدەيدۇ، يوشۇرۇن ئۇچۇرلارنىمۇ ئۆز ئىچىگە ئالىدۇ؛ ئويلىنىش جەريانىدىن ئىزدەمەيدۇ. بىرنى چېكىپ تولۇق تېكىستنى كۆرۈڭ.",
+  "tavernSearchChatNone": "«{query}» تېپىلمىدى",
   "@tavernSearchChatNone": {
     "placeholders": {
       "query": {
@@ -834,7 +835,7 @@
       }
     }
   },
-  "tavernSearchChatFound": "{count, plural, =1{找到 1 条} other{找到 {count} 条，新的在前}}",
+  "tavernSearchChatFound": "{count, plural, =1{1 ئۇچۇر تېپىلدى} other{{count} ئۇچۇر تېپىلدى، يېڭىسى ئالدىدا}}",
   "@tavernSearchChatFound": {
     "placeholders": {
       "count": {
@@ -842,29 +843,29 @@
       }
     }
   },
-  "tavernDeleteOne": "只删这一条",
-  "tavernDeleteOneTitle": "只删除这一条消息？",
-  "tavernDeleteOneMessage": "后面的消息都留着，接到它前面那条上。这样删除不能撤销。",
-  "tavernLorebookAdd": "加一条",
-  "tavernLorebookStart": "这张卡还没有自己的世界书。加一条，对话里提到它的关键词时，内容就会带进提示词。",
-  "tavernLorebookEntryNew": "新条目",
-  "tavernLorebookEntryEdit": "编辑条目",
-  "tavernLorebookFieldName": "条目名",
-  "tavernLorebookFieldNameHelp": "只给你看，方便找；不发给模型。",
-  "tavernLorebookFieldKeys": "关键词",
-  "tavernLorebookFieldKeysHelp": "对话里出现其中任何一个，就把内容带进提示词。用逗号隔开。",
-  "tavernLorebookFieldSecondary": "次关键词",
-  "tavernLorebookFieldSecondaryHelp": "填了的话，再按下面「次关键词怎么算」筛一遍才带进去。",
-  "tavernLorebookFieldContent": "内容",
-  "tavernLorebookFieldConstantSubtitle": "不管有没有提到关键词，每次都带上",
-  "tavernLorebookFieldEnabled": "启用",
-  "tavernLorebookFieldPosition": "放在",
-  "tavernLorebookBeforeChar": "角色设定前",
-  "tavernLorebookAfterChar": "角色设定后",
-  "tavernLorebookFieldOrder": "顺序",
-  "tavernLorebookFieldOrderHelp": "数字大的排在前面，也先带进去。",
-  "tavernLorebookEntryDelete": "删除这一条",
-  "tavernLorebookEntryDeleteTitle": "删除条目「{name}」？",
+  "tavernDeleteOne": "پەقەت بۇنىلا ئۆچۈرۈش",
+  "tavernDeleteOneTitle": "پەقەت بۇ ئۇچۇرنىلا ئۆچۈرەمسىز؟",
+  "tavernDeleteOneMessage": "كېيىنكى ئۇچۇرلار ساقلىنىپ، ئۇنىڭ ئالدىدىكى ئۇچۇرغا ئۇلىنىدۇ. بۇنداق ئۆچۈرۈشنى يېنىۋېلىشقا بولمايدۇ.",
+  "tavernLorebookAdd": "بىرنى قوشۇش",
+  "tavernLorebookStart": "بۇ كارتىنىڭ تېخى ئۆزىنىڭ دۇنيا كىتابى يوق. بىرنى قوشسىڭىز، سۆھبەتتە ئۇنىڭ ئاچقۇچلۇق سۆزلىرى تىلغا ئېلىنغاندا، مەزمۇنى كۆرسەتمىگە كىرگۈزۈلىدۇ.",
+  "tavernLorebookEntryNew": "يېڭى تۈر",
+  "tavernLorebookEntryEdit": "تۈرنى تەھرىرلەش",
+  "tavernLorebookFieldName": "تۈر ئاتى",
+  "tavernLorebookFieldNameHelp": "پەقەت سىزگىلا كۆرۈنىدۇ، تېپىشقا ئاسان؛ مودېلغا ئەۋەتىلمەيدۇ.",
+  "tavernLorebookFieldKeys": "ئاچقۇچلۇق سۆزلەر",
+  "tavernLorebookFieldKeysHelp": "سۆھبەتتە بۇلارنىڭ ھەرقايسىسى كۆرۈلگەندە، مەزمۇن كۆرسەتمىگە كىرگۈزۈلىدۇ. پەش بىلەن ئايرىڭ.",
+  "tavernLorebookFieldSecondary": "ئىككىلەمچى ئاچقۇچلۇق سۆزلەر",
+  "tavernLorebookFieldSecondaryHelp": "تولدۇرسىڭىز، ئاندىن تۆۋەندىكى «ئىككىلەمچى ئاچقۇچ سۆزلەرنى قانداق ھېسابلاش» بويىچە سۈزۈپ ئاندىن كىرگۈزۈلىدۇ.",
+  "tavernLorebookFieldContent": "مەزمۇن",
+  "tavernLorebookFieldConstantSubtitle": "ئاچقۇچى سۆز ئېيتىلمىسىمۇ ھەر قېتىم قوشۇلىدۇ",
+  "tavernLorebookFieldEnabled": "قوزغىتىش",
+  "tavernLorebookFieldPosition": "قويۇلىدىغان ئورنى",
+  "tavernLorebookBeforeChar": "رول تەڭشىكىدىن ئىلگىرى",
+  "tavernLorebookAfterChar": "رول تەڭشىكىدىن كېيىن",
+  "tavernLorebookFieldOrder": "تەرتىپ",
+  "tavernLorebookFieldOrderHelp": "سانى چوڭ بولغىنى ئالدىدا تۇرىدۇ، ئالدىنقى قېتىم كىرگۈزۈلىدۇ.",
+  "tavernLorebookEntryDelete": "بۇ تۈرنى ئۆچۈرۈش",
+  "tavernLorebookEntryDeleteTitle": "«{name}» تۈرى ئۆچۈرۈلسۇن؟",
   "@tavernLorebookEntryDeleteTitle": {
     "placeholders": {
       "name": {
@@ -872,21 +873,21 @@
       }
     }
   },
-  "tavernLorebookEntryDeleteMessage": "这一条会从卡里删掉，删除后就找不回来了。",
-  "tavernNarrator": "旁白",
-  "tavernSendOptions": "换种方式发",
-  "tavernSendOnly": "只发，不回复",
-  "tavernSendOnlySubtitle": "这句放进故事，她先不接话",
-  "tavernNarrate": "以旁白身份发",
-  "tavernNarrateSubtitle": "作为叙述插进故事，不算你说的话",
-  "tavernSendFailed": "没能发出去",
-  "tavernStateVariables": "变量",
-  "tavernStateVariablesNote": "卡和对话里 {{setvar}} 这类宏记下的变量，到当前这条为止。点一项看全部，也能直接改。",
-  "tavernData": "数据",
-  "tavernBackup": "备份整个酒馆",
-  "tavernBackupSubtitle": "角色卡、对话、预设、世界书、人设和设置，打成一个 zip",
-  "tavernBackingUp": "正在备份…",
-  "tavernBackedUp": "备份好了：{count} 个文件，{size}",
+  "tavernLorebookEntryDeleteMessage": "بۇ تۈر كارتىدىن ئۆچۈرۈلىدۇ، ئۆچۈرۈلگەندىن كېيىن قايتا تېپىلمايدۇ.",
+  "tavernNarrator": "رەۋىي",
+  "tavernSendOptions": "باشقا ئۇسۇلدا ئەۋەتىش",
+  "tavernSendOnly": "پەقەت ئەۋەتىش، جاۋاب قايتۇرماسلىق",
+  "tavernSendOnlySubtitle": "بۇ جۈملە ھېكايىگە كىرگۈزۈلىدۇ، ئۇ ئاۋۋال جاۋاب قايتۇرمايدۇ",
+  "tavernNarrate": "رەۋىي سۈپىتىدە ئەۋەتىش",
+  "tavernNarrateSubtitle": "ھېكايىگە رىۋايەت سۈپىتىدە قىستۇرۇلىدۇ، سىزنىڭ سۆزىڭىز ھېسابلانمايدۇ",
+  "tavernSendFailed": "ئەۋەتىلمىدى",
+  "tavernStateVariables": "ئۆزگەرگۈچىلەر",
+  "tavernStateVariablesNote": "كارتا ۋە سۆھبەتتىكى {{setvar}} قاتارلىق ماكرولار خاتىرىلىگەن ئۆزگەرگۈچىلەر، مۇشۇ قېتىمغىچە. بىر تۈرنى چېكىپ ھەممىسىنى كۆرۈڭ، بىۋاسىتە ئۆزگەرتىشكىمۇ بولىدۇ.",
+  "tavernData": "ساندان",
+  "tavernBackup": "پۈتۈن تاۋېرننى زاپاسلاش",
+  "tavernBackupSubtitle": "رول كارتىسى، سۆھبەت، ئالدىن بەلگىلەمە، دۇنيا كىتابى، رول ئۇيغۇرما ۋە تەڭشەكلەرنى بىر zip قىلىپ ئوراش",
+  "tavernBackingUp": "زاپاسلىنىۋاتىدۇ…",
+  "tavernBackedUp": "زاپاسلاندى: {count} ھۆججەت، {size}",
   "@tavernBackedUp": {
     "placeholders": {
       "count": {
@@ -897,7 +898,7 @@
       }
     }
   },
-  "tavernBackupFailed": "没能备份：{error}",
+  "tavernBackupFailed": "زاپاسلاش مەغلۇپ بولدى: {error}",
   "@tavernBackupFailed": {
     "placeholders": {
       "error": {
@@ -905,13 +906,13 @@
       }
     }
   },
-  "tavernRestore": "从备份恢复",
-  "tavernRestoreSubtitle": "用一份备份替换现在的酒馆",
-  "tavernRestoreTitle": "用这份备份替换现在的酒馆？",
-  "tavernRestoreMessage": "现在的角色、对话、预设和设置都会换成备份里的。想留着现在的，先备份一份。备份不对或者坏了的话，现在的数据不会动。",
-  "tavernRestoreAction": "恢复",
-  "tavernRestoring": "正在恢复…",
-  "tavernRestored": "恢复好了：{count} 个文件",
+  "tavernRestore": "زاپاستىن ئەسلىگە قايتۇرۇش",
+  "tavernRestoreSubtitle": "ھازىرقى تاۋېرنانى بىر زاپاس بىلەن ئالماشتۇرۇش",
+  "tavernRestoreTitle": "ھازىرقى تاۋېرنانى بۇ زاپاس بىلەن ئالماشتۇرامسىز؟",
+  "tavernRestoreMessage": "ھازىرقى روللار، سۆھبەتلەر، ئالدىن بېكىتىشلەر ۋە تەڭشەكلەر زاپاستىكىلەر بىلەن ئالماشتۇرۇلىدۇ. ھازىرقىنى ساقلاپ قېلىش ئۈچۈن ئاۋۋال زاپاسلاڭ. زاپاس توغرا بولمىسا ياكى بۇزۇلغان بولسا، ھازىرقى سانلىق مەلۇماتلار ئۆزگەرمەيدۇ.",
+  "tavernRestoreAction": "ئەسلىگە قايتۇرۇش",
+  "tavernRestoring": "ئەسلىگە قايتۇرۇلۇۋاتىدۇ…",
+  "tavernRestored": "ئەسلىگە قايتۇرۇلدى: {count} ھۆججەت",
   "@tavernRestored": {
     "placeholders": {
       "count": {
@@ -919,7 +920,7 @@
       }
     }
   },
-  "tavernRestoreFailed": "没能恢复，现在的数据没动：{error}",
+  "tavernRestoreFailed": "ئەسلىگە قايتۇرۇش مەغلۇپ بولدى، ھازىرقى سانلىق مەلۇماتلار ئۆزگەرمىدى: {error}",
   "@tavernRestoreFailed": {
     "placeholders": {
       "error": {
@@ -927,12 +928,12 @@
       }
     }
   },
-  "tavernLoreTest": "测一下",
-  "tavernLoreTestTitle": "测一下世界书",
-  "tavernLoreTestInput": "说一句话",
-  "tavernLoreTestHint": "比如你希望它带出某一条时会说的话",
-  "tavernLoreTestNote": "只看这一句，加上常驻的条目；对话里前面说过的、粘性和冷却都不算。不会调用模型。",
-  "tavernLoreTestHits": "会带进提示词的（{count}）",
+  "tavernLoreTest": "سىناپ بېقىش",
+  "tavernLoreTestTitle": "دۇنيا كىتابىنى سىناپ بېقىش",
+  "tavernLoreTestInput": "بىر جۈملە سۆز",
+  "tavernLoreTestHint": "مەسىلەن، مەلۇم بىر تۈرنى چىقىرىشنى ئۈمىد قىلغاندا ئېيتىدىغان سۆزىڭىز",
+  "tavernLoreTestNote": "پەقەت مۇشۇ جۈملىگە ۋە دائىم تۇرىدىغان تۈرلەرگە قارايدۇ؛ سۆھبەتتە ئاۋۋال ئېيتىلغانلار، چاپلاشقۇچىلىق ۋە سوۋۇتۇش ھېسابقا ئېلىنمايدۇ. مودېل چاقىرىلمايدۇ.",
+  "tavernLoreTestHits": "كۆرسەتمىگە كىرگۈزۈلىدىغانلار ({count})",
   "@tavernLoreTestHits": {
     "placeholders": {
       "count": {
@@ -940,9 +941,9 @@
       }
     }
   },
-  "tavernLoreTestNone": "这句话不会带出任何条目。",
-  "tavernLoreTestOverflow": "超出了世界书的预算，排在后面的条目没放进去。",
-  "tavernLoreTestFailed": "没能测：{error}",
+  "tavernLoreTestNone": "بۇ جۈملە ھېچقانداق تۈرنى چىقارمايدۇ.",
+  "tavernLoreTestOverflow": "دۇنيا كىتابىنىڭ بۇجېتىدىن ئېشىپ كەتتى، كەينىدە تۇرغان تۈرلەر كىرگۈزۈلمىدى.",
+  "tavernLoreTestFailed": "سىناش مەغلۇپ بولدى: {error}",
   "@tavernLoreTestFailed": {
     "placeholders": {
       "error": {
@@ -950,7 +951,7 @@
       }
     }
   },
-  "tavernLoreReasonKeys": "关键词{keys}",
+  "tavernLoreReasonKeys": "ئاچقۇچلۇق سۆزلەر{keys}",
   "@tavernLoreReasonKeys": {
     "placeholders": {
       "keys": {
@@ -958,9 +959,9 @@
       }
     }
   },
-  "tavernLoreReasonSticky": "粘性，还在生效",
-  "tavernLoreReasonDecorator": "装饰器",
-  "tavernLoreAtDepth": "倒数第 {depth} 条消息处",
+  "tavernLoreReasonSticky": "چاپلاشقۇچى، يەنىلا كۈچتە",
+  "tavernLoreReasonDecorator": "بېزەكچى",
+  "tavernLoreAtDepth": "ئاخىرقىدىن {depth}-ئۇچۇر ئورنىدا",
   "@tavernLoreAtDepth": {
     "placeholders": {
       "depth": {
@@ -968,10 +969,10 @@
       }
     }
   },
-  "tavernLoreNearNote": "作者注释旁",
-  "tavernLoreNearExamples": "示例对话旁",
-  "tavernLoreOutlet": "出口",
-  "tavernLoreOrder": "顺序 {order}",
+  "tavernLoreNearNote": "ئاپتور ئىزاھى يېنىدا",
+  "tavernLoreNearExamples": "ئۈلگە سۆھبەت يېنىدا",
+  "tavernLoreOutlet": "چىقىش ئېغىزى",
+  "tavernLoreOrder": "تەرتىپ {order}",
   "@tavernLoreOrder": {
     "placeholders": {
       "order": {
@@ -979,10 +980,10 @@
       }
     }
   },
-  "tavernBranches": "分支",
-  "tavernBranchesNote": "每行是一段没有分叉的对话。缩进的那行，是从上面那行的末尾岔出去的另一条路。点一行可以切过去、给它起名；没在走的那条也能删掉。",
-  "tavernBranchesEmpty": "这段对话还没有消息。",
-  "tavernBranchCount": "{count} 条",
+  "tavernBranches": "تارماقلار",
+  "tavernBranchesNote": "ھەر بىر قۇر بىر تارماقلىنىمىگەن سۆھبەت. تارتىلغان قۇر ئۈستىدىكى قۇرنىڭ ئاخىرىدىن ئايرىلغان يەنە بىر يول. بىر قۇرنى چېكىپ ئۇنىڭغا ئالماشتۇرۇش، نام بېرىش مۇمكىن؛ يۈرگۈزۈلمەۋاتقان يولنىمۇ ئۆچۈرگىلى بولىدۇ.",
+  "tavernBranchesEmpty": "بۇ سۆھبەتتە تېخى ئۇچۇر يوق.",
+  "tavernBranchCount": "{count} دانە",
   "@tavernBranchCount": {
     "placeholders": {
       "count": {
@@ -990,7 +991,7 @@
       }
     }
   },
-  "tavernBranchUntil": "到「{text}」",
+  "tavernBranchUntil": "«{text}» گىچە",
   "@tavernBranchUntil": {
     "placeholders": {
       "text": {
@@ -998,15 +999,15 @@
       }
     }
   },
-  "tavernBranchCurrent": "正在看",
-  "tavernBranchSwitch": "切到这条分支",
-  "tavernBranchSwitchSubtitle": "后面接着它上次走到的地方",
-  "tavernBranchName": "给这条分支起名",
-  "tavernBranchRename": "改名",
-  "tavernBranchNameHint": "比如：地下室那条线",
-  "tavernBranchNameCaption": "只给你看，方便找；留空就去掉名字。",
-  "tavernBranchSwitched": "切到了这条分支",
-  "tavernBranchFailed": "没能完成：{error}",
+  "tavernBranchCurrent": "كۆرۈلۈۋاتىدۇ",
+  "tavernBranchSwitch": "بۇ تارماققا ئالماشتۇرۇش",
+  "tavernBranchSwitchSubtitle": "ئۇنىڭ ئالدىنقى قېتىم بارغان جايىدىن داۋاملىشىدۇ",
+  "tavernBranchName": "بۇ تارماققا نام قويۇش",
+  "tavernBranchRename": "نام ئۆزگەرتىش",
+  "tavernBranchNameHint": "مەسىلەن: يەرئاستى يولى",
+  "tavernBranchNameCaption": "پەقەت سىزگە كۆرۈنىدۇ، تېپىشقا ئاسان؛ بوش قالدۇرسىڭىز نامى ئۆچۈرۈلىدۇ.",
+  "tavernBranchSwitched": "بۇ تارماققا ئالماشتۇرۇلدى",
+  "tavernBranchFailed": "تاماملىنالمىدى: {error}",
   "@tavernBranchFailed": {
     "placeholders": {
       "error": {
@@ -1014,25 +1015,25 @@
       }
     }
   },
-  "tavernCardTheme": "用卡自带的样式",
-  "tavernCardThemeSubtitle": "卡里写的强调色、名字颜色、默认排版和背景；关掉就都按这里的设置",
-  "tavernShelfSort": "排序",
-  "tavernShelfOrderRecent": "最近聊过",
-  "tavernShelfOrderName": "名字",
-  "tavernShelfOrderImported": "最近导入",
-  "tavernFavorite": "收藏",
-  "tavernUnfavorite": "取消收藏",
-  "tavernFavorited": "已收藏",
-  "tavernChatSearchHint": "搜对话：角色、标题、最后一句",
-  "tavernNoChatMatch": "没有符合的对话",
-  "tavernCharacterTabChats": "对话",
-  "tavernCharacterTabCard": "设定",
-  "tavernCharacterTabSetup": "配置",
-  "tavernCharacterNoDefinition": "这张卡没有写设定和说明。",
-  "tavernNovelIndent": "小说排版段首空两格",
-  "tavernNovelIndentSubtitle": "像书里那样，每段开头空两个字",
-  "tavernShelfSelect": "选择",
-  "tavernShelfPicked": "已选 {count} 个",
+  "tavernCardTheme": "كارتىنىڭ ئۆز ئۇسلۇبىنى ئىشلىتىش",
+  "tavernCardThemeSubtitle": "كارتا ئىچىدە يېزىلغان ئالاھىدە رەڭ، نام رەڭگى، كۆڭۈلدىكى تىزىلىش ۋە ئارقا كۆرۈنۈش؛ تاقىسىڭىز ھەممىسى بۇ يەردىكى تەڭشەككە ئاساسلىنىدۇ",
+  "tavernShelfSort": "تەرتىپلەش",
+  "tavernShelfOrderRecent": "يېقىن سۆھبەتلەشكەن",
+  "tavernShelfOrderName": "نامى",
+  "tavernShelfOrderImported": "يېقىن كىرگۈزۈلگەن",
+  "tavernFavorite": "ساقلىۋېلىش",
+  "tavernUnfavorite": "ساقلىۋېلىشنى بىكار قىلىش",
+  "tavernFavorited": "ساقلانغان",
+  "tavernChatSearchHint": "سۆھبەت ئىزدەش: رول، تېما، ئاخىرقى جۈملە",
+  "tavernNoChatMatch": "ماس كېلىدىغان سۆھبەت يوق",
+  "tavernCharacterTabChats": "سۆھبەت",
+  "tavernCharacterTabCard": "تەڭشەك",
+  "tavernCharacterTabSetup": "سەپلەش",
+  "tavernCharacterNoDefinition": "بۇ كارتىدا تەڭشەك ۋە چۈشەندۈرۈش يېزىلمىغان.",
+  "tavernNovelIndent": "رومان تىزىلىشىدا ئابزاس بېشىدا ئىككى كاتەك بوشلۇق",
+  "tavernNovelIndentSubtitle": "كىتابتىكىدەك، ھەر ئابزاس بېشىدا ئىككى خەت بوشلۇق",
+  "tavernShelfSelect": "تاللاش",
+  "tavernShelfPicked": "{count} دانە تاللاندى",
   "@tavernShelfPicked": {
     "placeholders": {
       "count": {
@@ -1040,8 +1041,8 @@
       }
     }
   },
-  "tavernShelfExport": "导出选中的角色卡",
-  "tavernDeleteCharactersTitle": "删除这 {count} 个角色？",
+  "tavernShelfExport": "تاللانغان رول كارتىلىرىنى چىقىرىش",
+  "tavernDeleteCharactersTitle": "بۇ {count} رولنى ئۆچۈرەمسىز؟",
   "@tavernDeleteCharactersTitle": {
     "placeholders": {
       "count": {
@@ -1049,9 +1050,9 @@
       }
     }
   },
-  "tavernQuickRepliesAll": "全部",
-  "tavernQuickRepliesManage": "管理快速回复",
-  "tavernSpeakNext": "让{name}接着说",
+  "tavernQuickRepliesAll": "ھەممىسى",
+  "tavernQuickRepliesManage": "تېز جاۋابلارنى باشقۇرۇش",
+  "tavernSpeakNext": "{name} ئەمدى داۋاملاشتۇرسۇن",
   "@tavernSpeakNext": {
     "placeholders": {
       "name": {
@@ -1059,10 +1060,10 @@
       }
     }
   },
-  "tavernSettingsConnection": "模型与连接",
-  "tavernDefaultPreset": "默认预设",
-  "tavernDefaultPresetPick": "新对话用的预设",
-  "tavernGenerationInPreset": "改「{name}」的参数",
+  "tavernSettingsConnection": "مودېل ۋە ئۇلىنىش",
+  "tavernDefaultPreset": "سۈكۈتتىكى ئالدىن بەلگىلەش",
+  "tavernDefaultPresetPick": "يېڭى سۆھبەتتە ئىشلىتىلىدىغان ئالدىن بەلگىلەش",
+  "tavernGenerationInPreset": "«{name}» نىڭ پارامېتىرلىرىنى ئۆزگەرتىش",
   "@tavernGenerationInPreset": {
     "placeholders": {
       "name": {
@@ -1070,7 +1071,7 @@
       }
     }
   },
-  "tavernGenerationPresetNote": "新对话用「{name}」：上下文、回复长度和温度在这份预设里改。自带预设的对话以它自己的为准。",
+  "tavernGenerationPresetNote": "يېڭى سۆھبەتتە «{name}» ئىشلىتىلىدۇ: مەزمۇن دائىرىسى، جاۋاب ئۇزۇنلۇقى ۋە تېمپېراتۇرا بۇ ئالدىن بەلگىلەشتە ئۆزگەرتىلىدۇ. ئۆز ئالدىن بەلگىلەشى بار سۆھبەت ئۆزىنىڭكىگە ئاساسلىنىدۇ.",
   "@tavernGenerationPresetNote": {
     "placeholders": {
       "name": {
@@ -1078,15 +1079,15 @@
       }
     }
   },
-  "tavernStorage": "存储占用",
-  "tavernStorageCounting": "正在计算…",
-  "tavernStorageCharacters": "角色卡",
-  "tavernStorageChats": "对话、预设和人设",
-  "tavernStorageLive2d": "Live2D 形象",
-  "tavernStorageOther": "背景图、世界书、正则和设置",
-  "tavernStorageNote": "这些都只存在这台设备上；换手机或卸载前，先「备份整个酒馆」。",
-  "tavernDefaultPresetEmpty": "在 资源库 › 预设 里导入以后，就能换成别的。",
-  "tavernQuickRepliesAdded": "加了 {count} 条快速回复",
+  "tavernStorage": "ساقلاش ئىگىللىشى",
+  "tavernStorageCounting": "ھېسابلىنىۋاتىدۇ…",
+  "tavernStorageCharacters": "رول كارتىلىرى",
+  "tavernStorageChats": "سۆھبەت، ئالدىن بەلگىلەش ۋە شەخسىيەت",
+  "tavernStorageLive2d": "Live2D كۆرۈنۈشى",
+  "tavernStorageOther": "ئارقا كۆرۈنۈش، دۇنيا كىتابى، رېگېكس ۋە تەڭشەكلەر",
+  "tavernStorageNote": "بۇلارنىڭ ھەممىسى پەقەت مۇشۇ ئۈسكۈنىدە ساقلىنىدۇ؛ تېلېفون ئالماشتۇرۇش ياكى ئۆچۈرۈشتىن بۇرۇن «پۈتۈن تاۋېرنى زاپاسلاڭ».",
+  "tavernDefaultPresetEmpty": "مەنبە ئامبىرى › ئالدىن بەلگىلەشكە ئىمپورت قىلغاندىن كېيىن، باشقىسىغا ئالماشتۇرالايسىز.",
+  "tavernQuickRepliesAdded": "{count} تېز جاۋاب قوشۇلدى",
   "@tavernQuickRepliesAdded": {
     "placeholders": {
       "count": {
@@ -1094,7 +1095,7 @@
       }
     }
   },
-  "tavernQuickRepliesAddedSkipped": "加了 {count} 条快速回复；{skipped} 条是 ST 的斜杠命令，没有加",
+  "tavernQuickRepliesAddedSkipped": "{count} تېز جاۋاب قوشۇلدى؛ {skipped} ى ST نىڭ قىيپاش بۇيرۇقى بولغاچقا قوشۇلمىدى",
   "@tavernQuickRepliesAddedSkipped": {
     "placeholders": {
       "count": {
@@ -1105,8 +1106,8 @@
       }
     }
   },
-  "tavernImportChatNoName": "这份聊天记录没写是哪个角色的，到角色页里导入它",
-  "tavernImportChatNoCharacter": "书架上找不到唯一的「{name}」，到角色页里导入这段聊天",
+  "tavernImportChatNoName": "بۇ پاراڭ خاتىرىسىدە قايسى رولنىڭ ئىكەنلىكى يېزىلمىغان، ئۇنى رول بېتىدە ئىمپورت قىلىڭ",
+  "tavernImportChatNoCharacter": "رىنگتا يېگانە «{name}» تېپىلمىدى، بۇ پاراڭنى رول بېتىدە ئىمپورت قىلىڭ",
   "@tavernImportChatNoCharacter": {
     "placeholders": {
       "name": {
@@ -1114,7 +1115,7 @@
       }
     }
   },
-  "tavernImportedChatsTo": "{count} 段对话导入到了「{name}」",
+  "tavernImportedChatsTo": "{count} پاراڭ «{name}» غا ئىمپورت قىلىندى",
   "@tavernImportedChatsTo": {
     "placeholders": {
       "count": {
@@ -1125,7 +1126,7 @@
       }
     }
   },
-  "tavernImportUnknown": "认不出 {name} 是什么文件",
+  "tavernImportUnknown": "{name} نىڭ قانداق ھۆججەت ئىكەنلىكىنى تونۇيالمىدىم",
   "@tavernImportUnknown": {
     "placeholders": {
       "name": {
@@ -1133,7 +1134,7 @@
       }
     }
   },
-  "tavernImportFileFailed": "{name} 没能导入：{reason}",
+  "tavernImportFileFailed": "{name} ئىمپورت قىلىنالمىدى: {reason}",
   "@tavernImportFileFailed": {
     "placeholders": {
       "name": {
@@ -1144,15 +1145,15 @@
       }
     }
   },
-  "tavernIslands": "消息里的网页",
-  "tavernIslandsSubtitle": "卡在消息里写的 HTML 和样式（状态栏、面板），单独放进一个网页里显示；关掉就按文字显示",
-  "tavernSettingsSafety": "安全",
-  "tavernIslandNoScripts": "网页里不运行卡的脚本",
-  "tavernIslandNoScriptsSubtitle": "卡自带的 JavaScript 不运行；要靠脚本动起来的状态栏会停住",
-  "tavernIslandOffline": "网页不联网",
-  "tavernIslandOfflineSubtitle": "只用卡里自带的图片和字体，不从网上加载任何东西",
-  "tavernSessionUsage": "本局用量",
-  "tavernSessionUsageNote": "当前这条线上 {count} 条回复的合计；换掉的备选不算",
+  "tavernIslands": "ئۇچۇردىكى تور بەتلەر",
+  "tavernIslandsSubtitle": "ئۇچۇرغا يېزىلغان HTML ۋە ئۇسلۇبلار (ھالەت بالدىقى، تاختىلار) ئايرىم بىر تور بەتتە كۆرسىتىلىدۇ؛ تاقىلسا تېكىست ھالىتىدە كۆرسىتىلىدۇ",
+  "tavernSettingsSafety": "بىخەتەرلىك",
+  "tavernIslandNoScripts": "تور بەتتە كارتىنىڭ اسكرىپتى يۈرگۈزۈلمەيدۇ",
+  "tavernIslandNoScriptsSubtitle": "كارتىغا ئىچىلغان JavaScript يۈرگۈزۈلمەيدۇ؛ اسكرىپ بىلەن ھەرىكەتلىنىدىغان ھالەت بالدىقى توختايدۇ",
+  "tavernIslandOffline": "تور بەت تورغا ئۇلانمايدۇ",
+  "tavernIslandOfflineSubtitle": "پەقەت كارتىدىكى رەسىم ۋە خەت نۇسخىلىرى ئىشلىتىلىدۇ، توردىن ھېچنەرسە يۈكلەنمەيدۇ",
+  "tavernSessionUsage": "بۇ قېتىملىق ئىشلىتىش",
+  "tavernSessionUsageNote": "نۆۋەتتىكى بۇ لىنىيەدىكى {count} جاۋابنىڭ جەمئىيى؛ ئالماشتۇرۇلغان تاللانمىلار ھېسابلانمايدۇ",
   "@tavernSessionUsageNote": {
     "placeholders": {
       "count": {
@@ -1160,24 +1161,24 @@
       }
     }
   },
-  "tavernSessionUsageNone": "还没有模型报告过用量",
-  "tavernComposerNoKey": "填好 Key 就能开始",
-  "tavernWriteOwn": "自己写一个角色",
-  "tavernWriteOwnSubtitle": "从一张空白卡开始，名字、设定和开场白都自己填",
-  "tavernNewCharacterName": "新角色",
-  "tavernSearchGoTo": "到对话里这一条",
-  "tavernBookmarks": "书签",
-  "tavernBookmarkAdd": "加书签",
-  "tavernBookmarkRemove": "去掉书签",
-  "tavernBookmarkAdded": "加了书签，在 舞台 › 本局 › 书签 里找",
-  "tavernBookmarkRemoved": "书签去掉了",
-  "tavernBookmarksEmpty": "还没有书签",
-  "tavernBookmarksEmptyMessage": "长按一条消息，选「加书签」",
-  "tavernBookmarkGone": "那一条已经不在了，书签去掉了",
-  "tavernUsageStats": "用量统计",
-  "tavernUsageStatsSubtitle": "每段对话用了多少 token",
-  "tavernUsageAllNote": "所有对话当前线上的回复合计；换掉的备选不算",
-  "tavernUsageChatReplies": "{count} 条回复 · 回复 {completion}",
+  "tavernSessionUsageNone": "تېخى ھېچقانداق مودېل ئىشلىتىش مىقدارىنى دوكلات قىلمىدى",
+  "tavernComposerNoKey": "Key نى تولدۇرسىڭىزلا باشلىيالايسىز",
+  "tavernWriteOwn": "ئۆزىڭىز بىر رول يېزىڭ",
+  "tavernWriteOwnSubtitle": "بوش كارتوندىن باشلاپ، ئىسىم، تەڭشەك ۋە ئېچىلىش سۆزىنى ئۆزىڭىز تولدۇرۇڭ",
+  "tavernNewCharacterName": "يېڭى رول",
+  "tavernSearchGoTo": "سۆھبەتتىكى بۇ تۈرگە بېرىش",
+  "tavernBookmarks": "خەتكۈچلەر",
+  "tavernBookmarkAdd": "خەتكۈچ قوشۇش",
+  "tavernBookmarkRemove": "خەتكۈچنى ئۆچۈرۈش",
+  "tavernBookmarkAdded": "خەتكۈچ قوشۇلدى، سەھنە › بۇ ئويۇن › خەتكۈچلەر دىن ئىزدەڭ",
+  "tavernBookmarkRemoved": "خەتكۈچ ئۆچۈرۈلدى",
+  "tavernBookmarksEmpty": "تېخى خەتكۈچ يوق",
+  "tavernBookmarksEmptyMessage": "بىر ئۇچۇرنى ئۇزۇن بېسىپ، «خەتكۈچ قوشۇش» نى تاللاڭ",
+  "tavernBookmarkGone": "ئۇ تۈر ئەمدى يوق، خەتكۈچ ئۆچۈرۈلدى",
+  "tavernUsageStats": "ئىشلىتىش ستاتىستىكىسى",
+  "tavernUsageStatsSubtitle": "ھەر بىر سۆھبەتتە قانچە token ئىشلىتىلگەن",
+  "tavernUsageAllNote": "بارلىق سۆھبەتلەرنىڭ ھازىرقى توردىكى جاۋابلىرىنىڭ جەمئىيى؛ ئالماشتۇرۇلغان تاللانمىلار ھېسابلانمايدۇ",
+  "tavernUsageChatReplies": "{count} جاۋاب · جاۋاب {completion}",
   "@tavernUsageChatReplies": {
     "placeholders": {
       "count": {
@@ -1188,16 +1189,16 @@
       }
     }
   },
-  "tavernSlashNoReply": "还没有可以这样做的回复",
-  "tavernRegexTest": "试一下",
-  "tavernRegexTestFind": "查找",
-  "tavernRegexTestReplace": "替换为",
-  "tavernRegexTestInput": "一段文字",
-  "tavernRegexTestHint": "粘一段回复进来试试",
-  "tavernRegexTestNote": "只用这一条规则在本机试，不发给模型；不管它平时作用在哪、开没开，这里都照样跑。",
-  "tavernRegexTestMacros": "{{char}} 这类宏这里不展开，照字面算。",
-  "tavernRegexTestNone": "没有匹配，原样不变",
-  "tavernRegexTestResult": "替换后（{count} 处）",
+  "tavernSlashNoReply": "تېخى بۇنداق قىلغىلى بولىدىغان جاۋاب يوق",
+  "tavernRegexTest": "سىناپ بېقىڭ",
+  "tavernRegexTestFind": "ئىزدەش",
+  "tavernRegexTestReplace": "ئالماشتۇرۇش",
+  "tavernRegexTestInput": "بىر پارچە تېكىست",
+  "tavernRegexTestHint": "بىر پارچە جاۋاب چاپلاپ سىناپ بېقىڭ",
+  "tavernRegexTestNote": "پەقەت مۇشۇ بىر قائىدىنىلا بۇ يەردە سىنايدۇ، مودېلغا ئەۋەتىلمەيدۇ؛ ئادەتتە قەيەرگە تەسىر قىلىشى، ئېچىلغان-ئېچىلمىغانلىقىغا قارىماي، بۇ يەردە ھەمىشە ئىجرا قىلىنىدۇ.",
+  "tavernRegexTestMacros": "{{char}} دەك ماكرولار بۇ يەردە ئېچىلمايدۇ، خەتپەرۋەر ھېسابلىنىدۇ.",
+  "tavernRegexTestNone": "ماس كەلگىنى يوق، ئەسلىي ھالىتىدە",
+  "tavernRegexTestResult": "ئالماشتۇرۇلغاندىن كېيىن ({count} يەر)",
   "@tavernRegexTestResult": {
     "placeholders": {
       "count": {
@@ -1205,7 +1206,7 @@
       }
     }
   },
-  "tavernRegexTestFailed": "没能试：{reason}",
+  "tavernRegexTestFailed": "سىنالمىدى: {reason}",
   "@tavernRegexTestFailed": {
     "placeholders": {
       "reason": {
@@ -1213,18 +1214,18 @@
       }
     }
   },
-  "tavernStateNote": "卡定义的状态，到当前这条消息为止。这回合变了的标着「+5」这样的记号；点一项看全部，也能直接改，改动记在这条消息上，换回答、切分支会跟着回退。",
-  "tavernStatePreview": "还没开始记，下面是卡给的初始值。",
-  "tavernStateChanged": "变了",
-  "tavernStateHidden": "剧透 · 点开看",
-  "tavernStateWhole": "整体",
-  "tavernStateEdit": "改",
-  "tavernStateEditText": "这段文字原样保存",
-  "tavernStateEditJson": "写 JSON：数字、true / false、\"带引号的文字\"、[…]、{…}",
-  "tavernStateEditBad": "这不是有效的 JSON，没有改",
-  "tavernStateEditSaved": "改好了",
-  "tavernStateEditSame": "值没变",
-  "tavernStateEditRefused": "没改成：{reason}",
+  "tavernStateNote": "كارتىدا بەلگىلەنگەن ھالەت، مۇشۇ ئۇچۇرغىچە. بۇ ئايلانمىدا ئۆزگەرگەنلىرى «+5» دەك بەلگە بىلەن. بىر تۈرنى چېكىپ ھەممىسىنى كۆرۈڭ، بىۋاسىتە ئۆزگەرتىڭمۇ بولىدۇ، ئۆزگەرتىشلەر مۇشۇ ئۇچۇرغا خاتىرىلىنىدۇ، جاۋابنى ئالماشتۇرغاندا، تارماق ئالماشتۇرغاندا قايتۇرۇلىدۇ.",
+  "tavernStatePreview": "تېخى خاتىرىلەش باشلانمىدى، ئاستىدىكىسى كارتىدىكى دەسلەپكى قىممەت.",
+  "tavernStateChanged": "ئۆزگەردى",
+  "tavernStateHidden": "سۈزۈك · چېكىپ كۆرۈڭ",
+  "tavernStateWhole": "پۈتۈن",
+  "tavernStateEdit": "ئۆزگەرتىش",
+  "tavernStateEditText": "بۇ تېكىست ئەسلىي ھالىتىدە ساقلىنىدۇ",
+  "tavernStateEditJson": "JSON يېزىڭ: سان، true / false، \"نەقىل تېكىست\"، […]، {…}",
+  "tavernStateEditBad": "بۇ ئۈنۈملۈك JSON ئەمەس، ئۆزگەرتىلمىدى",
+  "tavernStateEditSaved": "ئۆزگەرتىلدى",
+  "tavernStateEditSame": "قىممەت ئۆزگەرمىدى",
+  "tavernStateEditRefused": "ئۆزگەرتىلمىدى: {reason}",
   "@tavernStateEditRefused": {
     "placeholders": {
       "reason": {
@@ -1232,16 +1233,16 @@
       }
     }
   },
-  "tavernDirectorAuto": "自动导演",
-  "tavernDirectorAutoNote": "只对这段对话。开了以后每隔几个回合，在回复写完后多问一次模型：下一拍往哪走、给你三条可以做的事。每次都会多用一些额度。",
-  "tavernDirectorRun": "让导演想一想",
-  "tavernDirectorRunning": "导演在想…",
-  "tavernDirectorBeat": "下一拍",
-  "tavernDirectorSuggestions": "你可以…",
-  "tavernDirectorSuggestionsNote": "点一条放进输入框，改不改、发不发由你。",
-  "tavernDirectorNotes": "导演笔记",
-  "tavernDirectorStale": "这是之前的情况下想的，现在不一定合适，只供参考。",
-  "tavernDirectorFailed": "上次没想成：{reason}",
+  "tavernDirectorAuto": "ئاپتوماتىك رېژىسسور",
+  "tavernDirectorAutoNote": "پەقەت مۇشۇ سۆھبەتكە. ئېچىلغاندىن كېيىن ھەر نەچچە ئايلانمىدا، جاۋاب يېزىلىپ بولغاندىن كېيىن مودېلدىن يەنە سورايدۇ: كېيىنكى باسقۇچ قايسى ياققا ماڭىدۇ، سىزگە ئۈچ تۈرلۈك قىلالايدىغان ئىش بېرىدۇ. ھەر قېتىمدا ئازراق كۋوت ئىشلىتىلىدۇ.",
+  "tavernDirectorRun": "رېژىسسور ئويلىسۇن",
+  "tavernDirectorRunning": "رېژىسسور ئويلىماقتا…",
+  "tavernDirectorBeat": "كېيىنكى باسقۇچ",
+  "tavernDirectorSuggestions": "سىز…",
+  "tavernDirectorSuggestionsNote": "بىرنى چېكىپ كىرگۈزۈش رامكىسىغا قويۇڭ، ئۆزگەرتىش ياكى ئەۋەتىش ئۆزىڭىزگە باغلىق.",
+  "tavernDirectorNotes": "رېژىسسور خاتىرىسى",
+  "tavernDirectorStale": "بۇ ئىلگىرىكى ئەھۋالدا ئويلىغان، ھازىر ماس كېلىشى مۇمكىن ئەمەس، پەقەت پايدىلىنىش ئۈچۈن.",
+  "tavernDirectorFailed": "ئالدىنقى قېتىم ئويلىيالمىدى: {reason}",
   "@tavernDirectorFailed": {
     "placeholders": {
       "reason": {
@@ -1249,7 +1250,7 @@
       }
     }
   },
-  "tavernDirectorRunFailed": "没能做到：{reason}",
+  "tavernDirectorRunFailed": "ئەمەلگە ئاشۇرالمىدى: {reason}",
   "@tavernDirectorRunFailed": {
     "placeholders": {
       "reason": {
@@ -1257,10 +1258,10 @@
       }
     }
   },
-  "tavernBranchHere": "从这里分叉",
-  "tavernBranchedHere": "回到了这一条，后面的内容留在「分支」里",
-  "tavernBranchHereFailed": "没能回到这一条",
-  "tavernStateItems": "{count} 项",
+  "tavernBranchHere": "بۇ يەردىن شاخلىنىش",
+  "tavernBranchedHere": "بۇ تارمەققە قايتتى، كېيىنكى مەزمۇن «شاخ» ئىچىدە قالدى",
+  "tavernBranchHereFailed": "بۇ تارمەققە قايتالمىدى",
+  "tavernStateItems": "{count} تۈر",
   "@tavernStateItems": {
     "placeholders": {
       "count": {
@@ -1268,24 +1269,24 @@
       }
     }
   },
-  "tavernStateSearch": "搜变量",
-  "tavernStateNoMatch": "没有符合的",
-  "tavernRuns": "后台记录",
-  "tavernRunsNote": "你、模型和卡的规则改了状态，导演、卡事件和剧情每次跑过，都记在这里；最新的在上，最多 100 条。点一条看原始记录。",
-  "tavernRunsEmpty": "还没有记录",
-  "tavernRunsEmptyMessage": "改了状态，或者导演跑过以后，会记在这里。",
-  "tavernRunUser": "你改的",
-  "tavernRunModel": "模型改的",
-  "tavernRunRules": "卡的规则",
-  "tavernRunStopped": "回合中断",
-  "tavernRunDirector": "导演",
-  "tavernRunDirectorFailed": "导演没成",
-  "tavernRunEvent": "卡事件",
-  "tavernRunStory": "剧情",
-  "tavernRunSecret": "秘密",
-  "tavernRunNotKept": "没收下",
-  "tavernRunGone": "那条消息已删",
-  "tavernRunMore": "等 {count} 处",
+  "tavernStateSearch": "ئۆزگەرگۈچى ئىزدەش",
+  "tavernStateNoMatch": "ماس كېلىدىغىنى يوق",
+  "tavernRuns": "ئارقا سەھنە خاتىرىسى",
+  "tavernRunsNote": "سىز، مودېل ۋە كارتىنىڭ قائىدىسى ھالەتنى ئۆزگەرتى، رېژىسسور، كارتە ۋەقەسى ۋە سۇژېت ھەر قېتىم ئىجرا بولغاندا، مۇشۇ يەرگە خاتىرىلىنىدۇ؛ ئەڭ يېڭىسى ئۈستىدە، ئەڭ كۆپ 100 پارچە. بىرنى چېكىپ ئەسلى خاتىرىنى كۆرۈڭ.",
+  "tavernRunsEmpty": "تېخى خاتىرە يوق",
+  "tavernRunsEmptyMessage": "ھالەتنى ئۆزگەرتكەندە ياكى رېژىسسور ئىجرا بولغاندىن كېيىن، مۇشۇ يەرگە خاتىرىلىنىدۇ.",
+  "tavernRunUser": "سىز ئۆزگەرتكەن",
+  "tavernRunModel": "مودېل ئۆزگەرتكەن",
+  "tavernRunRules": "كارتىنىڭ قائىدىسى",
+  "tavernRunStopped": "ئايلانما ئۈزۈلدى",
+  "tavernRunDirector": "رېژىسسور",
+  "tavernRunDirectorFailed": "رېژىسسور مۇۋەپپەقىيەت قازىنالمىدى",
+  "tavernRunEvent": "كارتە ۋەقەسى",
+  "tavernRunStory": "سۇژېت",
+  "tavernRunSecret": "مەخپىيەت",
+  "tavernRunNotKept": "قوبۇل قىلىنمىدى",
+  "tavernRunGone": "ئۇ ئۇچۇر ئۆچۈرۈلگەن",
+  "tavernRunMore": "{count} ئورۇننى ساقلاڭ",
   "@tavernRunMore": {
     "placeholders": {
       "count": {
@@ -1293,9 +1294,9 @@
       }
     }
   },
-  "tavernInspectCache": "缓存",
-  "tavernInspectCacheKept": "和上一回合同前缀",
-  "tavernInspectCacheBroken": "从第 {index} 段起变了",
+  "tavernInspectCache": "غەملەك",
+  "tavernInspectCacheKept": "ئالدىنقى قېتىملىق بىلەن ئوخشاش ئالدى قوشۇلمىسى",
+  "tavernInspectCacheBroken": "{index}-بۆلەكتىن باشلاپ ئۆزگەردى",
   "@tavernInspectCacheBroken": {
     "placeholders": {
       "index": {
@@ -1303,7 +1304,7 @@
       }
     }
   },
-  "tavernInspectCacheMiss": "这一段和它后面约 {tokens} tokens 不会命中缓存，前面的和上一回合一样。常是靠前的世界书条目这回合换了。",
+  "tavernInspectCacheMiss": "بۇ بۆلەك ۋە ئۇنىڭدىن كېيىنكى تەخمىنەن {tokens} tokens غەملەككە ئۇچرىمايدۇ، ئالدىنقىسى ئالدىنقى قېتىم بىلەن ئوخشاش. كۆپىنچە ئالدىنقى ئورۇندىكى دۇنيا كىتابى تۈرى بۇ قېتىم ئالماشقان.",
   "@tavernInspectCacheMiss": {
     "placeholders": {
       "tokens": {
@@ -1311,9 +1312,9 @@
       }
     }
   },
-  "tavernInspectCacheBreak": "缓存从这里断开",
+  "tavernInspectCacheBreak": "غەملەك بۇ يەردىن ئۈزۈلىدۇ",
   "tavernPaletteSt": "ST",
-  "tavernStTheme": "ST 主题：{name}",
+  "tavernStTheme": "ST تېمىسى: {name}",
   "@tavernStTheme": {
     "placeholders": {
       "name": {
@@ -1321,11 +1322,11 @@
       }
     }
   },
-  "tavernStThemeNote": "配色选「ST」时，引号里的话和 *动作* 用它的颜色；太浅或太深看不清的，会调到看得清。",
-  "tavernStThemeImport": "导入 ST 主题",
-  "tavernStThemeImportNote": "从 SillyTavern 导出的主题文件里取引号和斜体的颜色。",
-  "tavernStThemeRemove": "移除",
-  "tavernStThemeImported": "换成了 ST 主题「{name}」的配色",
+  "tavernStThemeNote": "رەڭ ئۇيغۇنلۇقىنى «ST» تاللىغاندا، نەقىل بەلگىسى ئىچىدىكى سۆزلەر ۋە *ھەرىكەت* لەر ئۇنىڭ رەڭگىنى ئىشلىتىدۇ؛ بەك ئوچۇق ياكى بەك قاراڭغۇ كۆرۈنمەيدىغانلىرى كۆرۈنەرلىك بولىدۇ.",
+  "tavernStThemeImport": "ST تېمىسىنى ئىمپورت قىلىش",
+  "tavernStThemeImportNote": "SillyTavern دىن چىقىرىلغان تېما ھۆججىتىدىن نەقىل بەلگىسى ۋە يانتۇ خەتنىڭ رەڭگىنى ئېلىڭ.",
+  "tavernStThemeRemove": "چىقىرىۋېتىش",
+  "tavernStThemeImported": "ST تېمىسى «{name}» نىڭ رەڭ ئۇيغۇنلۇقىغا ئالماشتۇرۇلدى",
   "@tavernStThemeImported": {
     "placeholders": {
       "name": {
@@ -1333,7 +1334,7 @@
       }
     }
   },
-  "tavernStThemeNoColors": "「{name}」里没有能用的引号或斜体颜色",
+  "tavernStThemeNoColors": "«{name}» دە ئىشلىتىشكە بولىدىغان نەقىل بەلگىسى ياكى يانتۇ خەت رەڭگى يوق",
   "@tavernStThemeNoColors": {
     "placeholders": {
       "name": {
@@ -1341,16 +1342,16 @@
       }
     }
   },
-  "tavernPromptContent": "内容",
-  "tavernPromptRole": "谁说",
-  "tavernPromptRoleSystem": "系统",
-  "tavernPromptRoleUser": "用户",
-  "tavernPromptRoleAssistant": "助手",
-  "tavernPromptPosition": "位置",
-  "tavernPromptRelative": "按顺序",
-  "tavernPromptInChat": "对话中",
-  "tavernPromptDepth": "深度",
-  "tavernPromptDepthNote": "插进聊天记录，从最后往前数第 {depth} 条之前（0 是最末尾），和 ST 的「对话中」一样。",
+  "tavernPromptContent": "مەزمۇن",
+  "tavernPromptRole": "كىم ئېيتىدۇ",
+  "tavernPromptRoleSystem": "سىستېما",
+  "tavernPromptRoleUser": "ئىشلەتكۈچى",
+  "tavernPromptRoleAssistant": "ياردەمچى",
+  "tavernPromptPosition": "ئورنى",
+  "tavernPromptRelative": "تەرتىپ بويىچە",
+  "tavernPromptInChat": "سۆھبەتتە",
+  "tavernPromptDepth": "چوڭقۇرلۇق",
+  "tavernPromptDepthNote": "سۆھبەت خاتىرىسىگە كىرگۈزۈڭ، ئاخىرقىدىن ئالدىنغا ساناپ {depth}-تالنىڭ ئالدىغا (0 ئەڭ ئاخىرقى)، ST نىڭ «سۆھبەتتە» بىلەن ئوخشاش.",
   "@tavernPromptDepthNote": {
     "placeholders": {
       "depth": {
@@ -1358,8 +1359,8 @@
       }
     }
   },
-  "tavernPromptRelativeNote": "照预设的顺序放，和 ST 的「相对」一样。",
-  "tavernPromptPlace": "对话中 · 深度 {depth}",
+  "tavernPromptRelativeNote": "ئالدىن بەلگىلەنگەن تەرتىپ بويىچە قويۇڭ، ST نىڭ «نىسبىي» ى بىلەن ئوخشاش.",
+  "tavernPromptPlace": "سۆھبەتتە · چوڭقۇرلۇق {depth}",
   "@tavernPromptPlace": {
     "placeholders": {
       "depth": {
@@ -1367,35 +1368,35 @@
       }
     }
   },
-  "tavernPromptOrder": "同深度的先后",
-  "tavernPromptOrderNote": "同一深度有几条时，数字小的在前（默认 100）。",
-  "tavernPromptForbid": "不让角色卡覆盖",
-  "tavernPromptForbidMain": "角色卡自带的系统提示词不会替换这一条。",
-  "tavernPromptForbidJailbreak": "角色卡自带的历史后指令不会替换这一条。",
-  "tavernLoreCommon": "常用",
-  "tavernLoreMore": "更多",
-  "tavernLorePosAnTop": "作者注前",
-  "tavernLorePosAnBottom": "作者注后",
-  "tavernLorePosExampleTop": "示例前",
-  "tavernLorePosExampleBottom": "示例后",
-  "tavernLorePosOutlet": "出口",
-  "tavernLoreLogic": "次关键词怎么算",
-  "tavernLoreLogicAndAny": "含任一",
-  "tavernLoreLogicAndAll": "全都含",
-  "tavernLoreLogicNotAny": "都不含",
-  "tavernLoreLogicNotAll": "不全含",
-  "tavernLoreProbability": "触发概率",
-  "tavernLoreCase": "区分大小写",
-  "tavernLoreWhole": "整词匹配",
-  "tavernLoreDefault": "默认",
-  "tavernLoreYes": "是",
-  "tavernLoreNo": "否",
-  "tavernLorePosDepth": "按深度",
-  "tavernLibraryBookOpen": "看条目、改条目",
-  "tavernLibraryBookNote": "改动写回这本书；绑定了它的地方，下一回合就用新内容。",
-  "tavernBranchDelete": "删掉这条分支",
-  "tavernBranchDeleteTitle": "删掉这条分支？",
-  "tavernBranchDeleteMessage": "这条分支上的 {count} 条消息，连同从它分出去的，都会删掉；删了之后几秒内可以撤销。正在走的这条不受影响。",
+  "tavernPromptOrder": "ئوخشاش چوڭقۇرلۇقتىكى تەرتىپ",
+  "tavernPromptOrderNote": "ئوخشاش چوڭقۇرلۇقتا بىر قانچە بولسا، سانى كىچىكى ئالدىدا (سۈكۈتتە 100).",
+  "tavernPromptForbid": "رول كارتىسىنىڭ قاپلىشىنى چەكلەش",
+  "tavernPromptForbidMain": "رول كارتىسىدىكى سىستېما كۆرسەتمىسى بۇنى ئالماشتۇرمايدۇ.",
+  "tavernPromptForbidJailbreak": "رول كارتىسىدىكى تارىختىن كېيىنكى بۇيرۇق بۇنى ئالماشتۇرمايدۇ.",
+  "tavernLoreCommon": "كۆپ ئىشلىتىلىدىغان",
+  "tavernLoreMore": "تېخىمۇ كۆپ",
+  "tavernLorePosAnTop": "ئاپتور ئىزاھاتىدىن بۇرۇن",
+  "tavernLorePosAnBottom": "ئاپتور ئىزاھاتىدىن كېيىن",
+  "tavernLorePosExampleTop": "مىساللاردىن بۇرۇن",
+  "tavernLorePosExampleBottom": "مىساللاردىن كېيىن",
+  "tavernLorePosOutlet": "چىقىش ئېغىزى",
+  "tavernLoreLogic": "ئىككىنچى ئاچقۇچ سۆز قانداق ھېسابلىنىدۇ",
+  "tavernLoreLogicAndAny": "ھەر قايسىسى بولسا",
+  "tavernLoreLogicAndAll": "ھەممىسى بولسا",
+  "tavernLoreLogicNotAny": "ھېچقايسىسى بولمىسا",
+  "tavernLoreLogicNotAll": "ھەممىسى بولمىسا",
+  "tavernLoreProbability": "قوزغىتىش ئېھتىماللىقى",
+  "tavernLoreCase": "چوڭ-كىچىك ھەرپنى پەرقلەندۈرۈش",
+  "tavernLoreWhole": "پۈتۈن سۆز ماسلىشىش",
+  "tavernLoreDefault": "سۈكۈتتىكى",
+  "tavernLoreYes": "ھەئە",
+  "tavernLoreNo": "ياق",
+  "tavernLorePosDepth": "چوڭقۇرلۇق بويىچە",
+  "tavernLibraryBookOpen": "تۈرلەرنى كۆرۈش، تۈرلەرنى تەھرىرلەش",
+  "tavernLibraryBookNote": "ئۆزگەرتىش بۇ كىتابقا قايتا يېزىلىدۇ؛ ئۇنى باغلىغان جايلار كېيىنكى ئايلانمىدا يېڭى مەزمۇننى ئىشلىتىدۇ.",
+  "tavernBranchDelete": "بۇ تارماقنى ئۆچۈرۈش",
+  "tavernBranchDeleteTitle": "بۇ تارماق ئۆچۈرۈلسۇنما؟",
+  "tavernBranchDeleteMessage": "بۇ تارماقتىكى {count} ئۇچۇر، ئۇنىڭدىن ئايرىلغانلىرى بىلەن بىرگە ئۆچۈرۈلىدۇ؛ ئۆچۈرگەندىن كېيىن بىر نەچچە سېكۇنت ئىچىدە قايتۇرۇۋالغىلى بولىدۇ. مېڭىۋاتقان تارماققا تەسىر كۆرسەتمەيدۇ.",
   "@tavernBranchDeleteMessage": {
     "placeholders": {
       "count": {
@@ -1403,7 +1404,7 @@
       }
     }
   },
-  "tavernLetterFrom": "{from}的信",
+  "tavernLetterFrom": "{from} نىڭ خېتى",
   "@tavernLetterFrom": {
     "placeholders": {
       "from": {
@@ -1411,12 +1412,12 @@
       }
     }
   },
-  "tavernLetter": "一封信",
-  "tavernComponentMore": "展开",
-  "tavernComponentLess": "收起",
-  "tavernItemTaken": "获得",
-  "tavernClue": "线索",
-  "tavernPhoneFrom": "{from} 发来消息",
+  "tavernLetter": "بىر خەت",
+  "tavernComponentMore": "يېيىش",
+  "tavernComponentLess": "يىغىش",
+  "tavernItemTaken": "ئېرىشىلدى",
+  "tavernClue": "ئىز",
+  "tavernPhoneFrom": "{from} ئۇچۇر ئەۋەتتى",
   "@tavernPhoneFrom": {
     "placeholders": {
       "from": {
@@ -1424,8 +1425,8 @@
       }
     }
   },
-  "tavernPhoneMessage": "一条消息",
-  "tavernRollCheck": "检定：{skill}",
+  "tavernPhoneMessage": "بىر ئۇچۇر",
+  "tavernRollCheck": "تەكشۈرۈش: {skill}",
   "@tavernRollCheck": {
     "placeholders": {
       "skill": {
@@ -1433,43 +1434,43 @@
       }
     }
   },
-  "tavernRoll": "掷骰",
-  "tavernRollSuccess": "成功",
-  "tavernRollFailure": "失败",
-  "tavernGameHere": "这里有一个小游戏，现在还不能在这里玩",
-  "tavernRegexEdit": "编辑规则",
-  "tavernRegexFieldName": "名字",
-  "tavernRegexFieldFindHelp": "SillyTavern 的写法：/规则/标志，比如 /(早安|晚安)/gi",
-  "tavernRegexFieldReplaceHelp": "$1 是第一组，{{match}} 是整段匹配",
-  "tavernRegexFieldTrim": "先去掉的字",
-  "tavernRegexFieldTrimHelp": "每行一个；替换之前先从匹配到的字里删掉",
-  "tavernRegexPlacement": "用在",
-  "tavernRegexPlaceUser": "你的话",
-  "tavernRegexPlaceAi": "回复",
-  "tavernRegexPlaceSlash": "斜杠命令",
-  "tavernRegexPlaceWorld": "世界书",
-  "tavernRegexPlaceReasoning": "思考",
-  "tavernRegexPhase": "改哪一份",
-  "tavernRegexPhaseWrite": "原文",
-  "tavernRegexPhaseDisplay": "只改显示",
-  "tavernRegexPhasePrompt": "只改发出",
-  "tavernRegexPhaseBoth": "显示和发出",
-  "tavernRegexPhaseNote": "原文：直接改写存下来的消息。只改显示：存档不变，只是看起来不同。只改发出：只改发给模型的那一份。",
-  "tavernRegexMinDepth": "最浅",
-  "tavernRegexMaxDepth": "最深",
-  "tavernRegexDepthHelp": "空着就是不限；0 是最新一条",
-  "tavernRegexSubstitute": "查找里的宏",
-  "tavernRegexSubstituteNone": "不展开",
-  "tavernRegexSubstituteRaw": "原样展开",
-  "tavernRegexSubstituteEscaped": "转义后展开",
-  "tavernRegexRunOnEdit": "编辑消息时也跑",
-  "tavernRegexFieldEnabled": "启用这条规则",
-  "tavernRegexSavedIncompatible": "已保存。这条规则在这里跑不了，用的时候会跳过",
-  "tavernRegexGone": "这条规则已经不在了，回列表刷新一下",
-  "tavernRegexDeferred": "用到了宏，要到运行时才知道能不能跑",
-  "tavernRegexTryDraft": "用现在填的试一下",
-  "tavernRegexDepthAny": "不限",
-  "tavernCanvas": "整页画布（试用）",
-  "tavernCanvasSubtitle": "整段对话放进一张网页，按 SillyTavern 的结构排，卡写给 ST 的样式能跨消息生效。视觉小说不用它；卡里的脚本暂时还不跑。",
-  "tavernCanvasReloaded": "画面重新加载了"
+  "tavernRoll": "زەر تاشلاش",
+  "tavernRollSuccess": "مۇۋەپپەقىيەت",
+  "tavernRollFailure": "مەغلۇبىيەت",
+  "tavernGameHere": "بۇ يەردە كىچىك ئويۇن بار، ھازىر بۇ يەردە ئوينىغىلى بولمايدۇ",
+  "tavernRegexEdit": "قائىدىنى تەھرىرلەش",
+  "tavernRegexFieldName": "ئىسىم",
+  "tavernRegexFieldFindHelp": "SillyTavern يېزىلىشى: /قائىدە/بايراق، مەسىلەن /(ئەسسالام|خوشئەمەس)/gi",
+  "tavernRegexFieldReplaceHelp": "$1 بىرىنچى گۇرۇپپا، {{match}} پۈتۈن ماسلىشىش",
+  "tavernRegexFieldTrim": "ئالدى بىلەن چىقىرىۋېتىلىدىغان ھەرپلەر",
+  "tavernRegexFieldTrimHelp": "ھەر قۇردا بىر؛ ئالماشتۇرۇشتىن بۇرۇن ماس كەلگەن ھەرپلەردىن چىقىرىۋېتىلىدۇ",
+  "tavernRegexPlacement": "قەيەردە ئىشلىتىلىدۇ",
+  "tavernRegexPlaceUser": "سىزنىڭ سۆزىڭىز",
+  "tavernRegexPlaceAi": "جاۋاب",
+  "tavernRegexPlaceSlash": "سولاش بۇيرۇقى",
+  "tavernRegexPlaceWorld": "دۇنيا كىتابى",
+  "tavernRegexPlaceReasoning": "ئويلىنىش",
+  "tavernRegexPhase": "قايسى نۇسخىسى ئۆزگەرتىلىدۇ",
+  "tavernRegexPhaseWrite": "ئەسلى تېكىست",
+  "tavernRegexPhaseDisplay": "پەقەت كۆرسىتىلىشى",
+  "tavernRegexPhasePrompt": "پەقەت ئەۋەتىلىشى",
+  "tavernRegexPhaseBoth": "كۆرسىتىلىشى ۋە ئەۋەتىلىشى",
+  "tavernRegexPhaseNote": "ئەسلى تېكىست: ساقلانغان ئۇچۇرنى بىۋاسىتە قايتا يازىدۇ. پەقەت كۆرسىتىلىشى: ئارخىپ ئۆزگەرمەيدۇ، پەقەت باشقىچە كۆرۈنىدۇ. پەقەت ئەۋەتىلىشى: پەقەت مودېلغا ئەۋەتىلىدىغان نۇسخىسى ئۆزگىرىدۇ.",
+  "tavernRegexMinDepth": "ئەڭ تەييار",
+  "tavernRegexMaxDepth": "ئەڭ چوڭقۇر",
+  "tavernRegexDepthHelp": "بوش قالدۇرسىڭىز چەكلىمە يوق؛ 0 ئەڭ يېڭىسى",
+  "tavernRegexSubstitute": "ئىزدەشتىكى ماكروس",
+  "tavernRegexSubstituteNone": "يېيىلمەيدۇ",
+  "tavernRegexSubstituteRaw": "ئەسلىدە يېيىلىدۇ",
+  "tavernRegexSubstituteEscaped": "ئېسكاپلانغاندىن كېيىن يېيىلىدۇ",
+  "tavernRegexRunOnEdit": "ئۇچۇر تەھرىرلىگەندە يەنە ئىشلىتىلىدۇ",
+  "tavernRegexFieldEnabled": "بۇ قائىدىنى قوزغىتىش",
+  "tavernRegexSavedIncompatible": "ساقلاندى. بۇ قائىدە بۇ يەردە ئىشلىيەلمەيدۇ، ئىشلىتىلگەندە ئاتلىنىپ كېتىدۇ",
+  "tavernRegexGone": "بۇ قائىدە ئەمدى يوق، تىزىملىككە قايتىپ يېڭىلاڭ",
+  "tavernRegexDeferred": "ماكرولار ئىشلىتىلگەن، ئىجرا ۋاقتىدا ئاندىن بىلىنىدۇ",
+  "tavernRegexTryDraft": "ھازىر تولدۇرۇلغاننى سىناپ بېقىڭ",
+  "tavernRegexDepthAny": "چەكسىز",
+  "tavernCanvas": "پۈتۈن بەت كانۋاسى (سىناق)",
+  "tavernCanvasSubtitle": "پۈتۈن سۆھبەتنى بىر تور بەتكە كىرگۈزۈپ، SillyTavern قۇرۇلمىسى بويىچە تىزىلىدۇ، كارتىدا ST ئۈچۈن يېزىلغان ئۇسلۇب ئۇچۇرلار ئارا ئۈنۈملۈك بولىدۇ. كۆرۈنمە رومان ئۈچۈن ئىشلىتىلمەيدۇ؛ كارتىدىكى قوليازمىلار ھازىرچە ئىجرا قىلىنمايدۇ.",
+  "tavernCanvasReloaded": "كۆرۈنۈش قايتا يۈكلەندى"
 }

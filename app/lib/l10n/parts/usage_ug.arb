@@ -1,9 +1,10 @@
 {
-  "usageStatsTitle": "نامسىز ئىشلىتىش ستاتىستىكىسىنى ئەۋەتىش",
-  "usageStatsSection": "改进 Kit Go",
-  "usageStatsFooter": "这个开关只控制 Kit Go 自身的使用次数、版本、手机品牌和型号、系统版本统计，不含对话、文件和账号；它不控制 Google ML Kit SDK 的统计。",
-  "usageNoticeBody": "不含对话和个人信息，可随时关闭",
-  "usageUpgradeNotice": "新增匿名使用统计，帮助改进 Kit Go。\n不含对话和个人信息",
-  "usageUpgradeLearn": "了解",
-  "usageUpgradeOff": "关闭"
+  "@@locale": "ug",
+  "usageStatsTitle": "ئانونىم ئىشلىتىش ستاتىستىكىسىنى يوللاش",
+  "usageStatsSection": "Kit Go نى ياخشىلاش",
+  "usageStatsFooter": "بۇ كۆچۈرگۈچ پەقەت Kit Go نىڭ ئۆزىنىڭ ئىشلىتىش قېتىم سانى، نەشرى، تېلېفون ماركىسى ۋە تىپى، سىستېما نەشرى ستاتىستىكىسىنى كونتروللايدۇ، سۆھبەت، ھۆججەت ۋە ھېساباتنى ئۆز ئىچىگە ئالمايدۇ؛ ئۇ Google ML Kit SDK نىڭ ستاتىستىكىسىنى كونتروللىمايدۇ.",
+  "usageNoticeBody": "سۆھبەت ۋە شەخسىي ئۇچۇرلارنى ئۆز ئىچىگە ئالمايدۇ، خالىغان ۋاقىتتا تاقىغىلى بولىدۇ",
+  "usageUpgradeNotice": "ئەنونىم ئىشلىتىش ستاتىستىكىسى قوشۇلدى، Kit Go نى ياخشىلاشقا ياردەم بېرىدۇ.\nسۆھبەت ۋە شەخسىي ئۇچۇرلارنى ئۆز ئىچىگە ئالمايدۇ",
+  "usageUpgradeLearn": "چۈشىنىش",
+  "usageUpgradeOff": "تاقاش"
 }

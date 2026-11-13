@@ -1,7 +1,8 @@
 {
-  "localEnvChooseTitle": "DSH 在哪里运行？",
-  "localEnvChooseMessage": "之后可以在设置里更改",
-  "localEnvThisPhoneDetail": "存储约 {storage} MB · 内存约 {memory} MB",
+  "@@locale": "ug",
+  "localEnvChooseTitle": "DSH قەيەردە ئىجرا قىلىنىدۇ؟",
+  "localEnvChooseMessage": "كېيىن تەڭشەكتىن ئۆزگەرتەلەيسىز",
+  "localEnvThisPhoneDetail": "ساقلاش ئورنى تەخمىنەن {storage} MB · ئىچكى ئەسلىھە تەخمىنەن {memory} MB",
   "@localEnvThisPhoneDetail": {
     "placeholders": {
       "storage": {
@@ -12,7 +13,7 @@
       }
     }
   },
-  "localEnvThisPhoneDetailShort": "内存约 {memory} MB",
+  "localEnvThisPhoneDetailShort": "ئىچكى ئەسلىھە تەخمىنەن {memory} MB",
   "@localEnvThisPhoneDetailShort": {
     "placeholders": {
       "memory": {
@@ -20,7 +21,7 @@
       }
     }
   },
-  "localEnvLowStorage": "存储空间不足，需要约 {needed} MB",
+  "localEnvLowStorage": "ساقلاش ئورنى يېتەرلىك ئەمەس، تەخمىنەن {needed} MB كېرەك",
   "@localEnvLowStorage": {
     "placeholders": {
       "needed": {
@@ -28,11 +29,11 @@
       }
     }
   },
-  "localEnvRemoteDetail": "连接电脑或服务器上的 DSH",
-  "localEnvRecommended": "推荐",
-  "localEnvInstallTitle": "安装本机运行环境",
-  "localEnvInstallMessage": "在这台手机上运行 DSH",
-  "localEnvFactStorage": "约 {storage} MB 存储空间",
+  "localEnvRemoteDetail": "كومپيۇتېر ياكى مۇلازىمېتىردىكى DSH غا ئۇلاڭ",
+  "localEnvRecommended": "تەۋسىيە",
+  "localEnvInstallTitle": "يەرلىك ئىجرا مۇھىتىنى قاچىلاڭ",
+  "localEnvInstallMessage": "بۇ تېلېفوندا DSH نى ئىجرا قىلىڭ",
+  "localEnvFactStorage": "تەخمىنەن {storage} MB ساقلاش ئورنى",
   "@localEnvFactStorage": {
     "placeholders": {
       "storage": {
@@ -40,7 +41,7 @@
       }
     }
   },
-  "localEnvFactMemory": "运行时约 {memory} MB 内存",
+  "localEnvFactMemory": "ئىجرا قىلغاندا تەخمىنەن {memory} MB ئىچكى ئەسلىھە",
   "@localEnvFactMemory": {
     "placeholders": {
       "memory": {
@@ -48,15 +49,15 @@
       }
     }
   },
-  "localEnvUseRemote": "改用远程主机",
-  "localEnvNotInstalled": "本机未安装运行环境",
-  "localEnvUninstall": "卸载运行环境",
-  "localEnvUninstallHint": "释放存储空间",
-  "localEnvUninstallTitle": "卸载运行环境？",
-  "localEnvUninstallBody": "本机的对话、工作区、插件、设置、界面配置和技能会一并删除。",
-  "localEnvUninstallConfirm": "卸载",
-  "localEnvUninstallFailed": "没能卸载，再试一次",
-  "localEnvPhoneNeedsRuntime": "安装本机运行环境后可用",
-  "localEnvSignInNeedsRuntime": "需要本机运行环境",
-  "localEnvSignInInstallFirst": "安装后即可登录"
+  "localEnvUseRemote": "يىراق مۇلازىمېتىرغا ئالماشتۇرۇش",
+  "localEnvNotInstalled": "يەرلىك ئىجرا مۇھىتى قاچىلانمىغان",
+  "localEnvUninstall": "ئىجرا مۇھىتىنى چىقىرىۋېتىش",
+  "localEnvUninstallHint": "ساقلاش ئورنىنى بوشىتىش",
+  "localEnvUninstallTitle": "ئىجرا مۇھىتىنى چىقىرىۋېتەمسىز؟",
+  "localEnvUninstallBody": "يەرلىك سۆھبەت، خىزمەت رايونى، قىستۇرما، تەڭشەك، كۆرۈنۈش سەپلىمىسى ۋە ماھارەتلەر بىرگە ئۆچۈرۈلىدۇ.",
+  "localEnvUninstallConfirm": "چىقىرىۋېتىش",
+  "localEnvUninstallFailed": "چىقىرىۋېتىش مەغلۇپ بولدى، قايتا سىناڭ",
+  "localEnvPhoneNeedsRuntime": "يەرلىك ئىجرا مۇھىتىنى قاچىلىغاندىن كېيىن ئىشلەيدۇ",
+  "localEnvSignInNeedsRuntime": "يەرلىك ئىجرا مۇھىتى كېرەك",
+  "localEnvSignInInstallFirst": "قاچىلىغاندىن كېيىن كىرەلەيسىز"
 }

@@ -9369,13 +9369,13 @@ class L10nEn extends L10n {
   String get kitGuideTitle => 'Kit Go startup guide';
 
   @override
-  String get kitGuideSubtitle => 'DSH Go Uyghur edition · LOSFER AI';
+  String get kitGuideSubtitle => 'Kit Go Uyghur edition · LOSFER AI';
 
   @override
   String get kitGuideWelcome => 'Welcome to Kit Go';
 
   @override
-  String get kitGuideWelcomeBody => 'A Uyghur-language fork of DSH Go, wired up to LOSFER AI.';
+  String get kitGuideWelcomeBody => 'This is the Uyghur edition of Kit Go, a second-round build wired up to LOSFER AI.';
 
   @override
   String get kitGuideAiTitle => 'Connect LOSFER AI';

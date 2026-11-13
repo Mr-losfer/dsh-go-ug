@@ -1,9 +1,10 @@
 {
-  "updateCheck": "检查更新",
-  "updateAutoCheck": "自动检查更新",
-  "updateAutoCheckDaily": "每天检查一次",
-  "updateTileDownloading": "下载中",
-  "updateTileDownloadingPercent": "下载中 {percent}%",
+  "@@locale": "ug",
+  "updateCheck": "يېڭىلاشنى تەكشۈرۈش",
+  "updateAutoCheck": "يېڭىلاشنى ئاپتوماتىك تەكشۈرۈش",
+  "updateAutoCheckDaily": "كۈندە بىر قېتىم تەكشۈرۈش",
+  "updateTileDownloading": "چۈشۈرۈلۈۋاتىدۇ",
+  "updateTileDownloadingPercent": "چۈشۈرۈلۈۋاتىدۇ {percent}%",
   "@updateTileDownloadingPercent": {
     "placeholders": {
       "percent": {
@@ -11,10 +12,10 @@
       }
     }
   },
-  "updateTileVerifying": "校验中",
-  "updateTileReady": "可以安装",
-  "updateTileInstalling": "安装中",
-  "updateTileSkipped": "已跳过 {version}",
+  "updateTileVerifying": "تەكشۈرۈلۈۋاتىدۇ",
+  "updateTileReady": "قاچىلىغىلى بولىدۇ",
+  "updateTileInstalling": "قاچىلىنىۋاتىدۇ",
+  "updateTileSkipped": "{version} ئاتلاپ كېتىلدى",
   "@updateTileSkipped": {
     "placeholders": {
       "version": {
@@ -22,7 +23,7 @@
       }
     }
   },
-  "updateTileNewVersion": "新版本 {version}",
+  "updateTileNewVersion": "يېڭى نەشرى {version}",
   "@updateTileNewVersion": {
     "placeholders": {
       "version": {
@@ -30,22 +31,22 @@
       }
     }
   },
-  "updateTileUpToDate": "已是最新",
-  "updateTileUnavailable": "暂时检查不了",
-  "updateUpToDate": "已是最新版本",
-  "updateCheckUnavailable": "暂时检查不了更新，稍后再试",
-  "updateDownloadInterrupted": "下载中断了",
-  "updateDownloadInterruptedMessage": "网络断开或太慢，重试会接着下载。",
-  "updateDownloadUnavailable": "下载地址暂时打不开",
-  "updateDownloadUnavailableMessage": "稍后再试，或去发布页手动下载。",
-  "updateChecksumFailed": "安装包校验没通过",
-  "updateChecksumFailedMessage": "文件和发布时不一致，已删除，请重试。",
-  "updateChecksumMissing": "缺少校验信息",
-  "updateChecksumMissingMessage": "为了安全不在 App 内安装，可以去发布页手动下载。",
-  "updateStorageWriteFailed": "写不进安装包",
-  "updateStorageWriteFailedMessage": "存储可能已满，清理一些空间后重试。",
-  "updateFreeSpaceRetry": "清理一些空间后重试。",
-  "updateSpaceRequired": "需要约 {size} 可用空间，清理后重试。",
+  "updateTileUpToDate": "ئەڭ يېڭى نەشرىدە",
+  "updateTileUnavailable": "ھازىرچە تەكشۈرگىلى بولمايدۇ",
+  "updateUpToDate": "ئەڭ يېڭى نەشرىدە",
+  "updateCheckUnavailable": "ھازىرچە يېڭىلاشنى تەكشۈرگىلى بولمايدۇ، سەل تۇرۇپ قايتا سىناڭ",
+  "updateDownloadInterrupted": "چۈشۈرۈش ئۈزۈلۈپ قالدى",
+  "updateDownloadInterruptedMessage": "تور ئۈزۈلدى ياكى بەك ئاستا، قايتا سىناش چۈشۈرۈشنى داۋاملاشتۇرىدۇ.",
+  "updateDownloadUnavailable": "چۈشۈرۈش ئادرېسىنى ھازىرچە ئاچقىلى بولمايدۇ",
+  "updateDownloadUnavailableMessage": "سەل تۇرۇپ قايتا سىناڭ ياكى ئېلان بېتىگە بېرىپ قولدا چۈشۈرۈڭ.",
+  "updateChecksumFailed": "قاچىلاش بولىقىنىڭ تەكشۈرۈشىدىن ئۆتەلمىدى",
+  "updateChecksumFailedMessage": "ھۆججەت ئېلان قىلىنغاندىكىگە ئۇيغۇن ئەمەس، ئۆچۈرۈلدى، قايتا سىناڭ.",
+  "updateChecksumMissing": "تەكشۈرۈش ئۇچۇرى يېتىشمەيدۇ",
+  "updateChecksumMissingMessage": "بىخەتەرلىك ئۈچۈن ئەپ ئىچىدە قاچىلانمايدۇ، ئېلان بېتىگە بېرىپ قولدا چۈشۈرەلەيسىز.",
+  "updateStorageWriteFailed": "قاچىلاش بولىقىغا يازغىلى بولمايدۇ",
+  "updateStorageWriteFailedMessage": "ساقلاش ئورنى تولۇپ قالغان بولۇشى مۇمكىن، بىرئاز بوشلۇق ئەتراپىدا تازىلاپ قايتا سىناڭ.",
+  "updateFreeSpaceRetry": "بوشلۇق تازىلاپ قايتا سىناڭ.",
+  "updateSpaceRequired": "تەخمىنەن {size} بوشلۇق كېرەك، تازىلىغاندىن كېيىن قايتا سىناڭ.",
   "@updateSpaceRequired": {
     "placeholders": {
       "size": {
@@ -53,27 +54,27 @@
       }
     }
   },
-  "updateSettingsOpenFailed": "没能打开系统设置",
-  "updateSettingsOpenFailedMessage": "到「设置 → 应用 → Kit Go」里允许「安装未知应用」，再回来安装。",
-  "updateInstallCancelled": "已取消安装",
-  "updateInstallCancelledMessage": "安装包还在，随时可以再装。",
-  "updateInstallUnconfirmed": "尚未确认安装结果",
-  "updateInstallUnconfirmedMessage": "安装包已保留。可先检查系统提示，再重试或用系统安装器打开。",
-  "updateSignatureMismatch": "签名不一致，不能直接覆盖",
-  "updateSignatureMismatchMessage": "手机上的 Kit Go 签名不同（多半是测试包），需要先卸载旧版再装新版。卸载会清空对话、Linux 环境和设置。",
-  "updateWrongPackage": "不是 DSH 的安装包",
-  "updateWrongPackageMessage": "下载到的文件不对，已删除，请稍后重试。",
-  "updateDowngradeBlocked": "不能降级安装",
-  "updateDowngradeBlockedMessage": "手机上的 DSH 比这个安装包还新。",
-  "updateIncompatible": "和这台手机不兼容",
-  "updateIncompatibleMessage": "安装包要求的系统版本或处理器架构和手机不符。",
-  "updatePackageCorrupt": "安装包已损坏",
-  "updatePackageCorruptMessage": "已删除，请重新下载。",
-  "updateInstallBlocked": "安装被拦截了",
-  "updateInstallBlockedMessage": "在系统的安装确认里允许；如果系统直接拦下（小米等机型），试试下面的「安装路线」：Shizuku 或本机 ADB，不用重新签名。",
-  "updateInstallIncomplete": "安装没有完成",
-  "updateInstallIncompleteMessage": "可以重试，或去发布页手动下载。",
-  "updateBrowserOpenFailed": "没能打开浏览器，请手动访问 {host}{path}",
+  "updateSettingsOpenFailed": "سىستېما تەڭشىكىنى ئاچالمىدى",
+  "updateSettingsOpenFailedMessage": "«تەڭشەك → ئەپ → Kit Go» غا كىرىپ «نامەلۇم ئەپ قاچىلاش» قا رۇخسەت قىلىڭ، ئاندىن قايتىپ قاچىلاڭ.",
+  "updateInstallCancelled": "قاچىلاش بىكار قىلىندى",
+  "updateInstallCancelledMessage": "قاچىلاش بولىقى تېخى بار، خالىغان ۋاقىتتا قايتا قاچىلىيالايسىز.",
+  "updateInstallUnconfirmed": "قاچىلاش نەتىجىسى تېخى جەزملەشمىدى",
+  "updateInstallUnconfirmedMessage": "قاچىلاش بولىقى ساقلاندى. ئاۋۋال سىستېما ئۇقتۇرۇشىنى تەكشۈرۈپ، ئاندىن قايتا سىناڭ ياكى سىستېما قاچىلىغۇچ بىلەن ئېچىڭ.",
+  "updateSignatureMismatch": "ئىمزا ماس كەلمىدى، بىۋاسىتە قاپلىيالمىدۇ",
+  "updateSignatureMismatchMessage": "تېلېفونىڭىزدىكى Kit Go نىڭ ئىمزاسى باشقا (كۆپىنچە سىناق بولىقى). ئاۋۋال كونا نەشرىنى ئۆچۈرۈپ ئاندىن يېڭى نەشرىنى قاچىلاڭ. ئۆچۈرۈش سۆھبەت، Linux مۇھىتى ۋە تەڭشەكلەرنى تازىلايدۇ.",
+  "updateWrongPackage": "DSH نىڭ قاچىلاش بولىقى ئەمەس",
+  "updateWrongPackageMessage": "چۈشۈرۈلگەن ھۆججەت خاتا، ئۆچۈرۈلدى، سەل تۇرۇپ قايتا سىناڭ.",
+  "updateDowngradeBlocked": "تۆۋەن نەشرىگە چۈشۈرەلمەيدۇ",
+  "updateDowngradeBlockedMessage": "تېلېفونىڭىزدىكى DSH بۇ قاچىلاش بولىقىدىن يېڭىراق.",
+  "updateIncompatible": "بۇ تېلېفون بىلەن ماسلاشمايدۇ",
+  "updateIncompatibleMessage": "قاچىلاش بولىقى تەلەپ قىلغان سىستېما نەشرى ياكى بىر تەرەپ قىلغۇچ قۇرۇلمىسى تېلېفونغا ئۇيغۇن ئەمەس.",
+  "updatePackageCorrupt": "قاچىلاش بولىقى بۇزۇلغان",
+  "updatePackageCorruptMessage": "ئۆچۈرۈلدى، قايتا چۈشۈرۈڭ.",
+  "updateInstallBlocked": "قاچىلاش توسۇلدى",
+  "updateInstallBlockedMessage": "سىستېما قاچىلاش جەزملەشتۈرۈشىدە رۇخسەت قىلىڭ؛ ئەگەر سىستېما بىۋاسىتە توسسا (Xiaomi قاتارلىق ئۈسكۈنىلەر)، ئاستىدىكى «قاچىلاش يولى» نى سىناڭ: Shizuku ياكى يەرلىك ADB، قايتا ئىمزا قويۇش كەتمەيدۇ.",
+  "updateInstallIncomplete": "قاچىلاش تاماملانمىدى",
+  "updateInstallIncompleteMessage": "قايتا سىنىيالايسىز ياكى ئېلان بېتىگە بېرىپ قولدا چۈشۈرۈڭ.",
+  "updateBrowserOpenFailed": "توركۆرگۈنى ئاچالمىدى، قولدا زىيارەت قىلىڭ {host}{path}",
   "@updateBrowserOpenFailed": {
     "placeholders": {
       "host": {
@@ -84,7 +85,7 @@
       }
     }
   },
-  "updateUpToDateVersion": "已是最新版本 {version}",
+  "updateUpToDateVersion": "ئەڭ يېڭى نەشرى {version}",
   "@updateUpToDateVersion": {
     "placeholders": {
       "version": {
@@ -92,7 +93,7 @@
       }
     }
   },
-  "updateCurrentVersion": "当前 {version}",
+  "updateCurrentVersion": "نۆۋەتتىكى {version}",
   "@updateCurrentVersion": {
     "placeholders": {
       "version": {
@@ -100,13 +101,13 @@
       }
     }
   },
-  "updateNewVersionFound": "发现新版本",
-  "updateReleaseNotes": "更新内容",
-  "updateNoReleaseNotes": "这个版本没有写更新说明。",
-  "updateInstallKeepsData": "安装时 Kit Go 会退出，对话和设置都会保留",
-  "updateNoCompatiblePackage": "没有适合本机的安装包",
-  "updateDownloading": "正在下载",
-  "updateDownloadSource": "经由 {source}",
+  "updateNewVersionFound": "يېڭى نەشرى تېپىلدى",
+  "updateReleaseNotes": "يېڭىلانما مەزمۇنى",
+  "updateNoReleaseNotes": "بۇ نەشرىدە يېڭىلانما چۈشەندۈرۈشى يېزىلمىغان.",
+  "updateInstallKeepsData": "قاچىلىغاندا Kit Go تاقىلىدۇ، سۆھبەت ۋە تەڭشەكلەر ساقلىنىپ قالىدۇ",
+  "updateNoCompatiblePackage": "بۇ ئۈسكۈنىگە ماس قاچىلاش بولىقى يوق",
+  "updateDownloading": "چۈشۈرۈلۈۋاتىدۇ",
+  "updateDownloadSource": "{source} ئارقىلىق",
   "@updateDownloadSource": {
     "placeholders": {
       "source": {
@@ -114,24 +115,24 @@
       }
     }
   },
-  "updateDownloadInBackgroundNote": "关掉窗口也会继续下载",
-  "updateVerifyingPackage": "正在校验安装包…",
-  "updateVerifyingPackageNote": "确认文件和发布时一致",
-  "updateInstalling": "正在安装…",
-  "updateConfirmInstallNote": "在系统弹窗里确认安装",
-  "updatePackageDownloaded": "安装包已下载",
-  "updateReadyToInstall": "校验通过，可以安装了。",
-  "updateAllowInstall": "允许 Kit Go 安装应用",
-  "updateAllowInstallMessage": "在系统设置里打开「安装未知应用」，回来后自动继续。",
-  "updateOpenReleasePage": "打开发布页",
-  "updateUpdateNow": "立即更新",
-  "updateSkipVersion": "跳过这个版本",
-  "updateInstallWithSystem": "用系统安装器安装",
-  "updateSystemInstallerFailed": "没能打开系统安装器",
-  "updateExportApk": "导出安装包",
-  "updateExportApkTitle": "导出安装包？",
-  "updateExportApkMessage": "会把这次下载并校验过的安装包复制到「下载/DSH-Go」，可以用 MT 管理器之类的工具重新签名后再装。\n\n重新签名后，手机上的签名和官方包不同，App 内更新会一直提示「签名不一致」，以后每次更新都要这样手动重签安装。\n\n如果只是系统拦着装不上（小米等机型），先试「安装路线」里的 Shizuku 或本机 ADB，那条路不用重新签名。",
-  "updateExportApkDone": "已存到 下载/{path}",
+  "updateDownloadInBackgroundNote": "كۆزنەكنى تاقىسىڭىزمۇ چۈشۈرۈش داۋاملىشىدۇ",
+  "updateVerifyingPackage": "قاچىلاش بولىقى تەكشۈرۈلۈۋاتىدۇ…",
+  "updateVerifyingPackageNote": "ھۆججەتنىڭ ئېلان قىلغان ۋاقىتتىكىگە ئوخشاشلىقى جەزملەشتۈرۈلۈۋاتىدۇ",
+  "updateInstalling": "قاچىلىنىۋاتىدۇ…",
+  "updateConfirmInstallNote": "سىستېما قالمىسىدا قاچىلاشنى جەزملەشتۈرۈڭ",
+  "updatePackageDownloaded": "قاچىلاش بولىقى چۈشۈرۈلدى",
+  "updateReadyToInstall": "تەكشۈرۈشتىن ئۆتتى، قاچىلىسىڭىز بولىدۇ.",
+  "updateAllowInstall": "Kit Go نىڭ ئەپ قاچىلىشىغا رۇخسەت قىلىش",
+  "updateAllowInstallMessage": "سىستېما تەڭشىكىدە «نامەلۇم ئەپ قاچىلاش» نى ئېچىڭ، قايتقاندىن كېيىن ئۆزلۈكىدىن داۋاملىشىدۇ.",
+  "updateOpenReleasePage": "ئېلان بېتىنى ئېچىش",
+  "updateUpdateNow": "دەرھال يېڭىلاش",
+  "updateSkipVersion": "بۇ نەشرىنى ئاتلاش",
+  "updateInstallWithSystem": "سىستېما قاچىلىغۇچى بىلەن قاچىلاش",
+  "updateSystemInstallerFailed": "سىستېما قاچىلىغۇچىنى ئېچىۋېرەلمىدى",
+  "updateExportApk": "قاچىلاش بولىقىنى چىقىرىش",
+  "updateExportApkTitle": "قاچىلاش بولىقى چىقىرىلامدۇ؟",
+  "updateExportApkMessage": "بۇ قېتىم چۈشۈرۈلۈپ دەلىللەنگەن قاچىلاش بوغچىسى «چۈشۈرۈش/DSH-Go» غا كۆچۈرۈلىدۇ، MT باشقۇرغۇچى قاتارلىق قوراللار بىلەن قايتا ئىمزا قويۇپ ئاندىن قاچىلىسىڭىز بولىدۇ.\n\nقايتا ئىمزا قويغاندىن كېيىن تېلېفوندىكى ئىمزا رەسمىي بوغچىدىن پەرقلىنىدۇ، ئەپ ئىچىدىكى يېڭىلاش «ئىمزا ماس كەلمىدى» دەپ داۋاملىق ئەسكەرتىپ تۇرىدۇ، بۇنىڭدىن كېيىن ھەر قېتىم يېڭىلىغاندا مۇشۇنداق قولدا قايتا ئىمزا قويۇپ قاچىلاش كېرەك.\n\nئەگەر پەقەت سىستېما توسۇپ قاچىلېيالمىسىلا (Xiaomi قاتارلىق ئۈسكۈنىلەر)، ئالدى بىلەن «قاچىلاش يولى» دىكى Shizuku ياكى يەرلىك ADB نى سىناپ بېقىڭ، ئۇ يولدا قايتا ئىمزا قويۇش كەتمەيدۇ.",
+  "updateExportApkDone": "چۈشۈرۈش/{path} غا ساقلاندى",
   "@updateExportApkDone": {
     "placeholders": {
       "path": {
@@ -139,14 +140,14 @@
       }
     }
   },
-  "updateExportApkFailed": "没能导出安装包",
-  "updateStarProject": "去 Star",
-  "updateCancelDownload": "取消下载",
-  "updateDownloadInBackground": "后台下载",
-  "updateVerifying": "正在校验…",
-  "updateInstallingBusy": "安装中…",
-  "updateOpenPermissionSettings": "去开启",
-  "updateNoAbiPackage": "这个版本还没有 {abi} 安装包，可以去发布页看看。",
+  "updateExportApkFailed": "قاچىلاش بوغچىسىنى چىقىرىش مۇۋەپپەقىيەتسىز بولدى",
+  "updateStarProject": "Star غا بېرىش",
+  "updateCancelDownload": "چۈشۈرۈشنى بىكار قىلىش",
+  "updateDownloadInBackground": "ئارقا سەپتە چۈشۈرۈش",
+  "updateVerifying": "دەلىللەنمەكتە…",
+  "updateInstallingBusy": "قاچىلىنىۋاتىدۇ…",
+  "updateOpenPermissionSettings": "ئېچىشقا بېرىش",
+  "updateNoAbiPackage": "بۇ نەشرىدە تېخى {abi} قاچىلاش بوغچىسى يوق، ئېلان بېتىدىن كۆرۈپ بېقىڭ.",
   "@updateNoAbiPackage": {
     "placeholders": {
       "abi": {
@@ -154,8 +155,8 @@
       }
     }
   },
-  "updateNoPackage": "这个版本还没有安装包，可以去发布页看看。",
-  "updateDownloadingPercent": "正在下载 {percent}%",
+  "updateNoPackage": "بۇ نەشرىدە تېخى قاچىلاش بوغچىسى يوق، ئېلان بېتىدىن كۆرۈپ بېقىڭ.",
+  "updateDownloadingPercent": "{percent}% چۈشۈرۈلمەكتە",
   "@updateDownloadingPercent": {
     "placeholders": {
       "percent": {

@@ -56,14 +56,37 @@ abstract final class KitConfig {
   static const aiRoute = 'losfer-ai';
   static const aiKeyRef = 'LOSFER_AI_API_KEY';
 
-  static const defaultModel = 'losfer-v1.0-pro';
   static const fastModel = 'losfer-v1.0-flash';
+  static const proModel = 'losfer-v1.0-pro';
   static const turboModel = 'losfer-v1.0-turbo';
   static const asrModel = 'losfer-v1.0-asr';
   static const ttsModel = 'losfer-v1.0-tts';
 
+  /// 默认模型：LOSFER flash（快、便宜，日常对话与工具调用够用）。
+  /// pro 留给「深度思考」，在模型页切换即可。
+  static const defaultModel = fastModel;
+
   /// 引擎里注册的聊天模型（与 `/v1/models` 保持一致）。
-  static const chatModels = [defaultModel, fastModel, turboModel];
+  static const chatModels = [fastModel, proModel, turboModel];
+
+  /// 声明给引擎的上下文长度：1M。LOSFER 的 flash/pro 都按 1M 上下文接入，
+  /// 引擎据此做压缩阈值与用量统计；单条请求仍以实际占用计费。
+  static const aiContextWindow = 1000000;
+
+  /// 单次回复的最大输出。
+  static const aiMaxOutput = 65536;
+
+  /// 模型能读的文字与图片：聊天里可以直接贴图（视觉模型走同一路由）。
+  static const aiInputs = ['text', 'image'];
+
+  /// 「思考」等级 → 发给接口的 `reasoning_effort` 值。
+  /// 关闭思考时发 `none`（实测可让 flash 不再产出 reasoning_content）。
+  static const aiReasoningEfforts = {
+    'off': 'none',
+    'low': 'low',
+    'medium': 'medium',
+    'high': 'high',
+  };
 
   /// 首次启动指导页「试用」按钮填入的测试 Key。
   /// 这是项目方提供的公开测试凭据；正式发布时可用

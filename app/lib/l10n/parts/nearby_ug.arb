@@ -1,7 +1,8 @@
 {
-  "nearbyThisChat": "本对话",
-  "nearbyPermissionTitle": "本对话的权限",
-  "nearbyNewChatDefault": "新对话默认：{name}",
+  "@@locale": "ug",
+  "nearbyThisChat": "بۇ سۆھبەت",
+  "nearbyPermissionTitle": "بۇ سۆھبەتنىڭ ھوقۇقى",
+  "nearbyNewChatDefault": "يېڭى سۆھبەت سۈكۈتتىكىسى: {name}",
   "@nearbyNewChatDefault": {
     "placeholders": {
       "name": {
@@ -9,9 +10,9 @@
       }
     }
   },
-  "nearbySetAsDefault": "设为新对话默认",
-  "nearbyManageModels": "管理模型",
-  "nearbyPermissionPill": "本对话的权限：{name}",
+  "nearbySetAsDefault": "يېڭى سۆھبەتنىڭ سۈكۈتتىكىسى قىلىش",
+  "nearbyManageModels": "مودېللارنى باشقۇرۇش",
+  "nearbyPermissionPill": "بۇ سۆھبەتنىڭ ھوقۇقى: {name}",
   "@nearbyPermissionPill": {
     "placeholders": {
       "name": {
@@ -19,5 +20,5 @@
       }
     }
   },
-  "nearbyChange": "更换"
+  "nearbyChange": "ئالماشتۇرۇش"
 }

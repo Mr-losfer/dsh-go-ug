@@ -1,6 +1,7 @@
 {
-  "phoneStartupFailureStopping": "启动失败，正在停止",
-  "phoneStartupFailureStoppingDetail": "启动失败，正在停止。{reason}",
+  "@@locale": "ug",
+  "phoneStartupFailureStopping": "قوزغىتىش مەغلۇپ بولدى، توختىتىلىۋاتىدۇ",
+  "phoneStartupFailureStoppingDetail": "قوزغىتىش مەغلۇپ بولدى، توختىتىلىۋاتىدۇ. {reason}",
   "@phoneStartupFailureStoppingDetail": {
     "placeholders": {
       "reason": {
@@ -8,6 +9,6 @@
       }
     }
   },
-  "phoneStartupTokenTimeout": "启动等待已超时（180 秒内未收到启动标记），请查看日志",
-  "phoneStartupPortNotReady": "已收到启动标记，但本机服务端口尚未就绪，请查看日志"
+  "phoneStartupTokenTimeout": "قوزغىتىش ساقلىشى ۋاقىتتىن ئاشتى (180 سېكۇنت ئىچىدە قوزغىتىش بەلگىسى ئېلىنمىدى)، خاتىرىنى تەكشۈرۈڭ",
+  "phoneStartupPortNotReady": "قوزغىتىش بەلگىسى ئېلىندى، بىراق بۇ ئۈسكۈنىنىڭ مۇلازىمەت پورتى تېخى تەييار ئەمەس، خاتىرىنى تەكشۈرۈڭ"
 }

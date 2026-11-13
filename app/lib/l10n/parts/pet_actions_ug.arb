@@ -1,11 +1,12 @@
 {
-  "petActionSending": "正在发送…",
-  "petActionTargetChanged": "主机已变化，重新打开「问一句」；文字已保留",
-  "petActionSendFailed": "没能发出，文字已保留，请重试",
-  "petActionBusy": "这个对话正在忙，请选择「新对话」",
-  "petActionVoiceMissing": "先到 App 下载离线语音模型",
-  "petActionVoiceTitle": "语音问一句",
-  "petActionVoiceReturn": "返回桌宠",
-  "petActionVoiceStop": "结束录音",
-  "petActionVoiceStart": "开始录音"
+  "@@locale": "ug",
+  "petActionSending": "ئەۋەتىلىۋاتىدۇ…",
+  "petActionTargetChanged": "باشقۇرغۇچ ئۆزگەردى، «سوراپ باق» نى قايتا ئېچىڭ؛ تېكىست ساقلاندى",
+  "petActionSendFailed": "ئەۋەتەلمىدى، تېكىست ساقلاندى، قايتا سىناڭ",
+  "petActionBusy": "بۇ سۆھبەت ئالدىراش، «يېڭى سۆھبەت» نى تاللاڭ",
+  "petActionVoiceMissing": "ئالدى بىلەن ئەپكە كىرىپ تورسىز ئاۋاز مودېلىنى چۈشۈرۈڭ",
+  "petActionVoiceTitle": "ئاۋاز بىلەن سوراپ باق",
+  "petActionVoiceReturn": "ئۈستەل يولدىشىغا قايتىش",
+  "petActionVoiceStop": "ئاۋاز ئېلىشنى توختىتىش",
+  "petActionVoiceStart": "ئاۋاز ئېلىشنى باشلاش"
 }

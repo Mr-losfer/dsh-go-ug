@@ -8876,13 +8876,13 @@ class L10nZh extends L10n {
   String get kitGuideTitle => 'Kit Go 启动指导';
 
   @override
-  String get kitGuideSubtitle => 'DSH Go 维吾尔语版 · LOSFER AI';
+  String get kitGuideSubtitle => 'Kit Go 维吾尔语版 · LOSFER AI';
 
   @override
   String get kitGuideWelcome => '欢迎使用 Kit Go';
 
   @override
-  String get kitGuideWelcomeBody => '这是 DSH Go 的维吾尔语版二次开发版本，已接入 LOSFER AI。';
+  String get kitGuideWelcomeBody => '这是 Kit Go 的维吾尔语版二次开发版本，已接入 LOSFER AI。';
 
   @override
   String get kitGuideAiTitle => '连接 LOSFER AI';

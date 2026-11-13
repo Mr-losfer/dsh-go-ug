@@ -1,13 +1,14 @@
 {
-  "pluginsOperationHostChanged": "主机已切换，未执行",
-  "pluginsReloadLocal": "重启内核以重载",
-  "pluginsReloadInterrupts": "会中断正在运行的任务",
-  "pluginsReloadConfirm": "重载「{name}」？",
-  "pluginsReloadExplanation": "将重启本机内核，重新加载插件。正在运行的任务会中断。",
-  "pluginsReloadProceed": "重启并重载",
-  "pluginsReloadRequested": "已请求重启内核",
-  "pluginsReloadChanged": "主机或插件状态已变化，请重试",
-  "pluginsReloadFailed": "未能重启内核，请查看引擎日志",
+  "@@locale": "ug",
+  "pluginsOperationHostChanged": "باشقۇرغۇچ ئالماشتى، ئىجرا قىلىنمىدى",
+  "pluginsReloadLocal": "يادرونى قايتا باشلاپ قايتا يۈكلەڭ",
+  "pluginsReloadInterrupts": "ئىجرا بولۇۋاتقان ۋەزىپىلەر ئۈزۈلىدۇ",
+  "pluginsReloadConfirm": "«{name}» نى قايتا يۈكلەمدۇ؟",
+  "pluginsReloadExplanation": "بۇ ئۈسكۈنىنىڭ يادرونى قايتا باشلاپ، قىستۇرمىلارنى قايتا يۈكلەيدۇ. ئىجرا بولۇۋاتقان ۋەزىپىلەر ئۈزۈلىدۇ.",
+  "pluginsReloadProceed": "قايتا باشلاپ يۈكلەش",
+  "pluginsReloadRequested": "يادرونى قايتا باشلاش تەلەپ قىلىندى",
+  "pluginsReloadChanged": "باشقۇرغۇچ ياكى قىستۇرما ھالىتى ئۆزگەردى، قايتا سىناڭ",
+  "pluginsReloadFailed": "يادرونى قايتا باشلىيالمىدى، ماتور خاتىرىسىنى تەكشۈرۈڭ",
   "@pluginsReloadConfirm": {
     "placeholders": {
       "name": {
@@ -15,37 +16,37 @@
       }
     }
   },
-  "pluginsFile": "文件",
-  "pluginsChat": "对话",
-  "pluginsImage": "图片",
-  "pluginsNamespaceDefaultModel": "默认模型",
-  "pluginsNamespaceDefaultPreset": "默认预设",
-  "pluginsNamespaceAgent": "智能体",
-  "pluginsNamespaceSubagent": "子代理",
-  "pluginsNamespaceSubagentModels": "子代理模型",
-  "pluginsNamespaceDeepSeekModel": "LOSFER AI 模型",
-  "pluginsNamespaceAccountModel": "LOSFER AI模型",
-  "pluginsNamespaceCustomModels": "自定义模型服务",
-  "pluginsNamespaceNetwork": "联网",
-  "pluginsNamespaceWebSearch": "联网搜索",
-  "pluginsNamespaceSearchApi": "联网搜索接口",
-  "pluginsNamespaceCommands": "命令执行",
-  "pluginsNamespacePermissions": "权限",
-  "pluginsNamespaceChatLog": "对话日志",
-  "pluginsNamespaceThinkingTranslation": "思考翻译",
-  "pluginsNamespaceTranslation": "翻译",
-  "pluginsNamespaceLanguage": "语言",
-  "pluginsNamespaceWebAppearance": "网页版外观",
-  "pluginsNamespaceWebChat": "网页版对话",
-  "pluginsNamespaceWebInput": "网页版输入",
-  "pluginsNamespaceWebSettings": "网页版设置",
-  "pluginsNamespaceWebGeneral": "网页版通用",
-  "pluginsNamespaceAutoReview": "自动审查",
-  "pluginsNamespaceAgentTeam": "智能体团队",
-  "pluginsNamespaceVoiceInput": "语音输入",
-  "pluginsOfficialPlugin": "官方插件",
-  "pluginsLocalUnshareable": "本地安装，无法分享",
-  "pluginsIncludesPresets": "含预设「{names}」",
+  "pluginsFile": "ھۆججەت",
+  "pluginsChat": "سۆھبەت",
+  "pluginsImage": "رەسىم",
+  "pluginsNamespaceDefaultModel": "كۆڭۈلدىكى مودېل",
+  "pluginsNamespaceDefaultPreset": "كۆڭۈلدىكى ئالدىن بەلگىلەش",
+  "pluginsNamespaceAgent": "ئاگېنت",
+  "pluginsNamespaceSubagent": "تارماق ئاگېنت",
+  "pluginsNamespaceSubagentModels": "تارماق ئاگېنت مودېللىرى",
+  "pluginsNamespaceDeepSeekModel": "LOSFER AI مودېلى",
+  "pluginsNamespaceAccountModel": "LOSFER AI مودېلى",
+  "pluginsNamespaceCustomModels": "ئۆزلەشتۈرۈلگەن مودېل مۇلازىمىتى",
+  "pluginsNamespaceNetwork": "تورغا ئۇلىنىش",
+  "pluginsNamespaceWebSearch": "تور ئىزدەش",
+  "pluginsNamespaceSearchApi": "تور ئىزدەش ئېنىقلىمىسى",
+  "pluginsNamespaceCommands": "بۇيرۇق ئىجرا قىلىش",
+  "pluginsNamespacePermissions": "ھوقۇق",
+  "pluginsNamespaceChatLog": "سۆھبەت خاتىرىسى",
+  "pluginsNamespaceThinkingTranslation": "پىكىر تەرجىمىسى",
+  "pluginsNamespaceTranslation": "تەرجىمە",
+  "pluginsNamespaceLanguage": "تىل",
+  "pluginsNamespaceWebAppearance": "تور كۆرۈنۈشى",
+  "pluginsNamespaceWebChat": "تور سۆھبىتى",
+  "pluginsNamespaceWebInput": "تور كىرگۈزۈش",
+  "pluginsNamespaceWebSettings": "تور تەڭشىكى",
+  "pluginsNamespaceWebGeneral": "تور ئومۇمىي",
+  "pluginsNamespaceAutoReview": "ئاپتوماتىك تەكشۈرۈش",
+  "pluginsNamespaceAgentTeam": "ئاگېنت ئەترىتى",
+  "pluginsNamespaceVoiceInput": "ئاۋاز كىرگۈزۈش",
+  "pluginsOfficialPlugin": "رەسمىي قىستۇرما",
+  "pluginsLocalUnshareable": "يەرلىك قاچىلانغان، ھەمبەھىرلەش مۇمكىن ئەمەس",
+  "pluginsIncludesPresets": "ئالدىن بەلگىلەنگەن «{names}» نى ئۆز ئىچىگە ئالىدۇ",
   "@pluginsIncludesPresets": {
     "placeholders": {
       "names": {
@@ -53,8 +54,8 @@
       }
     }
   },
-  "pluginsSecretsUnshareable": "含有密钥，无法分享",
-  "pluginsLineCount": "{count} 行",
+  "pluginsSecretsUnshareable": "ئاچقۇچ بار، ھەمبەھىرلەش مۇمكىن ئەمەس",
+  "pluginsLineCount": "{count} قۇر",
   "@pluginsLineCount": {
     "placeholders": {
       "count": {
@@ -62,15 +63,15 @@
       }
     }
   },
-  "pluginsEmptyValue": "空",
-  "pluginsOnValue": "开",
-  "pluginsOffValue": "关",
-  "pluginsOfficialUnavailable": "这台主机没有这个官方插件",
-  "pluginsEnabled": "已启用",
-  "pluginsVersionMismatch": "与分享时的版本不一致",
-  "pluginsCurrentVersion": "当前版本",
-  "pluginsNewVersion": "新版本",
-  "pluginsAddedWith": "随「{title}」添加",
+  "pluginsEmptyValue": "بوش",
+  "pluginsOnValue": "ئېچىلغان",
+  "pluginsOffValue": "تاقالغان",
+  "pluginsOfficialUnavailable": "بۇ ماشىنىدا بۇ رەسمىي قىستۇرما يوق",
+  "pluginsEnabled": "قوزغىتىلغان",
+  "pluginsVersionMismatch": "ھەمبەھىرلەنگەن نەشرى بىلەن ماس كەلمەيدۇ",
+  "pluginsCurrentVersion": "نۆۋەتتىكى نەشرى",
+  "pluginsNewVersion": "يېڭى نەشرى",
+  "pluginsAddedWith": "«{title}» بىلەن قوشۇلدى",
   "@pluginsAddedWith": {
     "placeholders": {
       "title": {
@@ -78,7 +79,7 @@
       }
     }
   },
-  "pluginsApplyAfterInstall": "装好插件后应用 · {detail}",
+  "pluginsApplyAfterInstall": "قىستۇرما قاچىلانغاندىن كېيىن قوللىنىلىدۇ · {detail}",
   "@pluginsApplyAfterInstall": {
     "placeholders": {
       "detail": {
@@ -86,23 +87,23 @@
       }
     }
   },
-  "pluginsSettingsReadFailed": "没能读取这台主机的设置",
-  "pluginsSettingUnavailable": "这台主机没有这项设置",
-  "pluginsSettingsReadOnly": "这台主机的设置是只读的",
-  "pluginsImportLocalOnly": "只能导入到本机",
-  "pluginsReplaceSkill": "替换同名技能",
-  "pluginsReplaceContent": "替换现有内容",
-  "pluginsSafeModeInstallBlocked": "安全模式下不能安装插件",
-  "pluginsHostInstallBlocked": "这台主机不能从这里安装插件",
-  "pluginsInstallFailed": "安装失败",
-  "pluginsAfterRestart": "重启后生效",
-  "pluginsSettingsChanged": "设置刚被改过",
-  "pluginsWriteFailed": "没能写入",
-  "pluginsHostUnreachable": "没能连上主机",
-  "pluginsFileWriteFailed": "没能写入文件",
-  "pluginsProfileTitle": "Kit Go 配置",
-  "pluginsGistTokenInvalid": "GitHub 令牌无效或没有 Gist 权限",
-  "pluginsGistCreateHttpFailed": "没能创建 Gist（HTTP {status}）",
+  "pluginsSettingsReadFailed": "بۇ خوجا كومپيۇتېرنىڭ تەڭشىكىنى ئوقۇيالمىدى",
+  "pluginsSettingUnavailable": "بۇ خوجا كومپيۇتېردا بۇ تەڭشەك يوق",
+  "pluginsSettingsReadOnly": "بۇ خوجا كومپيۇتېرنىڭ تەڭشىكى پەقەت ئوقۇشقىلا بولىدۇ",
+  "pluginsImportLocalOnly": "پەقەت يەرلىك كومپيۇتېرغا ئىمپورت قىلغىلى بولىدۇ",
+  "pluginsReplaceSkill": "ئوخشاش نامدىكى ماھارەتنى ئالماشتۇرۇش",
+  "pluginsReplaceContent": "مەۋجۇت مەزمۇننى ئالماشتۇرۇش",
+  "pluginsSafeModeInstallBlocked": "بىخەتەر ھالەتتە قىستۇرما قاچىلاشقا بولمايدۇ",
+  "pluginsHostInstallBlocked": "بۇ خوجا كومپيۇتېردىن قىستۇرما قاچىلاشقا بولمايدۇ",
+  "pluginsInstallFailed": "قاچىلاش مەغلۇپ بولدى",
+  "pluginsAfterRestart": "قايتا قوزغاتقاندىن كېيىن كۈچكە ئىگە",
+  "pluginsSettingsChanged": "تەڭشەك ئارىدا ئۆزگەرتىلگەن",
+  "pluginsWriteFailed": "يازالمىدى",
+  "pluginsHostUnreachable": "خوجا كومپيۇتېرغا ئۇلىنالمىدى",
+  "pluginsFileWriteFailed": "ھۆججەتكە يازالمىدى",
+  "pluginsProfileTitle": "Kit Go سەپلىمىسى",
+  "pluginsGistTokenInvalid": "GitHub بەلگىسى ئىناۋەتسىز ياكى Gist ھوقۇقى يوق",
+  "pluginsGistCreateHttpFailed": "Gist قۇرالمىدى (HTTP {status})",
   "@pluginsGistCreateHttpFailed": {
     "placeholders": {
       "status": {
@@ -110,24 +111,24 @@
       }
     }
   },
-  "pluginsGistCreateFailed": "没能创建 Gist",
-  "pluginsGitHubUnreachable": "连不上 GitHub",
-  "pluginsGitHubTimeout": "连接 GitHub 超时",
-  "pluginsGistNotFound": "找不到这个 Gist",
-  "pluginsGistNoProfile": "这个 Gist 里没有可导入的配置",
-  "pluginsGistReadFailed": "没能读取 Gist",
-  "pluginsListReadFailed": "没能读取插件列表",
-  "pluginsReadingPlugins": "正在读取插件…",
-  "pluginsDshOfficial": "DSH 官方",
-  "pluginsOfficialToggleOnly": "官方组件只能开关，不能卸载；对这台主机上的所有对话生效",
-  "pluginsOfficial": "官方",
-  "pluginsNoThirdParty": "还没装第三方插件",
-  "pluginsPluginsDescription": "插件能给 DSH 加工具、记忆和模型",
-  "pluginsBrowseMarket": "逛逛插件市场",
-  "pluginsLoading": "正在加载",
-  "pluginsIslandClosed": "插件界面已关闭",
-  "pluginsReopen": "重新打开",
-  "pluginsOpenBrowserHost": "在浏览器打开 {host}？",
+  "pluginsGistCreateFailed": "Gist قۇرالمىدى",
+  "pluginsGitHubUnreachable": "GitHub غا ئۇلىنالمىدى",
+  "pluginsGitHubTimeout": "GitHub غا ئۇلىنىش ۋاقتى ئۆتتى",
+  "pluginsGistNotFound": "بۇ Gist تېپىلمىدى",
+  "pluginsGistNoProfile": "بۇ Gist دا ئەكىرىشكە بولىدىغان سەپلەنمە يوق",
+  "pluginsGistReadFailed": "Gist نى ئوقۇيالمىدى",
+  "pluginsListReadFailed": "قىستۇرما تىزىملىكىنى ئوقۇيالمىدى",
+  "pluginsReadingPlugins": "قىستۇرمىلار ئوقۇلۇۋاتىدۇ…",
+  "pluginsDshOfficial": "DSH رەسمىي",
+  "pluginsOfficialToggleOnly": "رەسمىي زاپچاسلارنى پەقەت ئېچىپ-تاقىغىلى بولىدۇ، چىقىرىۋېتەلمەيسىز؛ بۇ باشقۇرغۇچىدىكى بارلىق سۆھبەتلەرگە تەسىر كۆرسىتىدۇ",
+  "pluginsOfficial": "رەسمىي",
+  "pluginsNoThirdParty": "تېخى بەزى قىستۇرما قاچىلانمىدى",
+  "pluginsPluginsDescription": "قىستۇرمىلار DSH غا قورال، ئەسكەرتىش ۋە مودېل قوشالايدۇ",
+  "pluginsBrowseMarket": "قىستۇرما بازارنى كۆرۈش",
+  "pluginsLoading": "يۈكلىنىۋاتىدۇ",
+  "pluginsIslandClosed": "قىستۇرما كۆرۈنۈشى تاقالدى",
+  "pluginsReopen": "قايتا ئېچىش",
+  "pluginsOpenBrowserHost": "توركۆرگۈدە {host} نى ئاچامسىز؟",
   "@pluginsOpenBrowserHost": {
     "placeholders": {
       "host": {
@@ -135,12 +136,12 @@
       }
     }
   },
-  "pluginsSearch": "搜索插件",
-  "pluginsMarketLoading": "正在载入插件目录…",
-  "pluginsMarketLoadFailed": "插件目录没打开",
-  "pluginsMarketInvalid": "目录格式有误",
-  "pluginsAll": "全部",
-  "pluginsMarketCount": "{count} 个插件 · 来自 dshfind",
+  "pluginsSearch": "قىستۇرما ئىزدەش",
+  "pluginsMarketLoading": "قىستۇرما كاتالوگى يۈكلىنىۋاتىدۇ…",
+  "pluginsMarketLoadFailed": "قىستۇرما كاتالوگى ئېچىلمىدى",
+  "pluginsMarketInvalid": "كاتالوگ فورماتى خاتا",
+  "pluginsAll": "ھەممىسى",
+  "pluginsMarketCount": "{count} قىستۇرما · dshfind دىن",
   "@pluginsMarketCount": {
     "placeholders": {
       "count": {
@@ -148,8 +149,8 @@
       }
     }
   },
-  "pluginsHideWeb": "隐藏网页版插件",
-  "pluginsShowWebCount": "显示 {count} 个网页版插件",
+  "pluginsHideWeb": "تور بېتى قىستۇرمىلىرىنى يوشۇرۇش",
+  "pluginsShowWebCount": "{count} تور بېتى قىستۇرمىسىنى كۆرسىتىش",
   "@pluginsShowWebCount": {
     "placeholders": {
       "count": {
@@ -157,8 +158,8 @@
       }
     }
   },
-  "pluginsNoCategoryPlugins": "这个分类下没有插件",
-  "pluginsNoSearchResults": "没有找到「{query}」",
+  "pluginsNoCategoryPlugins": "بۇ تۈردە قىستۇرما يوق",
+  "pluginsNoSearchResults": "«{query}» تېپىلمىدى",
   "@pluginsNoSearchResults": {
     "placeholders": {
       "query": {
@@ -166,7 +167,7 @@
       }
     }
   },
-  "pluginsFailureDetails": "{title} · 点开查看",
+  "pluginsFailureDetails": "{title} · چېكىپ كۆرۈڭ",
   "@pluginsFailureDetails": {
     "placeholders": {
       "title": {
@@ -174,8 +175,8 @@
       }
     }
   },
-  "pluginsFeatured": "推荐",
-  "pluginsInstalledRemoteRestart": "已安装「{name}」，重启{host}上的 DSH 后生效",
+  "pluginsFeatured": "تەۋسىيە",
+  "pluginsInstalledRemoteRestart": "«{name}» قاچىلاندى، {host} دىكى DSH نى قايتا قوزغاتقاندىن كېيىن كۈچكە ئىگە بولىدۇ",
   "@pluginsInstalledRemoteRestart": {
     "placeholders": {
       "name": {
@@ -186,7 +187,7 @@
       }
     }
   },
-  "pluginsInstalledNamed": "已安装「{name}」",
+  "pluginsInstalledNamed": "«{name}» قاچىلاندى",
   "@pluginsInstalledNamed": {
     "placeholders": {
       "name": {
@@ -194,7 +195,7 @@
       }
     }
   },
-  "pluginsInstallCancelled": "已取消安装",
+  "pluginsInstallCancelled": "قاچىلاش بىكار قىلىندى",
   "pluginsInstallFailureNamed": "「{name}」{reason}",
   "@pluginsInstallFailureNamed": {
     "placeholders": {
@@ -206,8 +207,8 @@
       }
     }
   },
-  "pluginsRestartRequired": "需要重启引擎",
-  "pluginsRestartExplanation": "「{name}」重启引擎后生效，进行中的回复会中断。",
+  "pluginsRestartRequired": "ماتورنى قايتا قوزغىتىش كېرەك",
+  "pluginsRestartExplanation": "«{name}» ماتورنى قايتا قوزغاتقاندىن كېيىن كۈچكە ئىگە بولىدۇ، داۋاملىشىۋاتقان جاۋابلار ئۈزۈلىدۇ.",
   "@pluginsRestartExplanation": {
     "placeholders": {
       "name": {
@@ -215,10 +216,10 @@
       }
     }
   },
-  "pluginsRestartEngine": "重启引擎",
-  "pluginsAllowBuildScripts": "允许构建脚本？",
-  "pluginsBuildScriptPackages": "下面这些包要在安装时运行脚本：",
-  "pluginsBuildScriptWarning": "脚本会以 DSH 的权限在{host}上执行，能读写文件、联网。只在你信任这个插件时允许。",
+  "pluginsRestartEngine": "ماتورنى قايتا قوزغىتىش",
+  "pluginsAllowBuildScripts": "قۇرۇش اسكرىپتلىرىغا رۇخسەت قىلامسىز؟",
+  "pluginsBuildScriptPackages": "تۆۋەندىكى بوغچىلار قاچىلاش جەريانىدا اسكرىپت ئىجرا قىلىدۇ:",
+  "pluginsBuildScriptWarning": "اسكرىپتلار DSH نىڭ ھوقۇقى بىلەن {host} دا ئىجرا بولۇپ، ھۆججەت ئوقۇش-يېزىش ۋە تورغا ئۇلىنىشى مۇمكىن. بۇ قىستۇرمىغا ئىشەنگەندىلا رۇخسەت قىلىڭ.",
   "@pluginsBuildScriptWarning": {
     "placeholders": {
       "host": {
@@ -226,9 +227,9 @@
       }
     }
   },
-  "pluginsThisDevice": "这台设备",
-  "pluginsAllowRetry": "允许并重试",
-  "pluginsUpdateNamed": "更新「{name}」？",
+  "pluginsThisDevice": "بۇ ئۈسكۈنە",
+  "pluginsAllowRetry": "رۇخسەت قىلىپ قايتا سىناش",
+  "pluginsUpdateNamed": "«{name}» يېڭىلانسۇنمۇ؟",
   "@pluginsUpdateNamed": {
     "placeholders": {
       "name": {
@@ -236,7 +237,7 @@
       }
     }
   },
-  "pluginsUninstallNamed": "卸载「{title}」？",
+  "pluginsUninstallNamed": "«{title}» چىقىرىۋېتىلسۇنمۇ؟",
   "@pluginsUninstallNamed": {
     "placeholders": {
       "title": {
@@ -244,7 +245,7 @@
       }
     }
   },
-  "pluginsUninstallExplanation": "插件会从{host}上移除，它保存的数据和设置不会删除。",
+  "pluginsUninstallExplanation": "قىستۇرما {host} دىن چىقىرىۋېتىلىدۇ، ئۇ ساقلىغان سانلىق مەلۇمات ۋە تەڭشەكلەر ئۆچۈرۈلمەيدۇ.",
   "@pluginsUninstallExplanation": {
     "placeholders": {
       "host": {
@@ -252,9 +253,9 @@
       }
     }
   },
-  "pluginsThisHost": "这台主机",
-  "pluginsUninstall": "卸载",
-  "pluginsUninstalledNamed": "已卸载「{title}」",
+  "pluginsThisHost": "بۇ خوجايىن",
+  "pluginsUninstall": "چىقىرىۋېتىش",
+  "pluginsUninstalledNamed": "«{title}» چىقىرىۋېتىلدى",
   "@pluginsUninstalledNamed": {
     "placeholders": {
       "title": {
@@ -262,16 +263,16 @@
       }
     }
   },
-  "pluginsRestartNow": "立即重启",
-  "pluginsUninstallFailed": "没能卸载",
-  "pluginsThatComputer": "那台电脑",
-  "pluginsCommandAfterInstall": "装好后重启那台电脑上的 DSH，再回来刷新",
-  "pluginsError": "出错",
-  "pluginsInventoryTitle": "插件清单",
-  "pluginsGlobalPlugins": "全局插件",
-  "pluginsAgentPresets": "Agent 预设",
-  "pluginsInventoryReadFailed": "没能读取插件清单",
-  "pluginsComponentCount": "{count} 个组件",
+  "pluginsRestartNow": "ھازىر قايتا قوزغىتىش",
+  "pluginsUninstallFailed": "چىقىرىۋېتىش مەغلۇپ بولدى",
+  "pluginsThatComputer": "ئۇ كومپيۇتېر",
+  "pluginsCommandAfterInstall": "قاچىلانغاندىن كېيىن ئۇ كومپيۇتېردىكى DSH نى قايتا قوزغىتىپ، ئاندىن قايتىپ يېڭىلاڭ",
+  "pluginsError": "خاتالىق كۆرۈلدى",
+  "pluginsInventoryTitle": "قىستۇرما تىزىملىكى",
+  "pluginsGlobalPlugins": "ئومۇمىي قىستۇرمىلار",
+  "pluginsAgentPresets": "Agent ئالدىن بەلگىلىمىلىرى",
+  "pluginsInventoryReadFailed": "قىستۇرما تىزىملىكىنى ئوقۇيالمىدى",
+  "pluginsComponentCount": "{count} ئەسلىھە",
   "@pluginsComponentCount": {
     "placeholders": {
       "count": {
@@ -279,7 +280,7 @@
       }
     }
   },
-  "pluginsEnabledCount": "{count} 个已启用",
+  "pluginsEnabledCount": "{count} ئاكتىپلانغان",
   "@pluginsEnabledCount": {
     "placeholders": {
       "count": {
@@ -287,7 +288,7 @@
       }
     }
   },
-  "pluginsErrorCount": "{count} 个出错",
+  "pluginsErrorCount": "{count} خاتالىق",
   "@pluginsErrorCount": {
     "placeholders": {
       "count": {
@@ -295,13 +296,13 @@
       }
     }
   },
-  "pluginsNoPlugins": "没有插件",
-  "pluginsNoMatchingPlugins": "没有匹配的插件",
-  "pluginsPresetLoadFailed": "这个预设没能加载",
-  "pluginsPresetNoPlugins": "这个预设没有插件",
-  "pluginsStandard": "标准",
-  "pluginsMinimal": "精简",
-  "pluginsDefaultPresetName": "{name}（默认）",
+  "pluginsNoPlugins": "قىستۇرما يوق",
+  "pluginsNoMatchingPlugins": "ماس كېلىدىغان قىستۇرما يوق",
+  "pluginsPresetLoadFailed": "بۇ ئالدىن بەلگىلىمە يۈكلىنەلمىدى",
+  "pluginsPresetNoPlugins": "بۇ ئالدىن بەلگىلىمىدە قىستۇرما يوق",
+  "pluginsStandard": "ستاندارت",
+  "pluginsMinimal": "ئاددىيلاشتۇرۇلغان",
+  "pluginsDefaultPresetName": "{name} (سۈكۈتتىكى)",
   "@pluginsDefaultPresetName": {
     "placeholders": {
       "name": {
@@ -309,8 +310,8 @@
       }
     }
   },
-  "pluginsSystemComponents": "系统组件",
-  "pluginsCount": "{count} 个",
+  "pluginsSystemComponents": "سىستېما ئەسلىھەلىرى",
+  "pluginsCount": "{count} دانە",
   "@pluginsCount": {
     "placeholders": {
       "count": {
@@ -318,11 +319,11 @@
       }
     }
   },
-  "pluginsSource": "来源",
-  "pluginsDisableCondition": "禁用条件",
-  "pluginsProvidedByPreset": "由预设提供",
-  "pluginsDetailsTitle": "插件详情",
-  "pluginsPackageInfoError": "包信息有误：{error}",
+  "pluginsSource": "مەنبە",
+  "pluginsDisableCondition": "چەكلەش شەرتى",
+  "pluginsProvidedByPreset": "ئالدىن بەلگىلىمە تەرىپىدىن تەمىنلەنگەن",
+  "pluginsDetailsTitle": "قىستۇرما تەپسىلاتى",
+  "pluginsPackageInfoError": "بوغچا ئۇچۇرىدا خاتالىق بار: {error}",
   "@pluginsPackageInfoError": {
     "placeholders": {
       "error": {
@@ -330,18 +331,18 @@
       }
     }
   },
-  "pluginsInstalling": "安装中",
-  "pluginsGet": "获取",
-  "pluginsLoadingCannotCancel": "正在加载插件，这一步不能取消",
-  "pluginsInstallDuration": "约需一两分钟，可以先离开",
-  "pluginsViewInstallLogs": "查看安装日志",
-  "pluginsViewDetails": "查看详情",
-  "pluginsCopyCommand": "复制命令",
-  "pluginsCommandCopied": "命令已复制",
-  "pluginsMissingFiles": "插件文件缺失，重新安装可修复",
-  "pluginsNotDshPlugin": "不是 DSH 插件，无法加载",
-  "pluginsIncompatible": "与当前 DSH 版本不兼容，未加载",
-  "pluginsRequiresDshVersion": "需要 DSH {requiredVersion}，当前 {currentVersion}，未加载",
+  "pluginsInstalling": "قاچىلىنىۋاتىدۇ",
+  "pluginsGet": "ئېلىش",
+  "pluginsLoadingCannotCancel": "قىستۇرما يۈكلىنىۋاتىدۇ، بۇ قەدەمدە بىكار قىلغىلى بولمايدۇ",
+  "pluginsInstallDuration": "تەخمىنەن بىر-ئىككى مىنۇت كېتىدۇ، ئالدىراپ كەتسىڭىز بولىدۇ",
+  "pluginsViewInstallLogs": "قاچىلاش خاتىرىسىنى كۆرۈش",
+  "pluginsViewDetails": "تەپسىلاتىنى كۆرۈش",
+  "pluginsCopyCommand": "بۇيرۇقنى كۆچۈرۈش",
+  "pluginsCommandCopied": "بۇيرۇق كۆچۈرۈلدى",
+  "pluginsMissingFiles": "قىستۇرما ھۆججەتلىرى كەم، قايتا قاچىلىسا تۈزىتىلىدۇ",
+  "pluginsNotDshPlugin": "DSH قىستۇرمىسى ئەمەس، يۈكلەش مۇمكىن ئەمەس",
+  "pluginsIncompatible": "نۆۋەتتىكى DSH نەشرى بىلەن ماسلاشمايدۇ، يۈكلەنمىدى",
+  "pluginsRequiresDshVersion": "DSH {requiredVersion} كېرەك، نۆۋەتتە {currentVersion}، يۈكلەنمىدى",
   "@pluginsRequiresDshVersion": {
     "placeholders": {
       "requiredVersion": {
@@ -352,7 +353,7 @@
       }
     }
   },
-  "pluginsLoadFailure": "加载失败：{reason}",
+  "pluginsLoadFailure": "يۈكلەش مەغلۇپ بولدى: {reason}",
   "@pluginsLoadFailure": {
     "placeholders": {
       "reason": {
@@ -360,8 +361,8 @@
       }
     }
   },
-  "pluginsUnknownReason": "原因未知",
-  "pluginsBundleProblem": "有问题：{reason}",
+  "pluginsUnknownReason": "سەۋەبى نامەلۇم",
+  "pluginsBundleProblem": "مەسىلە بار: {reason}",
   "@pluginsBundleProblem": {
     "placeholders": {
       "reason": {
@@ -369,7 +370,7 @@
       }
     }
   },
-  "pluginsRefreshFailure": "刷新失败：{reason}",
+  "pluginsRefreshFailure": "يېڭىلاش مەغلۇپ بولدى: {reason}",
   "@pluginsRefreshFailure": {
     "placeholders": {
       "reason": {
@@ -377,12 +378,12 @@
       }
     }
   },
-  "pluginsTitle": "插件",
-  "pluginsRefresh": "刷新",
-  "pluginsMarketTitle": "插件市场",
-  "pluginsConnectToManage": "连上引擎后管理插件",
-  "pluginsSafeModeOperationsBlocked": "安全模式下不能安装或卸载插件",
-  "pluginsRelayToggleOnly": "{host} · 经中转只能开关，安装请在那台电脑上进行",
+  "pluginsTitle": "قىستۇرمىلار",
+  "pluginsRefresh": "يېڭىلاش",
+  "pluginsMarketTitle": "قىستۇرما بازىرى",
+  "pluginsConnectToManage": "ماتورغا ئۇلانغاندىن كېيىن قىستۇرمىلارنى باشقۇرۇڭ",
+  "pluginsSafeModeOperationsBlocked": "بىخەتەر ھالەتتە قىستۇرما قاچىلاش ياكى ئۆچۈرۈش مۇمكىن ئەمەس",
+  "pluginsRelayToggleOnly": "{host} · ئارقىلىق ئالماشتۇرۇشلا مۇمكىن، قاچىلاشنى ئۇ كومپيۇتېردا قىلىڭ",
   "@pluginsRelayToggleOnly": {
     "placeholders": {
       "host": {
@@ -390,8 +391,8 @@
       }
     }
   },
-  "pluginsInstallThisPhone": "安装到：本机",
-  "pluginsInstallHost": "安装到：{host}",
+  "pluginsInstallThisPhone": "قاچىلاش: بۇ ئۈسكۈنە",
+  "pluginsInstallHost": "قاچىلاش: {host}",
   "@pluginsInstallHost": {
     "placeholders": {
       "host": {
@@ -399,17 +400,17 @@
       }
     }
   },
-  "pluginsOfflineDescription": "引擎运行后显示已装插件，插件市场现在就能逛",
-  "pluginsIconChanged": "桌面图标已选择，回到桌面后更新",
-  "pluginsIconChangeFailed": "没能更换，稍后再试",
-  "pluginsTheme": "主题",
-  "pluginsAppearance": "外观",
-  "pluginsColors": "配色",
-  "pluginsFeatureIcons": "功能图标",
-  "pluginsAppIcon": "桌面图标",
-  "pluginsPet": "宠物",
-  "pluginsCustomColor": "自定义",
-  "pluginsColorLabel": "配色：{label}",
+  "pluginsOfflineDescription": "ماتور ئىشلىگەندىن كېيىن قاچىلانغان قىستۇرمىلار كۆرۈنىدۇ، قىستۇرما بازىرىنى ھازىرلا ئايلىنىپ باقسىڭىز بولىدۇ",
+  "pluginsIconChanged": "ئۈستەل سىنبەلگىسى تاللاندى، ئۈستەلگە قايتقاندىن كېيىن يېڭىلىنىدۇ",
+  "pluginsIconChangeFailed": "ئالماشتۇرالمىدى، سەل تۇرۇپ قايتا سىناڭ",
+  "pluginsTheme": "تېما",
+  "pluginsAppearance": "كۆرۈنۈش",
+  "pluginsColors": "رەڭ ئۇيغۇنلۇقى",
+  "pluginsFeatureIcons": "ئىقتىدار سىنبەلگىلىرى",
+  "pluginsAppIcon": "ئۈستەل سىنبەلگىسى",
+  "pluginsPet": "ئۆي ھايۋىنى",
+  "pluginsCustomColor": "خالىغانچە",
+  "pluginsColorLabel": "رەڭ: {label}",
   "@pluginsColorLabel": {
     "placeholders": {
       "label": {
@@ -417,17 +418,17 @@
       }
     }
   },
-  "pluginsCoral": "珊瑚",
-  "pluginsRouge": "胭脂",
-  "pluginsOchre": "赭石",
-  "pluginsMoss": "苔绿",
-  "pluginsLake": "湖蓝",
-  "pluginsIndigo": "靛紫",
-  "pluginsHue": "色相",
-  "pluginsWallpaper": "壁纸",
-  "pluginsFollowWallpaper": "跟随壁纸",
-  "pluginsAllowHighPower": "允许后台高耗电",
-  "pluginsVivoBatteryPath": "电池 › 后台耗电管理 › {app}",
+  "pluginsCoral": "مارجان",
+  "pluginsRouge": "قىزىل",
+  "pluginsOchre": "زەرچە",
+  "pluginsMoss": "يېشىل",
+  "pluginsLake": "كۆك",
+  "pluginsIndigo": "سۆسۈن",
+  "pluginsHue": "رەڭ تۈسى",
+  "pluginsWallpaper": "تام قەغىزى",
+  "pluginsFollowWallpaper": "تام قەغىزىگە ئەگىشىش",
+  "pluginsAllowHighPower": "ئارقا سەپتە يۇقىرى توك سەرپ قىلىشقا رۇخسەت",
+  "pluginsVivoBatteryPath": "باتارېيە › ئارقا سەپ توك سەرپىياتى باشقۇرۇش › {app}",
   "@pluginsVivoBatteryPath": {
     "placeholders": {
       "app": {
@@ -435,8 +436,8 @@
       }
     }
   },
-  "pluginsXiaomiBatterySetting": "省电策略：无限制",
-  "pluginsXiaomiBatteryPath": "应用管理 › {app} › 省电策略",
+  "pluginsXiaomiBatterySetting": "توك تېجەش ئىستراتېگىيىسى: چەكسىز",
+  "pluginsXiaomiBatteryPath": "ئەپ باشقۇرۇش › {app} › توك تېجەش ئىستراتېگىيىسى",
   "@pluginsXiaomiBatteryPath": {
     "placeholders": {
       "app": {
@@ -444,8 +445,8 @@
       }
     }
   },
-  "pluginsHuaweiBatterySetting": "允许后台活动",
-  "pluginsHuaweiBatteryPath": "电池 › 应用启动管理 › {app}",
+  "pluginsHuaweiBatterySetting": "ئارقا سەپ پائالىيىتىگە رۇخسەت",
+  "pluginsHuaweiBatteryPath": "قۇۋۋەت › ئەپ يېتەكچىلىكىنى باشلاش › {app}",
   "@pluginsHuaweiBatteryPath": {
     "placeholders": {
       "app": {
@@ -453,8 +454,8 @@
       }
     }
   },
-  "pluginsOppoBatterySetting": "允许后台行为",
-  "pluginsOppoBatteryPath": "电池 › 应用耗电管理 › {app}",
+  "pluginsOppoBatterySetting": "ئارقا سەپتىكى ھەرىكەتكە يول قويۇش",
+  "pluginsOppoBatteryPath": "قۇۋۋەت › ئەپ توك سەرپىياتىنى باشقۇرۇش › {app}",
   "@pluginsOppoBatteryPath": {
     "placeholders": {
       "app": {
@@ -462,8 +463,8 @@
       }
     }
   },
-  "pluginsSamsungBatterySetting": "电池：不受限制",
-  "pluginsSamsungBatteryPath": "应用程序 › {app} › 电池",
+  "pluginsSamsungBatterySetting": "قۇۋۋەت: چەكلىمىسىز",
+  "pluginsSamsungBatteryPath": "ئەپ پروگراممىلىرى › {app} › قۇۋۋەت",
   "@pluginsSamsungBatteryPath": {
     "placeholders": {
       "app": {
@@ -471,8 +472,8 @@
       }
     }
   },
-  "pluginsVivoBatteryStep": "打开「允许后台高耗电」",
-  "pluginsXiaomiBatteryFullPath": "应用设置 › 应用管理 › {app} › 省电策略 › 无限制",
+  "pluginsVivoBatteryStep": "«ئارقا سەپتە يۇقىرى توك سەرپىياتىغا يول قويۇش» نى ئېچىڭ",
+  "pluginsXiaomiBatteryFullPath": "ئەپ تەڭشىكى › ئەپ باشقۇرۇش › {app} › توك تېجەش ئىستراتېگىيىسى › چەكلىمىسىز",
   "@pluginsXiaomiBatteryFullPath": {
     "placeholders": {
       "app": {
@@ -480,19 +481,19 @@
       }
     }
   },
-  "pluginsXiaomiAutostart": "同一页打开「自启动」",
-  "pluginsHuaweiBatteryStep": "关闭「自动管理」，打开「允许后台活动」",
-  "pluginsOppoBatteryStep": "打开「允许后台行为」",
-  "pluginsSamsungBatteryStep": "选择「不受限制」",
-  "pluginsBackgroundTitle": "后台运行",
-  "pluginsBackgroundDescription": "让对话在后台也能跑完",
-  "pluginsSystem": "系统",
-  "pluginsSystemBatteryOptimization": "系统电池优化",
-  "pluginsTurnedOff": "已关闭",
-  "pluginsNotTurnedOff": "未关闭",
-  "pluginsStayOnline": "保持在线",
-  "pluginsKeepEngineNotification": "保留「引擎运行中」通知",
-  "pluginsLockInRecents": "在最近任务里锁定 {app}",
+  "pluginsXiaomiAutostart": "شۇ بەتتە «ئۆزلۈكىدىن قوزغىتىش» نى ئېچىڭ",
+  "pluginsHuaweiBatteryStep": "«ئۆزلۈكىدىن باشقۇرۇش» نى تاقاڭ، «ئارقا سەپتىكى ھەرىكەتكە يول قويۇش» نى ئېچىڭ",
+  "pluginsOppoBatteryStep": "«ئارقا سەپتىكى ھەرىكەتكە يول قويۇش» نى ئېچىڭ",
+  "pluginsSamsungBatteryStep": "«چەكلىمىسىز» نى تاللاڭ",
+  "pluginsBackgroundTitle": "ئارقا سەپتە ئىجرا قىلىش",
+  "pluginsBackgroundDescription": "سۆھبەتنىڭ ئارقا سەپتىمۇ تۈگىتىلىشىگە يول قويۇڭ",
+  "pluginsSystem": "سىستېما",
+  "pluginsSystemBatteryOptimization": "سىستېما قۇۋۋەت تېجەش ئەلالاشتۇرۇشى",
+  "pluginsTurnedOff": "تاقالدى",
+  "pluginsNotTurnedOff": "تاقالمىدى",
+  "pluginsStayOnline": "توردا تۇرۇڭ",
+  "pluginsKeepEngineNotification": "«ماتور ئىجرا بولۇۋاتىدۇ» ئۇقتۇرۇشىنى ساقلاڭ",
+  "pluginsLockInRecents": "يېقىنقى ۋەزىپىلەردە {app} نى قۇلۇپلاڭ",
   "@pluginsLockInRecents": {
     "placeholders": {
       "app": {
@@ -500,9 +501,9 @@
       }
     }
   },
-  "pluginsPhoneBrands": "各品牌",
-  "pluginsOtherBrands": "其他品牌",
-  "pluginsConnectedHost": "已连接（{host}）",
+  "pluginsPhoneBrands": "ھەر خىل ماركىلار",
+  "pluginsOtherBrands": "باشقا ماركىلار",
+  "pluginsConnectedHost": "ئۇلاندى ({host})",
   "@pluginsConnectedHost": {
     "placeholders": {
       "host": {
@@ -510,7 +511,7 @@
       }
     }
   },
-  "pluginsConnectionError": "连接失败：{error}",
+  "pluginsConnectionError": "ئۇلىنىش مەغلۇپ بولدى: {error}",
   "@pluginsConnectionError": {
     "placeholders": {
       "error": {
@@ -518,79 +519,79 @@
       }
     }
   },
-  "pluginsConnecting": "正在连接",
-  "pluginsDiagnosticsCopied": "已复制诊断信息",
-  "pluginsDiagnostics": "诊断",
-  "pluginsDiagnosticsDescription": "反馈问题时附上，不含 Key 和令牌",
-  "pluginsRuntime": "运行环境",
-  "pluginsArchitecture": "架构",
-  "pluginsBundledVersion": "内置版本",
-  "pluginsInstalledVersion": "已安装版本",
-  "pluginsErrorLabel": "错误",
-  "pluginsConnection": "连接",
-  "pluginsAddress": "地址",
-  "pluginsClient": "客户端",
-  "pluginsConfigured": "已设置",
-  "pluginsExport": "导出",
-  "pluginsCopyDiagnostics": "复制诊断信息",
-  "pluginsDiagnosticsContents": "只含版本和连接状态",
-  "pluginsNotificationsPartlyBlocked": "部分被系统关闭",
-  "pluginsNotificationsBlocked": "系统已关闭",
-  "pluginsTurnedOn": "已开启",
-  "pluginsNotifications": "通知",
-  "pluginsNotificationSettingsFailed": "没能打开系统设置。到「设置 → 应用 → Kit Go → 通知」里开启",
-  "pluginsSystemNotificationsOff": "系统通知已关闭",
-  "pluginsBackgroundNoAlerts": "App 在后台时收不到任何提醒",
-  "pluginsApprovalNotificationsOff": "「等你确认」通知已关闭",
-  "pluginsBackgroundNoApprovalAlerts": "App 在后台时，等你确认不会提醒",
-  "pluginsDoneNotificationsOff": "「一轮结束」通知已关闭",
-  "pluginsBackgroundNoDoneAlerts": "App 在后台时，完成或出错不会提醒",
-  "pluginsTurnOn": "去开启",
-  "pluginsNotificationsDescription": "对话完成或需要你时提醒你",
-  "pluginsAllowNotifications": "允许通知",
-  "pluginsNotificationsAndBanners": "系统通知与顶部横幅",
-  "pluginsAlerts": "提醒",
-  "pluginsRemoteAlertsRequirement": "远程主机的提醒需要 App 在运行、连接在线",
-  "pluginsTurnComplete": "一轮完成",
-  "pluginsReplyPreview": "附带回复的开头",
-  "pluginsErrorOrStopped": "出错或被停下",
-  "pluginsErrorOrStoppedDescription": "请求失败、引擎重启或被停止",
-  "pluginsApprovalDescription": "运行命令、改文件等需要批准",
-  "pluginsQuestions": "向你提问",
-  "pluginsQuestionsDescription": "AI 需要你回答",
-  "pluginsSystemSettings": "系统设置",
-  "pluginsLockScreenPrivacy": "锁屏不显示对话内容",
-  "pluginsSoundBannerLockScreen": "声音、横幅与锁屏",
-  "pluginsEnableFloatingNotifications": "横幅不弹时，开启「悬浮通知」",
-  "pluginsPersonalPreferences": "个人偏好",
-  "pluginsPreferencesDescription": "新对话会照这里的要求回答",
-  "pluginsPreferencesHint": "比如：用中文回答，我主要写 Flutter",
-  "pluginsSaving": "正在保存",
-  "pluginsShareLink": "分享链接",
-  "pluginsInstallPlugin": "安装插件",
-  "pluginsImportProfile": "导入配置",
-  "pluginsImportTo": "导入到",
-  "pluginsInstallTo": "安装到",
-  "pluginsVerification": "校验",
-  "pluginsSize": "大小",
-  "pluginsVerified": "校验通过",
-  "pluginsVerificationMismatch": "校验不一致",
-  "pluginsCannotVerify": "无法校验",
-  "pluginsVerifying": "校验中",
-  "pluginsPresets": "预设",
-  "pluginsSkills": "技能",
-  "pluginsAdded": "新增",
-  "pluginsModified": "修改",
-  "pluginsNoChanges": "无需改动",
-  "pluginsUnavailable": "不可用",
-  "pluginsHostProfileReadFailed": "没能读取这台主机的配置",
-  "pluginsAlreadyMatches": "这台主机上已经是这样了",
-  "pluginsUnsuccessful": "没成功",
-  "pluginsSkipped": "已跳过",
-  "pluginsView": "查看",
-  "pluginsImport": "导入",
-  "pluginsHostPluginsReadFailed": "没能读取这台主机的插件",
-  "pluginsUpdateTo": "更新到 {version}",
+  "pluginsConnecting": "ئۇلىنىۋاتىدۇ",
+  "pluginsDiagnosticsCopied": "دىئاگنوزىكا ئۇچۇرى كۆچۈرۈلدى",
+  "pluginsDiagnostics": "دىئاگنوزىكا",
+  "pluginsDiagnosticsDescription": "مەسىلە خەۋەر قىلغاندا قوشۇڭ، Key ۋە توكېننى ئۆز ئىچىگە ئالمايدۇ",
+  "pluginsRuntime": "يۈرگۈزۈش مۇھىتى",
+  "pluginsArchitecture": "قۇرۇلما",
+  "pluginsBundledVersion": "ئىچكى نەشرى",
+  "pluginsInstalledVersion": "قاچىلانغان نەشرى",
+  "pluginsErrorLabel": "خاتالىق",
+  "pluginsConnection": "ئۇلىنىش",
+  "pluginsAddress": "ئادرېس",
+  "pluginsClient": "خېرىدار",
+  "pluginsConfigured": "تەڭشەلگەن",
+  "pluginsExport": "چىقىرىش",
+  "pluginsCopyDiagnostics": "دىئاگنوزىكا ئۇچۇرىنى كۆچۈرۈش",
+  "pluginsDiagnosticsContents": "پەقەت نەشرى ۋە ئۇلىنىش ھالىتىنى ئۆز ئىچىگە ئالىدۇ",
+  "pluginsNotificationsPartlyBlocked": "قىسمەن سىستېما تەرىپىدىن تاقالغان",
+  "pluginsNotificationsBlocked": "سىستېما تاقىغان",
+  "pluginsTurnedOn": "ئېچىلغان",
+  "pluginsNotifications": "ئۇقتۇرۇش",
+  "pluginsNotificationSettingsFailed": "سىستېما تەڭشىكىنى ئېچىش مەغلۇپ بولدى. «تەڭشەك → ئەپ → Kit Go → ئۇقتۇرۇش» ئىچىدىن ئېچىڭ",
+  "pluginsSystemNotificationsOff": "سىستېما ئۇقتۇرۇشى تاقالغان",
+  "pluginsBackgroundNoAlerts": "ئەپ ئارقا سەھنىدە بولغاندا ھېچقانداق ئەسكەرتىش ئالمايسىز",
+  "pluginsApprovalNotificationsOff": "«سىزنى تەستىقلىشىڭىزنى كۈتۈۋاتىدۇ» ئۇقتۇرۇشى تاقالغان",
+  "pluginsBackgroundNoApprovalAlerts": "ئەپ ئارقا سەھنىدە بولغاندا، جەزملەشتۈرۈشىڭىزنى ساقلاپ ئەسكەرتمەيدۇ",
+  "pluginsDoneNotificationsOff": "«بىر ئايلانما ئاخىرلاشتى» ئۇقتۇرۇشى تاقالدى",
+  "pluginsBackgroundNoDoneAlerts": "ئەپ ئارقا سەھنىدە بولغاندا، تاماملىنىش ياكى خاتالىق ئەسكەرتمەيدۇ",
+  "pluginsTurnOn": "ئېچىش",
+  "pluginsNotificationsDescription": "سۆھبەت تاماملانغاندا ياكى سىزگە ئېھتىياج بولغاندا ئەسكەرتىدۇ",
+  "pluginsAllowNotifications": "ئۇقتۇرۇشقا رۇخسەت قىلىش",
+  "pluginsNotificationsAndBanners": "سىستېما ئۇقتۇرۇشى ۋە ئۈستى بايرىقى",
+  "pluginsAlerts": "ئەسكەرتىش",
+  "pluginsRemoteAlertsRequirement": "يىراق مۇساپىلىك كومپيۇتېرنىڭ ئەسكەرتىشى ئۈچۈن ئەپ ئىجرا بولۇۋاتقان ۋە ئۇلىنىش توردا بولۇشى كېرەك",
+  "pluginsTurnComplete": "بىر ئايلانما تامام",
+  "pluginsReplyPreview": "قوشۇمچە جاۋابنىڭ باشلىنىشى",
+  "pluginsErrorOrStopped": "خاتالىق ياكى توختىتىلدى",
+  "pluginsErrorOrStoppedDescription": "تەلەپ مەغلۇپ بولدى، ماتور قايتا قوزغىتىلدى ياكى توختىتىلدى",
+  "pluginsApprovalDescription": "بۇيرۇق ئىجرا قىلىش، ھۆججەت ئۆزگەرتىش قاتارلىقلارغا تەستىق كېرەك",
+  "pluginsQuestions": "سىزگە سوئال سورايدۇ",
+  "pluginsQuestionsDescription": "AI سىزنىڭ جاۋاب بېرىشىڭىزنى تەلەپ قىلىدۇ",
+  "pluginsSystemSettings": "سىستېما تەڭشىكى",
+  "pluginsLockScreenPrivacy": "قۇلۇپ ئېكرانىدا سۆھبەت مەزمۇنى كۆرسەتمەيدۇ",
+  "pluginsSoundBannerLockScreen": "ئاۋاز، بايراق ۋە قۇلۇپ ئېكرانى",
+  "pluginsEnableFloatingNotifications": "بايراق چىقمىغاندا، «لەيلىمە ئۇقتۇرۇش»نى ئېچىڭ",
+  "pluginsPersonalPreferences": "شەخسىي مايىللىق",
+  "pluginsPreferencesDescription": "يېڭى سۆھبەت بۇ يەردىكى تەلەپلەرگە ئاساسەن جاۋاب بېرىدۇ",
+  "pluginsPreferencesHint": "مەسىلەن: خەنزۇچە جاۋاب بېرىڭ، مەن ئاساسلىقى Flutter يازىمەن",
+  "pluginsSaving": "ساقلىنىۋاتىدۇ",
+  "pluginsShareLink": "ھەمبەھىر ئۇلانىش",
+  "pluginsInstallPlugin": "قىستۇرما قاچىلاش",
+  "pluginsImportProfile": "سەپلىمە كىرگۈزۈش",
+  "pluginsImportTo": "كىرگۈزىدىغان جاي",
+  "pluginsInstallTo": "قاچىلايدىغان جاي",
+  "pluginsVerification": "تەكشۈرۈش",
+  "pluginsSize": "چوڭلۇقى",
+  "pluginsVerified": "تەكشۈرۈشتىن ئۆتتى",
+  "pluginsVerificationMismatch": "تەكشۈرۈش ماس كەلمىدى",
+  "pluginsCannotVerify": "تەكشۈرگىلى بولمايدۇ",
+  "pluginsVerifying": "تەكشۈرۈلمەكتە",
+  "pluginsPresets": "ئالدىن بەلگىلەنمىلەر",
+  "pluginsSkills": "ئىقتىدارلار",
+  "pluginsAdded": "قوشۇلدى",
+  "pluginsModified": "ئۆزگەرتىلدى",
+  "pluginsNoChanges": "ئۆزگەرتىش كېرەك ئەمەس",
+  "pluginsUnavailable": "ئىشلەتكىلى بولمايدۇ",
+  "pluginsHostProfileReadFailed": "بۇ ماشىنىنىڭ سەپلىمىسىنى ئوقۇيالمىدى",
+  "pluginsAlreadyMatches": "بۇ ماشىنىدا ئاللىبۇرۇن شۇنداق",
+  "pluginsUnsuccessful": "مۇۋەپپەقىيەتسىز",
+  "pluginsSkipped": "ئاتلاپ كېتىلدى",
+  "pluginsView": "كۆرۈش",
+  "pluginsImport": "كىرگۈزۈش",
+  "pluginsHostPluginsReadFailed": "بۇ ماشىنىنىڭ قىستۇرمىلىرىنى ئوقۇيالمىدى",
+  "pluginsUpdateTo": "{version} نەشرىگە يېڭىلاش",
   "@pluginsUpdateTo": {
     "placeholders": {
       "version": {
@@ -598,7 +599,7 @@
       }
     }
   },
-  "pluginsImportCount": "导入 {count} 项",
+  "pluginsImportCount": "{count} تۈرنى ئىمپورت قىلىش",
   "@pluginsImportCount": {
     "placeholders": {
       "count": {
@@ -606,9 +607,9 @@
       }
     }
   },
-  "pluginsImporting": "正在导入",
-  "pluginsInstallingActive": "正在安装",
-  "pluginsImportFailedCount": "{count} 项没成功",
+  "pluginsImporting": "ئىمپورت قىلىنىۋاتىدۇ",
+  "pluginsInstallingActive": "قاچىلىنىۋاتىدۇ",
+  "pluginsImportFailedCount": "{count} تۈر مۇۋەپپەقىيەتسىز بولدى",
   "@pluginsImportFailedCount": {
     "placeholders": {
       "count": {
@@ -616,9 +617,9 @@
       }
     }
   },
-  "pluginsCouldNotInstall": "没能安装",
-  "pluginsEngineRestartToApply": "重启引擎后生效",
-  "pluginsRemoteRestartToApply": "重启{host}上的 DSH 后生效",
+  "pluginsCouldNotInstall": "قاچىلالمىدى",
+  "pluginsEngineRestartToApply": "ماتورنى قايتا قوزغاتقاندىن كېيىن كۈچكە ئىگە بولىدۇ",
+  "pluginsRemoteRestartToApply": "{host} دىكى DSH نى قايتا قوزغاتقاندىن كېيىن كۈچكە ئىگە بولىدۇ",
   "@pluginsRemoteRestartToApply": {
     "placeholders": {
       "host": {
@@ -626,7 +627,7 @@
       }
     }
   },
-  "pluginsImportedCount": "已导入 {count} 项",
+  "pluginsImportedCount": "{count} تۈر ئىمپورت قىلىندى",
   "@pluginsImportedCount": {
     "placeholders": {
       "count": {
@@ -634,9 +635,9 @@
       }
     }
   },
-  "pluginsLocalPluginUnshareable": "这个插件是本地安装的，无法分享",
-  "pluginsSharePlugin": "分享插件",
-  "pluginsPluginCount": "{count} 个插件",
+  "pluginsLocalPluginUnshareable": "بۇ قىستۇرما يەرلىك قاچىلانغان، ھەمبەھىرلەشكە بولمايدۇ",
+  "pluginsSharePlugin": "قىستۇرمىنى ھەمبەھىرلەش",
+  "pluginsPluginCount": "{count} قىستۇرما",
   "@pluginsPluginCount": {
     "placeholders": {
       "count": {
@@ -644,7 +645,7 @@
       }
     }
   },
-  "pluginsSettingsCount": "{count} 项设置",
+  "pluginsSettingsCount": "{count} تەڭشەك",
   "@pluginsSettingsCount": {
     "placeholders": {
       "count": {
@@ -652,7 +653,7 @@
       }
     }
   },
-  "pluginsPresetCount": "{count} 个预设",
+  "pluginsPresetCount": "{count} ئالدىن بەلگىلەنگەن تەڭشەك",
   "@pluginsPresetCount": {
     "placeholders": {
       "count": {
@@ -660,7 +661,7 @@
       }
     }
   },
-  "pluginsSkillCount": "{count} 个技能",
+  "pluginsSkillCount": "{count} ماھارەت",
   "@pluginsSkillCount": {
     "placeholders": {
       "count": {
@@ -668,12 +669,12 @@
       }
     }
   },
-  "pluginsNothingSelected": "未选择内容",
-  "pluginsNext": "下一步",
-  "pluginsNothingToShare": "没有可以分享的内容",
-  "pluginsProfileReadFailed": "没能读取配置",
-  "pluginsShareProfile": "分享配置",
-  "pluginsFileCount": "{count} 个文件",
+  "pluginsNothingSelected": "ھېچقانداق نەرسە تاللانمىدى",
+  "pluginsNext": "كېيىنكى قەدەم",
+  "pluginsNothingToShare": "ھەمبەھىرلەيدىغان نەرسە يوق",
+  "pluginsProfileReadFailed": "سەپلىمىنى ئوقۇيالمىدى",
+  "pluginsShareProfile": "سەپلىمىنى ھەمبەھىرلەش",
+  "pluginsFileCount": "{count} ھۆججەت",
   "@pluginsFileCount": {
     "placeholders": {
       "count": {
@@ -681,24 +682,24 @@
       }
     }
   },
-  "pluginsShareNeedsUpdate": "需要更新 App 才能打开",
-  "pluginsShareUnusable": "这个分享码无法使用",
-  "pluginsShareDamaged": "这个分享码不完整或已损坏",
-  "pluginsShareFileReadFailed": "没能读取这个文件",
-  "pluginsShareOpenFailed": "没能打开这个分享码",
-  "pluginsPluginShareTitle": "Kit Go 插件",
-  "pluginsShareSheetOpenFailed": "没能打开分享",
-  "pluginsSavePermissionDenied": "没有存储权限，没能保存",
-  "pluginsQrCode": "二维码",
-  "pluginsSaveAsFile": "存为文件",
-  "pluginsGistLinkReady": "已生成 Gist 链接",
-  "pluginsTooLargeShareFile": "内容较多，以文件分享",
-  "pluginsGenerateLink": "生成链接",
-  "pluginsGitHubToken": "GitHub 令牌",
-  "pluginsGistPermissionNeeded": "需要 gist 权限",
-  "pluginsGenerateGistLink": "用 Gist 生成链接",
-  "pluginsShareQrCode": "分享码二维码",
-  "pluginsUpdateCurrentWarning": "会先卸载当前版本，再安装 {to}。如果新版本没装上，插件会处于未安装状态，需要重新安装。",
+  "pluginsShareNeedsUpdate": "ئېچىش ئۈچۈن ئەپنى يېڭىلاش كېرەك",
+  "pluginsShareUnusable": "بۇ ھەمبەھىر كودىنى ئىشلەتكىلى بولمايدۇ",
+  "pluginsShareDamaged": "بۇ ھەمبەھىر كودى تولۇق ئەمەس ياكى بۇزۇلغان",
+  "pluginsShareFileReadFailed": "بۇ ھۆججەتنى ئوقۇيالمىدى",
+  "pluginsShareOpenFailed": "بۇ ھەمبەھىر كودىنى ئاچالمىدى",
+  "pluginsPluginShareTitle": "Kit Go قىستۇرمىسى",
+  "pluginsShareSheetOpenFailed": "ھەمبەھىرلەشنى ئاچالمىدى",
+  "pluginsSavePermissionDenied": "ساقلاش ھوقۇقى يوق، ساقلىيالمىدى",
+  "pluginsQrCode": "ئىككىلىك كود",
+  "pluginsSaveAsFile": "ھۆججەت قىلىپ ساقلاش",
+  "pluginsGistLinkReady": "Gist ئۇلانمىسى قۇرۇلدى",
+  "pluginsTooLargeShareFile": "مەزمۇنى كۆپ، ھۆججەت قىلىپ ھەمبەھىرلەڭ",
+  "pluginsGenerateLink": "ئۇلانما قۇرۇش",
+  "pluginsGitHubToken": "GitHub بەلگىسى",
+  "pluginsGistPermissionNeeded": "gist ھوقۇقى كېرەك",
+  "pluginsGenerateGistLink": "Gist بىلەن ئۇلانما قۇرۇش",
+  "pluginsShareQrCode": "ھەمبەھىر كودى ئىككىلىك كودى",
+  "pluginsUpdateCurrentWarning": "ئالدى بىلەن نۆۋەتتىكى نەشرى ئۆچۈرۈلۈپ، ئاندىن {to} قاچىلىنىدۇ. يېڭى نەشرى قاچىلانمىسا، قىستۇرما قاچىلانمىغان ھالەتتە قېلىپ، قايتا قاچىلاش كېرەك.",
   "@pluginsUpdateCurrentWarning": {
     "placeholders": {
       "to": {
@@ -706,7 +707,7 @@
       }
     }
   },
-  "pluginsUpdateVersionWarning": "会先卸载 {from}，再安装 {to}。如果新版本没装上，插件会处于未安装状态，需要重新安装。",
+  "pluginsUpdateVersionWarning": "ئالدى بىلەن {from} ئۆچۈرۈلۈپ، ئاندىن {to} قاچىلىنىدۇ. يېڭى نەشرى قاچىلانمىسا، قىستۇرما قاچىلانمىغان ھالەتتە قېلىپ، قايتا قاچىلاش كېرەك.",
   "@pluginsUpdateVersionWarning": {
     "placeholders": {
       "from": {
@@ -717,7 +718,7 @@
       }
     }
   },
-  "pluginsUninstalledRestartLocal": "已卸载「{title}」，重启引擎后完全移除",
+  "pluginsUninstalledRestartLocal": "«{title}» ئۆچۈرۈلدى، ماتورنى قايتا قوزغىتىش بىلەن پۈتۈنلەي چىقىرىلىدۇ",
   "@pluginsUninstalledRestartLocal": {
     "placeholders": {
       "title": {
@@ -725,7 +726,7 @@
       }
     }
   },
-  "pluginsUninstalledRestartRemote": "已卸载「{title}」，重启{host}上的 DSH 后完全移除",
+  "pluginsUninstalledRestartRemote": "«{title}» ئۆچۈرۈلدى، {host} دىكى DSH نى قايتا قوزغىتىش بىلەن پۈتۈنلەي چىقىرىلىدۇ",
   "@pluginsUninstalledRestartRemote": {
     "placeholders": {
       "title": {
@@ -736,10 +737,10 @@
       }
     }
   },
-  "pluginsEnableFailed": "没能启用",
-  "pluginsDisableFailed": "没能停用",
-  "pluginsEnabledRestartLocal": "已启用，重启引擎后生效",
-  "pluginsEnabledRestartRemote": "已启用，重启{host}上的 DSH 后生效",
+  "pluginsEnableFailed": "قوزغىتالمىدى",
+  "pluginsDisableFailed": "توختىتالمىدى",
+  "pluginsEnabledRestartLocal": "قوزغىتىلدى، ماتورنى قايتا قوزغىتىش بىلەن ئىجرا بولىدۇ",
+  "pluginsEnabledRestartRemote": "قوزغىتىلدى، {host} دىكى DSH نى قايتا قوزغىتىش بىلەن ئىجرا بولىدۇ",
   "@pluginsEnabledRestartRemote": {
     "placeholders": {
       "host": {
@@ -747,8 +748,8 @@
       }
     }
   },
-  "pluginsDisabledRestartLocal": "已停用，重启引擎后生效",
-  "pluginsDisabledRestartRemote": "已停用，重启{host}上的 DSH 后生效",
+  "pluginsDisabledRestartLocal": "توختىتىلدى، ماتورنى قايتا قوزغىتىش بىلەن ئىجرا بولىدۇ",
+  "pluginsDisabledRestartRemote": "توختىتىلدى، {host} دىكى DSH نى قايتا قوزغىتىش بىلەن ئىجرا بولىدۇ",
   "@pluginsDisabledRestartRemote": {
     "placeholders": {
       "host": {
@@ -756,7 +757,7 @@
       }
     }
   },
-  "pluginsRelayCommandInstruction": "经 DSH Remote 中转时只能开关插件。在{host}的终端里运行：",
+  "pluginsRelayCommandInstruction": "DSH Remote ئارقىلىق يۆتكەشتە پەقەت قىستۇرمىلارنى ئېچىش/تاقاش مۇمكىن. {host} نىڭ تېرمىنالىدا ئىجرا قىلىڭ:",
   "@pluginsRelayCommandInstruction": {
     "placeholders": {
       "host": {
@@ -764,11 +765,11 @@
       }
     }
   },
-  "pluginsPermissionLocalThirdParty": "插件以 DSH 的权限运行：能读写文件、执行命令、读取 API Key 和已授权的手机存储，不受工作区沙箱限制。由第三方提供，DSH 官方未审核。",
-  "pluginsPermissionLocalTrusted": "插件以 DSH 的权限运行：能读写文件、执行命令、读取 API Key 和已授权的手机存储，不受工作区沙箱限制。只装你信任的插件。",
-  "pluginsPermissionRemoteThirdParty": "插件以 DSH 的权限运行：能读写文件、执行命令、读取 API Key，不受工作区沙箱限制。由第三方提供，DSH 官方未审核。",
-  "pluginsPermissionRemoteTrusted": "插件以 DSH 的权限运行：能读写文件、执行命令、读取 API Key，不受工作区沙箱限制。只装你信任的插件。",
-  "pluginsSelectedQrCount": "已选 {count} 项 · 可生成二维码",
+  "pluginsPermissionLocalThirdParty": "قىستۇرما DSH ھوقۇقى بىلەن ئىجرا بولىدۇ: ھۆججەت ئوقۇيالايدۇ ۋە يازالايدۇ، بۇيرۇق ئىجرا قىلالايدۇ، API Key ۋە ھوقۇق بېرىلگەن تېلېفون ساقلاش بوشلۇقىنى ئوقۇيالايدۇ، خىزمەت رايونى قۇمچىسى چەكلىمىسىگە ئۇچرىمايدۇ. ئۈچىنچى تەرەپ تەمىنلىگەن، DSH رەسمىي تەكشۈرمىگەن.",
+  "pluginsPermissionLocalTrusted": "قىستۇرما DSH ھوقۇقى بىلەن ئىجرا بولىدۇ: ھۆججەت ئوقۇيالايدۇ ۋە يازالايدۇ، بۇيرۇق ئىجرا قىلالايدۇ، API Key ۋە ھوقۇق بېرىلگەن تېلېفون ساقلاش بوشلۇقىنى ئوقۇيالايدۇ، خىزمەت رايونى قۇمچىسى چەكلىمىسىگە ئۇچرىمايدۇ. پەقەت ئىشەنچلىك قىستۇرمىلارنى قاچىلاڭ.",
+  "pluginsPermissionRemoteThirdParty": "قىستۇرما DSH ھوقۇقى بىلەن ئىجرا بولىدۇ: ھۆججەت ئوقۇيالايدۇ ۋە يازالايدۇ، بۇيرۇق ئىجرا قىلالايدۇ، API Key نى ئوقۇيالايدۇ، خىزمەت رايونى قۇمچىسى چەكلىمىسىگە ئۇچرىمايدۇ. ئۈچىنچى تەرەپ تەمىنلىگەن، DSH رەسمىي تەكشۈرمىگەن.",
+  "pluginsPermissionRemoteTrusted": "قىستۇرما DSH ھوقۇقى بىلەن ئىجرا بولىدۇ: ھۆججەت ئوقۇيالايدۇ ۋە يازالايدۇ، بۇيرۇق ئىجرا قىلالايدۇ، API Key نى ئوقۇيالايدۇ، خىزمەت رايونى قۇمچىسى چەكلىمىسىگە ئۇچرىمايدۇ. پەقەت ئىشەنچلىك قىستۇرمىلارنى قاچىلاڭ.",
+  "pluginsSelectedQrCount": "{count} تال تاللاندى · QR كود ھاسىل قىلغىلى بولىدۇ",
   "@pluginsSelectedQrCount": {
     "placeholders": {
       "count": {
@@ -776,7 +777,7 @@
       }
     }
   },
-  "pluginsSelectedFileCount": "已选 {count} 项 · 以文件分享",
+  "pluginsSelectedFileCount": "{count} تال تاللاندى · ھۆججەت سۈپىتىدە ھەمبەھىرلەش",
   "@pluginsSelectedFileCount": {
     "placeholders": {
       "count": {
@@ -784,7 +785,7 @@
       }
     }
   },
-  "pluginsListSeparator": "、",
+  "pluginsListSeparator": "،",
   "pluginsActionFailure": "{action}：{reason}",
   "@pluginsActionFailure": {
     "placeholders": {
@@ -796,7 +797,7 @@
       }
     }
   },
-  "pluginsInventorySemantics": "{title}，{status}",
+  "pluginsInventorySemantics": "{title}، {status}",
   "@pluginsInventorySemantics": {
     "placeholders": {
       "title": {
@@ -807,7 +808,7 @@
       }
     }
   },
-  "pluginsSettingsChanges": "{shown} 等 {count} 项",
+  "pluginsSettingsChanges": "{shown} قاتارلىق {count} تال",
   "@pluginsSettingsChanges": {
     "placeholders": {
       "shown": {
@@ -818,15 +819,15 @@
       }
     }
   },
-  "pluginsLoadStatus": "加载状态",
-  "pluginsLoadPartial": "部分生效",
-  "pluginsLoadFailed": "加载失败",
-  "pluginsLoadNotReady": "尚未就绪",
-  "pluginsLoadMetadata": "元数据诊断",
-  "pluginsLoadRunningCount": "{running} / {total} 个组件运行中",
-  "pluginsLoadUnreported": "状态未报告",
-  "pluginsLoadNoRuntimeDetail": "主机未返回运行时错误详情，请查看引擎日志。",
-  "pluginsLoadRemoteLogs": "请在这台主机上查看引擎日志。",
+  "pluginsLoadStatus": "يۈكلەش ھالىتى",
+  "pluginsLoadPartial": "قىسمەن ئۈنۈملۈك",
+  "pluginsLoadFailed": "يۈكلەش مەغلۇپ بولدى",
+  "pluginsLoadNotReady": "تېخى تەييار ئەمەس",
+  "pluginsLoadMetadata": "مېتا سانلىق مەلۇمات دىئاگنوزى",
+  "pluginsLoadRunningCount": "{running} / {total} ئەسلىھە ئىجرا بولماقتا",
+  "pluginsLoadUnreported": "ھالەت دوكلات قىلىنمىدى",
+  "pluginsLoadNoRuntimeDetail": "باشقۇرغۇچى ئىجرا ۋاقتىدىكى خاتالىق تەپسىلاتىنى قايتۇرمىدى، ماتور ژۇرنىلىنى كۆرۈڭ.",
+  "pluginsLoadRemoteLogs": "بۇ باشقۇرغۇچىدا ماتور ژۇرنىلىنى كۆرۈڭ.",
   "@pluginsLoadRunningCount": {
     "placeholders": {
       "running": {

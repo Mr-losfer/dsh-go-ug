@@ -1,20 +1,20 @@
 {
   "@@locale": "ug",
-  "accessPickTitle": "想让 Kit Go 帮你做哪些事",
-  "accessPickMessage": "选好后逐项开启",
-  "accessPickConfirm": "开启所选",
-  "accessSkip": "跳过",
-  "accessFeatureFiles": "读写手机里的文件",
-  "accessFeatureFilesNeeds": "需要文件访问权限",
-  "accessFeaturePet": "桌宠与悬浮窗",
-  "accessFeaturePetNeeds": "需要悬浮窗权限",
-  "accessFeaturePhone": "手机操控",
-  "accessFeaturePhoneNeeds": "需要无障碍和通知权限",
-  "accessFeatureBackground": "后台持续运行",
-  "accessFeatureBackgroundNeeds": "任务跑完通知你，需要通知和后台权限",
-  "accessFeatureVoice": "语音输入",
-  "accessFeatureVoiceNeeds": "需要麦克风权限",
-  "accessVoiceModel": "离线识别，需下载约 {size} MB 语音模型",
+  "accessPickTitle": "Kit Go سىزگە قانداق ئىشلاردا ياردەم قىلسۇن",
+  "accessPickMessage": "تاللىغاندىن كېيىن بىر-بىرلەپ ئېچىڭ",
+  "accessPickConfirm": "تاللانغاننى ئېچىش",
+  "accessSkip": "ئاتلاش",
+  "accessFeatureFiles": "تېلېفوندىكى ھۆججەتلەرنى ئوقۇش ۋە يېزىش",
+  "accessFeatureFilesNeeds": "ھۆججەت زىيارەت ھوقۇقى كېرەك",
+  "accessFeaturePet": "ئۈستەل ھەمراھى ۋە لەۋھە كۆزنىكى",
+  "accessFeaturePetNeeds": "لەۋھە كۆزنىكى ھوقۇقى كېرەك",
+  "accessFeaturePhone": "تېلېفون كونتروللاش",
+  "accessFeaturePhoneNeeds": "توسالغۇسىزلىق ۋە ئۇقتۇرۇش ھوقۇقى كېرەك",
+  "accessFeatureBackground": "ئارقا سەپتە داۋاملىق ئىجرا",
+  "accessFeatureBackgroundNeeds": "ۋەزىپە تاماملانغاندا ئۇقتۇرۇش، ئۇقتۇرۇش ۋە ئارقا سەپ ھوقۇقى كېرەك",
+  "accessFeatureVoice": "ئاۋازلىق كىرگۈزۈش",
+  "accessFeatureVoiceNeeds": "مىكروفون ھوقۇقى كېرەك",
+  "accessVoiceModel": "تورسىز تونۇش، تەخمىنەن {size} MB ئاۋاز مودېلىنى چۈشۈرۈش كېرەك",
   "@accessVoiceModel": {
     "placeholders": {
       "size": {
@@ -22,8 +22,8 @@
       }
     }
   },
-  "accessVoiceMetered": "当前是移动数据，下载会消耗流量",
-  "accessFilesRiskBody": "AI 能读取和修改相册、下载、文档等手机文件。",
+  "accessVoiceMetered": "ھازىر كۆچمە تور، چۈشۈرۈش ئتىرافى سەرپ قىلىنىدۇ",
+  "accessFilesRiskBody": "AI ئالبوم، چۈشۈرۈش، ھۆججەت قاتارلىق تېلېفون ھۆججەتلىرىنى ئوقۇيالايدۇ ۋە ئۆزگەرتەلەيدۇ.",
   "accessStepCount": "{index} / {total}",
   "@accessStepCount": {
     "placeholders": {
@@ -35,14 +35,14 @@
       }
     }
   },
-  "accessTurnOn": "去开启",
-  "accessOpenSettings": "去设置",
-  "accessItsSet": "设好了",
-  "accessOpenAgain": "再去一次",
-  "accessIsOn": "已开启",
-  "accessNotOnYet": "还没开启",
-  "accessDidYouSet": "在那一页打开了吗？",
-  "accessWhere": "位置：{path}",
+  "accessTurnOn": "ئېچىشقا بارىسىز",
+  "accessOpenSettings": "تەڭشەككە بارىسىز",
+  "accessItsSet": "تەڭشەلدى",
+  "accessOpenAgain": "قايتا بارىسىز",
+  "accessIsOn": "ئېچىلغان",
+  "accessNotOnYet": "تېخى ئېچىلمىدى",
+  "accessDidYouSet": "شۇ بەتتە ئېچىۋەتتىڭىزمۇ؟",
+  "accessWhere": "ئورنى: {path}",
   "@accessWhere": {
     "placeholders": {
       "path": {
@@ -50,19 +50,19 @@
       }
     }
   },
-  "accessOpenFailed": "没能打开系统设置",
-  "accessMicTitle": "允许使用麦克风",
-  "accessMicWhy": "语音输入要用到",
-  "accessStorageTitle": "允许访问文件",
-  "accessStorageWhy": "让 AI 读写相册、下载和文档",
-  "accessNotifyTitle": "允许通知",
-  "accessNotifyWhy": "任务跑完、需要确认时提醒你",
-  "accessBatteryTitle": "允许在后台运行",
-  "accessBatteryWhy": "切到别的 App 时任务照常跑",
-  "accessVendorBackgroundWhy": "锁屏或切走后，不被系统断网、清理",
-  "accessAutostartTitle": "允许自启动",
-  "accessAutostartWhy": "被系统清理后能自己恢复",
-  "accessVivoAutostartPath": "权限管理 › 自启动 › {app}",
+  "accessOpenFailed": "سىستېما تەڭشىكىنى ئېچىۋالالمىدى",
+  "accessMicTitle": "مىكروفوننى ئىشلىتىشكە رۇخسەت قىلىش",
+  "accessMicWhy": "ئاۋاز كىرگۈزۈشكە كېرەك",
+  "accessStorageTitle": "ھۆججەتلەرگە كىرىشكە رۇخسەت قىلىش",
+  "accessStorageWhy": "AI غا ئالبوم، چۈشۈرۈش ۋە ھۆججەتلەرنى ئوقۇتۇش ۋە يازدۇرۇش",
+  "accessNotifyTitle": "ئۇقتۇرۇشقا رۇخسەت قىلىش",
+  "accessNotifyWhy": "ۋەزىپە تاماملانغاندا، جەزملەشتۈرۈش كېرەك بولغاندا ئەسكەرتىش",
+  "accessBatteryTitle": "ئارقا سەپتە ئىجرا قىلىشقا رۇخسەت قىلىش",
+  "accessBatteryWhy": "باشقا ئەپكە ئالماشقاندا ۋەزىپە نورمال ئىجرا بولىدۇ",
+  "accessVendorBackgroundWhy": "ئېكران قۇلۇپلانغاندا ياكى ئالماشقاندا، سىستېما توردىن ئۈزمەيدۇ ۋە تازىلىمايدۇ",
+  "accessAutostartTitle": "ئۆزلۈكىدىن قوزغىلىشقا رۇخسەت قىلىش",
+  "accessAutostartWhy": "سىستېما تازىلىغاندىن كېيىن ئۆزىنى ئەسلىگە كەلتۈرەلەيدۇ",
+  "accessVivoAutostartPath": "ھوقۇق باشقۇرۇش › ئۆزلۈكىدىن قوزغىلىش › {app}",
   "@accessVivoAutostartPath": {
     "placeholders": {
       "app": {
@@ -70,7 +70,7 @@
       }
     }
   },
-  "accessXiaomiAutostartPath": "应用管理 › {app} › 自启动",
+  "accessXiaomiAutostartPath": "ئەپ باشقۇرۇش › {app} › ئۆزلۈكىدىن قوزغىلىش",
   "@accessXiaomiAutostartPath": {
     "placeholders": {
       "app": {
@@ -78,11 +78,11 @@
       }
     }
   },
-  "accessA11yTitle": "打开无障碍",
-  "accessA11yWhy": "手机操控靠它看屏幕、点按",
-  "accessPopupTitle": "允许后台弹出界面",
-  "accessPopupWhy": "手机操控做完能回到 Kit Go",
-  "accessVivoPopupPath": "权限管理 › {app} › 后台弹出界面",
+  "accessA11yTitle": "توسالغۇسىزلىقنى ئېچىش",
+  "accessA11yWhy": "تېلېفون كونترول قىلىش ئۇنىڭغا تايىنىپ ئېكراننى كۆرىدۇ ۋە چېكىدۇ",
+  "accessPopupTitle": "ئارقا سەپتە كۆزنەك چىقىرىشقا رۇخسەت قىلىش",
+  "accessPopupWhy": "تېلېفون كونترول قىلىش تاماملانغاندىن كېيىن Kit Go غا قايتالايدۇ",
+  "accessVivoPopupPath": "ھوقۇق باشقۇرۇش › {app} › ئارقا سەپتە كۆزنەك چىقىرىش",
   "@accessVivoPopupPath": {
     "placeholders": {
       "app": {
@@ -90,7 +90,7 @@
       }
     }
   },
-  "accessXiaomiPopupPath": "应用管理 › {app} › 其他权限 › 后台弹出界面",
+  "accessXiaomiPopupPath": "ئەپ باشقۇرۇش › {app} › باشقا ھوقۇقلار › ئارقا سەپتە كۆزنەك چىقىرىش",
   "@accessXiaomiPopupPath": {
     "placeholders": {
       "app": {
@@ -98,23 +98,23 @@
       }
     }
   },
-  "accessOverlayTitle": "允许显示在其他应用上层",
-  "accessOverlayWhy": "宠物才能出现在别的 App 上",
-  "accessOverlayGreyed": "开关是灰的？",
-  "accessRestrictedTitle": "先允许受限制的设置",
-  "accessRestrictedTap": "在无障碍里点一下「DSH 手机操控」，出现「受限制的设置」时点确定",
-  "accessRestrictedMenu": "在应用信息里点右上角的三个点，选「允许受限制的设置」",
-  "accessRestrictedAdvanced": "在应用信息的「高级设置」里打开「允许受限制的设置」",
-  "accessRestrictedBack": "回到无障碍，打开「DSH 手机操控」",
-  "accessRestrictedHelp": "看图示",
-  "accessOpenA11y": "去无障碍",
-  "accessOpenAppInfo": "去应用信息",
-  "accessStateOn": "已开启",
-  "accessStateOff": "未开启",
-  "accessStateVisited": "已去设置",
-  "accessStateUnknown": "去设置",
-  "accessSummaryAllSet": "都开好了",
-  "accessSummaryLeft": "还有 {count} 项没开",
+  "accessOverlayTitle": "باشقا ئەپلەرنىڭ ئۈستىدە كۆرسىتىشكە رۇخسەت قىلىش",
+  "accessOverlayWhy": "ئۆي ھايۋانى پەقەت باشقا ئەپلەردە كۆرۈنەلەيدۇ",
+  "accessOverlayGreyed": "چالغۇچ سۇسكىنە؟",
+  "accessRestrictedTitle": "ئاۋۋال چەكلەنگەن تەڭشەكلەرگە رۇخسەت قىلىڭ",
+  "accessRestrictedTap": "قوشۇمچە ئىقتىداردا «DSH تېلېفون كونترول قىلىش» نى چېكىڭ، «چەكلەنگەن تەڭشەكلەر» كۆرۈلگەندە جەزملەش نى چېكىڭ",
+  "accessRestrictedMenu": "ئەپ ئۇچۇرىدا ئوڭ ئۈستى بۇرجەكتىكى ئۈچ چېكىتنى چېكىپ «چەكلەنگەن تەڭشەكلەرگە رۇخسەت قىلىش» نى تاللاڭ",
+  "accessRestrictedAdvanced": "ئەپ ئۇچۇرىنىڭ «ئىلغار تەڭشەكلەر» بۆلىكىدە «چەكلەنگەن تەڭشەكلەرگە رۇخسەت قىلىش» نى ئېچىڭ",
+  "accessRestrictedBack": "قوشۇمچە ئىقتىدارغا قايتىپ «DSH تېلېفون كونترول قىلىش» نى ئېچىڭ",
+  "accessRestrictedHelp": "رەسىملىك چۈشەندۈرۈشنى كۆرۈڭ",
+  "accessOpenA11y": "قوشۇمچە ئىقتىدارغا بارىسىلەر",
+  "accessOpenAppInfo": "ئەپ ئۇچۇرىغا بارىسىلەر",
+  "accessStateOn": "ئېچىلغان",
+  "accessStateOff": "ئېچىلمىغان",
+  "accessStateVisited": "تەڭشەككە بارغان",
+  "accessStateUnknown": "تەڭشەككە بارىسىلەر",
+  "accessSummaryAllSet": "ھەممىسى تەييار",
+  "accessSummaryLeft": "يەنە {count} تۈر ئېچىلمىدى",
   "@accessSummaryLeft": {
     "placeholders": {
       "count": {
@@ -122,9 +122,9 @@
       }
     }
   },
-  "accessSummaryMessage": "随时可在「设置 › 通用 › 系统权限」补开",
-  "accessFinishFailed": "没能完成设置",
-  "accessVoiceDownload": "语音模型（约 {size} MB）会在引擎就绪后开始下载，进度在「设置 › 通用 › 语音输入」里查看",
+  "accessSummaryMessage": "خالىغان ۋاقىتتا «تەڭشەك › ئومۇمىي › سىستېما ھوقۇقى» دىن تولۇقلىسىڭىز بولىدۇ",
+  "accessFinishFailed": "تەڭشەكنى تاماملىيالمىدى",
+  "accessVoiceDownload": "ئاۋاز مودېلى (تەخمىنەن {size} MB) ماتور تەييار بولغاندىن كېيىن چۈشۈرۈلىدۇ، ئىلگىرىلەشنى «تەڭشەك › ئومۇمىي › ئاۋاز كىرگۈزۈش» دىن كۆرۈڭ",
   "@accessVoiceDownload": {
     "placeholders": {
       "size": {
@@ -132,6 +132,6 @@
       }
     }
   },
-  "accessPageTitle": "系统权限",
-  "accessPageSubtitle": "各项功能用到的系统权限"
+  "accessPageTitle": "سىستېما ھوقۇقى",
+  "accessPageSubtitle": "ھەر بىر ئىقتىدار ئىشلىتىدىغان سىستېما ھوقۇقى"
 }

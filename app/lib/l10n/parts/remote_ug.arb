@@ -1,31 +1,32 @@
 {
-  "remoteDshMode": "实例管理",
-  "remoteManaged": "托管启动",
-  "remoteAttachOnly": "只连接",
-  "remoteManagedHelp": "自动启动或复用 App 托管的 DSH；不会自动替换存活但无法复用的实例。",
-  "remoteAttachOnlyHelp": "只转发到远端 127.0.0.1 的固定端口；不启动、停止或重启 DSH。",
-  "remoteDshPort": "远端 DSH 端口",
-  "remoteDshToken": "DSH 登录令牌",
-  "remoteDshTokenHelp": "填写既有实例启动链接中的 token，仅保存在这台手机的安全存储中。",
-  "remoteAttachWorkingDirectoryHelp": "既有实例不执行目录探测；请填写远端绝对路径，留空使用 DSH 默认目录。",
-  "remoteSshCompression": "SSH 压缩",
-  "remoteSshCompressionHelp": "默认开启；与服务器协商认证后压缩，不支持时使用未压缩传输。",
-  "remoteRestartManaged": "重启托管 DSH",
-  "remoteRestartManagedWarning": "这会停止 App 记录的远端 DSH 并重新启动，可能中断其他客户端和进行中的对话。确认没有其他人在使用后再继续。普通测试连接不会执行此操作。",
-  "remoteErrSharedInstance": "远端托管 DSH 仍在运行，但启动命令不同或缺少有效启动日志。为保护共享实例，未自动重启；请检查配置，改用“只连接”，或在编辑主机中明确选择“重启托管 DSH”。",
-  "remoteErrAttachSettings": "请填写有效的远端 DSH 端口和登录令牌",
-  "remoteDshAttached": "已连接既有 DSH",
-  "remoteStartupSection": "启动",
-  "remoteAutoConnectOnStartup": "连接上次使用的主机",
-  "remoteAutoConnectOnStartupHint": "关闭后从本机开始",
-  "remoteStepConnect": "连接服务器",
-  "remoteStepVerifyHostKey": "验证主机指纹",
-  "remoteStepStartDsh": "启动 DSH",
-  "remoteStepTunnel": "建立隧道",
-  "remoteConnecting": "正在连接",
-  "remoteConnected": "已连接",
-  "remoteReconnecting": "重新连接中",
-  "remoteReconnectAttempt": "重新连接中 · 第 {count} 次",
+  "@@locale": "ug",
+  "remoteDshMode": "ئەگەر باشقۇرۇش",
+  "remoteManaged": "باشقۇرۇلما قوزغىتىش",
+  "remoteAttachOnly": "پەقەت ئۇلاش",
+  "remoteManagedHelp": "ئەپ باشقۇرىدىغان DSH نى ئاپتوماتىك قوزغىتىدۇ ياكى قايتا ئىشلىتىدۇ؛ تىرىك لېكىن قايتا ئىشلەتكىلى بولمايدىغان ئەگەرنى ئاپتوماتىك ئالماشتۇرمايدۇ.",
+  "remoteAttachOnlyHelp": "پەقەت يىراقتىكى 127.0.0.1 نىڭ مۇقىم پورتىغا يۆتكەيدۇ؛ DSH نى قوزغاتمايدۇ، توختاتمايدۇ ياكى قايتا قوزغاتمايدۇ.",
+  "remoteDshPort": "يىراق DSH پورتى",
+  "remoteDshToken": "DSH كىرىش بەلگىسى",
+  "remoteDshTokenHelp": "مەۋجۇت ئەگەرنىڭ قوزغىتىش ئۇلانمىسىدىكى token نى تولدۇرۇڭ، پەقەت بۇ تېلېفوننىڭ بىخەتەر ساقلاش جايىدا ساقلىنىدۇ.",
+  "remoteAttachWorkingDirectoryHelp": "مەۋجۇت ئەگەر قىسقۇچ تەكشۈرۈشىنى ئىجرا قىلمايدۇ؛ يىراقتىكى مۇتلەق يولنى تولدۇرۇڭ، بوش قالدۇرسىڭىز DSH نىڭ كۆڭۈلدىكى قىسقۇچى ئىشلىتىلىدۇ.",
+  "remoteSshCompression": "SSH سىقىش",
+  "remoteSshCompressionHelp": "كۆڭۈلدە ئېچىلغان؛ مۇلازىمېتىر بىلەن دەلىللەشتىن كېيىن سىقىش، قوللىمىسا سىقىلمىغان يوللاش ئىشلىتىلىدۇ.",
+  "remoteRestartManaged": "باشقۇرۇلما DSH نى قايتا قوزغىتىش",
+  "remoteRestartManagedWarning": "بۇ ئەپ خاتىرىلىگەن يىراق DSH نى توختىتىپ قايتا قوزغىتىدۇ، باشقا خېرىدارلار ۋە داۋاملىشىۋاتقان سۆھبەتلەر ئۈزۈلۈشى مۇمكىن. باشقىلار ئىشلەتمىگەنلىكىنى جەزملەشتۈرگەندىن كېيىن داۋاملاشتۇرۇڭ. ئادەتتىكى سىناش ئۇلىنىشى بۇ مەشغۇلاتنى ئىجرا قىلمايدۇ.",
+  "remoteErrSharedInstance": "يىراق باشقۇرۇلما DSH يەنىلا ئىشلەۋاتىدۇ، ئەمما قوزغىتىش بۇيرۇقى ئوخشىمايدۇ ياكى ئۈنۈملۈك قوزغىتىش خاتىرىسى يوق. ھەمبەھىر ئەگەرنى قوغداش ئۈچۈن ئاپتوماتىك قايتا قوزغىتىلمىدى؛ سەپلىمىنى تەكشۈرۈپ، «پەقەت ئۇلاش» نى ئىشلىتىڭ ياكى خوجايىننى تەھرىرلەشتە «باشقۇرۇلما DSH نى قايتا قوزغىتىش» نى ئېنىق تاللاڭ.",
+  "remoteErrAttachSettings": "ئۈنۈملۈك يىراق DSH پورتى ۋە كىرىش بەلگىسىنى تولدۇرۇڭ",
+  "remoteDshAttached": "مەۋجۇت DSH غا ئۇلاندى",
+  "remoteStartupSection": "قوزغىتىش",
+  "remoteAutoConnectOnStartup": "ئاخىرقى ئىشلىتىلگەن خوجايىنغا ئۇلىنىش",
+  "remoteAutoConnectOnStartupHint": "تاقالمىسا بۇ دستگاهتىن باشلىنىدۇ",
+  "remoteStepConnect": "مۇلازىمېتىرغا ئۇلىنىش",
+  "remoteStepVerifyHostKey": "خوجايىن بارماق ئىزىنى دەلىللەش",
+  "remoteStepStartDsh": "DSH نى قوزغىتىش",
+  "remoteStepTunnel": "تونېل قۇرۇش",
+  "remoteConnecting": "ئۇلىنىۋاتىدۇ",
+  "remoteConnected": "ئۇلاندى",
+  "remoteReconnecting": "قايتا ئۇلىنىۋاتىدۇ",
+  "remoteReconnectAttempt": "قايتا ئۇلىنىۋاتىدۇ · {count}-قېتىم",
   "@remoteReconnectAttempt": {
     "placeholders": {
       "count": {
@@ -33,12 +34,12 @@
       }
     }
   },
-  "remoteErrInvalidServer": "服务器地址无效",
-  "remoteErrEmailPassword": "邮箱或密码不对",
-  "remoteErrHostNotInAccount": "账号下找不到这台主机",
-  "remoteHostFallback": "这台主机",
-  "remoteErrHostOffline": "主机现在不在线",
-  "remoteErrHostRemoved": "{name}已不在你的 DSH Remote 账号下",
+  "remoteErrInvalidServer": "مۇلازىمېتېر ئادرېسى ئىناۋەتسىز",
+  "remoteErrEmailPassword": "ئېلخەت ياكى پارول خاتا",
+  "remoteErrHostNotInAccount": "ھېساباتىڭىزدا بۇ باش ئۈسكۈنە تېپىلمىدى",
+  "remoteHostFallback": "بۇ باش ئۈسكۈنە",
+  "remoteErrHostOffline": "باش ئۈسكۈنە ھازىر توردا ئەمەس",
+  "remoteErrHostRemoved": "{name} ئەمدى DSH Remote ھېساباتىڭىزدا ئەمەس",
   "@remoteErrHostRemoved": {
     "placeholders": {
       "name": {
@@ -46,26 +47,26 @@
       }
     }
   },
-  "remoteErrRelaySignInExpired": "DSH Remote 登录已失效",
-  "remoteErrIdentityKeyChanged": "主机身份密钥和上次不一致",
-  "remoteErrIdentityUnconfirmed": "还没有确认主机身份指纹",
-  "remoteErrConnectionReplaced": "远程连接已被替换",
-  "remoteErrHostRejected": "主机拒绝了连接",
-  "remoteErrHostNotOwned": "主机不在你的 DSH Remote 账号下",
-  "remoteErrUpdateNeeded": "版本不匹配，请更新 Kit Go 和主机上的远程插件",
-  "remoteErrVersionIncompatible": "主机上的 DSH 或远程插件需要更新",
-  "remoteErrSignInTimeout": "登录超时",
-  "remoteSignInCancelled": "已取消登录",
-  "remoteErrBrowserSignInUnsupported": "服务器不支持浏览器登录",
-  "remoteErrTooManyRequests": "请求太频繁",
-  "remoteErrHostUnreachable": "没能连上远程主机",
-  "remoteErrRemoteConnection": "远程连接失败",
-  "remoteOnline": "在线",
-  "remoteOffline": "离线",
-  "remoteUnavailable": "暂不可用",
-  "remoteErrHostNotFound": "找不到这台主机",
-  "remoteConnectionStopped": "远程连接已停止",
-  "remoteBootstrapReusePort": "复用已在运行的 DSH（端口 {port}）",
+  "remoteErrRelaySignInExpired": "DSH Remote كىرىشى ئىناۋەتسىز بولۇپ قالدى",
+  "remoteErrIdentityKeyChanged": "باش ئۈسكۈنە كىملىك ئاچقۇچى ئالدىنقىسىغا ئوخشىمايدۇ",
+  "remoteErrIdentityUnconfirmed": "باش ئۈسكۈنە كىملىك بارماق ئىزى تېخى جەزملەشتۈرۈلمىدى",
+  "remoteErrConnectionReplaced": "يىراقتىن ئۇلىنىش ئالماشتۇرۇلدى",
+  "remoteErrHostRejected": "باش ئۈسكۈنە ئۇلىنىشنى رەت قىلدى",
+  "remoteErrHostNotOwned": "باش ئۈسكۈنە DSH Remote ھېساباتىڭىزدا ئەمەس",
+  "remoteErrUpdateNeeded": "نەشر ماسلاشمىدى، Kit Go ۋە باش ئۈسكۈنىدىكى يىراق قىستۇرمىنى يېڭىلاڭ",
+  "remoteErrVersionIncompatible": "باش ئۈسكۈنىدىكى DSH ياكى يىراق قىستۇرما يېڭىلىنىشى كېرەك",
+  "remoteErrSignInTimeout": "كىرىش ۋاقتى ئېشىپ كەتتى",
+  "remoteSignInCancelled": "كىرىش بىكار قىلىندى",
+  "remoteErrBrowserSignInUnsupported": "مۇلازىمېتېر توركۆرگۈچتە كىرىشنى قوللىمايدۇ",
+  "remoteErrTooManyRequests": "تەلەپ بەك كۆپ بولدى",
+  "remoteErrHostUnreachable": "يىراق باش ئۈسكۈنىگە ئۇلىنالمىدى",
+  "remoteErrRemoteConnection": "يىراقتىن ئۇلىنىش مەغلۇپ بولدى",
+  "remoteOnline": "توردا",
+  "remoteOffline": "تورسىز",
+  "remoteUnavailable": "ھازىرچە ئىشلەتكىلى بولمايدۇ",
+  "remoteErrHostNotFound": "بۇ ماشىنا تېپىلمىدى",
+  "remoteConnectionStopped": "يىراقتىن ئۇلاش توختىتىلدى",
+  "remoteBootstrapReusePort": "ئىجرا بولۇۋاتقان DSH نى قايتا ئىشلىتىش (پورت {port})",
   "@remoteBootstrapReusePort": {
     "placeholders": {
       "port": {
@@ -73,8 +74,8 @@
       }
     }
   },
-  "remoteBootstrapStarting": "正在远端启动 DSH…",
-  "remoteErrCommandNotFound": "远端找不到「{command}」",
+  "remoteBootstrapStarting": "يىراقتا DSH قوزغىتىلىۋاتىدۇ…",
+  "remoteErrCommandNotFound": "يىراقتا «{command}» تېپىلمىدى",
   "@remoteErrCommandNotFound": {
     "placeholders": {
       "command": {
@@ -82,12 +83,12 @@
       }
     }
   },
-  "remoteErrDshMissing": "主机上没有 dsh，装好后重试，或在启动命令里填完整路径",
-  "remoteStartCommandExample": "启动命令示例：~/.nvm/versions/node/v22.0.0/bin/dsh web",
-  "remoteErrDshStartTimeout": "远端 DSH 启动超时",
-  "remoteErrDshExited": "远端 DSH 启动后立即退出",
-  "remoteErrDshStart": "没能在远端启动 DSH",
-  "remoteExitCode": "退出码 {code}",
+  "remoteErrDshMissing": "ماشىنىدا dsh يوق، قاچىلاپ بولۇپ قايتا سىناڭ، ياكى قوزغىتىش بۇيرۇقىغا تولۇق يولنى كىرگۈزۈڭ",
+  "remoteStartCommandExample": "قوزغىتىش بۇيرۇقىنىڭ مىسالى: ~/.nvm/versions/node/v22.0.0/bin/dsh web",
+  "remoteErrDshStartTimeout": "يىراقتىكى DSH نىڭ قوزغىلىش ۋاقتى ئېشىپ كەتتى",
+  "remoteErrDshExited": "يىراقتىكى DSH قوزغالغاندىن كېيىن دەرھال چېكىندى",
+  "remoteErrDshStart": "يىراقتا DSH نى قوزغىتالمىدى",
+  "remoteExitCode": "چېكىنىش كودى {code}",
   "@remoteExitCode": {
     "placeholders": {
       "code": {
@@ -95,22 +96,22 @@
       }
     }
   },
-  "remoteErrNoShell": "主机上没有 sh，只支持 Linux 和 macOS",
-  "remoteErrFingerprintChanged": "主机指纹和上次不一致，已断开",
-  "remoteErrFingerprintUnconfirmed": "还没有确认主机指纹",
-  "remoteHostTrustCancelled": "已取消信任主机",
-  "remoteCheckingDsh": "检查远端的 DSH…",
-  "remoteErrDshPort": "远端 DSH 端口连不上",
-  "remoteDshReused": "复用了远端已在运行的 DSH",
-  "remoteDshStarted": "已在远端启动 DSH",
-  "remoteErrDshTokenRejected": "远端 DSH 拒绝了登录令牌，未自动重启；请检查令牌，或在编辑主机中明确重启托管实例",
-  "remoteErrDshSignIn": "没能登录远端 DSH",
-  "remoteErrDshTunnel": "没能通过隧道连接 DSH",
-  "remoteErrDshSignInExpired": "远端 DSH 登录已失效",
-  "remoteErrDshStopped": "远端 DSH 已停止运行",
-  "remoteErrSshDisconnected": "SSH 连接已断开",
-  "remoteErrSshUnresponsive": "SSH 连接没有响应",
-  "remoteRetryCount": "已重试 {count} 次",
+  "remoteErrNoShell": "ماشىنىدا sh يوق، پەقەت Linux ۋە macOS نى قوللايدۇ",
+  "remoteErrFingerprintChanged": "ماشىنىنىڭ بارماق ئىزى ئالدىنقىسىغا ئوخشىمايدۇ، ئۇلاش ئۈزۈلدى",
+  "remoteErrFingerprintUnconfirmed": "ماشىنىنىڭ بارماق ئىزى تېخى جەزملەشتۈرۈلمىدى",
+  "remoteHostTrustCancelled": "ماشىنىغا ئىشەنچ جەزملەشتۈرۈش بىكار قىلىندى",
+  "remoteCheckingDsh": "يىراقتىكى DSH تەكشۈرۈلۈۋاتىدۇ…",
+  "remoteErrDshPort": "يىراقتىكى DSH پورتىغا ئۇلانغىلى بولمايدۇ",
+  "remoteDshReused": "يىراقتا ئىجرا بولۇۋاتقان DSH قايتا ئىشلىتىلدى",
+  "remoteDshStarted": "يىراقتا DSH قوزغىتىلدى",
+  "remoteErrDshTokenRejected": "يىراقتىكى DSH كىرىش توكېنىنى رەت قىلدى، ئاپتوماتىك قايتا قوزغىتىلمىدى؛ توكېننى تەكشۈرۈڭ، ياكى ماشىنىنى تەھرىرلەشتە باشقۇرۇلىدىغان ئەۋرىشكىنى ئېنىق قايتا قوزغىتىڭ",
+  "remoteErrDshSignIn": "يىراقتىكى DSH غا كىرەلمىدى",
+  "remoteErrDshTunnel": "تونېل ئارقىلىق DSH غا ئۇلانالمىدى",
+  "remoteErrDshSignInExpired": "يىراقتىكى DSH كىرىشىنىڭ مۇددىتى ئۆتتى",
+  "remoteErrDshStopped": "يىراقتىكى DSH توختىتىلدى",
+  "remoteErrSshDisconnected": "SSH ئۇلىنىشى ئۈزۈلدى",
+  "remoteErrSshUnresponsive": "SSH ئۇلىنىشى ئىنكاس قايتۇرمىدى",
+  "remoteRetryCount": "{count} قېتىم قايتا سىنالدى",
   "@remoteRetryCount": {
     "placeholders": {
       "count": {
@@ -118,11 +119,11 @@
       }
     }
   },
-  "remoteErrSshNetworkChanged": "网络变化后 SSH 连接已断开",
-  "remoteErrReadFingerprint": "没能读到主机指纹",
-  "remoteErrNoFingerprint": "服务器没有提供主机指纹",
-  "remoteErrPasswordMissing": "还没有填写密码",
-  "remoteErrAddressUnresponsive": "{host}:{port} 没有响应",
+  "remoteErrSshNetworkChanged": "تور ئۆزگەرگەندىن كېيىن SSH ئۇلىنىشى ئۈزۈلدى",
+  "remoteErrReadFingerprint": "ماشىنا بارماق ئىزىنى ئوقۇيالمىدى",
+  "remoteErrNoFingerprint": "مۇلازىمېتىر ماشىنا بارماق ئىزىنى تەمىنلىمىدى",
+  "remoteErrPasswordMissing": "پارول تېخى كىرگۈزۈلمىدى",
+  "remoteErrAddressUnresponsive": "{host}:{port} ئىنكاس قايتۇرمىدى",
   "@remoteErrAddressUnresponsive": {
     "placeholders": {
       "host": {
@@ -133,11 +134,11 @@
       }
     }
   },
-  "remoteErrPrivateKeyMissing": "还没有填写私钥",
-  "remoteErrKeyNeedsPassword": "这把私钥需要密码",
-  "remoteErrKeyPassword": "私钥密码不对",
-  "remoteErrKeyUnreadable": "私钥无法读取",
-  "remotePrivateKeyFormats": "支持 OpenSSH 与 PEM 格式的 Ed25519、RSA、ECDSA 私钥。\n{error}",
+  "remoteErrPrivateKeyMissing": "شەخسىي ئاچقۇچ تېخى كىرگۈزۈلمىدى",
+  "remoteErrKeyNeedsPassword": "بۇ شەخسىي ئاچقۇچ پارول تەلەپ قىلىدۇ",
+  "remoteErrKeyPassword": "شەخسىي ئاچقۇچ پارولى خاتا",
+  "remoteErrKeyUnreadable": "شەخسىي ئاچقۇچنى ئوقۇغىلى بولمىدى",
+  "remotePrivateKeyFormats": "OpenSSH ۋە PEM فورماتىدىكى Ed25519، RSA، ECDSA شەخسىي ئاچقۇچلىرىنى قوللايدۇ.\n{error}",
   "@remotePrivateKeyFormats": {
     "placeholders": {
       "error": {
@@ -145,7 +146,7 @@
       }
     }
   },
-  "remoteErrAddressRejected": "{address} 拒绝了连接",
+  "remoteErrAddressRejected": "{address} ئۇلىنىشنى رەت قىلدى",
   "@remoteErrAddressRejected": {
     "placeholders": {
       "address": {
@@ -153,7 +154,7 @@
       }
     }
   },
-  "remoteErrSshHostNotFound": "找不到主机 {host}",
+  "remoteErrSshHostNotFound": "{host} ماشىنىسى تېپىلمىدى",
   "@remoteErrSshHostNotFound": {
     "placeholders": {
       "host": {
@@ -161,7 +162,7 @@
       }
     }
   },
-  "remoteErrSshAddressUnresponsive": "{address} 没有响应",
+  "remoteErrSshAddressUnresponsive": "{address} ئىنكاس قايتۇرمىدى",
   "@remoteErrSshAddressUnresponsive": {
     "placeholders": {
       "address": {
@@ -169,9 +170,9 @@
       }
     }
   },
-  "remoteErrUsernamePassword": "用户名或密码不对",
-  "remoteErrPrivateKeyRejected": "服务器不接受这把私钥",
-  "remoteAuthorizedKeysHelp": "确认公钥已加入 {username} 的 ~/.ssh/authorized_keys。\n{error}",
+  "remoteErrUsernamePassword": "ئىشلەتكۈچى ئىسمى ياكى پارول خاتا",
+  "remoteErrPrivateKeyRejected": "مۇلازىمېتىر بۇ شەخسىي ئاچقۇچنى قوبۇل قىلمىدى",
+  "remoteAuthorizedKeysHelp": "ئاممىۋى ئاچقۇچنىڭ {username} نىڭ ~/.ssh/authorized_keys غا قوشۇلغانلىقىنى جەزملەشتۈرۈڭ.\n{error}",
   "@remoteAuthorizedKeysHelp": {
     "placeholders": {
       "username": {
@@ -182,34 +183,34 @@
       }
     }
   },
-  "remoteErrFingerprintUntrusted": "主机指纹未被信任",
-  "remoteErrSshHandshakeTimeout": "SSH 握手超时",
-  "remoteErrSshInterrupted": "SSH 连接已中断",
-  "remoteErrSshConnection": "SSH 连接失败",
-  "remoteErrCommandTimeout": "远端命令超时",
-  "remoteHostedErrNetwork": "没能连上分享服务，检查网络后重试",
-  "remoteHostedErrTooLarge": "对话太大，生成不了链接",
-  "remoteHostedErrRateLimited": "分享太频繁，稍后再试",
-  "remoteHostedErrCreate": "没能生成链接",
-  "remoteHostedErrUnavailable": "分享服务暂时不可用，稍后再试",
-  "remoteHostedErrGone": "链接已过期或被删除",
-  "remoteHostedErrForbidden": "没有权限删除这个链接",
-  "remoteHostedErrBroken": "链接不完整或已损坏",
-  "remoteChat": "对话",
-  "remoteHostedTtlWeek": "7 天",
-  "remoteHostedTtlMonth": "30 天",
-  "remoteHostedTtlForever": "永久",
-  "remoteForumSignIn": "登录论坛",
-  "remoteForumSignInBenefits": "发帖、回复、点赞",
-  "remoteForumFinishSignIn": "在浏览器里完成登录",
-  "remoteReopenBrowser": "重新打开浏览器",
-  "remoteForumSettings": "论坛设置",
-  "remoteForumAccount": "论坛账号",
-  "remoteForumTopic": "话题",
-  "remoteForumLikesReceived": "获赞",
-  "remoteForumDaysVisited": "访问天数",
-  "remoteForumNotifications": "通知",
-  "remoteForumUnreadCount": "{count} 条未读",
+  "remoteErrFingerprintUntrusted": "ماشىنا بارماق ئىزى ئىشەنچلىك ئەمەس",
+  "remoteErrSshHandshakeTimeout": "SSH قول ئېلىشىش ۋاقتى ئۆتتى",
+  "remoteErrSshInterrupted": "SSH ئۇلىنىشى ئۈزۈلدى",
+  "remoteErrSshConnection": "SSH ئۇلىنىشى مەغلۇپ بولدى",
+  "remoteErrCommandTimeout": "يىراق بۇيرۇق ۋاقتى ئۆتتى",
+  "remoteHostedErrNetwork": "ھەمبەھىرلەش مۇلازىمىتىگە ئۇلانالمىدى، تورنى تەكشۈرۈپ قايتا سىناڭ",
+  "remoteHostedErrTooLarge": "سۆھبەت بەك چوڭ، ئۇلانما قۇرالمىدى",
+  "remoteHostedErrRateLimited": "ھەمبەھىرلەش بەك كۆپ بولدى، سەل تۇرۇپ قايتا سىناڭ",
+  "remoteHostedErrCreate": "ئۇلانما قۇرالمىدى",
+  "remoteHostedErrUnavailable": "ھەمبەھىرلەش مۇلازىمىتى ۋاقىتلىق ئىشلىمەيدۇ، سەل تۇرۇپ قايتا سىناڭ",
+  "remoteHostedErrGone": "ئۇلانمىنىڭ ۋاقتى ئۆتتى ياكى ئۆچۈرۈلدى",
+  "remoteHostedErrForbidden": "بۇ ئۇلانمىنى ئۆچۈرۈش ھوقۇقىڭىز يوق",
+  "remoteHostedErrBroken": "ئۇلانما تولۇق ئەمەس ياكى بۇزۇلغان",
+  "remoteChat": "سۆھبەت",
+  "remoteHostedTtlWeek": "7 كۈن",
+  "remoteHostedTtlMonth": "30 كۈن",
+  "remoteHostedTtlForever": "مەڭگۈلۈك",
+  "remoteForumSignIn": "فورۇمغا كىرىش",
+  "remoteForumSignInBenefits": "يېزىش، جاۋاب بېرىش، ياقتۇرۇش",
+  "remoteForumFinishSignIn": "توركۆرگۈدە كىرىشنى تاماملاڭ",
+  "remoteReopenBrowser": "توركۆرگۈنى قايتا ئېچىش",
+  "remoteForumSettings": "فورۇم تەڭشىكى",
+  "remoteForumAccount": "فورۇم ھېساباتى",
+  "remoteForumTopic": "تېما",
+  "remoteForumLikesReceived": "ئېرىشكەن ياقتۇرۇش",
+  "remoteForumDaysVisited": "زىيارەت كۈنلىرى",
+  "remoteForumNotifications": "ئۇقتۇرۇش",
+  "remoteForumUnreadCount": "{count} ئوقۇلمىغان",
   "@remoteForumUnreadCount": {
     "placeholders": {
       "count": {
@@ -217,9 +218,9 @@
       }
     }
   },
-  "remoteForumErrAddress": "地址不对",
-  "remoteForumAddress": "论坛地址",
-  "remoteForumDefaultAddress": "默认：{host}",
+  "remoteForumErrAddress": "ئادرېس توغرا ئەمەس",
+  "remoteForumAddress": "مۇنبەر ئادرېسى",
+  "remoteForumDefaultAddress": "سۈكۈتتىكى: {host}",
   "@remoteForumDefaultAddress": {
     "placeholders": {
       "host": {
@@ -227,13 +228,13 @@
       }
     }
   },
-  "remoteRestoreDefault": "恢复默认",
-  "remoteForumUploadingImage": "正在上传图片…",
-  "remoteForumErrUploadImage": "图片没传上去",
-  "remoteForumTitleRequired": "先写标题",
-  "remoteForumCategoryRequired": "选一个分类",
-  "remoteForumBodyRequired": "写点内容再发",
-  "remoteForumReplyCaption": "回复 @{username} · {title}",
+  "remoteRestoreDefault": "سۈكۈتتىكىگە قايتۇرۇش",
+  "remoteForumUploadingImage": "رەسىم يۈكلىنىۋاتىدۇ…",
+  "remoteForumErrUploadImage": "رەسىم يۈكلىنەلمىدى",
+  "remoteForumTitleRequired": "ئالدى بىلەن ماۋزۇ يېزىڭ",
+  "remoteForumCategoryRequired": "بىر تۈرنى تاللاڭ",
+  "remoteForumBodyRequired": "ئازراق مەزمۇن يېزىپ ئاندىن يوللاڭ",
+  "remoteForumReplyCaption": "@{username} غا جاۋاب · {title}",
   "@remoteForumReplyCaption": {
     "placeholders": {
       "username": {
@@ -244,20 +245,20 @@
       }
     }
   },
-  "remoteForumNewTopic": "新话题",
-  "remoteForumTitle": "标题",
-  "remoteForumComposerHint": "写点什么，支持 Markdown",
-  "remoteForumPublish": "发布",
-  "remoteForumImage": "图片",
-  "remoteForumAttachShareCode": "附上分享码",
-  "remoteForumPendingApproval": "已提交，审核后可见",
-  "remoteForumLatest": "最新",
-  "remoteForumTop": "热门",
-  "remoteForumErrOpen": "没能打开论坛",
-  "remoteForumNoTopics": "还没有话题",
-  "remoteForumPost": "发帖",
-  "remoteForum": "论坛",
-  "remoteForumNotificationsUnread": "通知，{count} 条未读",
+  "remoteForumNewTopic": "يېڭى تېما",
+  "remoteForumTitle": "ماۋزۇ",
+  "remoteForumComposerHint": "بىر نېمە يېزىڭ، Markdown قوللىنىلىدۇ",
+  "remoteForumPublish": "ئېلان قىلىش",
+  "remoteForumImage": "رەسىم",
+  "remoteForumAttachShareCode": "ھەمبەھىر كودىنى قوشۇش",
+  "remoteForumPendingApproval": "يوللاندى، تەكشۈرۈشتىن كېيىن كۆرۈنىدۇ",
+  "remoteForumLatest": "ئەڭ يېڭى",
+  "remoteForumTop": "قىزىق",
+  "remoteForumErrOpen": "مۇنبەرنى ئاچالمىدى",
+  "remoteForumNoTopics": "تېخى تېما يوق",
+  "remoteForumPost": "يوللاش",
+  "remoteForum": "مۇنبەر",
+  "remoteForumNotificationsUnread": "ئۇقتۇرۇش، {count} ئوقۇلمىغان",
   "@remoteForumNotificationsUnread": {
     "placeholders": {
       "count": {
@@ -265,15 +266,15 @@
       }
     }
   },
-  "remoteForumSearch": "搜索",
-  "remoteForumSearchHint": "搜索话题和帖子",
-  "remoteForumSignedIn": "已登录论坛",
-  "remoteForumSignInForNotifications": "登录后查看通知",
-  "remoteForumErrNotifications": "没能读取通知",
-  "remoteForumNoNotifications": "还没有通知",
-  "remoteForumMarkAllRead": "全部已读",
-  "remoteForumSomeone": "有人",
-  "remoteForumNotificationMention": "{who} 提到了你",
+  "remoteForumSearch": "ئىزدەش",
+  "remoteForumSearchHint": "تېما ۋە يازمىلارنى ئىزدەش",
+  "remoteForumSignedIn": "فورۇمغا كىردىڭىز",
+  "remoteForumSignInForNotifications": "ئۇقتۇرۇشنى كۆرۈش ئۈچۈن كىرىڭ",
+  "remoteForumErrNotifications": "ئۇقتۇرۇشنى ئوقۇيالمىدى",
+  "remoteForumNoNotifications": "تېخى ئۇقتۇرۇش يوق",
+  "remoteForumMarkAllRead": "ھەممىسىنى ئوقۇلدى قىلىش",
+  "remoteForumSomeone": "بىرەر كىشى",
+  "remoteForumNotificationMention": "{who} سىزنى تىلغا ئالدى",
   "@remoteForumNotificationMention": {
     "placeholders": {
       "who": {
@@ -281,7 +282,7 @@
       }
     }
   },
-  "remoteForumNotificationGroupMention": "{who} 提到了你所在的群组",
+  "remoteForumNotificationGroupMention": "{who} سىز تۇرغان گۇرۇپپىنى تىلغا ئالدى",
   "@remoteForumNotificationGroupMention": {
     "placeholders": {
       "who": {
@@ -289,7 +290,7 @@
       }
     }
   },
-  "remoteForumNotificationReply": "{who} 回复了你",
+  "remoteForumNotificationReply": "{who} سىزگە جاۋاب بەردى",
   "@remoteForumNotificationReply": {
     "placeholders": {
       "who": {
@@ -297,7 +298,7 @@
       }
     }
   },
-  "remoteForumNotificationQuote": "{who} 引用了你",
+  "remoteForumNotificationQuote": "{who} سىزنى نەقىل قىلدى",
   "@remoteForumNotificationQuote": {
     "placeholders": {
       "who": {
@@ -305,7 +306,7 @@
       }
     }
   },
-  "remoteForumNotificationEdit": "{who} 编辑了你的帖子",
+  "remoteForumNotificationEdit": "{who} يازمىڭىزنى تەھرىرلىدى",
   "@remoteForumNotificationEdit": {
     "placeholders": {
       "who": {
@@ -313,7 +314,7 @@
       }
     }
   },
-  "remoteForumNotificationLikes": "{who} 等 {count} 人赞了你",
+  "remoteForumNotificationLikes": "{who} قاتارلىق {count} كىشى ياقتۇردى",
   "@remoteForumNotificationLikes": {
     "placeholders": {
       "who": {
@@ -324,7 +325,7 @@
       }
     }
   },
-  "remoteForumNotificationLike": "{who} 赞了你",
+  "remoteForumNotificationLike": "{who} ياقتۇردى",
   "@remoteForumNotificationLike": {
     "placeholders": {
       "who": {
@@ -332,7 +333,7 @@
       }
     }
   },
-  "remoteForumNotificationLikedPosts": "{who} 赞了你的 {count} 个帖子",
+  "remoteForumNotificationLikedPosts": "{who} يازمىلىرىڭىزدىن {count} نى ياقتۇردى",
   "@remoteForumNotificationLikedPosts": {
     "placeholders": {
       "who": {
@@ -343,7 +344,7 @@
       }
     }
   },
-  "remoteForumNotificationReaction": "{who} 回应了你",
+  "remoteForumNotificationReaction": "{who} سىزگە ئىنكاس قايتۇردى",
   "@remoteForumNotificationReaction": {
     "placeholders": {
       "who": {
@@ -351,7 +352,7 @@
       }
     }
   },
-  "remoteForumNotificationMessage": "{who} 发来私信",
+  "remoteForumNotificationMessage": "{who} شەخسىي ئۇچۇر ئەۋەتتى",
   "@remoteForumNotificationMessage": {
     "placeholders": {
       "who": {
@@ -359,7 +360,7 @@
       }
     }
   },
-  "remoteForumNotificationMessageInvite": "{who} 邀请你加入私信",
+  "remoteForumNotificationMessageInvite": "{who} سىزنى شەخسىي ئۇچۇرغا تەكلىپ قىلدى",
   "@remoteForumNotificationMessageInvite": {
     "placeholders": {
       "who": {
@@ -367,7 +368,7 @@
       }
     }
   },
-  "remoteForumNotificationTopicInvite": "{who} 邀请你参与话题",
+  "remoteForumNotificationTopicInvite": "{who} سىزنى تېمىغا قاتنىشىشقا تەكلىپ قىلدى",
   "@remoteForumNotificationTopicInvite": {
     "placeholders": {
       "who": {
@@ -375,7 +376,7 @@
       }
     }
   },
-  "remoteForumNotificationNewReply": "{who} 发了新回复",
+  "remoteForumNotificationNewReply": "{who} يېڭى جاۋاب يازدى",
   "@remoteForumNotificationNewReply": {
     "placeholders": {
       "who": {
@@ -383,7 +384,7 @@
       }
     }
   },
-  "remoteForumNotificationNewTopic": "{who} 发了新话题",
+  "remoteForumNotificationNewTopic": "{who} يېڭى تېما يازدى",
   "@remoteForumNotificationNewTopic": {
     "placeholders": {
       "who": {
@@ -391,7 +392,7 @@
       }
     }
   },
-  "remoteForumNotificationLink": "{who} 链接了你的帖子",
+  "remoteForumNotificationLink": "{who} يازمىڭىزغا ئۇلاندى",
   "@remoteForumNotificationLink": {
     "placeholders": {
       "who": {
@@ -399,7 +400,7 @@
       }
     }
   },
-  "remoteForumNotificationBadge": "获得徽章「{badge}」",
+  "remoteForumNotificationBadge": "«{badge}» بەلگىسىگە ئېرىشتىڭىز",
   "@remoteForumNotificationBadge": {
     "placeholders": {
       "badge": {
@@ -407,7 +408,7 @@
       }
     }
   },
-  "remoteForumNotificationMoved": "{who} 移动了你的帖子",
+  "remoteForumNotificationMoved": "{who} يازمىڭىزنى يۆتكىدى",
   "@remoteForumNotificationMoved": {
     "placeholders": {
       "who": {
@@ -415,19 +416,19 @@
       }
     }
   },
-  "remoteForumBookmarkReminder": "书签提醒",
-  "remoteForumTopicReminder": "话题提醒",
-  "remoteForumPostApproved": "你的帖子已通过审核",
-  "remoteForumAdminProblems": "论坛有待处理的问题",
-  "remoteForumNewNotification": "新通知",
-  "remoteForumUnread": "未读",
-  "remoteForumErrShareCode": "没能打开分享码",
-  "remoteForumPoll": "投票",
-  "remoteForumVideo": "视频",
-  "remoteForumEmbed": "嵌入内容",
-  "remoteForumVoteOnWeb": "去网页版投票",
-  "remoteForumErrSearch": "没能搜索",
-  "remoteForumNoSearchResults": "没有找到「{term}」",
+  "remoteForumBookmarkReminder": "خەتكۈچ ئەسكەرتمىسى",
+  "remoteForumTopicReminder": "تېما ئەسكەرتمىسى",
+  "remoteForumPostApproved": "يازمىڭىز تەكشۈرۈشتىن ئۆتتى",
+  "remoteForumAdminProblems": "مۇنبەردە بىر تەرەپ قىلىنىدىغان مەسىلىلەر بار",
+  "remoteForumNewNotification": "يېڭى ئۇقتۇرۇش",
+  "remoteForumUnread": "ئوقۇلمىغان",
+  "remoteForumErrShareCode": "ھەمبەھىرلەش كودىنى ئېچىلمىدى",
+  "remoteForumPoll": "ئاۋاز بېرىش",
+  "remoteForumVideo": "سىن",
+  "remoteForumEmbed": "قىستۇرۇلغان مەزمۇن",
+  "remoteForumVoteOnWeb": "تور بېتىدە ئاۋاز بېرىش",
+  "remoteForumErrSearch": "ئىزدەش ئىجرا بولمىدى",
+  "remoteForumNoSearchResults": "«{term}» تېپىلمىدى",
   "@remoteForumNoSearchResults": {
     "placeholders": {
       "term": {
@@ -435,14 +436,14 @@
       }
     }
   },
-  "remoteForumBookmarkRemoved": "已取消书签",
-  "remoteForumBookmarkAdded": "已加入书签",
-  "remoteLinkCopied": "已复制链接",
-  "remoteForumErrTopic": "没能打开这个话题",
-  "remoteForumTopicClosed": "话题已关闭",
-  "remoteForumReplyHint": "写回复…",
-  "remoteForumSignInToReply": "登录后回复",
-  "remoteForumReplyTo": "回复 @{username}",
+  "remoteForumBookmarkRemoved": "خەتكۈچ بىكار قىلىندى",
+  "remoteForumBookmarkAdded": "خەتكۈچكە قوشۇلدى",
+  "remoteLinkCopied": "ئۇلانما كۆچۈرۈلدى",
+  "remoteForumErrTopic": "بۇ تېمىنى ئېچىلمىدى",
+  "remoteForumTopicClosed": "تېما تاقالدى",
+  "remoteForumReplyHint": "جاۋاب يېزىڭ…",
+  "remoteForumSignInToReply": "كىرىپ جاۋاب بېرىڭ",
+  "remoteForumReplyTo": "@{username} غا جاۋاب",
   "@remoteForumReplyTo": {
     "placeholders": {
       "username": {
@@ -450,29 +451,29 @@
       }
     }
   },
-  "remoteForumPostDeleted": "帖子已删除",
-  "remoteForumPostHidden": "帖子已被隐藏",
-  "remoteForumUnlike": "取消点赞",
-  "remoteForumLike": "点赞",
-  "remoteForumRemoveBookmark": "取消书签",
-  "remoteForumBookmark": "书签",
-  "remoteForumActionPinned": "置顶了话题",
-  "remoteForumActionUnpinned": "取消了置顶",
-  "remoteForumActionClosed": "关闭了话题",
-  "remoteForumActionReopened": "重新开放了话题",
-  "remoteForumActionAutoClosed": "话题已自动关闭",
-  "remoteForumActionAutoOpened": "话题已自动开放",
-  "remoteForumActionArchived": "归档了话题",
-  "remoteForumActionUnarchived": "取消了归档",
-  "remoteForumActionListed": "公开了话题",
-  "remoteForumActionUnlisted": "隐藏了话题",
-  "remoteForumActionSplit": "拆分了话题",
-  "remoteForumActionBanner": "设为横幅",
-  "remoteForumActionRemoveBanner": "取消了横幅",
-  "remoteForumActionUpdated": "更新了话题",
-  "remoteLoading": "正在加载",
-  "remoteForumJustNow": "刚刚",
-  "remoteForumMinutesAgo": "{count} 分钟前",
+  "remoteForumPostDeleted": "يازما ئۆچۈرۈلدى",
+  "remoteForumPostHidden": "يازما يوشۇرۇلدى",
+  "remoteForumUnlike": "ياقتۇرۇشنى بىكار قىلىش",
+  "remoteForumLike": "ياقتۇرۇش",
+  "remoteForumRemoveBookmark": "خەتكۈچنى بىكار قىلىش",
+  "remoteForumBookmark": "خەتكۈچ",
+  "remoteForumActionPinned": "تېمىنى چىڭلادى",
+  "remoteForumActionUnpinned": "چىڭلاشنى بىكار قىلدى",
+  "remoteForumActionClosed": "تېمىنى تاقىدى",
+  "remoteForumActionReopened": "تېمىنى قايتا ئاچتى",
+  "remoteForumActionAutoClosed": "تېما ئاپتوماتىك تاقالدى",
+  "remoteForumActionAutoOpened": "تېما ئاپتوماتىك ئېچىلدى",
+  "remoteForumActionArchived": "تېمىنى ئارخىپلىدى",
+  "remoteForumActionUnarchived": "ئارخىپلاشنى بىكار قىلدى",
+  "remoteForumActionListed": "تېمىنى ئاشكارىلىدى",
+  "remoteForumActionUnlisted": "تېمىنى يوشۇردى",
+  "remoteForumActionSplit": "تېمىنى پارچىلىدى",
+  "remoteForumActionBanner": "تۇتاق رەسىم قىلىپ بېكىتتى",
+  "remoteForumActionRemoveBanner": "تۇتاق رەسىمنى بىكار قىلدى",
+  "remoteForumActionUpdated": "تېمىنى يېڭىلىدى",
+  "remoteLoading": "يۈكلىنىۋاتىدۇ",
+  "remoteForumJustNow": "ھازىرلا",
+  "remoteForumMinutesAgo": "{count} مىنۇت ئىلگىرى",
   "@remoteForumMinutesAgo": {
     "placeholders": {
       "count": {
@@ -480,7 +481,7 @@
       }
     }
   },
-  "remoteForumHoursAgo": "{count} 小时前",
+  "remoteForumHoursAgo": "{count} سائەت ئىلگىرى",
   "@remoteForumHoursAgo": {
     "placeholders": {
       "count": {
@@ -488,7 +489,7 @@
       }
     }
   },
-  "remoteForumDaysAgo": "{count} 天前",
+  "remoteForumDaysAgo": "{count} كۈن ئىلگىرى",
   "@remoteForumDaysAgo": {
     "placeholders": {
       "count": {
@@ -496,7 +497,7 @@
       }
     }
   },
-  "remoteForumReplyCount": "{count} 回复",
+  "remoteForumReplyCount": "{count} ئىنكاس",
   "@remoteForumReplyCount": {
     "placeholders": {
       "count": {
@@ -504,7 +505,7 @@
       }
     }
   },
-  "remoteForumNewReplyCount": "{count} 条新回复",
+  "remoteForumNewReplyCount": "{count} يېڭى ئىنكاس",
   "@remoteForumNewReplyCount": {
     "placeholders": {
       "count": {
@@ -512,8 +513,8 @@
       }
     }
   },
-  "remoteForumNew": "新",
-  "remoteForumErrorRetry": "{error} · 重试",
+  "remoteForumNew": "يېڭى",
+  "remoteForumErrorRetry": "{error} · قايتا سىناش",
   "@remoteForumErrorRetry": {
     "placeholders": {
       "error": {
@@ -521,9 +522,9 @@
       }
     }
   },
-  "remoteForumNoMore": "没有更多了",
-  "remoteHostKeyTrustTitle": "信任这台主机？",
-  "remoteHostKeyFirstConnection": "首次连接「{name}」（{address}）。核对指纹，确认是你自己的主机。",
+  "remoteForumNoMore": "باشقا يوق",
+  "remoteHostKeyTrustTitle": "بۇ ماشىنىغا ئىشەنمەمسىز؟",
+  "remoteHostKeyFirstConnection": "تۇنجى قېتىم «{name}» ({address}) غا ئۇلاندى. بارماق ئىزىنى تەكشۈرۈپ، بۇنىڭ ئۆزىڭىزنىڭ كومپيۇتېرى ئىكەنلىكىنى جەزملەشتۈرۈڭ.",
   "@remoteHostKeyFirstConnection": {
     "placeholders": {
       "name": {
@@ -534,9 +535,9 @@
       }
     }
   },
-  "remoteHostKeyTrustConnect": "信任并连接",
-  "remoteHostKeyChangedTitle": "身份指纹变了",
-  "remoteRelayKeyChangedBody": "「{name}」的身份密钥和上次不一样。只在确认这台主机重装过远程插件时继续，否则可能有人冒充它。",
+  "remoteHostKeyTrustConnect": "ئىشىنىپ ئۇلاش",
+  "remoteHostKeyChangedTitle": "كىملىك بارماق ئىزى ئۆزگەردى",
+  "remoteRelayKeyChangedBody": "«{name}» نىڭ كىملىك ئاچقۇچى ئالدىنقى قېتىمدىكىدىن پەرقلىق. پەقەت بۇ ماشىنىغا يىراقتىن قىستۇرما قايتا قاچىلانغانلىقىنى جەزملەشتۈرگەندىلا داۋاملاشتۇرۇڭ، بولمىسا باشقىلار ئۇنىڭغا ئۆزىنى يوشۇرۇشى مۇمكىن.",
   "@remoteRelayKeyChangedBody": {
     "placeholders": {
       "name": {
@@ -544,7 +545,7 @@
       }
     }
   },
-  "remoteRelayKeyFirstBody": "首次连接「{name}」。核对身份指纹，与主机上远程插件显示的一致再继续。",
+  "remoteRelayKeyFirstBody": "تۇنجى قېتىم «{name}» غا ئۇلىنىش. كىملىك بارماق ئىزىنى تەكشۈرۈپ، ماشىنىدىكى يىراقتىن قىستۇرما كۆرسەتكەن بىلەن بىردەك بولغاندىلا داۋاملاشتۇرۇڭ.",
   "@remoteRelayKeyFirstBody": {
     "placeholders": {
       "name": {
@@ -552,10 +553,10 @@
       }
     }
   },
-  "remoteHostKeyChangeWarning": "之后指纹一旦变化，App 会拒绝连接。",
-  "remoteHostKeyTrustAgain": "重新信任",
-  "remoteHostKeyReading": "正在读取主机指纹…",
-  "remoteHostSwitcherSemantics": "当前主机：{name}，{status}。切换主机",
+  "remoteHostKeyChangeWarning": "كېيىن بارماق ئىزى ئۆزگەرسە، ئەپ ئۇلىنىشتىن باش تارتىدۇ.",
+  "remoteHostKeyTrustAgain": "قايتا ئىشىنىش",
+  "remoteHostKeyReading": "ماشىنا بارماق ئىزى ئوقۇلۇۋاتىدۇ…",
+  "remoteHostSwitcherSemantics": "نۆۋەتتىكى ماشىنا: {name}، {status}. ماشىنا ئالماشتۇرۇش",
   "@remoteHostSwitcherSemantics": {
     "placeholders": {
       "name": {
@@ -566,10 +567,10 @@
       }
     }
   },
-  "remoteSwitchHost": "切换主机",
-  "remoteThisPhoneDsh": "这台手机上的 DSH",
-  "remoteRemoteLabel": "远程",
-  "remoteRemotePlatform": "远程 · {platform}",
+  "remoteSwitchHost": "ماشىنا ئالماشتۇرۇش",
+  "remoteThisPhoneDsh": "بۇ تېلېفوندىكى DSH",
+  "remoteRemoteLabel": "يىراقتىن",
+  "remoteRemotePlatform": "يىراقتىن · {platform}",
   "@remoteRemotePlatform": {
     "placeholders": {
       "platform": {
@@ -577,29 +578,29 @@
       }
     }
   },
-  "remoteRelaySwitchWarning": "DSH Remote 一次只连一台主机，切换会断开上一台",
-  "remoteConnectComputer": "连接电脑或服务器",
-  "remoteManageHosts": "管理远程主机",
-  "remoteConnectionMethods": "通过 SSH 或 DSH Remote",
-  "remoteRelayLoginRequired": "填写服务器地址、邮箱和密码",
-  "remoteErrSignIn": "没能登录",
-  "remoteSelfHostedServer": "自建服务器",
-  "remoteSelfHostedSignInHelp": "填写服务器地址，可用邮箱密码登录，也可先使用此服务器再选择其他登录方式。",
-  "remoteUseServer": "使用此服务器",
-  "remoteServerAddress": "服务器地址",
-  "remoteEmail": "邮箱",
-  "remotePassword": "密码",
-  "remoteRestoreServer": "改回默认服务器 dsh.r2049.cn",
-  "remoteConsole": "远程控制台",
-  "remoteHostsIntro": "在手机上接着用电脑或服务器上的 DSH",
-  "remoteSshHosts": "SSH 主机",
-  "remoteSshRequirements": "需要那台主机开着 SSH，并装好 DSH",
-  "remoteAddSshHost": "添加 SSH 主机",
-  "remoteSshDirect": "不经过第三方服务器",
-  "remoteOtherMethods": "其他方式",
-  "remoteWebConsole": "网页版远程控制台",
-  "remoteWebConsoleProvider": "dsh.r2049.cn · 第三方页面",
-  "remoteActiveHost": "正在使用「{name}」",
+  "remoteRelaySwitchWarning": "DSH Remote بىرلا ۋاقىتتا بىر ماشىنىغا ئۇلىنىدۇ، ئالماشتۇرۇش ئالدىنقىسىنى ئۈزىدۇ",
+  "remoteConnectComputer": "كومپيۇتېر ياكى مۇلازىمېتىرغا ئۇلاش",
+  "remoteManageHosts": "يىراقتىكى ماشىنىلارنى باشقۇرۇش",
+  "remoteConnectionMethods": "SSH ياكى DSH Remote ئارقىلىق",
+  "remoteRelayLoginRequired": "مۇلازىمېتىر ئادرېسى، ئېلخەت ۋە پارولنى تولدۇرۇڭ",
+  "remoteErrSignIn": "كىرىش ئەمەلگە ئاشمىدى",
+  "remoteSelfHostedServer": "ئۆزى قۇرغان مۇلازىمېتىر",
+  "remoteSelfHostedSignInHelp": "مۇلازىمېتىر ئادرېسىنى تولدۇرۇڭ، ئېلخەت پارولى بىلەن كىرىشكە بولىدۇ، ياكى ئاۋۋال بۇ مۇلازىمېتىرنى ئىشلىتىپ ئاندىن باشقا كىرىش ئۇسۇلىنى تاللىسىڭىزمۇ بولىدۇ.",
+  "remoteUseServer": "بۇ مۇلازىمېتىرنى ئىشلىتىش",
+  "remoteServerAddress": "مۇلازىمېتىر ئادرېسى",
+  "remoteEmail": "ئېلخەت",
+  "remotePassword": "پارول",
+  "remoteRestoreServer": "كۆڭۈلدىكى مۇلازىمېتىر dsh.r2049.cn غا قايتۇرۇش",
+  "remoteConsole": "يىراقتىن كونترول قىلىش كونسولى",
+  "remoteHostsIntro": "تېلېفوندا كومپيۇتېر ياكى مۇلازىمېتىردىكى DSH نى داۋاملاشتۇرۇپ ئىشلىتىش",
+  "remoteSshHosts": "SSH ئاساسىي ماشىنىسى",
+  "remoteSshRequirements": "ئۇ ئاساسىي ماشىنىنىڭ SSH ئېچىلغان ۋە DSH قاچىلانغان بولۇشى كېرەك",
+  "remoteAddSshHost": "SSH ئاساسىي ماشىنىسى قوشۇش",
+  "remoteSshDirect": "ئۈچىنچى تەرەپ مۇلازىمېتىرىدىن ئۆتمەيدۇ",
+  "remoteOtherMethods": "باشقا ئۇسۇللار",
+  "remoteWebConsole": "تور بېتى نۇسخىسىدىكى يىراقتىن كونترول قىلىش كونسولى",
+  "remoteWebConsoleProvider": "dsh.r2049.cn · ئۈچىنچى تەرەپ بېتى",
+  "remoteActiveHost": "ھازىر «{name}» ئىشلىتىلىۋاتىدۇ",
   "@remoteActiveHost": {
     "placeholders": {
       "name": {
@@ -607,12 +608,12 @@
       }
     }
   },
-  "remoteSwitchToPhone": "切回本机",
-  "remoteSignInAgain": "重新登录",
-  "remoteHostSettings": "主机设置",
-  "remoteReconnect": "重新连接",
-  "remoteReconnectingEllipsis": "重新连接中…",
-  "remoteReconnectReason": "重新连接中 · {reason}",
+  "remoteSwitchToPhone": "يەرلىك ئۈسكۈنىگە قايتىش",
+  "remoteSignInAgain": "قايتا كىرىش",
+  "remoteHostSettings": "ئاساسىي ماشىنا تەڭشىكى",
+  "remoteReconnect": "قايتا ئۇلاش",
+  "remoteReconnectingEllipsis": "قايتا ئۇلىنىۋاتىدۇ…",
+  "remoteReconnectReason": "قايتا ئۇلىنىۋاتىدۇ · {reason}",
   "@remoteReconnectReason": {
     "placeholders": {
       "reason": {
@@ -620,8 +621,8 @@
       }
     }
   },
-  "remoteConnectedEncrypted": "已连接 · 端到端加密",
-  "remoteConnectedVia": "已连接 · {path} · 端到端加密",
+  "remoteConnectedEncrypted": "ئۇلاندى · ئۇچتىن-ئۇچقىچە شىفىرلانغان",
+  "remoteConnectedVia": "ئۇلاندى · {path} · ئۇچتىن-ئۇچقىچە شىفىرلانغان",
   "@remoteConnectedVia": {
     "placeholders": {
       "path": {
@@ -629,10 +630,10 @@
       }
     }
   },
-  "remotePathDirect": "直连",
+  "remotePathDirect": "بىۋاسىتە ئۇلىنىش",
   "remotePathTurn": "TURN",
-  "remotePathRelay": "Relay 中继",
-  "remoteConnectedSsh": "已连接 · SSH {address}",
+  "remotePathRelay": "Relay ئارىلىق ئۇلىنىش",
+  "remoteConnectedSsh": "ئۇلاندى · SSH {address}",
   "@remoteConnectedSsh": {
     "placeholders": {
       "address": {
@@ -640,19 +641,19 @@
       }
     }
   },
-  "remoteErrRefreshHosts": "没能刷新主机列表",
-  "remoteSwitchWarning": "一次只连一台主机，切换会断开上一台",
-  "remoteRefreshHosts": "刷新主机列表",
-  "remoteSignOut": "退出",
-  "remoteErrHostsRetry": "没能获取主机列表 · 轻点重试",
-  "remoteNoHosts": "还没有主机",
-  "remoteRelaySetupHelp": "在主机的 DSH 里装好远程插件并登录",
-  "remoteRelaySignOutTitle": "退出 DSH Remote？",
-  "remoteRelaySignOutBody": "这台手机会从账号中移除。主机上的 DSH 和对话不受影响，随时可以重新登录。",
-  "remoteRelaySignInTitle": "登录 DSH Remote",
-  "remoteRelaySignInHelp": "无需配置网络，连接端到端加密",
-  "remoteBrowserSignIn": "在浏览器中登录",
-  "remoteSignInWithProvider": "使用 {provider} 登录",
+  "remoteErrRefreshHosts": "ماشىنا ئىستىكىنى يېڭىلىيالمىدى",
+  "remoteSwitchWarning": "بىر قېتىمدا پەقەت بىر ماشىنىغا ئۇلىنىش، ئالماشتۇرۇش ئالدىنقىسىنى ئۈزىدۇ",
+  "remoteRefreshHosts": "ماشىنا ئىستىكىنى يېڭىلاش",
+  "remoteSignOut": "چېكىنىش",
+  "remoteErrHostsRetry": "ماشىنا ئىستىكىنى ئالالمىدى · قايتا سىناش ئۈچۈن چېكىڭ",
+  "remoteNoHosts": "تېخى ماشىنا يوق",
+  "remoteRelaySetupHelp": "ماشىنىدىكى DSH غا يىراق قىستۇرمىنى قاچىلاپ كىرىڭ",
+  "remoteRelaySignOutTitle": "DSH Remote دىن چېكىنەمسىز؟",
+  "remoteRelaySignOutBody": "بۇ تېلېفون ھېساباتتىن چىقىرىلىدۇ. ماشىنىدىكى DSH ۋە سۆھبەتكە تەسىر يەتمەيدۇ، خالىغان ۋاقىتتا قايتا كىرسىڭىز بولىدۇ.",
+  "remoteRelaySignInTitle": "DSH Remote غا كىرىش",
+  "remoteRelaySignInHelp": "تور تەڭشەش زۆرۈر ئەمەس، ئۇچتىن-ئۇچقىچە شىفىرلانغان ئۇلىنىش",
+  "remoteBrowserSignIn": "توركۆرگۈدە كىرىش",
+  "remoteSignInWithProvider": "{provider} ئارقىلىق كىرىش",
   "@remoteSignInWithProvider": {
     "placeholders": {
       "provider": {
@@ -660,18 +661,18 @@
       }
     }
   },
-  "remoteComingSoon": "即将接入",
-  "remoteSelfHostedEmailSignIn": "自建服务器 · 邮箱登录",
-  "remoteBrowserSignInPending": "在浏览器里完成登录…",
-  "remoteCopySignInLink": "复制登录链接",
-  "remoteSshAddressRequired": "填写主机地址（IP 或域名）",
-  "remoteSshUsernameRequired": "填写登录用户名",
-  "remoteSshPasswordRequired": "填写 SSH 密码，或改用私钥",
-  "remoteSshKeyRequired": "粘贴私钥（以 -----BEGIN 开头的整段文本）",
-  "remoteHostKeyResetTitle": "重置主机指纹？",
-  "remoteHostKeyResetBody": "只在确认这台主机重装或更换过时才这么做。下次连接会重新请你核对指纹。",
-  "remoteReset": "重置",
-  "remoteDeleteHostTitle": "删除「{name}」？",
+  "remoteComingSoon": "پات يېقىندا",
+  "remoteSelfHostedEmailSignIn": "ئۆز مۇلازىمېتىرىدا · ئېلخەت بىلەن كىرىش",
+  "remoteBrowserSignInPending": "توركۆرگۈدە كىرىشنى تاماملاڭ…",
+  "remoteCopySignInLink": "كىرىش ئۇلىنىشىنى كۆچۈرۈش",
+  "remoteSshAddressRequired": "ماشىنا ئادرېسىنى (IP ياكى دائىرە نامى) تولدۇرۇڭ",
+  "remoteSshUsernameRequired": "كىرىش ئىشلەتكۈچى ئىسمىنى تولدۇرۇڭ",
+  "remoteSshPasswordRequired": "SSH پارولىنى تولدۇرۇڭ ياكى شەخسىي ئاچقۇچقا ئالماشتۇرۇڭ",
+  "remoteSshKeyRequired": "شەخسىي ئاچقۇچنى چاپلاڭ (-----BEGIN بىلەن باشلىنىدىغان پۈتۈن تېكىست)",
+  "remoteHostKeyResetTitle": "ماشىنا بارماق ئىزىنى قايتا تەڭشەمسىز؟",
+  "remoteHostKeyResetBody": "پەقەت بۇ ماشىنا قايتا قاچىلانغان ياكى ئالماشتۇرۇلغانلىقىنى جەزملەشتۈرگەندەلا شۇنداق قىلىڭ. كېيىنكى قېتىم ئۇلانغاندا بارماق ئىزىنى قايتا تەكشۈرۈشنى سورايدۇ.",
+  "remoteReset": "قايتا تەڭشەش",
+  "remoteDeleteHostTitle": "«{name}» ئۆچۈرۈلسۇن؟",
   "@remoteDeleteHostTitle": {
     "placeholders": {
       "name": {
@@ -679,8 +680,8 @@
       }
     }
   },
-  "remoteDeleteHostBody": "这台主机的设置和保存在手机上的密码、私钥都会删除。主机上的 DSH 和对话不受影响。",
-  "remoteErrReadKey": "没能读取：{error}",
+  "remoteDeleteHostBody": "بۇ ماشىنىنىڭ تەڭشەكلىرى ۋە تېلېفوندا ساقلانغان پارول، شەخسىي ئاچقۇچلارنىڭ ھەممىسى ئۆچۈرۈلىدۇ. ماشىنىدىكى DSH ۋە سۆھبەتلەرگە تەسىر يەتمەيدۇ.",
+  "remoteErrReadKey": "ئوقۇيالمىدى: {error}",
   "@remoteErrReadKey": {
     "placeholders": {
       "error": {
@@ -688,41 +689,41 @@
       }
     }
   },
-  "remoteErrPublicKeyFile": "这不是私钥文件，请选不带 .pub 的那个（例如 id_ed25519）",
-  "remotePrivateKeyImported": "已导入私钥，原文件可以删掉了",
-  "remoteEditHost": "编辑主机",
-  "remoteSshHostIntro": "连接你电脑或服务器上的 DSH",
-  "remoteHostBasicInfo": "基本信息",
-  "remoteHostNameHint": "比如：电脑、家里的 Mac",
-  "remoteHost": "主机",
-  "remoteHostAddressHint": "192.168.1.20 或 example.com",
-  "remoteUsername": "用户名",
-  "remotePort": "端口",
-  "remoteAuthentication": "登录方式",
-  "remotePasswordStorageHelp": "只保存在这台手机上，由 Android Keystore 加密",
-  "remoteKeyStorageHelp": "只保存在这台手机上，由 Android Keystore 加密。支持 Ed25519、RSA、ECDSA",
-  "remotePrivateKey": "私钥",
-  "remoteShow": "显示",
-  "remoteImportKeyFile": "从文件导入",
-  "remotePrivateKeyPassword": "私钥密码（可选）",
-  "remoteStartCommand": "启动命令",
-  "remoteStartCommandHelp": "用 nvm 安装的可以填完整路径",
-  "remoteWorkingDirectory": "工作目录（可选）",
-  "remoteWorkingDirectoryHelp": "新对话默认在这里，支持 ~/",
-  "remoteHostFingerprint": "主机指纹",
-  "remoteHostKeyNotConfirmed": "还没有确认",
-  "remoteHostKeyFirstCheck": "首次连接时会请你核对指纹",
-  "remoteDeleteHost": "删除这台主机",
-  "remoteTesting": "正在测试",
-  "remoteTestConnection": "测试连接",
-  "remoteHostedUpdateRequired": "需要更新 App 才能打开",
-  "remoteHostedCannotOpen": "这个链接无法打开",
-  "remoteOpening": "正在打开…",
-  "remoteHostedNeverExpires": "永久有效",
-  "remoteHostedExpired": "已过期",
-  "remoteHostedExpiresToday": "今天到期",
-  "remoteHostedExpiresTomorrow": "明天到期",
-  "remoteHostedExpiresOn": "{date}到期",
+  "remoteErrPublicKeyFile": "بۇ شەخسىي ئاچقۇچ ھۆججىتى ئەمەس، .pub بولمىغاننى تاللاڭ (مەسىلەن id_ed25519)",
+  "remotePrivateKeyImported": "شەخسىي ئاچقۇچ كىرگۈزۈلدى، ئەسلى ھۆججەتنى ئۆچۈرۈۋەتسىڭىز بولىدۇ",
+  "remoteEditHost": "ماشىنىنى تەھرىرلەش",
+  "remoteSshHostIntro": "كومپيۇتېرىڭىز ياكى مۇلازىمېتىرىڭىزدىكى DSH غا ئۇلاڭ",
+  "remoteHostBasicInfo": "ئاساسىي ئۇچۇر",
+  "remoteHostNameHint": "مەسىلەن: كومپيۇتېر، ئۆيدىكى Mac",
+  "remoteHost": "ماشىنا",
+  "remoteHostAddressHint": "192.168.1.20 ياكى example.com",
+  "remoteUsername": "ئىشلەتكۈچى ئىسمى",
+  "remotePort": "پورت",
+  "remoteAuthentication": "كىرىش ئۇسۇلى",
+  "remotePasswordStorageHelp": "پەقەت بۇ تېلېفوندا ساقلىنىدۇ، Android Keystore بىلەن شىفىرلىنىدۇ",
+  "remoteKeyStorageHelp": "پەقەت بۇ تېلېفوندا ساقلىنىدۇ، Android Keystore بىلەن شىفىرلىنىدۇ. Ed25519، RSA، ECDSA نى قوللايدۇ",
+  "remotePrivateKey": "شەخسىي ئاچقۇچ",
+  "remoteShow": "كۆرسىتىش",
+  "remoteImportKeyFile": "ھۆججەتتىن ئەكىرىش",
+  "remotePrivateKeyPassword": "شەخسىي ئاچقۇچ پارولى (ئىختىيارىي)",
+  "remoteStartCommand": "باشلاش بۇيرۇقى",
+  "remoteStartCommandHelp": "nvm بىلەن قاچىلىغانلار تولۇق يولنى تولدۇرسا بولىدۇ",
+  "remoteWorkingDirectory": "خىزمەت مۇندەرىجىسى (ئىختىيارىي)",
+  "remoteWorkingDirectoryHelp": "يېڭى سۆھبەت سۈكۈتتە مۇشۇ يەردە، ~/ نى قوللايدۇ",
+  "remoteHostFingerprint": "ماشىنا بارماق ئىزى",
+  "remoteHostKeyNotConfirmed": "تېخى جەزملەشتۈرۈلمىدى",
+  "remoteHostKeyFirstCheck": "تۇنجى قېتىم ئۇلانغاندا بارماق ئىزىنى سېلىشتۇرۇشنى تەلەپ قىلىدۇ",
+  "remoteDeleteHost": "بۇ ماشىنىنى ئۆچۈرۈش",
+  "remoteTesting": "سىنىلىۋاتىدۇ",
+  "remoteTestConnection": "ئۇلانمىنى سىناش",
+  "remoteHostedUpdateRequired": "ئېچىش ئۈچۈن ئەپنى يېڭىلاش كېرەك",
+  "remoteHostedCannotOpen": "بۇ ئۇلانما ئېچىلمايدۇ",
+  "remoteOpening": "ئېچىلىۋاتىدۇ…",
+  "remoteHostedNeverExpires": "مەڭگۈلۈك ئىناۋەتلىك",
+  "remoteHostedExpired": "مۆددى ئۆتتى",
+  "remoteHostedExpiresToday": "بۈگۈن مۆددى ئۆتىدۇ",
+  "remoteHostedExpiresTomorrow": "ئەتە مۆددى ئۆتىدۇ",
+  "remoteHostedExpiresOn": "{date} مۆددى ئۆتىدۇ",
   "@remoteHostedExpiresOn": {
     "placeholders": {
       "date": {
@@ -730,8 +731,8 @@
       }
     }
   },
-  "remoteHostedDeleteTitle": "删除这个链接？",
-  "remoteHostedDeleteBody": "「{title}」的链接会立即失效",
+  "remoteHostedDeleteTitle": "بۇ ئۇلانمىنى ئۆچۈرەمسىز؟",
+  "remoteHostedDeleteBody": "«{title}» نىڭ ئۇلانمىسى دەرھال ئىناۋەتسىز بولىدۇ",
   "@remoteHostedDeleteBody": {
     "placeholders": {
       "title": {
@@ -739,28 +740,28 @@
       }
     }
   },
-  "remoteHostedLinkDeleted": "已删除链接",
-  "remoteUndo": "撤销",
-  "remoteHostedMyLinks": "我的分享链接",
-  "remoteHostedNoLinks": "还没有分享链接",
-  "remoteHostedErrDeleteNetwork": "没能删除，检查网络后重试",
-  "remoteHostedErrDelete": "没能删除，稍后再试",
-  "remoteDirectoryPickerTitle": "选择文件夹",
-  "remoteDirectoryChoose": "选择",
-  "remoteDirectoryDefault": "默认工作目录",
-  "remoteDirectoryHome": "主目录",
-  "remoteDirectoryPhoneStorage": "手机存储",
-  "remoteDirectoryDownloads": "下载",
-  "remoteDirectoryDownloadsPath": "手机存储/Download",
-  "remoteDirectoryDocuments": "文档",
-  "remoteDirectoryDocumentsPath": "手机存储/Documents",
-  "remoteDirectoryLocations": "位置",
-  "remoteDirectoryRecent": "最近",
-  "remoteDirectoryEnterPath": "输入路径",
-  "remoteDirectoryGo": "前往",
-  "remoteDirectoryAbsolutePath": "从「/」开始写完整路径",
-  "remoteDirectoryNewFolder": "新建文件夹",
-  "remoteDirectoryParentCaption": "在「{name}」里",
+  "remoteHostedLinkDeleted": "ئۇلانما ئۆچۈرۈلدى",
+  "remoteUndo": "يېنىۋېلىش",
+  "remoteHostedMyLinks": "مېنىڭ ھەمبەھىرلەش ئۇلانمىلىرىم",
+  "remoteHostedNoLinks": "تېخى ھەمبەھىرلەش ئۇلانمىسى يوق",
+  "remoteHostedErrDeleteNetwork": "ئۆچۈرەلمىدى، تورنى تەكشۈرۈپ قايتا سىناڭ",
+  "remoteHostedErrDelete": "ئۆچۈرەلمىدى، سەل تۇرۇپ قايتا سىناڭ",
+  "remoteDirectoryPickerTitle": "قىسقۇچ تاللاش",
+  "remoteDirectoryChoose": "تاللاش",
+  "remoteDirectoryDefault": "سۈكۈتتىكى خىزمەت مۇندەرىجىسى",
+  "remoteDirectoryHome": "باش مۇندەرىجە",
+  "remoteDirectoryPhoneStorage": "تېلېفون ساقلاش",
+  "remoteDirectoryDownloads": "چۈشۈرۈش",
+  "remoteDirectoryDownloadsPath": "تېلېفون ساقلاش/Download",
+  "remoteDirectoryDocuments": "ھۆججەتلەر",
+  "remoteDirectoryDocumentsPath": "تېلېفون ساقلاش/Documents",
+  "remoteDirectoryLocations": "ئورۇنلار",
+  "remoteDirectoryRecent": "يېقىنقى",
+  "remoteDirectoryEnterPath": "يول كىرگۈزۈش",
+  "remoteDirectoryGo": "يۆتكەل",
+  "remoteDirectoryAbsolutePath": "«/» دىن باشلاپ تولۇق يول يېزىڭ",
+  "remoteDirectoryNewFolder": "يېڭى قىسقۇچ",
+  "remoteDirectoryParentCaption": "«{name}» ئىچىدە",
   "@remoteDirectoryParentCaption": {
     "placeholders": {
       "name": {
@@ -768,12 +769,12 @@
       }
     }
   },
-  "remoteDirectoryFolderName": "文件夹名称",
-  "remoteDirectoryRoot": "根目录",
-  "remoteDirectoryErrCreate": "没能新建文件夹",
-  "remoteDirectoryNoSubfolders": "这里没有子文件夹",
-  "remoteDirectoryHideHidden": "收起隐藏文件夹",
-  "remoteDirectoryShowHidden": "显示 {count} 个隐藏文件夹",
+  "remoteDirectoryFolderName": "قىسقۇچ نامى",
+  "remoteDirectoryRoot": "يىلتىز مۇندەرىجە",
+  "remoteDirectoryErrCreate": "يېڭى قىسقۇچ قۇرالمىدى",
+  "remoteDirectoryNoSubfolders": "بۇ يەردە تارماق قىسقۇچ يوق",
+  "remoteDirectoryHideHidden": "يوشۇرۇن قىسقۇچلارنى يىغىش",
+  "remoteDirectoryShowHidden": "{count} يوشۇرۇن قىسقۇچنى كۆرسىتىش",
   "@remoteDirectoryShowHidden": {
     "placeholders": {
       "count": {
@@ -781,9 +782,9 @@
       }
     }
   },
-  "remoteDirectoryTruncated": "文件夹太多，只列出了前面一部分",
-  "remoteWorkspaceAdd": "添加工作区",
-  "remoteWorkspaceAdded": "已添加「{name}」",
+  "remoteDirectoryTruncated": "قىسقۇچلار بەك كۆپ، پەقەت ئالدىنقى قىسمى كۆرسىتىلدى",
+  "remoteWorkspaceAdd": "خىزمەت رايونى قوشۇش",
+  "remoteWorkspaceAdded": "«{name}» قوشۇلدى",
   "@remoteWorkspaceAdded": {
     "placeholders": {
       "name": {
@@ -791,9 +792,9 @@
       }
     }
   },
-  "remoteWorkspaceErrAdd": "没能添加工作区",
-  "remoteWorkspaceNoChats": "没有对话",
-  "remoteWorkspaceChatCount": "{count} 个对话",
+  "remoteWorkspaceErrAdd": "خىزمەت رايونى قوشۇلمىدى",
+  "remoteWorkspaceNoChats": "سۆھبەت يوق",
+  "remoteWorkspaceChatCount": "{count} سۆھبەت",
   "@remoteWorkspaceChatCount": {
     "placeholders": {
       "count": {
@@ -801,8 +802,8 @@
       }
     }
   },
-  "remoteWorkspaceErrRename": "没能重命名",
-  "remoteWorkspaceRemoved": "已移除「{name}」",
+  "remoteWorkspaceErrRename": "ئىسمى ئۆزگەرتىلمىدى",
+  "remoteWorkspaceRemoved": "«{name}» چىقىرىۋېتىلدى",
   "@remoteWorkspaceRemoved": {
     "placeholders": {
       "name": {
@@ -810,11 +811,11 @@
       }
     }
   },
-  "remoteWorkspaceErrRemove": "没能移除工作区",
-  "remoteWorkspaceRename": "重命名工作区",
-  "remoteWorkspaceName": "工作区名称",
-  "remoteWorkspaceNameRequired": "起个名字",
-  "remoteWorkspaceRemoveTitle": "移除「{name}」？",
+  "remoteWorkspaceErrRemove": "خىزمەت رايونى چىقىرىۋېتىلمىدى",
+  "remoteWorkspaceRename": "خىزمەت رايونى ئىسمىنى ئۆزگەرتىش",
+  "remoteWorkspaceName": "خىزمەت رايونى ئىسمى",
+  "remoteWorkspaceNameRequired": "ئىسىم قويۇڭ",
+  "remoteWorkspaceRemoveTitle": "«{name}» چىقىرىۋېتىلسۇنمۇ؟",
   "@remoteWorkspaceRemoveTitle": {
     "placeholders": {
       "name": {
@@ -822,17 +823,17 @@
       }
     }
   },
-  "remoteWorkspaceRemoveBody": "文件夹和对话都会保留",
-  "remoteWorkspaceRemove": "移除",
-  "remoteWorkspace": "工作区",
-  "remoteWorkspaceNewChatHere": "在这里新建对话",
-  "remoteWorkspaceUnpin": "取消置顶",
-  "remoteWorkspaceGroup": "分组",
-  "remoteWorkspaceUngrouped": "未分组",
-  "remoteWorkspaceRemoveAction": "移除工作区",
-  "remoteWorkspaceNewGroup": "新建分组",
-  "remoteWorkspaceGroupName": "分组名称",
-  "remoteDirectoryPhonePath": "手机存储/{path}",
+  "remoteWorkspaceRemoveBody": "قىسقۇچ ۋە سۆھبەتلەر ساقلىنىدۇ",
+  "remoteWorkspaceRemove": "چىقىرىۋېتىش",
+  "remoteWorkspace": "خىزمەت رايونى",
+  "remoteWorkspaceNewChatHere": "بۇ يەردە يېڭى سۆھبەت قۇرۇش",
+  "remoteWorkspaceUnpin": "چىۋىقتىن ئېلىش",
+  "remoteWorkspaceGroup": "گۇرۇپپا",
+  "remoteWorkspaceUngrouped": "گۇرۇپپىلانمىغان",
+  "remoteWorkspaceRemoveAction": "خىزمەت رايونىنى چىقىرىۋېتىش",
+  "remoteWorkspaceNewGroup": "يېڭى گۇرۇپپا قۇرۇش",
+  "remoteWorkspaceGroupName": "گۇرۇپپا ئاتى",
+  "remoteDirectoryPhonePath": "تېلېفون ساقلاش/{path}",
   "@remoteDirectoryPhonePath": {
     "placeholders": {
       "path": {
@@ -840,16 +841,16 @@
       }
     }
   },
-  "remoteDirectoryInvalidName": "名字里不能有「/」",
-  "remoteWorkspaceErrNameConflict": "已有同名的工作区",
-  "remoteWorkspaceErrInvalidPath": "这个文件夹不能用作工作区",
-  "remoteWorkspaceErrNotFound": "这个工作区已经不在了",
-  "remoteDirectoryErrUnreadable": "打不开这个文件夹",
-  "remoteDirectoryErrExists": "已经有同名的文件夹",
-  "remoteDirectoryErrUnavailable": "这台主机不能在这里浏览文件夹",
-  "remoteWorkspaceErrUnsupported": "这台主机不支持这个操作",
-  "remoteWorkspaceAllChats": "全部对话",
-  "remoteWorkspaceSwitcherSemantics": "工作区：{name}。切换工作区",
+  "remoteDirectoryInvalidName": "ئاتىدا «/» بولسا بولمايدۇ",
+  "remoteWorkspaceErrNameConflict": "ئوخشاش ئاتتىكى خىزمەت رايونى بار",
+  "remoteWorkspaceErrInvalidPath": "بۇ قىسقۇچنى خىزمەت رايونى قىلىپ ئىشلىتىشكە بولمايدۇ",
+  "remoteWorkspaceErrNotFound": "بۇ خىزمەت رايونى ئەمدى يوق",
+  "remoteDirectoryErrUnreadable": "بۇ قىسقۇچنى ئېچىش مۇمكىن ئەمەس",
+  "remoteDirectoryErrExists": "ئوخشاش ئاتتىكى قىسقۇچ بار",
+  "remoteDirectoryErrUnavailable": "بۇ يانتېرمىنال بۇ يەردە قىسقۇچلارنى كۆرۈشكە بولمايدۇ",
+  "remoteWorkspaceErrUnsupported": "بۇ يانتېرمىنال بۇ مەشغۇلاتنى قوللىمايدۇ",
+  "remoteWorkspaceAllChats": "ھەممە سۆھبەت",
+  "remoteWorkspaceSwitcherSemantics": "خىزمەت رايونى: {name}. خىزمەت رايونىنى ئالماشتۇرۇش",
   "@remoteWorkspaceSwitcherSemantics": {
     "placeholders": {
       "name": {
@@ -857,11 +858,11 @@
       }
     }
   },
-  "remoteWorkspaceManage": "管理工作区",
-  "remoteWorkspaceErrLoad": "没能读取工作区",
-  "remoteWorkspaceEmpty": "还没有工作区",
-  "remoteWorkspaceEmptyHint": "把常用的文件夹加进来",
-  "remoteWorkspaceCount": "{count} 个工作区",
+  "remoteWorkspaceManage": "خىزمەت رايونىنى باشقۇرۇش",
+  "remoteWorkspaceErrLoad": "خىزمەت رايونىنى ئوقۇش مۇمكىن بۇلمىدى",
+  "remoteWorkspaceEmpty": "تېخى خىزمەت رايونى يوق",
+  "remoteWorkspaceEmptyHint": "دائىم ئىشلىتىدىغان قىسقۇچلارنى قوشۇڭ",
+  "remoteWorkspaceCount": "{count} خىزمەت رايونى",
   "@remoteWorkspaceCount": {
     "placeholders": {
       "count": {
@@ -880,7 +881,7 @@
       }
     }
   },
-  "remoteHostKeyMismatchDetail": "确认主机重装或更换后，可在主机设置中重置指纹。\n已记住：{saved}\n这次收到：{received}（{type}）",
+  "remoteHostKeyMismatchDetail": "كومپيۇتېر قايتا قاچىلانغان ياكى ئالماشتۇرۇلغانلىقىنى جەزملەشتۈرگەندىن كېيىن، كومپيۇتېر تەڭشىكىدە بارماق ئىزىنى قايتا تىكلىيەلەيسىز.\nئەسلىدە ساقلانغىنى: {saved}\nبۇ قېتىم قوبۇل قىلىنغىنى: {received} ({type})",
   "@remoteHostKeyMismatchDetail": {
     "placeholders": {
       "saved": {
@@ -894,7 +895,7 @@
       }
     }
   },
-  "remoteForumCompactReplies": "{count, plural, other{{label} 回复}}",
+  "remoteForumCompactReplies": "{count, plural, other{{label} ئىنكاس}}",
   "@remoteForumCompactReplies": {
     "placeholders": {
       "count": {
@@ -905,7 +906,7 @@
       }
     }
   },
-  "remoteForumCompactViews": "{count, plural, other{{label} 浏览}}",
+  "remoteForumCompactViews": "{count, plural, other{{label} كۆرۈش}}",
   "@remoteForumCompactViews": {
     "placeholders": {
       "count": {
@@ -916,7 +917,7 @@
       }
     }
   },
-  "remoteForumYearDate": "{year}年{month}月{day}日",
+  "remoteForumYearDate": "{year} يىلى {month} ئاي {day} كۈنى",
   "@remoteForumYearDate": {
     "placeholders": {
       "year": {
@@ -930,7 +931,7 @@
       }
     }
   },
-  "remoteHostedMonthDate": "{month} 月 {day} 日",
+  "remoteHostedMonthDate": "{month} ئاي {day} كۈنى",
   "@remoteHostedMonthDate": {
     "placeholders": {
       "month": {
@@ -941,7 +942,7 @@
       }
     }
   },
-  "remoteHostedYearDate": "{year} 年 {month} 月 {day} 日",
+  "remoteHostedYearDate": "{year} يىلى {month} ئاي {day} كۈنى",
   "@remoteHostedYearDate": {
     "placeholders": {
       "year": {
@@ -955,7 +956,7 @@
       }
     }
   },
-  "remoteForumTenThousands": "{value}万",
+  "remoteForumTenThousands": "{value}مىڭ",
   "@remoteForumTenThousands": {
     "placeholders": {
       "value": {
@@ -963,8 +964,8 @@
       }
     }
   },
-  "remoteForumSemanticsSeparator": "，",
-  "remoteHostKeyVerifyCommand": "在那台主机上运行 {command} 能看到同样的指纹。之后指纹一旦变化，App 会拒绝连接。",
+  "remoteForumSemanticsSeparator": "،",
+  "remoteHostKeyVerifyCommand": "شۇ ماشىنىدا {command} نى ئىجرا قىلسىڭىز ئوخشاش بارماق ئىزىنى كۆرەلەيسىز. كېيىن بارماق ئىزى ئۆزگەرسە، ئەپ ئۇلاشنى رەت قىلىدۇ.",
   "@remoteHostKeyVerifyCommand": {
     "placeholders": {
       "command": {
@@ -972,7 +973,7 @@
       }
     }
   },
-  "remoteSshInstallCommand": "还没装 DSH？在主机上运行 {command}",
+  "remoteSshInstallCommand": "DSH تېخى قاچىلانمىدىمۇ؟ ماشىنىدا {command} نى ئىجرا قىلىڭ",
   "@remoteSshInstallCommand": {
     "placeholders": {
       "command": {
@@ -980,7 +981,7 @@
       }
     }
   },
-  "remoteRelayProvider": "服务由 {project} 提供",
+  "remoteRelayProvider": "مۇلازىمەت {project} تەرىپىدىن تەمىنلەنگەن",
   "@remoteRelayProvider": {
     "description": "Under the DSH Remote card; project is the upstream GitHub project (liguobao/ds-harness-remote), drawn as a link.",
     "placeholders": {
@@ -989,7 +990,7 @@
       }
     }
   },
-  "remoteRelayProviderServer": "服务由 {project} 提供 · 当前服务器 {server}",
+  "remoteRelayProviderServer": "مۇلازىمەت {project} تەرىپىدىن تەمىنلەنگەن · ھازىرقى مۇلازىمېتىر {server}",
   "@remoteRelayProviderServer": {
     "placeholders": {
       "project": {
@@ -1019,30 +1020,30 @@
       }
     }
   },
-  "remotePathLan": "LAN 局域网",
-  "remotePathP2p": "P2P 点对点",
-  "remoteNetworkDetails": "网络详情",
-  "remoteNetworkAutomatic": "自动依次尝试 LAN → P2P → TURN → Relay，连接全程端到端加密。",
-  "remoteNetworkCurrentPath": "当前路径",
-  "remoteNetworkConnectDuration": "连接耗时",
-  "remoteNetworkRoundTripTime": "往返延迟（RTT）",
-  "remoteNetworkUnmeasured": "未测量",
-  "remoteNetworkUnknownPath": "尚未确认",
-  "remoteNetworkMilliseconds": "{value} 毫秒",
-  "remoteNetworkMeasure": "刷新网络信息 / 测量延迟",
-  "remoteNetworkMeasuring": "正在测量…",
-  "remoteNetworkMeasureFailed": "暂时无法测量，可以稍后重试",
-  "remoteNetworkDisconnected": "连接已断开，重新连接后可测量",
-  "remoteNetworkFallback": "回落原因",
-  "remoteNetworkFallbackUnknown": "直连未能建立，已自动使用可用路径",
-  "remoteNetworkFallbackWebrtcUnavailable": "设备暂不支持 WebRTC，已使用 Relay 中继",
-  "remoteNetworkFallbackDirectFailed": "LAN / P2P 直连未成功，已自动尝试后续路径",
-  "remoteNetworkFallbackDirectTimeout": "LAN / P2P 直连超时，已自动尝试后续路径",
-  "remoteNetworkFallbackDirectRecentlyFailed": "近期直连未成功，本次先使用可用中继",
-  "remoteNetworkFallbackTurnUnavailable": "TURN 服务暂不可用，已使用 Relay 中继",
-  "remoteNetworkFallbackTurnFailed": "TURN 未能连接，已使用 Relay 中继",
-  "remoteNetworkFallbackTurnTimeout": "TURN 连接超时，已使用 Relay 中继",
-  "remoteNetworkFallbackPathUnverified": "尚未确认 WebRTC 路径类型",
+  "remotePathLan": "LAN يەرلىك تور",
+  "remotePathP2p": "P2P نۇقتىدىن نۇقتىغا",
+  "remoteNetworkDetails": "تور تەپسىلاتى",
+  "remoteNetworkAutomatic": "ئاپتوماتىك تەرتىپ بويىچە LAN → P2P → TURN → Relay سىنىلىدۇ، ئۇلىنىش پۈتۈن جەرياندا ئۇچىدىن ئۇچىغىچە شىفىرلىنىدۇ.",
+  "remoteNetworkCurrentPath": "ھازىرقى يول",
+  "remoteNetworkConnectDuration": "ئۇلىنىش ۋاقتى",
+  "remoteNetworkRoundTripTime": "ئىككى تەرەپلىك كېچىكىش (RTT)",
+  "remoteNetworkUnmeasured": "ئۆلچەنمىدى",
+  "remoteNetworkUnknownPath": "تېخى جەزملەشمىدى",
+  "remoteNetworkMilliseconds": "{value} مىللىسېكۇنت",
+  "remoteNetworkMeasure": "تور ئۇچۇرىنى يېڭىلاش / كېچىكىشنى ئۆلچەش",
+  "remoteNetworkMeasuring": "ئۆلچەنىۋاتىدۇ…",
+  "remoteNetworkMeasureFailed": "ھازىرچە ئۆلچەشكە بولمايدۇ، كېيىن قايتا سىناپ بېقىڭ",
+  "remoteNetworkDisconnected": "ئۇلىنىش ئۈزۈلدى، قايتا ئۇلانغاندىن كېيىن ئۆلچەشكە بولىدۇ",
+  "remoteNetworkFallback": "چېكىنىش سەۋەبى",
+  "remoteNetworkFallbackUnknown": "بىۋاسىتە ئۇلىنىش قۇرالمىدى، ئىشلەتكىلى بولىدىغان يول ئاپتوماتىك ئىشلىتىلدى",
+  "remoteNetworkFallbackWebrtcUnavailable": "ئۈسكۈنە WebRTC نى قوللىمايدۇ، Relay ئارىلىقى ئىشلىتىلدى",
+  "remoteNetworkFallbackDirectFailed": "LAN / P2P بىۋاسىتە ئۇلىنىش مۇۋەپپەقىيەتسىز، كېيىنكى يوللار ئاپتوماتىك سىنالدى",
+  "remoteNetworkFallbackDirectTimeout": "LAN / P2P بىۋاسىتە ئۇلىنىش ۋاقتى ئۆتتى، كېيىنكى يوللار ئاپتوماتىك سىنالدى",
+  "remoteNetworkFallbackDirectRecentlyFailed": "يېقىندا بىۋاسىتە ئۇلىنىش مۇۋەپپەقىيەتسىز بولدى، بۇ قېتىم ئىشلەيدىغان ئارىلىق ئىشلىتىلدى",
+  "remoteNetworkFallbackTurnUnavailable": "TURN مۇلازىمىتى ھازىرچە ئىشلىمەيدۇ، Relay ئارىلىقى ئىشلىتىلدى",
+  "remoteNetworkFallbackTurnFailed": "TURN ئۇلىنالمىدى، Relay ئارىلىقى ئىشلىتىلدى",
+  "remoteNetworkFallbackTurnTimeout": "TURN ئۇلىنىش ۋاقتى ئۆتتى، Relay ئارىلىقى ئىشلىتىلدى",
+  "remoteNetworkFallbackPathUnverified": "WebRTC يول تۈرى تېخى جەزملەشتۈرۈلمىدى",
   "@remoteNetworkMilliseconds": {
     "placeholders": {
       "value": {
@@ -1050,14 +1051,14 @@
       }
     }
   },
-  "remoteNetworkSnapshotHint": "显示最近一次确认的路径与延迟，刷新可重新检测。",
-  "remoteNetworkObservedAt": "最近观测",
-  "remoteNetworkLocalIpVersion": "手机 ICE IP 版本",
-  "remoteNetworkRemoteIpVersion": "主机 ICE IP 版本",
-  "remoteNetworkIceProtocol": "ICE 协议",
-  "remoteTransferSettings": "远程传输",
-  "remoteCompactHistory": "精简历史",
-  "remoteErrHistoryModeChanged": "主机已不支持精简历史，请切换到其他主机后再连回来，或重启 App，重新加载历史",
-  "remoteCompactHistoryHint": "支持的 DSH Remote 主机会精简历史工具详情，实时回复和审批不变。切换主机或重启 App 后生效；旧主机仍传输完整历史。",
-  "searchKwRemoteCompactHistory": "精简 简洁 历史 工具 传输 流量 远程 compact slim lite"
+  "remoteNetworkSnapshotHint": "ئەڭ ئاخىرقى جەزملەشتۈرۈلگەن يول ۋە كېچىكىشنى كۆرسىتىدۇ، يېڭىلاش ئارقىلىق قايتا تەكشۈرۈشكە بولىدۇ.",
+  "remoteNetworkObservedAt": "ئەڭ ئاخىرقى كۆزىتىش",
+  "remoteNetworkLocalIpVersion": "تېلېفون ICE IP نۇسخىسى",
+  "remoteNetworkRemoteIpVersion": "مېھمان ICE IP نۇسخىسى",
+  "remoteNetworkIceProtocol": "ICE كېلىشىمى",
+  "remoteTransferSettings": "يىراقتىن يەتكۈزۈش",
+  "remoteCompactHistory": "ئىخچام تارىخ",
+  "remoteErrHistoryModeChanged": "مېھمان ئىخچام تارىخنى قوللىمايدۇ، باشقا مېھمانغا ئالمىشىپ قايتا ئۇلاڭ ياكى App نى قايتا قوزغىتىپ تارىخنى قايتا يۈكلەڭ",
+  "remoteCompactHistoryHint": "قوللايدىغان DSH Remote مېھمانلىرى تارىخ قورالىنىڭ تەپسىلاتىنى ئىخچاملايدۇ، بىۋاسىتە جاۋاب ۋە تەستىقلاش ئۆزگەرمەيدۇ. مېھماننى ئالماشتۇرغان ياكى App نى قايتا قوزغاتقاندىن كېيىن كۈچكە ئىگە بولىدۇ؛ كونا مېھمانلار يەنىلا تولۇق تارىخ يەتكۈزىدۇ.",
+  "searchKwRemoteCompactHistory": "ئىخچام قىسقا تارىخ قورال يەتكۈزۈش ئېقىم يىراقتىن compact slim lite"
 }

@@ -1,26 +1,27 @@
 {
-  "shellApiKeyPrefixWarning": "LOSFER AI 的 Key 通常以 ls- 开头，确认没有复制错",
-  "shellApiKeyIncompleteWarning": "Key 似乎不完整，确认复制了整串",
-  "shellBrowserUrlCopied": "没能打开浏览器，网址已复制",
-  "shellSaveTryAgain": "没能保存，再试一次",
-  "shellApiKeyUpdated": "API ئاچقۇچى يېڭىلاندى",
-  "shellReplaceApiKey": "API ئاچقۇچىنى ئالماشتۇرۇش",
-  "shellEnterApiKey": "API ئاچقۇچىنى كىرگۈزۈڭ",
-  "shellApiKeyBilling": "ھەق LOSFER AI بويىچە ھېسابلىنىدۇ",
+  "@@locale": "ug",
+  "shellApiKeyPrefixWarning": "LOSFER AI نىڭ Key ئادەتتە ls- بىلەن باشلىنىدۇ، كۆچۈرۈشتە خاتالىق يوقلۇقىنى تەكشۈرۈڭ",
+  "shellApiKeyIncompleteWarning": "Key تولۇق ئەمەستەك، پۈتۈن قۇرنى كۆچۈرگەنلىكىڭىزنى تەكشۈرۈڭ",
+  "shellBrowserUrlCopied": "توركۆرگۈنى ئېچىلمىدى، تور ئادرېسى كۆچۈرۈلدى",
+  "shellSaveTryAgain": "ساقلالمىدى، قايتا سىناڭ",
+  "shellApiKeyUpdated": "API Key يېڭىلاندى",
+  "shellReplaceApiKey": "API Key نى ئالماشتۇرۇش",
+  "shellEnterApiKey": "API Key نى كىرگۈزۈڭ",
+  "shellApiKeyBilling": "چىقىم LOSFER AI تەرىپىدىن ئىشلىتىش مىقدارى بويىچە ھېسابلىنىدۇ",
   "shellSaving": "ساقلىنىۋاتىدۇ",
-  "shellSaveContinue": "ساقلاش ۋە داۋاملاشتۇرۇش",
-  "shellSetUpLater": "كېيىن تەڭشەش",
-  "shellClearField": "بوشىتىش",
+  "shellSaveContinue": "ساقلاپ داۋاملاشتۇرۇش",
+  "shellSetUpLater": "كېيىن تەڭشەيمەن",
+  "shellClearField": "تازىلاش",
   "shellShow": "كۆرسىتىش",
-  "shellApiKeyEncrypted": "بۇ ئۈسكۈنىدە شىفىرلاپ ساقلىنىدۇ",
-  "shellGetApiKey": "API ئاچقۇچىغا ئېرىشىش",
+  "shellApiKeyEncrypted": "ئۈسكۈنىدە شىفىرلىق ساقلىنىدۇ",
+  "shellGetApiKey": "API Key ئېلىش",
   "shellConnectDeepSeek": "LOSFER AI غا ئۇلىنىش",
-  "shellConnectDeepSeekMessage": "LOSFER AI نىڭ API ئاچقۇچىنى كىرگۈزۈپ پاراڭلىشىشنى باشلاڭ، پەقەت ئاچقۇچ ئارقىلىق ئۇلىنىدۇ.",
-  "shellAccountSignInUnsupported": "当前引擎不支持账号登录",
-  "shellSignInDeepSeek": "API ئاچقۇچىنى ئىشلىتىش",
-  "shellUseApiKey": "API ئاچقۇچىنى كىرگۈزۈش",
+  "shellConnectDeepSeekMessage": "LOSFER AI نىڭ API Key نى تولدۇرسىڭىزلا سۆھبەتنى باشلىيالايسىز، پەقەت ئاچقۇچ ئۇلىنىشى قوللىنىلىدۇ.",
+  "shellAccountSignInUnsupported": "نۆۋەتتىكى ماتور ھېساباتقا كىرىشنى قوللىمايدۇ",
+  "shellSignInDeepSeek": "API Key ئىشلىتىش",
+  "shellUseApiKey": "API Key نى تولدۇرۇڭ",
   "shellOtherProviders": "باشقا مودېل يوللىرى",
-  "shellOnboardingStep": "第 {step} 步，共 {steps} 步",
+  "shellOnboardingStep": "{step}-قەدەم، جەمئىي {steps} قەدەم",
   "@shellOnboardingStep": {
     "placeholders": {
       "step": {
@@ -31,20 +32,20 @@
       }
     }
   },
-  "shellRuntimeUpdating": "正在更新运行环境",
-  "shellRuntimePreparing": "正在准备运行环境",
-  "shellRuntimeReady": "准备就绪",
-  "shellRuntimeIncomplete": "安装未完成",
-  "shellRuntimeFilesKept": "对话和文件都会保留",
-  "shellRuntimeFirstSetup": "首次准备约需一两分钟",
-  "shellRuntimeContinuing": "即将继续",
-  "shellRuntimeRestoreFailed": "没能放回保留的内容",
-  "shellRuntimeExtractFailed": "解压时出错",
-  "shellInstallLogs": "安装日志",
-  "shellRuntimeLocalOnly": "全程在本机完成",
-  "shellRuntimeContinueWithoutKept": "不保留，继续安装",
-  "shellRuntimeAlmostDone": "马上就好",
-  "shellRuntimeSecondsRemaining": "约 {count} 秒",
+  "shellRuntimeUpdating": "يۈرگۈزۈش مۇھىتى يېڭىلىنىۋاتىدۇ",
+  "shellRuntimePreparing": "يۈرگۈزۈش مۇھىتى تەييارلىنىۋاتىدۇ",
+  "shellRuntimeReady": "تەييار بولدى",
+  "shellRuntimeIncomplete": "قاچىلاش تاماملانمىدى",
+  "shellRuntimeFilesKept": "سۆھبەت ۋە ھۆججەتلەر ساقلىنىپ قالىدۇ",
+  "shellRuntimeFirstSetup": "تۇنجى قېتىملىق تەييارلىق تەخمىنەن بىر-ئىككى مىنۇت ئالىدۇ",
+  "shellRuntimeContinuing": "داۋاملىشىپ قالىدۇ",
+  "shellRuntimeRestoreFailed": "ساقلانغان مەزمۇنلارنى قايتۇرالمىدى",
+  "shellRuntimeExtractFailed": "يېشىش جەريانىدا خاتالىق كۆرۈلدى",
+  "shellInstallLogs": "قاچىلاش خاتىرىسى",
+  "shellRuntimeLocalOnly": "پۈتۈن جەريان مۇشۇ ئۈسكۈنىدە تاماملىنىدۇ",
+  "shellRuntimeContinueWithoutKept": "ساقلىماي، قاچىلاشنى داۋاملاشتۇرۇش",
+  "shellRuntimeAlmostDone": "ئازلا قالدى",
+  "shellRuntimeSecondsRemaining": "تەخمىنەن {count} سېكۇنت",
   "@shellRuntimeSecondsRemaining": {
     "placeholders": {
       "count": {
@@ -52,7 +53,7 @@
       }
     }
   },
-  "shellRuntimeMinutesRemaining": "约 {count} 分钟",
+  "shellRuntimeMinutesRemaining": "تەخمىنەن {count} مىنۇت",
   "@shellRuntimeMinutesRemaining": {
     "placeholders": {
       "count": {
@@ -60,18 +61,18 @@
       }
     }
   },
-  "shellEngineLogs": "引擎日志",
-  "shellWelcomeMessage": "把 LOSFER AI 智能体\n装进口袋",
+  "shellEngineLogs": "ماتور خاتىرىسى",
+  "shellWelcomeMessage": "يانچۇقتىكى\nLOSFER AI ئاگېنتى",
   "shellGetStarted": "باشلاش",
-  "shellSearchChats": "پاراڭ ئىزدەش",
-  "shellCollapseChatList": "收起对话列表",
-  "shellExpandChatList": "展开对话列表",
-  "shellChatList": "对话列表",
-  "shellChatDetails": "对话详情",
-  "shellCollapseDetails": "收起详情",
-  "shellExpand": "展开",
-  "shellUndo": "撤销",
-  "shellFolderDeleted": "已删除「{name}」",
+  "shellSearchChats": "سۆھبەتلەرنى ئىزدەش",
+  "shellCollapseChatList": "سۆھبەت تىزىملىكىنى يىغىش",
+  "shellExpandChatList": "سۆھبەت تىزىملىكىنى ئېچىش",
+  "shellChatList": "سۆھبەت تىزىملىكى",
+  "shellChatDetails": "سۆھبەت تەپسىلاتى",
+  "shellCollapseDetails": "تەپسىلاتنى يىغىش",
+  "shellExpand": "ئېچىش",
+  "shellUndo": "يېنىۋېلىش",
+  "shellFolderDeleted": "«{name}» ئۆچۈرۈلدى",
   "@shellFolderDeleted": {
     "placeholders": {
       "name": {
@@ -79,7 +80,7 @@
       }
     }
   },
-  "shellMovedToFolder": "已移到「{name}」",
+  "shellMovedToFolder": "«{name}» غا يۆتكەلدى",
   "@shellMovedToFolder": {
     "placeholders": {
       "name": {
@@ -87,10 +88,10 @@
       }
     }
   },
-  "shellMovedOutOfFolder": "已移出文件夹",
-  "shellUnpinFailed": "没能取消置顶，稍后再试",
-  "shellPinFailed": "没能置顶，稍后再试",
-  "shellChatsUnpinned": "已取消置顶 {count} 个对话",
+  "shellMovedOutOfFolder": "قىسقۇچتىن يۆتكەلدى",
+  "shellUnpinFailed": "چېكىشنى بىكار قىلالمىدى، سەل تۇرۇپ قايتا سىناڭ",
+  "shellPinFailed": "چېكىلەلمىدى، سەل تۇرۇپ قايتا سىناڭ",
+  "shellChatsUnpinned": "{count} سۆھبەتنىڭ چېكىشى بىكار قىلىندى",
   "@shellChatsUnpinned": {
     "placeholders": {
       "count": {
@@ -98,7 +99,7 @@
       }
     }
   },
-  "shellChatsPinned": "已置顶 {count} 个对话",
+  "shellChatsPinned": "{count} سۆھبەت چېكىلدى",
   "@shellChatsPinned": {
     "placeholders": {
       "count": {
@@ -106,8 +107,8 @@
       }
     }
   },
-  "shellArchiveFailed": "没能归档，稍后再试",
-  "shellChatsStoppedArchived": "已停止并归档 {count} 个对话",
+  "shellArchiveFailed": "ئارخىپلىيالمىدى، سەل تۇرۇپ قايتا سىناڭ",
+  "shellChatsStoppedArchived": "{count} سۆھبەت توختىتىلىپ ئارخىپلاندى",
   "@shellChatsStoppedArchived": {
     "placeholders": {
       "count": {
@@ -115,7 +116,7 @@
       }
     }
   },
-  "shellChatsArchived": "已归档 {count} 个对话",
+  "shellChatsArchived": "{count} سۆھبەت ئارخىپلاندى",
   "@shellChatsArchived": {
     "placeholders": {
       "count": {
@@ -123,7 +124,7 @@
       }
     }
   },
-  "shellFilterLabel": "筛选：{label}",
+  "shellFilterLabel": "سۈزگۈچ: {label}",
   "@shellFilterLabel": {
     "placeholders": {
       "label": {
@@ -131,12 +132,12 @@
       }
     }
   },
-  "shellFolders": "ھۆججەت قىسقۇچ",
-  "shellNoRunningChats": "没有运行中的对话",
-  "shellNoPendingChats": "没有待确认的对话",
-  "shellNoUnreadChats": "没有未读对话",
-  "shellNoChatsYet": "تېخى پاراڭ يوق",
-  "shellFolderLabel": "文件夹「{name}」",
+  "shellFolders": "قىسقۇچلار",
+  "shellNoRunningChats": "ئىجرا بولۇۋاتقان سۆھبەت يوق",
+  "shellNoPendingChats": "جەزملەشتۈرۈش كۈتۈۋاتقان سۆھبەت يوق",
+  "shellNoUnreadChats": "ئوقۇلمىغان سۆھبەت يوق",
+  "shellNoChatsYet": "تېخى سۆھبەت يوق",
+  "shellFolderLabel": "قىسقۇچ «{name}»",
   "@shellFolderLabel": {
     "placeholders": {
       "name": {
@@ -144,7 +145,7 @@
       }
     }
   },
-  "shellFolderChatCount": "文件夹「{name}」，{count} 个对话",
+  "shellFolderChatCount": "قىسقۇچ «{name}»، {count} سۆھبەت",
   "@shellFolderChatCount": {
     "placeholders": {
       "name": {
@@ -156,15 +157,15 @@
     }
   },
   "shellSort": "تەرتىپلەش",
-  "shellRecentActivity": "最近活动",
-  "shellCreatedTime": "创建时间",
+  "shellRecentActivity": "يېقىنقى ھەرىكەت",
+  "shellCreatedTime": "قۇرۇلغان ۋاقىت",
   "shellNewFolder": "يېڭى قىسقۇچ",
   "shellManageFolders": "قىسقۇچلارنى باشقۇرۇش",
-  "shellMultiSelect": "多选",
-  "shellFolderNameExists": "已有同名文件夹",
-  "shellEditFolder": "编辑文件夹",
-  "shellFolderMark": "标记",
-  "shellFolderColor": "颜色 {number}",
+  "shellMultiSelect": "كۆپ تاللاش",
+  "shellFolderNameExists": "ئوخشاش ناملىق قىسقۇچ بار",
+  "shellEditFolder": "قىسقۇچنى تەھرىرلەش",
+  "shellFolderMark": "بەلگىلەش",
+  "shellFolderColor": "رەڭ {number}",
   "@shellFolderColor": {
     "placeholders": {
       "number": {
@@ -172,12 +173,12 @@
       }
     }
   },
-  "shellMoveToFolder": "移到文件夹",
-  "shellMoveOutOfFolder": "移出文件夹",
-  "shellDeleteFolder": "删除文件夹",
-  "shellDragToReorder": "拖动排序",
-  "shellSelectChats": "选择对话",
-  "shellSelectedCount": "已选 {count} 个",
+  "shellMoveToFolder": "قىسقۇچقا يۆتكەش",
+  "shellMoveOutOfFolder": "قىسقۇچتىن يۆتكەش",
+  "shellDeleteFolder": "قىسقۇچنى ئۆچۈرۈش",
+  "shellDragToReorder": "سۆرەپ تەرتىپلەش",
+  "shellSelectChats": "سۆھبەتنى تاللاش",
+  "shellSelectedCount": "{count} تاللاندى",
   "@shellSelectedCount": {
     "placeholders": {
       "count": {
@@ -185,15 +186,15 @@
       }
     }
   },
-  "shellDeselectAll": "取消全选",
-  "shellSelectAll": "全选",
-  "shellUnpin": "取消置顶",
-  "shellArchive": "归档",
-  "shellCurrentlyRunning": "正在运行",
-  "shellUnread": "未读",
-  "shellPinned": "已置顶",
-  "shellEngineNotRunning": "引擎未运行",
-  "shellHostNotConnected": "还没连上「{name}」",
+  "shellDeselectAll": "ھەممىنى تاللاشنى بىكار قىلىش",
+  "shellSelectAll": "ھەممىنى تاللاش",
+  "shellUnpin": "قىستۇرۇشنى بىكار قىلىش",
+  "shellArchive": "ئارخىپلاش",
+  "shellCurrentlyRunning": "ھازىر ئىجرا بولۇۋاتىدۇ",
+  "shellUnread": "ئوقۇلمىغان",
+  "shellPinned": "قىستۇرۇلغان",
+  "shellEngineNotRunning": "ماتور ئىجرا بولمايۋاتىدۇ",
+  "shellHostNotConnected": "«{name}» غا تېخى ئۇلانمىدى",
   "@shellHostNotConnected": {
     "placeholders": {
       "name": {
@@ -201,9 +202,9 @@
       }
     }
   },
-  "shellSearchAfterConnecting": "连接后才能搜索",
-  "shellChatsLoadFailed": "对话列表加载失败",
-  "shellSearchHostChats": "搜索「{name}」上的对话",
+  "shellSearchAfterConnecting": "ئۇلانغاندىن كېيىن ئىزدەش",
+  "shellChatsLoadFailed": "سۆھبەت تىزىملىكىنى يۈكلەش مەغلۇپ بولدى",
+  "shellSearchHostChats": "«{name}» دىكى سۆھبەتلەرنى ئىزدەش",
   "@shellSearchHostChats": {
     "placeholders": {
       "name": {
@@ -211,23 +212,23 @@
       }
     }
   },
-  "shellSearchTitlesHint": "按标题查找，含已归档的对话",
-  "shellSearchContentHint": "按标题和内容查找，含已归档的对话",
-  "shellLoadingChatsEllipsis": "正在加载对话…",
-  "shellNoMatchingChats": "没有相关对话",
-  "shellSearchDifferentKeywords": "换个关键词，或用空格分开多个词",
-  "shellArchived": "已归档",
-  "shellRestoreBeforeOpening": "已归档的对话需先恢复，才能打开",
-  "shellRestoreAndOpen": "恢复并打开",
-  "shellRestoreFailed": "没能恢复，稍后再试",
-  "shellSearchingMessages": "正在搜索消息内容…",
-  "shellHostTitleSearchOnly": "这台主机仅支持按标题搜索",
-  "shellContentSearchFailed": "内容搜索失败，仅显示标题匹配",
-  "shellContentSearchLimit": "内容匹配仅列出最相关的 20 个对话",
-  "shellMoveToOtherFolder": "移到其他文件夹",
-  "shellArchiveStopsTurn": "进行中的一轮会停止",
-  "shellRenameFailed": "没能重命名，稍后再试",
-  "shellChatStoppedArchived": "已停止并归档「{title}」",
+  "shellSearchTitlesHint": "ماۋزۇ بويىچە ئىزدەش، ئارخىپلانغان سۆھبەتلەرنى ئۆز ئىچىگە ئالىدۇ",
+  "shellSearchContentHint": "ماۋزۇ ۋە مەزمۇن بويىچە ئىزدەش، ئارخىپلانغان سۆھبەتلەرنى ئۆز ئىچىگە ئالىدۇ",
+  "shellLoadingChatsEllipsis": "سۆھبەتلەر يۈكلىنىۋاتىدۇ…",
+  "shellNoMatchingChats": "مۇناسىۋەتلىك سۆھبەت يوق",
+  "shellSearchDifferentKeywords": "باشقا ئاچقۇچلۇق سۆز ئىشلىتىڭ ياكى بوشلۇق بىلەن بىر قانچە سۆزنى ئايرىڭ",
+  "shellArchived": "ئارخىپلانغان",
+  "shellRestoreBeforeOpening": "ئارخىپلانغان سۆھبەتنى ئاچىشتىن بۇرۇن ئەسلىگە قايتۇرۇش كېرەك",
+  "shellRestoreAndOpen": "ئەسلىگە قايتۇرۇش ۋە ئېچىش",
+  "shellRestoreFailed": "ئەسلىگە قايتۇرالمىدى، كېيىنرەك قايتا سىناڭ",
+  "shellSearchingMessages": "ئۇچۇر مەزمۇنى ئىزدىلىنىۋاتىدۇ…",
+  "shellHostTitleSearchOnly": "بۇ يانفون پەقەت ماۋزۇ بويىچە ئىزدەشنى قوللايدۇ",
+  "shellContentSearchFailed": "مەزمۇن ئىزدەش مەغلۇب بولدى، پەقەت ماۋزۇ ماسلىشىشى كۆرسىتىلدى",
+  "shellContentSearchLimit": "مەزمۇن ماسلىشىشى ئەڭ مۇناسىۋەتلىك 20 سۆھبەتنىلا كۆرسىتىدۇ",
+  "shellMoveToOtherFolder": "باشقا قىسقۇچقا يۆتكەش",
+  "shellArchiveStopsTurn": "ئېلىپ بېرىلىۋاتقان بىر ئايلانما توختايدۇ",
+  "shellRenameFailed": "ئات ئالماشتۇرالمىدى، كېيىنرەك قايتا سىناڭ",
+  "shellChatStoppedArchived": "توختىتىلدى ۋە ئارخىپلاندى «{title}»",
   "@shellChatStoppedArchived": {
     "placeholders": {
       "title": {
@@ -235,7 +236,7 @@
       }
     }
   },
-  "shellChatArchived": "已归档「{title}」",
+  "shellChatArchived": "ئارخىپلاندى «{title}»",
   "@shellChatArchived": {
     "placeholders": {
       "title": {
@@ -243,9 +244,9 @@
       }
     }
   },
-  "shellRenameChat": "重命名对话",
-  "shellChatTitle": "对话标题",
-  "shellUnreadCount": "{count} 条未读",
+  "shellRenameChat": "سۆھبەت ئاتىنى ئالماشتۇرۇش",
+  "shellChatTitle": "سۆھبەت ماۋزۇسى",
+  "shellUnreadCount": "{count} ئوقۇلمىغان",
   "@shellUnreadCount": {
     "placeholders": {
       "count": {
@@ -253,15 +254,15 @@
       }
     }
   },
-  "shellLoadingChats": "正在加载对话",
-  "shellWorkspaceNoChats": "这里还没有对话",
-  "shellWorkspaceNewChatsHint": "新对话会放进这个工作区。旧对话不会自动移入，可在「全部对话」中找到。",
-  "shellNewChatsHint": "新对话会出现在这里",
-  "shellEngineStarting": "引擎正在启动",
-  "shellChatsAfterStarting": "启动后显示你的对话",
-  "shellStartEngine": "启动引擎",
-  "shellEngineStatusHint": "在「引擎」中查看状态",
-  "shellHostUnreachable": "连不上「{name}」",
+  "shellLoadingChats": "سۆھبەتلەر يۈكلىنىۋاتىدۇ",
+  "shellWorkspaceNoChats": "بۇ يەردە تېخى سۆھبەت يوق",
+  "shellWorkspaceNewChatsHint": "يېڭى سۆھبەتلەر بۇ خىزمەت رايونىغا كىرگۈزۈلىدۇ. كونا سۆھبەتلەر ئاپتوماتىك يۆتكەلمەيدۇ، «ھەممە سۆھبەت» تىن تېپىشقا بولىدۇ.",
+  "shellNewChatsHint": "يېڭى سۆھبەتلەر بۇ يەردە كۆرۈنىدۇ",
+  "shellEngineStarting": "ماتور قوزغىتىلىۋاتىدۇ",
+  "shellChatsAfterStarting": "قوزغىتىلغاندىن كېيىن سۆھبەتلىرىڭىز كۆرۈنىدۇ",
+  "shellStartEngine": "ماتورنى قوزغىتىش",
+  "shellEngineStatusHint": "ھالىتىنى «ماتور» دىن كۆرۈڭ",
+  "shellHostUnreachable": "«{name}» غا ئۇلىنالمايدۇ",
   "@shellHostUnreachable": {
     "placeholders": {
       "name": {
@@ -269,7 +270,7 @@
       }
     }
   },
-  "shellHostReconnecting": "正在重新连接「{name}」…",
+  "shellHostReconnecting": "«{name}» غا قايتا ئۇلىنىۋاتىدۇ…",
   "@shellHostReconnecting": {
     "placeholders": {
       "name": {
@@ -277,8 +278,8 @@
       }
     }
   },
-  "shellRetryNow": "立即重试",
-  "shellHostConnecting": "正在连接「{name}」…",
+  "shellRetryNow": "دەرھال قايتا سىناش",
+  "shellHostConnecting": "«{name}» غا ئۇلىنىۋاتىدۇ…",
   "@shellHostConnecting": {
     "placeholders": {
       "name": {
@@ -286,8 +287,8 @@
       }
     }
   },
-  "shellHostChatsAfterConnecting": "连接后显示这台主机上的对话",
-  "shellCurrentHostLabel": "当前主机：{name}，{view}。切换主机",
+  "shellHostChatsAfterConnecting": "ئۇلانغاندىن كېيىن بۇ ماشىنىدىكى سۆھبەتلەر كۆرۈنىدۇ",
+  "shellCurrentHostLabel": "نۆۋەتتىكى باش ئۈسكۈنە: {name}، {view}. باش ئۈسكۈنىنى ئالماشتۇرۇش",
   "@shellCurrentHostLabel": {
     "placeholders": {
       "name": {
@@ -298,30 +299,30 @@
       }
     }
   },
-  "shellChatGone": "这个对话已不在了",
-  "shellAccentMist": "雾蓝",
-  "shellAccentDaiqing": "黛青",
-  "shellAccentDusk": "暮紫",
-  "shellAccentTurquoise": "松石",
-  "shellAccentAmber": "琥珀",
-  "shellAccentGraphite": "石墨",
-  "shellHideTurnFooter": "回合脚注",
-  "shellHideTokenCount": "token 数",
-  "shellHideReasoning": "思考过程",
-  "shellHideActivityStrip": "活动条",
-  "shellHideWhaleTail": "鲸尾",
-  "shellHideTodoPill": "待办条",
-  "shellHideGoalBar": "目标条",
-  "shellToday": "今天",
-  "shellThisWeek": "本周",
-  "shellEarlier": "更早",
-  "shellSeatNative": "原生",
-  "shellSeatIsland": "内嵌网页",
-  "shellSeatWeb": "网页版打开",
-  "shellPlugins": "插件",
-  "shellHeaderActions": "顶栏按钮",
-  "shellAllHidden": "全部隐藏",
-  "shellSettingCount": "{count} 个",
+  "shellChatGone": "بۇ سۆھبەت ئەمدى يوق",
+  "shellAccentMist": "تۇمان كۆك",
+  "shellAccentDaiqing": "دەيچىڭ",
+  "shellAccentDusk": "ئاخشام بىنەپشە",
+  "shellAccentTurquoise": "پىرۇزە",
+  "shellAccentAmber": "كەھرىۋا",
+  "shellAccentGraphite": "گرافىت",
+  "shellHideTurnFooter": "ئايلانما ئاستى",
+  "shellHideTokenCount": "token سانى",
+  "shellHideReasoning": "ئويلىنىش جەريانى",
+  "shellHideActivityStrip": "پائالىيەت بالدىقى",
+  "shellHideWhaleTail": "كېت قۇيرۇقى",
+  "shellHideTodoPill": "قىلىنىدىغان ئىش بالدىقى",
+  "shellHideGoalBar": "نىشان بالدىقى",
+  "shellToday": "بۈگۈن",
+  "shellThisWeek": "بۇ ھەپتە",
+  "shellEarlier": "بۇرۇنراق",
+  "shellSeatNative": "يەرلىك",
+  "shellSeatIsland": "ئىچكى تور بېتى",
+  "shellSeatWeb": "تور بېتى ئارقىلىق ئېچىش",
+  "shellPlugins": "قىستۇرمىلار",
+  "shellHeaderActions": "ئۈستى تاختىدىكى كۇنۇپكىلار",
+  "shellAllHidden": "ھەممىسى يوشۇرۇلغان",
+  "shellSettingCount": "{count} دانە",
   "@shellSettingCount": {
     "placeholders": {
       "count": {
@@ -329,9 +330,9 @@
       }
     }
   },
-  "shellQuickActions": "快捷胶囊",
-  "shellSuggestionCards": "建议卡片",
-  "shellSuggestionCardCount": "{count} 张",
+  "shellQuickActions": "تېز كاپسۇلا",
+  "shellSuggestionCards": "تەۋسىيە كارتىلىرى",
+  "shellSuggestionCardCount": "{count} پارچە",
   "@shellSuggestionCardCount": {
     "placeholders": {
       "count": {
@@ -339,25 +340,25 @@
       }
     }
   },
-  "shellDrawerGroups": "抽屉分组",
-  "shellDrawerSort": "抽屉排序",
-  "shellDrawerFilter": "抽屉筛选",
-  "shellPending": "待确认",
-  "shellAll": "全部",
-  "shellDensity": "疏密",
-  "shellCompact": "紧凑",
-  "shellSpacious": "宽松",
-  "shellThemeMode": "外观模式",
-  "shellAccentColor": "强调色",
-  "shellPet": "宠物",
-  "shellConfigured": "已设置",
-  "shellShortcuts": "快捷键",
-  "shellConfigFileTooLarge": "文件超过 64 KiB",
-  "shellConfigRootNotObject": "顶层必须是对象",
-  "shellConfigVersionMissing": "缺少 version",
-  "shellConfigVersionNotInt": "version 必须是整数",
-  "shellConfigVersionTooLow": "version 从 1 开始",
-  "shellConfigVersionTooHigh": "需要更新 App 才能使用版本 {version}",
+  "shellDrawerGroups": "تارتقۇچ گۇرۇپپىلىرى",
+  "shellDrawerSort": "تارتقۇچ تەرتىپى",
+  "shellDrawerFilter": "تارتقۇچ سۈزگۈچى",
+  "shellPending": "جەزملەشتۈرۈش كۈتۈلمەكتە",
+  "shellAll": "ھەممىسى",
+  "shellDensity": "زىچلىق",
+  "shellCompact": "زىچ",
+  "shellSpacious": "كەڭ",
+  "shellThemeMode": "كۆرۈنۈش ھالىتى",
+  "shellAccentColor": "ئاساسىي رەڭ",
+  "shellPet": "ئۆي ھايۋانى",
+  "shellConfigured": "تەڭشەلدى",
+  "shellShortcuts": "تېز كۇنۇپكىلار",
+  "shellConfigFileTooLarge": "ھۆججەت 64 KiB دىن چوڭ",
+  "shellConfigRootNotObject": "ئۈستى قاتلام چوقۇم ئوبيېكت بولۇشى كېرەك",
+  "shellConfigVersionMissing": "version يوق",
+  "shellConfigVersionNotInt": "version چوقۇم پۈتۈن سان بولۇشى كېرەك",
+  "shellConfigVersionTooLow": "version 1 دىن باشلىنىدۇ",
+  "shellConfigVersionTooHigh": "نەشرى {version} نى ئىشلىتىش ئۈچۈن ئەپنى يېڭىلاش كېرەك",
   "@shellConfigVersionTooHigh": {
     "placeholders": {
       "version": {
@@ -365,15 +366,15 @@
       }
     }
   },
-  "shellConfigNotObject": "应该是对象",
-  "shellConfigNotArray": "应该是数组",
-  "shellConfigNotString": "应该是字符串",
-  "shellConfigNotBool": "应该是 true 或 false",
-  "shellConfigEmpty": "不能为空",
-  "shellConfigUnknownKey": "未知的键，已忽略",
-  "shellConfigDuplicateKey": "重复的键，只认最后一个",
-  "shellConfigDuplicateItem": "重复了，已忽略",
-  "shellConfigMissing": "缺少 {key}",
+  "shellConfigNotObject": "ئوبيېكت بولۇشى كېرەك",
+  "shellConfigNotArray": "گۇرۇپپا بولۇشى كېرەك",
+  "shellConfigNotString": "تېكىست بولۇشى كېرەك",
+  "shellConfigNotBool": "true ياكى false بولۇشى كېرەك",
+  "shellConfigEmpty": "قۇرۇق بولمايدۇ",
+  "shellConfigUnknownKey": "نامەلۇم ئاچقۇچ، ئىنكار قىلىندى",
+  "shellConfigDuplicateKey": "تەكرارلانغان ئاچقۇچ، ئاخىرقىسىلا ئېلىنىدۇ",
+  "shellConfigDuplicateItem": "تەكرارلاندى، ئىنكار قىلىندى",
+  "shellConfigMissing": "{key} يوق",
   "@shellConfigMissing": {
     "placeholders": {
       "key": {
@@ -381,7 +382,7 @@
       }
     }
   },
-  "shellConfigTruncated": "超过 {count} 个字，已截断",
+  "shellConfigTruncated": "{count} ھەرپتىن ئاشتى، كېسىلدى",
   "@shellConfigTruncated": {
     "placeholders": {
       "count": {
@@ -389,7 +390,7 @@
       }
     }
   },
-  "shellConfigTooLong": "超过 {count} 个字",
+  "shellConfigTooLong": "{count} ھەرپتىن ئاشتى",
   "@shellConfigTooLong": {
     "placeholders": {
       "count": {
@@ -397,7 +398,7 @@
       }
     }
   },
-  "shellConfigTooMany": "最多 {count} 个，多出的已忽略",
+  "shellConfigTooMany": "ئەڭ كۆپ {count} دانە، ئېشىپ قالغىنى ئىنكار قىلىندى",
   "@shellConfigTooMany": {
     "placeholders": {
       "count": {
@@ -405,8 +406,8 @@
       }
     }
   },
-  "shellConfigValueNoun": "值",
-  "shellConfigUnsupportedValue": "不支持的{noun}「{value}」",
+  "shellConfigValueNoun": "قىممەت",
+  "shellConfigUnsupportedValue": "قوللانمايدىغان {noun} «{value}»",
   "@shellConfigUnsupportedValue": {
     "placeholders": {
       "noun": {
@@ -417,22 +418,22 @@
       }
     }
   },
-  "shellConfigHeaderItem": "应该是按钮 id 或对象",
-  "shellConfigHeaderId": "id 只能用字母、数字和 -，以小写字母开头",
-  "shellConfigIdTaken": "id 重复",
-  "shellConfigCommandSlash": "命令名不带 /，已去掉",
-  "shellConfigCommandName": "命令名只能用字母、数字和 : . _ -",
-  "shellConfigNoNewline": "不能换行",
-  "shellConfigHttpsOnly": "只支持 https 链接",
-  "shellConfigBadUrl": "链接格式不对",
-  "shellConfigAccentFormat": "颜色要写成 #RRGGBB",
-  "shellConfigAccentBoth": "和 accentPreset 二选一，已用 accentPreset",
-  "shellConfigPetId": "id 只能用小写字母、数字和 -",
-  "shellConfigKeysFormat": "写法不对，例如 ctrl+k",
-  "shellConfigSystemKey": "不能用系统键",
-  "shellConfigNeedModifier": "要带 ctrl 或 alt",
-  "shellConfigReservedKey": "被系统或输入法占用",
-  "shellConfigDuplicateShortcut": "和 {pointer} 重复",
+  "shellConfigHeaderItem": "كۇنۇپكا id ياكى ئوبيېكت بولۇشى كېرەك",
+  "shellConfigHeaderId": "id پەقەت ھەرپ، سان ۋە - دىن ئىبارەت بولۇپ، كىچىك ھەرپتىن باشلىنىشى كېرەك",
+  "shellConfigIdTaken": "id تەكرارلاندى",
+  "shellConfigCommandSlash": "بۇيرۇق ئاتى / سىز، ئۆچۈرۈلدى",
+  "shellConfigCommandName": "بۇيرۇق ئاتى پەقەت ھەرپ، سان ۋە : . _ - لارنى ئىشلىتەلەيدۇ",
+  "shellConfigNoNewline": "يېڭى قۇرغا ئۆتەلمەيدۇ",
+  "shellConfigHttpsOnly": "پەقەت https ئۇلىنىشى قوللىنىدۇ",
+  "shellConfigBadUrl": "ئۇلىنىش فورماتى خاتا",
+  "shellConfigAccentFormat": "رەڭ #RRGGBB شەكلىدە يېزىلىشى كېرەك",
+  "shellConfigAccentBoth": "accentPreset بىلەن بىرنى تاللاڭ، accentPreset ئىشلىتىلدى",
+  "shellConfigPetId": "id پەقەت كىچىك ھەرپ، سان ۋە - لارنى ئىشلىتەلەيدۇ",
+  "shellConfigKeysFormat": "يېزىلىشى خاتا، مەسىلەن ctrl+k",
+  "shellConfigSystemKey": "سىستېما كۇنۇپكىسىنى ئىشلىتەلمەيدۇ",
+  "shellConfigNeedModifier": "ctrl ياكى alt بولۇشى كېرەك",
+  "shellConfigReservedKey": "سىستېما ياكى كىرگۈزۈش ئۇسۇلى تەرىپىدىن ئىگىلەنگەن",
+  "shellConfigDuplicateShortcut": "{pointer} بىلەن تەكرارلاندى",
   "@shellConfigDuplicateShortcut": {
     "placeholders": {
       "pointer": {
@@ -440,16 +441,16 @@
       }
     }
   },
-  "shellConfigSlotName": "slot 名格式不对",
-  "shellConfigUnknownSlot": "当前 DSH 没有这个 slot，先保留",
-  "shellConfigUnseatableSlot": "这个位置不放插件",
-  "shellConfigPackageName": "包名格式不对",
-  "shellConfigActionNoun": "动作",
-  "shellConfigPageNoun": "页面",
-  "shellConfigButtonNoun": "按钮",
-  "shellConfigIconNoun": "图标",
-  "shellConfigNotTextFile": "不是文本文件",
-  "shellJsonPosition": "第 {line} 行第 {column} 列：{reason}",
+  "shellConfigSlotName": "slot ئاتىنىڭ فورماتى خاتا",
+  "shellConfigUnknownSlot": "نۆۋەتتىكى DSH دا بۇ slot يوق، ئالدى بىلەن ساقلاڭ",
+  "shellConfigUnseatableSlot": "بۇ ئورۇنغا قىستۇرما قويۇلمايدۇ",
+  "shellConfigPackageName": "بوغچا ئاتىنىڭ فورماتى خاتا",
+  "shellConfigActionNoun": "ھەرىكەت",
+  "shellConfigPageNoun": "بەت",
+  "shellConfigButtonNoun": "كۇنۇپكا",
+  "shellConfigIconNoun": "سىنبەلگە",
+  "shellConfigNotTextFile": "تېكىست ھۆججىتى ئەمەس",
+  "shellJsonPosition": "{line}-قۇر {column}-ئىستون: {reason}",
   "@shellJsonPosition": {
     "placeholders": {
       "line": {
@@ -463,13 +464,13 @@
       }
     }
   },
-  "shellJsonEmptyFile": "文件是空的",
-  "shellJsonExtraContent": "后面还有多余的内容",
-  "shellJsonIncompleteFile": "文件不完整",
-  "shellJsonCommentsUnsupported": "不支持注释",
-  "shellJsonDoubleQuotes": "字符串要用双引号",
-  "shellJsonMissingValue": "这里缺少一个值",
-  "shellJsonUnknownContent": "无法识别的内容「{value}」",
+  "shellJsonEmptyFile": "ھۆججەت قۇرۇق",
+  "shellJsonExtraContent": "ئارقىسىدا ئارتۇق مەزمۇن بار",
+  "shellJsonIncompleteFile": "ھۆججەت تولۇق ئەمەس",
+  "shellJsonCommentsUnsupported": "ئىزاھات قوللانمايدۇ",
+  "shellJsonDoubleQuotes": "تېكىستلەر قوش چېكىت ئىچىدە بولۇشى كېرەك",
+  "shellJsonMissingValue": "بۇ يەردە بىر قىممەت كەم",
+  "shellJsonUnknownContent": "تونۇيالمىغان مەزمۇن «{value}»",
   "@shellJsonUnknownContent": {
     "placeholders": {
       "value": {
@@ -477,13 +478,13 @@
       }
     }
   },
-  "shellJsonTooDeep": "嵌套太深",
-  "shellJsonExtraComma": "多余的逗号",
-  "shellJsonQuotedKey": "键要用双引号括起来",
-  "shellJsonExpectedKey": "这里应该是一个键",
-  "shellJsonMissingColon": "键后面缺少冒号",
-  "shellJsonMissingComma": "这里缺少逗号",
-  "shellJsonUnexpectedContent": "这里不应该出现「{value}」",
+  "shellJsonTooDeep": "ئىچكى قەۋەت بەك چوڭقۇر",
+  "shellJsonExtraComma": "ئارتۇق پەش",
+  "shellJsonQuotedKey": "ئاچقۇچ قوش چېكىت ئىچىدە بولۇشى كېرەك",
+  "shellJsonExpectedKey": "بۇ يەردە ئاچقۇچ بولۇشى كېرەك",
+  "shellJsonMissingColon": "ئاچقۇچتىن كېيىن قوش نۇقتا كەم",
+  "shellJsonMissingComma": "بۇ يەردە پەش كەم",
+  "shellJsonUnexpectedContent": "بۇ يەردە «{value}» بولماسلىقى كېرەك",
   "@shellJsonUnexpectedContent": {
     "placeholders": {
       "value": {
@@ -491,12 +492,12 @@
       }
     }
   },
-  "shellJsonUnterminatedString": "字符串没有结束",
-  "shellJsonBadEscape": "字符串里的转义不对",
-  "shellJsonStringNewline": "字符串里不能直接换行",
-  "shellJsonControlCharacter": "字符串里有控制字符",
-  "shellJsonBadNumber": "数字格式不对",
-  "shellSkillInstallPrompt": "请在这台主机上安装 Kit Go 的界面技能 {skill}：",
+  "shellJsonUnterminatedString": "تېكىست ئاخىرلاشمىدى",
+  "shellJsonBadEscape": "تېكىست ئىچىدىكى قېچىش خاتا",
+  "shellJsonStringNewline": "تېكىست ئىچىدە بىۋاسىتە يېڭى قۇرغا ئۆتەلمەيدۇ",
+  "shellJsonControlCharacter": "تېكىست ئىچىدە كونترول ھەرپ بار",
+  "shellJsonBadNumber": "سان فورماتى خاتا",
+  "shellSkillInstallPrompt": "بۇ باش ئۈسكۈنىدە Kit Go نىڭ كۆرۈنمە يۈز ئىقتىدارى {skill} نى قاچىلاڭ:",
   "@shellSkillInstallPrompt": {
     "placeholders": {
       "skill": {
@@ -504,7 +505,7 @@
       }
     }
   },
-  "shellSkillInstallDirectory": "1. 目标目录是 `$DSH_HOME/skills/{skill}/`（没有设置 DSH_HOME 时是 `~/.dsh/skills/{skill}/`），不存在就先建。",
+  "shellSkillInstallDirectory": "1. نىشان قىسقۇچ `$DSH_HOME/skills/{skill}/` (DSH_HOME تەڭشەلمىگەن بولسا `~/.dsh/skills/{skill}/`)، مەۋجۇت بولمىسا ئاۋۋال قۇرۇڭ.",
   "@shellSkillInstallDirectory": {
     "placeholders": {
       "skill": {
@@ -512,9 +513,9 @@
       }
     }
   },
-  "shellSkillInstallFiles": "2. 把下面每个文件按给出的相对路径原样写进去，内容一个字都不要改。",
-  "shellSkillInstallConfirm": "4. 告诉我装好了。",
-  "shellSkillInstallFile": "文件 `{path}`：",
+  "shellSkillInstallFiles": "2. تۆۋەندىكى ھەر بىر ھۆججەتنى كۆرسىتىلگەن نىسبىي يول بويىچە ئەينەن يېزىڭ، مەزمۇنىنى بىر ھەرپمۇ ئۆزگەرتمەڭ.",
+  "shellSkillInstallConfirm": "4. ماڭا قاچىلانغانلىقىنى ئېيتىڭ.",
+  "shellSkillInstallFile": "ھۆججەت `{path}`:",
   "@shellSkillInstallFile": {
     "placeholders": {
       "path": {
@@ -522,12 +523,12 @@
       }
     }
   },
-  "shellFromUiJson": "来自 ui.json",
-  "shellViewSource": "查看来源",
-  "shellSourcePosition": "位置",
-  "shellRestoreDefaults": "恢复默认",
-  "shellConfigNotApplied": "没有生效",
-  "shellConfigDroppedCount": "{count} 处没生效",
+  "shellFromUiJson": "ui.json دىن",
+  "shellViewSource": "مەنبەنى كۆرۈش",
+  "shellSourcePosition": "ئورنى",
+  "shellRestoreDefaults": "سۈكۈتتىكى ھالەتكە قايتۇرۇش",
+  "shellConfigNotApplied": "كۈچكە ئەمەل قىلمىدى",
+  "shellConfigDroppedCount": "{count} ئورۇن كۈچكە ئەمەل قىلمىدى",
   "@shellConfigDroppedCount": {
     "placeholders": {
       "count": {
@@ -535,7 +536,7 @@
       }
     }
   },
-  "shellConfigAppliedCount": "已应用 {count} 项",
+  "shellConfigAppliedCount": "{count} تۈر قوللىنىلدى",
   "@shellConfigAppliedCount": {
     "placeholders": {
       "count": {
@@ -543,16 +544,16 @@
       }
     }
   },
-  "shellInterfaceConfig": "界面配置",
-  "shellSkillNotInstalled": "未安装技能",
-  "shellInstallInterfaceSkill": "安装界面技能",
-  "shellInstallInterfaceSkillMessage": "装好后，可以让 AI 按你的话调整 App 界面",
-  "shellNoUiJson": "没有 ui.json",
-  "shellConfigUsingPrevious": "没有生效，仍在用上一次的配置",
-  "shellConfigDroppedHeading": "没生效",
-  "shellConfigNotesHeading": "提示",
-  "shellConfigAppliedHeading": "已应用",
-  "shellConfigValueOptions": "不支持的{noun}「{value}」，可选：{options}",
+  "shellInterfaceConfig": "كۆرۈنۈش تەڭشىكى",
+  "shellSkillNotInstalled": "ماھارەت قاچىلانمىغان",
+  "shellInstallInterfaceSkill": "كۆرۈنۈش ماھارىتىنى قاچىلاش",
+  "shellInstallInterfaceSkillMessage": "قاچىلىنىپ بولغاندىن كېيىن، AI غا ئېيتقىنىڭىز بويىچە ئەپ كۆرۈنۈشىنى تەڭشىتەلەيسىز",
+  "shellNoUiJson": "ui.json يوق",
+  "shellConfigUsingPrevious": "كۈچكە ئەمەل قىلمىدى، ئالدىنقى تەڭشەك ئىشلىتىلىۋاتىدۇ",
+  "shellConfigDroppedHeading": "كۈچكە ئەمەل قىلمىدى",
+  "shellConfigNotesHeading": "ئەسكەرتىش",
+  "shellConfigAppliedHeading": "قوللىنىلدى",
+  "shellConfigValueOptions": "قوللانمايدىغان {noun}«{value}»، تاللاشقا بولىدۇ: {options}",
   "@shellConfigValueOptions": {
     "placeholders": {
       "noun": {
@@ -566,8 +567,8 @@
       }
     }
   },
-  "shellListSeparator": "、",
-  "shellSkillInstallCheck": "3. 写完运行 {command}，能运行就说明装好了（提示还没有 ui.json 是正常的）。",
+  "shellListSeparator": "،",
+  "shellSkillInstallCheck": "3. يېزىپ بولۇپ {command} نى ئىجرا قىلىڭ، ئىجرا بولسا قاچىلانغان بولىدۇ (تېخى ui.json يوق دېگەن نورمال).",
   "@shellSkillInstallCheck": {
     "placeholders": {
       "command": {
@@ -575,8 +576,8 @@
       }
     }
   },
-  "shellSemanticsSeparator": "，",
-  "shellChatsArchivedPartial": "已归档 {count} 个对话，{failed} 个没能归档",
+  "shellSemanticsSeparator": "،",
+  "shellChatsArchivedPartial": "{count} سۆھبەت ئارخىپلاندى، {failed} سۆھبەت ئارخىپلانمىدى",
   "@shellChatsArchivedPartial": {
     "placeholders": {
       "count": {
@@ -587,14 +588,14 @@
       }
     }
   },
-  "shellPanelOverview": "信息",
-  "shellPanelWorkspace": "工作区",
-  "shellPanelModel": "模型",
-  "shellPanelHost": "主机",
-  "shellPanelOpenFull": "打开完整页面",
-  "shellPanelNoPlugins": "这段对话还没有插件面板",
-  "shellQuickPanel": "快捷入口",
-  "shellQuickPanelHint": "在「{path}」里调整",
+  "shellPanelOverview": "ئۇچۇر",
+  "shellPanelWorkspace": "خىزمەت رايونى",
+  "shellPanelModel": "مودېل",
+  "shellPanelHost": "باشقۇرغۇچى",
+  "shellPanelOpenFull": "تولۇق بەتنى ئېچىش",
+  "shellPanelNoPlugins": "بۇ سۆھبەتتە تېخى قىستۇرما تاختىسى يوق",
+  "shellQuickPanel": "تېز كىرىش",
+  "shellQuickPanelHint": "«{path}» ئىچىدە تەڭشەڭ",
   "@shellQuickPanelHint": {
     "placeholders": {
       "path": {

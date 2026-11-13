@@ -1,9 +1,9 @@
 {
   "localeUg": "Uyghur",
   "kitGuideTitle": "Kit Go startup guide",
-  "kitGuideSubtitle": "DSH Go Uyghur edition · LOSFER AI",
+  "kitGuideSubtitle": "Kit Go Uyghur edition · LOSFER AI",
   "kitGuideWelcome": "Welcome to Kit Go",
-  "kitGuideWelcomeBody": "A Uyghur-language fork of DSH Go, wired up to LOSFER AI.",
+  "kitGuideWelcomeBody": "This is the Uyghur edition of Kit Go, a second-round build wired up to LOSFER AI.",
   "kitGuideAiTitle": "Connect LOSFER AI",
   "kitGuideAiBody": "API key only. Get one at api.losfer.cn and paste it here to start chatting.",
   "kitGuideLanguageTitle": "Display language",

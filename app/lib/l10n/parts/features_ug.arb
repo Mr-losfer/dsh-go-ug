@@ -1,13 +1,14 @@
 {
-  "featuresCordisSubtitle": "动态插件 · 引擎重启后清空",
-  "featuresCordisUnavailable": "这个连接看不到 Cordis",
-  "featuresCordisRemoteUnavailable": "经 DSH Remote 中转时不可用",
-  "featuresCordisReadFailed": "没能读取插件",
-  "featuresCordisEmpty": "还没有动态插件",
-  "featuresCordisEmptyHint": "插件创建后会出现在这里",
-  "featuresCurrentChat": "当前对话",
-  "featuresOtherChats": "其他对话",
-  "featuresPresetDefaultSet": "新对话将使用「{name}」",
+  "@@locale": "ug",
+  "featuresCordisSubtitle": "دىنامىكىلىق قىستۇرما · ماتور قايتا قوزغىتىلغاندىن كېيىن تازىلىنىدۇ",
+  "featuresCordisUnavailable": "بۇ ئۇلىنىشتا Cordis كۆرۈنمەيدۇ",
+  "featuresCordisRemoteUnavailable": "DSH Remote ئارقىلىق يۆتكەشتە ئىشلەتكىلى بولمايدۇ",
+  "featuresCordisReadFailed": "قىستۇرمىنى ئوقۇيالمىدى",
+  "featuresCordisEmpty": "تېخى دىنامىكىلىق قىستۇرما يوق",
+  "featuresCordisEmptyHint": "قىستۇرما قۇرۇلغاندىن كېيىن بۇ يەردە كۆرۈنىدۇ",
+  "featuresCurrentChat": "نۆۋەتتىكى سۆھبەت",
+  "featuresOtherChats": "باشقا سۆھبەتلەر",
+  "featuresPresetDefaultSet": "يېڭى سۆھبەتتە «{name}» ئىشلىتىلىدۇ",
   "@featuresPresetDefaultSet": {
     "placeholders": {
       "name": {
@@ -15,8 +16,8 @@
       }
     }
   },
-  "featuresPresetDefaultFailed": "没能设为默认",
-  "featuresPresetDeleteTitle": "删除「{name}」？",
+  "featuresPresetDefaultFailed": "سۈكۈتتىكى قىلىپ تەڭشىيەلمىدى",
+  "featuresPresetDeleteTitle": "«{name}» ئۆچۈرۈلسۇنمۇ؟",
   "@featuresPresetDeleteTitle": {
     "placeholders": {
       "name": {
@@ -24,23 +25,23 @@
       }
     }
   },
-  "featuresPresetDeleteHint": "新对话不能再选它，已开始的对话不受影响。",
-  "featuresDeleted": "已删除",
-  "featuresDeleteFailed": "没能删除",
-  "featuresPresetAlreadyDefault": "已是新对话默认",
-  "featuresPresetSetDefault": "设为新对话默认",
-  "featuresPresetViewConfig": "查看配置",
-  "featuresPresetDuplicate": "复制为新预设",
-  "featuresPresetDefaultDeleteHint": "先把别的预设设为新对话默认",
-  "featuresAgentPresets": "Agent 预设",
-  "featuresAgentPresetsSubtitle": "新对话的工具与工作方式",
-  "featuresNew": "新建",
-  "featuresPresetsReadFailed": "没能读取 Agent 预设",
-  "featuresLoadFailed": "加载失败",
-  "featuresNewChatDefault": "新对话默认",
-  "featuresEmptyDocument": "（空）",
-  "featuresReadFailed": "没能读取",
-  "featuresTodayTime": "今天 {time}",
+  "featuresPresetDeleteHint": "يېڭى سۆھبەتتە ئۇنى تاللىغىلى بولمايدۇ، باشلانغان سۆھبەتلەرگە تەسىر يەتمەيدۇ.",
+  "featuresDeleted": "ئۆچۈرۈلدى",
+  "featuresDeleteFailed": "ئۆچۈرەلمىدى",
+  "featuresPresetAlreadyDefault": "ئاللىقاچان يېڭى سۆھبەتنىڭ سۈكۈتتىكىسى",
+  "featuresPresetSetDefault": "يېڭى سۆھبەتنىڭ سۈكۈتتىكىسى قىلىش",
+  "featuresPresetViewConfig": "سەپلىمىنى كۆرۈش",
+  "featuresPresetDuplicate": "يېڭى ئالدىن بەلگىلەنگەن قىلىپ كۆچۈرۈش",
+  "featuresPresetDefaultDeleteHint": "ئاۋۋال باشقا ئالدىن بەلگىلەنگەننى يېڭى سۆھبەتنىڭ سۈكۈتتىكىسى قىلىڭ",
+  "featuresAgentPresets": "Agent ئالدىن بەلگىلەنگەنلىرى",
+  "featuresAgentPresetsSubtitle": "يېڭى سۆھبەتنىڭ قوراللىرى ۋە خىزمەت ئۇسۇلى",
+  "featuresNew": "يېڭى قۇرۇش",
+  "featuresPresetsReadFailed": "Agent ئالدىن بەلگىلەنگەنلىرىنى ئوقۇيالمىدى",
+  "featuresLoadFailed": "يۈكلىيەلمىدى",
+  "featuresNewChatDefault": "يېڭى سۆھبەت سۈكۈتتىكى",
+  "featuresEmptyDocument": "(قۇرۇق)",
+  "featuresReadFailed": "ئوقۇغىلى بولمىدى",
+  "featuresTodayTime": "بۈگۈن {time}",
   "@featuresTodayTime": {
     "placeholders": {
       "time": {
@@ -48,7 +49,7 @@
       }
     }
   },
-  "featuresTomorrowTime": "明天 {time}",
+  "featuresTomorrowTime": "ئەتە {time}",
   "@featuresTomorrowTime": {
     "placeholders": {
       "time": {
@@ -56,7 +57,7 @@
       }
     }
   },
-  "featuresYesterdayTime": "昨天 {time}",
+  "featuresYesterdayTime": "تۈنۈگۈن {time}",
   "@featuresYesterdayTime": {
     "placeholders": {
       "time": {
@@ -64,7 +65,7 @@
       }
     }
   },
-  "featuresScheduleSummaryNext": "{rule} · 下次 {time}",
+  "featuresScheduleSummaryNext": "{rule} · كېيىنكىسى {time}",
   "@featuresScheduleSummaryNext": {
     "placeholders": {
       "rule": {
@@ -75,8 +76,8 @@
       }
     }
   },
-  "featuresEnded": "已结束",
-  "featuresScheduleSummaryEnded": "已结束 · {time} 运行过",
+  "featuresEnded": "ئاخىرلاشتى",
+  "featuresScheduleSummaryEnded": "ئاخىرلاشتى · {time} ئىجرا قىلىنغان",
   "@featuresScheduleSummaryEnded": {
     "placeholders": {
       "time": {
@@ -84,7 +85,7 @@
       }
     }
   },
-  "featuresJobElapsed": "已运行 {span}",
+  "featuresJobElapsed": "{span} ئىجرا بولدو",
   "@featuresJobElapsed": {
     "placeholders": {
       "span": {
@@ -92,7 +93,7 @@
       }
     }
   },
-  "featuresJobDuration": "用时 {span}",
+  "featuresJobDuration": "ئىشلىتىلگەن ۋاقىت {span}",
   "@featuresJobDuration": {
     "placeholders": {
       "span": {
@@ -100,24 +101,24 @@
       }
     }
   },
-  "featuresPermissionReadOnly": "仅可查看",
-  "featuresPermissionWorkspaceWrite": "工作区内修改",
-  "featuresPermissionFullAccess": "完全权限",
-  "featuresPermissionAutoReview": "自动审查",
-  "featuresPermissionCustom": "自定义",
-  "featuresPermissionReadOnlyHint": "只看文件，不做修改",
-  "featuresPermissionWorkspaceWriteHint": "可改工作区内的文件，越界先问你",
-  "featuresPermissionFullAccessHint": "不再确认，直接执行",
-  "featuresPermissionAutoReviewHint": "由模型逐次审查，拿不准再问你",
-  "featuresPresetStandard": "标准模式",
-  "featuresPresetPtc": "PTC 模式",
-  "featuresPresetMinimal": "极简模式",
-  "featuresPresetCreator": "创造模式",
-  "featuresPresetStandardDescription": "代码、文件和资料，适合大多数任务",
-  "featuresPresetPtcDescription": "批量调用工具，再筛选、统计、汇总",
-  "featuresPresetMinimalDescription": "只用终端和读图，适合测试对比",
-  "featuresPresetCreatorDescription": "让 Agent 写插件，定制 DSH 本身",
-  "featuresHostUnreachable": "连不上「{name}」",
+  "featuresPermissionReadOnly": "پەقەت كۆرۈش",
+  "featuresPermissionWorkspaceWrite": "خىزمەت رايونىدا ئۆزگەرتىش",
+  "featuresPermissionFullAccess": "تولۇق ھوقۇق",
+  "featuresPermissionAutoReview": "ئاپتوماتىك تەكشۈرۈش",
+  "featuresPermissionCustom": "ئۆزىنىڭ تەڭشىكى",
+  "featuresPermissionReadOnlyHint": "پەقەت ھۆججەتنى كۆرىدۇ، ئۆزگەرتىش قىلمايدۇ",
+  "featuresPermissionWorkspaceWriteHint": "خىزمەت رايونىدىكى ھۆججەتلەرنى ئۆزگەرتەلەيدۇ، چەتتە قالسا ئاۋۋال سىزدىن سورايدۇ",
+  "featuresPermissionFullAccessHint": "قايتا جەزملەشتۈرمەيدۇ، بىۋاسىتە ئىجرا قىلىدۇ",
+  "featuresPermissionAutoReviewHint": "مودېل بىر-بىرلەپ تەكشۈرىدۇ، جەزملىيالمىسا سىزدىن سورايدۇ",
+  "featuresPresetStandard": "ئۆلچەملىك ھالەت",
+  "featuresPresetPtc": "PTC ھالىتى",
+  "featuresPresetMinimal": "ئەڭ ئاددىي ھالەت",
+  "featuresPresetCreator": "ئىجادىيەت ھالىتى",
+  "featuresPresetStandardDescription": "كود، ھۆججەت ۋە ماتېرىياللار، كۆپ قىسىم ۋەزىپىلەرگە ماس",
+  "featuresPresetPtcDescription": "پارتىيە ئۈسكۈنىلىرىنى تۈركۈملەپ چاقىرىپ، ئاندىن سۈزۈش، ستاتىستىكا ۋە خۇلاسە",
+  "featuresPresetMinimalDescription": "پەقەت تېرمىنال ۋە رەسىم ئوقۇش، سىناق سېلىشتۇرۇشقا ماس",
+  "featuresPresetCreatorDescription": "ئاگېنتقا قىستۇرما يازدۇرۇپ، DSH نىڭ ئۆزىنى ئىخچاملاشتۇرۇش",
+  "featuresHostUnreachable": "«{name}» غا ئۇلانغىلى بولمىدى",
   "@featuresHostUnreachable": {
     "placeholders": {
       "name": {
@@ -125,7 +126,7 @@
       }
     }
   },
-  "featuresHostConnecting": "正在连接「{name}」…",
+  "featuresHostConnecting": "«{name}» غا ئۇلىنىۋاتىدۇ…",
   "@featuresHostConnecting": {
     "placeholders": {
       "name": {
@@ -133,12 +134,12 @@
       }
     }
   },
-  "featuresJobs": "后台任务",
-  "featuresJobsSubtitle": "引擎重启后清空",
-  "featuresJobsReadFailed": "没能读取后台任务",
-  "featuresJobsEmpty": "没有后台任务",
-  "featuresJobsEmptyHint": "开发服务器这类命令会在这里",
-  "featuresJobsEndedCount": "已结束 · {count}",
+  "featuresJobs": "ئارقا سەپ ۋەزىپىلىرى",
+  "featuresJobsSubtitle": "ماتور قايتا قوزغىتىلغاندىن كېيىن تازىلىنىدۇ",
+  "featuresJobsReadFailed": "ئارقا سەپ ۋەزىپىلىرىنى ئوقۇغىلى بولمىدى",
+  "featuresJobsEmpty": "ئارقا سەپ ۋەزىپىسى يوق",
+  "featuresJobsEmptyHint": "تەرەققىيات مۇلازىمېتىرى قاتارلىق بۇيرۇقلار بۇ يەردە كۆرۈنىدۇ",
+  "featuresJobsEndedCount": "ئاخىرلاشتى · {count}",
   "@featuresJobsEndedCount": {
     "placeholders": {
       "count": {
@@ -146,12 +147,12 @@
       }
     }
   },
-  "featuresJobStopTitle": "停止这个任务？",
-  "featuresJobAlreadyEnded": "任务已经结束了",
-  "featuresJobStopFailed": "没能停止",
-  "featuresJobOutput": "任务输出",
-  "featuresOutput": "输出",
-  "featuresJobRecentLines": "最近 {count} 行",
+  "featuresJobStopTitle": "بۇ ۋەزىپىنى توختىتامسىز؟",
+  "featuresJobAlreadyEnded": "ۋەزىپە ئاللىبۇرۇن ئاخىرلاشقان",
+  "featuresJobStopFailed": "توختىتالاممىدى",
+  "featuresJobOutput": "ۋەزىپە چىقىرىشى",
+  "featuresOutput": "چىقىرىش",
+  "featuresJobRecentLines": "ئەڭ يېقىنكى {count} قۇر",
   "@featuresJobRecentLines": {
     "placeholders": {
       "count": {
@@ -159,53 +160,53 @@
       }
     }
   },
-  "featuresJobOutputSubject": "DSH 任务输出",
-  "featuresJobOutputReadFailed": "没能读取输出",
-  "featuresJobOutputWaiting": "等待输出…",
-  "featuresJobOutputEmpty": "没有输出",
-  "featuresPermissionAutoTitle": "开启自动审查？",
-  "featuresPermissionAutoWarning": "每次操作由模型判断放不放行，可能误判。",
-  "featuresSwitchFailed": "没能切换",
-  "featuresPermissions": "权限",
-  "featuresPermissionsSubtitle": "执行命令、修改文件前，要不要先问你",
-  "featuresPermissionsReadFailed": "没能读取权限设置",
-  "featuresPermissionCustomHint": "当前用的是自定义权限，选预设会替换它",
-  "featuresModuleInstructions": "工作区指令加载",
-  "featuresModuleTime": "时间感知",
-  "featuresModuleBash": "Bash 命令工具",
-  "featuresModulePersistentBash": "持久 Bash 工具",
-  "featuresModulePowerShell": "PowerShell 命令工具",
-  "featuresModuleFiles": "文件读写工具",
-  "featuresModuleFileSearch": "文件搜索工具",
-  "featuresModuleJobs": "后台任务工具",
-  "featuresModuleSchedule": "自动化任务工具",
-  "featuresModuleLocalSkills": "本地技能加载",
-  "featuresModuleSkillTool": "技能加载工具",
-  "featuresModuleGoalCommand": "目标管理命令",
-  "featuresModuleGoalTool": "目标管理工具",
-  "featuresModulePlan": "计划模式",
-  "featuresModuleCompaction": "上下文压缩",
-  "featuresModuleCompactCommand": "上下文压缩命令",
-  "featuresModuleAskUser": "向用户提问工具",
-  "featuresModuleTodo": "待办清单工具",
-  "featuresModuleWeb": "网页搜索与读取工具",
-  "featuresModulePresent": "文件交付工具",
-  "featuresModuleCordis": "插件 API 查询工具",
-  "featuresModuleSubagent": "子代理委派工具",
-  "featuresModuleSubagentControl": "子代理控制工具",
-  "featuresModuleWorkflow": "工作流工具",
-  "featuresModulePluginManager": "插件管理工具",
-  "featuresModulePluginMarket": "插件市场工具",
-  "featuresModuleToolCalls": "工具调用方式",
-  "featuresModuleTerminal": "持久终端服务",
-  "featuresModulePersona": "智能体角色设定",
-  "featuresGroupDelegation": "子代理委派",
-  "featuresGroupTerminal": "持久终端",
-  "featuresPresetIdRequired": "填写标识",
-  "featuresPresetIdLength": "最多 40 个字符",
-  "featuresPresetIdFormat": "只用小写字母、数字和连字符",
-  "featuresPresetIdTaken": "这个标识已被使用",
-  "featuresPresetCopyName": "{name} 副本",
+  "featuresJobOutputSubject": "DSH ۋەزىپە چىقىرىشى",
+  "featuresJobOutputReadFailed": "چىقىرىشنى ئوقۇغىلى بولمىدى",
+  "featuresJobOutputWaiting": "چىقىرىشنى ساقلاۋاتىدۇ…",
+  "featuresJobOutputEmpty": "چىقىرىش يوق",
+  "featuresPermissionAutoTitle": "ئاپتوماتىك تەكشۈرۈشنى ئاچامسىز؟",
+  "featuresPermissionAutoWarning": "ھەر قېتىملىق مەشغۇلاتنى مودېل بېكىتىدۇ، خاتا ھۆكۈم قىلىشى مۇمكىن.",
+  "featuresSwitchFailed": "ئالماشتۇرالمىدى",
+  "featuresPermissions": "ھوقۇق",
+  "featuresPermissionsSubtitle": "بۇيرۇق ئىجرا قىلىش، ھۆججەت ئۆزگەرتىشتىن بۇرۇن سىزدىن سوراش كېرەكمۇ",
+  "featuresPermissionsReadFailed": "ھوقۇق تەڭشىكىنى ئوقۇيالمىدى",
+  "featuresPermissionCustomHint": "ھازىر ئىختىيارىي ھوقۇق ئىشلىتىلىۋاتىدۇ، ئالدىن بەلگىلەنگەن تاللاسا ئۇنى ئالماشتۇرىدۇ",
+  "featuresModuleInstructions": "خىزمەت رايونى كۆرسەتمىسىنى يۈكلەش",
+  "featuresModuleTime": "ۋاقىتنى سېزىش",
+  "featuresModuleBash": "Bash بۇيرۇق قورالى",
+  "featuresModulePersistentBash": "تۇراقلىق Bash قورالى",
+  "featuresModulePowerShell": "PowerShell بۇيرۇق قورالى",
+  "featuresModuleFiles": "ھۆججەت ئوقۇش-يېزىش قورالى",
+  "featuresModuleFileSearch": "ھۆججەت ئىزدەش قورالى",
+  "featuresModuleJobs": "ئارقا سەپ ۋەزىپە قورالى",
+  "featuresModuleSchedule": "ئاپتوماتلاشتۇرۇش ۋەزىپە قورالى",
+  "featuresModuleLocalSkills": "يەرلىك ماھارەت يۈكلەش",
+  "featuresModuleSkillTool": "ماھارەت يۈكلەش قورالى",
+  "featuresModuleGoalCommand": "نىشان باشقۇرۇش بۇيرۇقى",
+  "featuresModuleGoalTool": "نىشان باشقۇرۇش قورالى",
+  "featuresModulePlan": "پىلان ھالىتى",
+  "featuresModuleCompaction": "مەزمۇن دائىرىسىنى زىچلاشتۇرۇش",
+  "featuresModuleCompactCommand": "مەزمۇن دائىرىسىنى زىچلاشتۇرۇش بۇيرۇقى",
+  "featuresModuleAskUser": "ئىشلەتكۈچىدىن سوراش قورالى",
+  "featuresModuleTodo": "قىلىنىدىغان ئىش تىزىملىكى قورالى",
+  "featuresModuleWeb": "تور بېتى ئىزدەش ۋە ئوقۇش قورالى",
+  "featuresModulePresent": "ھۆججەت يەتكۈزۈش قورالى",
+  "featuresModuleCordis": "قىستۇرما API سوراش قورالى",
+  "featuresModuleSubagent": "تارماق ئاگېنت ۋاكالەتلەش قورالى",
+  "featuresModuleSubagentControl": "تارماق ئاگېنت كونترول قورالى",
+  "featuresModuleWorkflow": "خىزمەت ئېقىمى قورالى",
+  "featuresModulePluginManager": "قىستۇرما باشقۇرۇش قورالى",
+  "featuresModulePluginMarket": "قىستۇرما بازىرى قورالى",
+  "featuresModuleToolCalls": "قورال چاقىرىش ئۇسۇلى",
+  "featuresModuleTerminal": "تۇراقلىق تېرمىنال مۇلازىمىتى",
+  "featuresModulePersona": "ئاگېنت رول تەڭشىكى",
+  "featuresGroupDelegation": "تارماق ئاگېنت ۋاكالەتلەش",
+  "featuresGroupTerminal": "تۇراقلىق تېرمىنال",
+  "featuresPresetIdRequired": "بەلگە تولدۇرۇڭ",
+  "featuresPresetIdLength": "ئەڭ كۆپ 40 ھەرپ",
+  "featuresPresetIdFormat": "پەقەت كىچىك ھەرپ، سان ۋە سىزىقچە",
+  "featuresPresetIdTaken": "بۇ بەلگە ئىشلىتىلگەن",
+  "featuresPresetCopyName": "{name} كۆچۈرمىسى",
   "@featuresPresetCopyName": {
     "placeholders": {
       "name": {
@@ -213,37 +214,37 @@
       }
     }
   },
-  "featuresPresetBasedOn": "基于",
-  "featuresNameRequired": "填写名称",
-  "featuresCreatorOpenFailed": "没能打开创造模式",
-  "featuresPresetNameHint": "比如：代码审查",
-  "featuresPresetId": "标识",
-  "featuresPresetIdHint": "小写字母、数字和连字符",
-  "featuresPresetDescription": "说明",
-  "featuresPresetDescriptionHint": "一句话说明它适合做什么",
-  "featuresPresetConfigReadFailed": "没能读取预设配置",
-  "featuresPresetCreateTitle": "新建 Agent 预设",
-  "featuresPresetDuplicateTitle": "复制 Agent 预设",
-  "featuresPresetEditTitle": "编辑 Agent 预设",
-  "featuresCreatorOpening": "正在打开创造模式",
-  "featuresWaitingEngine": "等待引擎连接",
-  "featuresCreatorUnavailable": "创造模式不可用",
-  "featuresPresetStartUpdate": "开始更新",
-  "featuresPresetStartCreate": "开始创建",
-  "featuresPresetSystemPrompt": "系统提示",
-  "featuresPresetSystemPromptHint": "你是谁、怎么工作",
-  "featuresPresetReplaceSystemPrompt": "完整替换系统提示",
-  "featuresPresetTools": "工具",
-  "featuresSkills": "技能",
-  "featuresPresetContextModes": "上下文与模式",
-  "featuresCronMinute": "分钟",
-  "featuresCronHour": "小时",
-  "featuresDate": "日期",
-  "featuresCronMonth": "月份",
-  "featuresCronWeekday": "星期",
-  "featuresCronRequired": "填写 5 段 Cron 表达式",
-  "featuresCronWhitespace": "首尾不能有空格",
-  "featuresCronFieldCount": "需要 5 段，现在是 {count} 段",
+  "featuresPresetBasedOn": "ئاساسى",
+  "featuresNameRequired": "ئىسىم تولدۇرۇڭ",
+  "featuresCreatorOpenFailed": "يارىتىش ھالىتىنى ئېچىلمىدى",
+  "featuresPresetNameHint": "مەسىلەن: كود تەكشۈرۈش",
+  "featuresPresetId": "بەلگە",
+  "featuresPresetIdHint": "كىچىك ھەرپ، سان ۋە سىزىقچە",
+  "featuresPresetDescription": "چۈشەندۈرۈش",
+  "featuresPresetDescriptionHint": "بىر جۈملە بىلەن نېمىگە ماس كېلىدىغانلىقىنى چۈشەندۈرۈڭ",
+  "featuresPresetConfigReadFailed": "ئالدىن بەلگىلەنگەن سەپلىمىنى ئوقۇيالمىدى",
+  "featuresPresetCreateTitle": "يېڭى Agent ئالدىن بەلگىلىمىسى قۇرۇش",
+  "featuresPresetDuplicateTitle": "Agent ئالدىن بەلگىلىمىسىنى كۆچۈرۈش",
+  "featuresPresetEditTitle": "Agent ئالدىن بەلگىلىمىسىنى تەھرىرلەش",
+  "featuresCreatorOpening": "قۇرۇش ھالىتى ئېچىلىۋاتىدۇ",
+  "featuresWaitingEngine": "ماتور ئۇلىنىشىنى كۈتۈۋاتىدۇ",
+  "featuresCreatorUnavailable": "قۇرۇش ھالىتى ئىشلىتىلمەيدۇ",
+  "featuresPresetStartUpdate": "يېڭىلاشنى باشلاش",
+  "featuresPresetStartCreate": "قۇرۇشنى باشلاش",
+  "featuresPresetSystemPrompt": "سىستېما كۆرسەتمىسى",
+  "featuresPresetSystemPromptHint": "سىز كىم، قانداق ئىشلەيسىز",
+  "featuresPresetReplaceSystemPrompt": "سىستېما كۆرسەتمىسىنى تولۇق ئالماشتۇرۇش",
+  "featuresPresetTools": "قوراللار",
+  "featuresSkills": "ماھارەتلەر",
+  "featuresPresetContextModes": "مەزمۇن دائىرىسى ۋە ھالەتلەر",
+  "featuresCronMinute": "مىنۇت",
+  "featuresCronHour": "سائەت",
+  "featuresDate": "چېسلا",
+  "featuresCronMonth": "ئاي",
+  "featuresCronWeekday": "ھەپتە كۈنى",
+  "featuresCronRequired": "5 بۆلەكلىك Cron ئىپادىسىنى تولدۇرۇڭ",
+  "featuresCronWhitespace": "باش ۋە ئاخىرىدا بوشلۇق بولماسلىقى كېرەك",
+  "featuresCronFieldCount": "5 بۆلەك كېرەك، ھازىر {count} بۆلەك",
   "@featuresCronFieldCount": {
     "placeholders": {
       "count": {
@@ -251,7 +252,7 @@
       }
     }
   },
-  "featuresCronInvalidField": "第 {index} 段（{name}）写法不对",
+  "featuresCronInvalidField": "{index}-بۆلەك ({name}) خاتا يېزىلغان",
   "@featuresCronInvalidField": {
     "placeholders": {
       "index": {
@@ -262,26 +263,26 @@
       }
     }
   },
-  "featuresWeekdayMon": "一",
-  "featuresWeekdayTue": "二",
-  "featuresWeekdayWed": "三",
-  "featuresWeekdayThu": "四",
-  "featuresWeekdayFri": "五",
-  "featuresWeekdaySat": "六",
-  "featuresWeekdaySun": "日",
-  "featuresMonthJan": "一月",
-  "featuresMonthFeb": "二月",
-  "featuresMonthMar": "三月",
-  "featuresMonthApr": "四月",
-  "featuresMonthMay": "五月",
-  "featuresMonthJun": "六月",
-  "featuresMonthJul": "七月",
-  "featuresMonthAug": "八月",
-  "featuresMonthSep": "九月",
-  "featuresMonthOct": "十月",
-  "featuresMonthNov": "十一月",
-  "featuresMonthDec": "十二月",
-  "featuresWeekdayName": "周{day}",
+  "featuresWeekdayMon": "دۈ",
+  "featuresWeekdayTue": "سە",
+  "featuresWeekdayWed": "چا",
+  "featuresWeekdayThu": "پە",
+  "featuresWeekdayFri": "جۈ",
+  "featuresWeekdaySat": "شە",
+  "featuresWeekdaySun": "يە",
+  "featuresMonthJan": "يانۋار",
+  "featuresMonthFeb": "فېۋرال",
+  "featuresMonthMar": "مارت",
+  "featuresMonthApr": "ئاپرېل",
+  "featuresMonthMay": "ماي",
+  "featuresMonthJun": "ئىيۇن",
+  "featuresMonthJul": "ئىيۇل",
+  "featuresMonthAug": "ئاۋغۇست",
+  "featuresMonthSep": "سېنتەبىر",
+  "featuresMonthOct": "ئۆكتەبىر",
+  "featuresMonthNov": "نويابىر",
+  "featuresMonthDec": "دېكابىر",
+  "featuresWeekdayName": "ھەپتە{day}",
   "@featuresWeekdayName": {
     "placeholders": {
       "day": {
@@ -289,7 +290,7 @@
       }
     }
   },
-  "featuresCronWeekdayRange": "{first}至{last}",
+  "featuresCronWeekdayRange": "{first}دىن {last}غىچە",
   "@featuresCronWeekdayRange": {
     "placeholders": {
       "first": {
@@ -300,7 +301,7 @@
       }
     }
   },
-  "featuresCronEveryDay": "每天{months}",
+  "featuresCronEveryDay": "ھەر كۈنى{months}",
   "@featuresCronEveryDay": {
     "placeholders": {
       "months": {
@@ -308,7 +309,7 @@
       }
     }
   },
-  "featuresCronMonthDays": "每月 {days} 日{months}",
+  "featuresCronMonthDays": "ھەر ئايدا {days}-كۈنى{months}",
   "@featuresCronMonthDays": {
     "placeholders": {
       "days": {
@@ -319,7 +320,7 @@
       }
     }
   },
-  "featuresCronMonthDaysAndWeekdays": "每月 {days} 日且{weekdays}{months}",
+  "featuresCronMonthDaysAndWeekdays": "ھەر ئايدا {days}-كۈنى ۋە {weekdays}{months}",
   "@featuresCronMonthDaysAndWeekdays": {
     "placeholders": {
       "days": {
@@ -333,7 +334,7 @@
       }
     }
   },
-  "featuresCronMonthDaysOrWeekdays": "每月 {days} 日或{weekdays}{months}",
+  "featuresCronMonthDaysOrWeekdays": "ھەر ئايدا {days}-كۈنى ياكى {weekdays}{months}",
   "@featuresCronMonthDaysOrWeekdays": {
     "placeholders": {
       "days": {
@@ -347,7 +348,7 @@
       }
     }
   },
-  "featuresCronHourRange": "{first} 至 {last}",
+  "featuresCronHourRange": "{first} دىن {last} غىچە",
   "@featuresCronHourRange": {
     "placeholders": {
       "first": {
@@ -358,8 +359,8 @@
       }
     }
   },
-  "featuresEveryMinute": "每分钟",
-  "featuresCronEveryMinutes": "每 {count} 分钟",
+  "featuresEveryMinute": "ھەر مىنۇتتا",
+  "featuresCronEveryMinutes": "ھەر {count} مىنۇتتا",
   "@featuresCronEveryMinutes": {
     "placeholders": {
       "count": {
@@ -367,8 +368,8 @@
       }
     }
   },
-  "featuresEveryHour": "每小时",
-  "featuresCronHourlyMinutes": "每小时的第 {minutes} 分钟",
+  "featuresEveryHour": "ھەر سائەتتە",
+  "featuresCronHourlyMinutes": "ھەر سائەتنىڭ {minutes}-مىنۇتىدا",
   "@featuresCronHourlyMinutes": {
     "placeholders": {
       "minutes": {
@@ -376,7 +377,7 @@
       }
     }
   },
-  "featuresCronHoursEveryMinute": "{hours} 点的每分钟",
+  "featuresCronHoursEveryMinute": "{hours} سائەتنىڭ ھەر مىنۇتىدا",
   "@featuresCronHoursEveryMinute": {
     "placeholders": {
       "hours": {
@@ -384,7 +385,7 @@
       }
     }
   },
-  "featuresCronHoursEveryMinutes": "{hours} 点内每 {count} 分钟",
+  "featuresCronHoursEveryMinutes": "{hours} سائەت ئىچىدە ھەر {count} مىنۇتتا",
   "@featuresCronHoursEveryMinutes": {
     "placeholders": {
       "hours": {
@@ -395,7 +396,7 @@
       }
     }
   },
-  "featuresCronEveryHours": "每 {count} 小时",
+  "featuresCronEveryHours": "ھەر {count} سائەتتە",
   "@featuresCronEveryHours": {
     "placeholders": {
       "count": {
@@ -403,7 +404,7 @@
       }
     }
   },
-  "featuresCronHoursMinutes": "{hours} 点的第 {minutes} 分钟",
+  "featuresCronHoursMinutes": "{hours} سائەتنىڭ {minutes}-مىنۇتىدا",
   "@featuresCronHoursMinutes": {
     "placeholders": {
       "hours": {
@@ -414,23 +415,23 @@
       }
     }
   },
-  "featuresRepeatDaily": "每天",
-  "featuresRepeatWeekdays": "工作日",
-  "featuresRepeatWeekly": "每周",
-  "featuresRepeatMonthly": "每月",
-  "featuresRepeatInterval": "间隔",
-  "featuresRepeatOnce": "仅一次",
-  "featuresRepeatAdvanced": "高级",
-  "featuresRepeatCustom": "自定义",
-  "featuresIntervalSeconds": "秒",
-  "featuresZoneUnavailable": "时区不可用",
-  "featuresChooseDay": "至少选一天",
-  "featuresIntervalMinimum": "间隔至少为 1",
-  "featuresMinimumMinute": "至少 1 分钟",
-  "featuresTimeDoesNotExist": "这个时间在该时区不存在",
-  "featuresChooseFutureTime": "选一个以后的时间",
-  "featuresCronNeverRuns": "这个表达式不会运行",
-  "featuresRuleDaily": "每天 {time}",
+  "featuresRepeatDaily": "ھەر كۈنى",
+  "featuresRepeatWeekdays": "خىزمەت كۈنلىرى",
+  "featuresRepeatWeekly": "ھەر ھەپتىدە",
+  "featuresRepeatMonthly": "ھەر ئايدا",
+  "featuresRepeatInterval": "ئارىلىق",
+  "featuresRepeatOnce": "پەقەت بىر قېتىم",
+  "featuresRepeatAdvanced": "ئىلغار",
+  "featuresRepeatCustom": "ئۆزلۈكىدىن",
+  "featuresIntervalSeconds": "سېكۇنت",
+  "featuresZoneUnavailable": "ۋاقىت رايونى ئىشلەتكىلى بولمايدۇ",
+  "featuresChooseDay": "كەم دېگەندە بىر كۈن تاللاڭ",
+  "featuresIntervalMinimum": "ئارىلىق كەم دېگەندە 1 بولۇشى كېرەك",
+  "featuresMinimumMinute": "كەم دېگەندە 1 مىنۇت",
+  "featuresTimeDoesNotExist": "بۇ ۋاقىت بۇ ۋاقىت رايونىدا مەۋجۇت ئەمەس",
+  "featuresChooseFutureTime": "كېيىنكى ۋاقىتنى تاللاڭ",
+  "featuresCronNeverRuns": "بۇ ئىپادىلەش ئىجرا بولمايدۇ",
+  "featuresRuleDaily": "ھەر كۈنى {time}",
   "@featuresRuleDaily": {
     "placeholders": {
       "time": {
@@ -438,7 +439,7 @@
       }
     }
   },
-  "featuresRuleWeekdays": "每个工作日 {time}",
+  "featuresRuleWeekdays": "ھەر خىزمەت كۈنى {time}",
   "@featuresRuleWeekdays": {
     "placeholders": {
       "time": {
@@ -446,7 +447,7 @@
       }
     }
   },
-  "featuresRuleWeekends": "每个周末 {time}",
+  "featuresRuleWeekends": "ھەر دەم ئېلىش كۈنى {time}",
   "@featuresRuleWeekends": {
     "placeholders": {
       "time": {
@@ -454,7 +455,7 @@
       }
     }
   },
-  "featuresRuleWeekly": "每周{days} {time}",
+  "featuresRuleWeekly": "ھەر ھەپتىدە {days} {time}",
   "@featuresRuleWeekly": {
     "placeholders": {
       "days": {
@@ -465,7 +466,7 @@
       }
     }
   },
-  "featuresRuleMonthly": "每月 {days} 日 {time}",
+  "featuresRuleMonthly": "ھەر ئايدا {days}-كۈنى {time}",
   "@featuresRuleMonthly": {
     "placeholders": {
       "days": {
@@ -476,11 +477,11 @@
       }
     }
   },
-  "featuresRepeat": "重复",
-  "featuresChat": "对话",
-  "featuresWorkspace": "工作区",
-  "featuresInstructionRequired": "填写指令",
-  "featuresScheduleSaveError": "没能保存：{reason}",
+  "featuresRepeat": "تەكرارلاش",
+  "featuresChat": "سۆھبەت",
+  "featuresWorkspace": "خىزمەت رايونى",
+  "featuresInstructionRequired": "كۆرسەتمە تولدۇرۇڭ",
+  "featuresScheduleSaveError": "ساقلانمىدى: {reason}",
   "@featuresScheduleSaveError": {
     "placeholders": {
       "reason": {
@@ -488,7 +489,7 @@
       }
     }
   },
-  "featuresScheduleCreateError": "没能创建：{reason}",
+  "featuresScheduleCreateError": "قۇرالمىدى: {reason}",
   "@featuresScheduleCreateError": {
     "placeholders": {
       "reason": {
@@ -496,18 +497,18 @@
       }
     }
   },
-  "featuresScheduleNameHint": "比如：每日站会提醒",
-  "featuresScheduleInstruction": "指令",
-  "featuresScheduleInstructionHint": "比如：整理昨天的提交，发我摘要",
-  "featuresScheduleRunTime": "运行时间",
-  "featuresScheduleOpenChat": "去对话里看看",
-  "featuresScheduleEditTitle": "编辑自动化任务",
-  "featuresScheduleCreateTitle": "新建自动化任务",
-  "featuresScheduleSaving": "正在保存",
-  "featuresScheduleCreating": "正在对话里创建",
-  "featuresTime": "时间",
-  "featuresNotSelected": "未选",
-  "featuresMonthDaysLabel": "{days} 日",
+  "featuresScheduleNameHint": "مەسىلەن: كۈندىلىك ئەتىگەنلىك يىغىن ئەسكەرتىشى",
+  "featuresScheduleInstruction": "كۆرسەتمە",
+  "featuresScheduleInstructionHint": "مەسىلەن: تۈنۈگۈنكى تاپشۇرۇقلارنى تەرتىپلەپ، ماڭا خۇلاسە ئەۋەت",
+  "featuresScheduleRunTime": "ئىجرا ۋاقتى",
+  "featuresScheduleOpenChat": "سۆھبەتكە كىرىپ كۆرۈڭ",
+  "featuresScheduleEditTitle": "ئاپتوماتىك ۋەزىپىنى تەھرىرلەش",
+  "featuresScheduleCreateTitle": "يېڭى ئاپتوماتىك ۋەزىپە قۇرۇش",
+  "featuresScheduleSaving": "ساقلىنىۋاتىدۇ",
+  "featuresScheduleCreating": "سۆھبەتتە قۇرۇلۇۋاتىدۇ",
+  "featuresTime": "ۋاقىت",
+  "featuresNotSelected": "تاللانمىدى",
+  "featuresMonthDaysLabel": "{days}-كۈنى",
   "@featuresMonthDaysLabel": {
     "placeholders": {
       "days": {
@@ -515,23 +516,23 @@
       }
     }
   },
-  "featuresTimeZone": "时区",
-  "featuresScheduleRunLocation": "在哪里运行",
-  "featuresJustCreatedChat": "刚建的对话",
-  "featuresModel": "模型",
-  "featuresRequestRefused": "引擎没有接受这个请求",
-  "featuresScheduleNotFound": "这个任务已经不在了",
-  "featuresScheduleEndedError": "任务已结束，不能再改",
-  "featuresScheduleConflict": "任务刚被改过，返回后再试",
-  "featuresScheduleInvalidPrompt": "名称和指令不能为空，名称最多 120 字",
-  "featuresScheduleInvalidTime": "运行时间不对",
-  "featuresScheduleIntervalTooShort": "间隔至少 1 分钟",
-  "featuresScheduleTimeOutOfRange": "时间超出范围",
-  "featuresScheduleSubagentError": "这个对话收不到自动化任务",
-  "featuresEvery": "每",
-  "featuresCronExpression": "Cron 表达式",
-  "featuresCronFieldGuide": "分  时  日  月  周",
-  "featuresZoneTimeSuffix": "（{city}时间）",
+  "featuresTimeZone": "ۋاقىت رايونى",
+  "featuresScheduleRunLocation": "قەيەردە ئىجرا قىلىنىدۇ",
+  "featuresJustCreatedChat": "يېڭى قۇرۇلغان سۆھبەت",
+  "featuresModel": "مودېل",
+  "featuresRequestRefused": "ماتور بۇ تەلەپنى قوبۇل قىلمىدى",
+  "featuresScheduleNotFound": "بۇ ۋەزىپە ئەمدى يوق",
+  "featuresScheduleEndedError": "ۋەزىپە ئاخىرلاشتى، ئەمدى ئۆزگەرتكىلى بولمايدۇ",
+  "featuresScheduleConflict": "ۋەزىپە يېقىندا ئۆزگەرتىلگەن، قايتىپ كېلىپ قايتا سىناڭ",
+  "featuresScheduleInvalidPrompt": "ئىسىم ۋە كۆرسەتمە بوش قالماسلىقى كېرەك، ئىسىم ئەڭ كۆپ 120 ھەرپ",
+  "featuresScheduleInvalidTime": "ئىجرا ۋاقتى توغرا ئەمەس",
+  "featuresScheduleIntervalTooShort": "ئارىلىق ئاز دېگەندە 1 مىنۇت",
+  "featuresScheduleTimeOutOfRange": "ۋاقىت دائىرىدىن ئاشتى",
+  "featuresScheduleSubagentError": "بۇ سۆھبەت ئاپتوماتلاشتۇرۇش ۋەزىپىسىنى قوبۇل قىلالمايدۇ",
+  "featuresEvery": "ھەر",
+  "featuresCronExpression": "Cron ئىپادىسى",
+  "featuresCronFieldGuide": "مىنۇت  سائەت  كۈن  ئاي  ھەپتە",
+  "featuresZoneTimeSuffix": "({city} ۋاقتى)",
   "@featuresZoneTimeSuffix": {
     "placeholders": {
       "city": {
@@ -539,9 +540,9 @@
       }
     }
   },
-  "featuresScheduleNextLocal": "接下来（本机时间）",
-  "featuresScheduleNext": "接下来",
-  "featuresMonthDayChoice": "{day} 日",
+  "featuresScheduleNextLocal": "كېيىنكىسى (يەرلىك ۋاقىت)",
+  "featuresScheduleNext": "كېيىنكىسى",
+  "featuresMonthDayChoice": "{day}-كۈنى",
   "@featuresMonthDayChoice": {
     "placeholders": {
       "day": {
@@ -549,76 +550,76 @@
       }
     }
   },
-  "featuresZonesCommon": "常用",
-  "featuresZonesAll": "全部",
-  "featuresZoneSearchHint": "搜索城市、时区或 UTC 偏移",
-  "featuresZonesNoMatch": "没有匹配的时区",
-  "featuresZoneUTC": "协调世界时",
-  "featuresZoneShanghai": "上海",
-  "featuresZoneUrumqi": "乌鲁木齐",
-  "featuresZoneHongKong": "香港",
-  "featuresZoneMacau": "澳门",
-  "featuresZoneTaipei": "台北",
-  "featuresZoneTokyo": "东京",
-  "featuresZoneSeoul": "首尔",
-  "featuresZoneSingapore": "新加坡",
-  "featuresZoneKualaLumpur": "吉隆坡",
-  "featuresZoneBangkok": "曼谷",
-  "featuresZoneHoChiMinh": "胡志明市",
-  "featuresZoneJakarta": "雅加达",
-  "featuresZoneManila": "马尼拉",
-  "featuresZoneKolkata": "加尔各答",
-  "featuresZoneDubai": "迪拜",
-  "featuresZoneJerusalem": "耶路撒冷",
-  "featuresZoneLondon": "伦敦",
-  "featuresZoneDublin": "都柏林",
-  "featuresZoneLisbon": "里斯本",
-  "featuresZoneParis": "巴黎",
-  "featuresZoneBerlin": "柏林",
-  "featuresZoneMadrid": "马德里",
-  "featuresZoneRome": "罗马",
-  "featuresZoneAmsterdam": "阿姆斯特丹",
-  "featuresZoneZurich": "苏黎世",
-  "featuresZoneStockholm": "斯德哥尔摩",
-  "featuresZoneWarsaw": "华沙",
-  "featuresZoneAthens": "雅典",
-  "featuresZoneIstanbul": "伊斯坦布尔",
-  "featuresZoneMoscow": "莫斯科",
-  "featuresZoneCairo": "开罗",
-  "featuresZoneJohannesburg": "约翰内斯堡",
-  "featuresZoneLagos": "拉各斯",
-  "featuresZoneNewYork": "纽约",
-  "featuresZoneToronto": "多伦多",
-  "featuresZoneChicago": "芝加哥",
-  "featuresZoneDenver": "丹佛",
-  "featuresZonePhoenix": "凤凰城",
-  "featuresZoneLosAngeles": "洛杉矶",
-  "featuresZoneVancouver": "温哥华",
-  "featuresZoneAnchorage": "安克雷奇",
-  "featuresZoneMexicoCity": "墨西哥城",
-  "featuresZoneBogota": "波哥大",
-  "featuresZoneLima": "利马",
-  "featuresZoneSantiago": "圣地亚哥",
-  "featuresZoneSaoPaulo": "圣保罗",
-  "featuresZoneBuenosAires": "布宜诺斯艾利斯",
-  "featuresZoneHonolulu": "檀香山",
-  "featuresZoneAuckland": "奥克兰",
-  "featuresZoneSydney": "悉尼",
-  "featuresZoneMelbourne": "墨尔本",
-  "featuresZoneBrisbane": "布里斯班",
-  "featuresZonePerth": "珀斯",
-  "featuresScheduleCreated": "已创建",
-  "featuresSchedulesReadFailed": "没能读取自动化任务",
-  "featuresSchedulesEmpty": "还没有自动化任务",
-  "featuresSchedulesEmptyHint": "到点自动发进对话，替你跑一遍",
-  "featuresScheduleNewTask": "新建任务",
-  "featuresSchedulesNoMatch": "没有匹配的任务",
-  "featuresSchedulesNoActive": "没有开启中的任务",
-  "featuresSchedulesNoEnded": "没有已结束的任务",
-  "featuresSchedules": "自动化任务",
-  "featuresSchedulesSubtitle": "到点自动发进原来的对话",
-  "featuresSchedulesSearch": "搜索任务",
-  "featuresSchedulesAllCount": "全部 {count}",
+  "featuresZonesCommon": "كۆپ ئىشلىتىلىدىغان",
+  "featuresZonesAll": "ھەممىسى",
+  "featuresZoneSearchHint": "شەھەر، ۋاقىت رايونى ياكى UTC پەرقىنى ئىزدەڭ",
+  "featuresZonesNoMatch": "ماس كېلىدىغان ۋاقىت رايونى يوق",
+  "featuresZoneUTC": "ئالەم بىرلەشمە ۋاقتى",
+  "featuresZoneShanghai": "شاڭخەي",
+  "featuresZoneUrumqi": "ئۈرۈمچى",
+  "featuresZoneHongKong": "شياڭگاڭ",
+  "featuresZoneMacau": "ئاۋمېن",
+  "featuresZoneTaipei": "تەيبېي",
+  "featuresZoneTokyo": "توكيو",
+  "featuresZoneSeoul": "سېئول",
+  "featuresZoneSingapore": "سىنگاپور",
+  "featuresZoneKualaLumpur": "كۇئالالامپۇر",
+  "featuresZoneBangkok": "بانكوك",
+  "featuresZoneHoChiMinh": "خوچىمىن شەھىرى",
+  "featuresZoneJakarta": "جاكارتا",
+  "featuresZoneManila": "مانىلا",
+  "featuresZoneKolkata": "كولكاتا",
+  "featuresZoneDubai": "دۇبەي",
+  "featuresZoneJerusalem": "قۇددۇس",
+  "featuresZoneLondon": "لوندون",
+  "featuresZoneDublin": "دۇبلىن",
+  "featuresZoneLisbon": "لىسبون",
+  "featuresZoneParis": "پارىژ",
+  "featuresZoneBerlin": "بېرلىن",
+  "featuresZoneMadrid": "مادرىد",
+  "featuresZoneRome": "روم",
+  "featuresZoneAmsterdam": "ئامستېردام",
+  "featuresZoneZurich": "زۇرىخ",
+  "featuresZoneStockholm": "ستوكھولم",
+  "featuresZoneWarsaw": "ۋارشاۋا",
+  "featuresZoneAthens": "ئافىنا",
+  "featuresZoneIstanbul": "ئىستانبۇل",
+  "featuresZoneMoscow": "موسكۋا",
+  "featuresZoneCairo": "قاھىرە",
+  "featuresZoneJohannesburg": "يوهاننىسبۇرگ",
+  "featuresZoneLagos": "لاگوس",
+  "featuresZoneNewYork": "نيۇيورك",
+  "featuresZoneToronto": "تورونتو",
+  "featuresZoneChicago": "شىكاگو",
+  "featuresZoneDenver": "دېنۋېر",
+  "featuresZonePhoenix": "فېنىكس",
+  "featuresZoneLosAngeles": "لوس ئانجېلېس",
+  "featuresZoneVancouver": "ۋانكۇۋېر",
+  "featuresZoneAnchorage": "ئانكوراژ",
+  "featuresZoneMexicoCity": "مېكسىكا شەھىرى",
+  "featuresZoneBogota": "بوگوتا",
+  "featuresZoneLima": "لىما",
+  "featuresZoneSantiago": "سانتيياگو",
+  "featuresZoneSaoPaulo": "سائو پائولو",
+  "featuresZoneBuenosAires": "بۇئېنوس ئايرېس",
+  "featuresZoneHonolulu": "ھونولۇلۇ",
+  "featuresZoneAuckland": "ئاۋكلاند",
+  "featuresZoneSydney": "سىدنىي",
+  "featuresZoneMelbourne": "مېلبۇرن",
+  "featuresZoneBrisbane": "بىرىسبېن",
+  "featuresZonePerth": "پېرس",
+  "featuresScheduleCreated": "قۇرۇلدى",
+  "featuresSchedulesReadFailed": "ئاپتوماتىك ۋەزىپىلەرنى ئوقۇيالمىدى",
+  "featuresSchedulesEmpty": "تېخى ئاپتوماتىك ۋەزىپە يوق",
+  "featuresSchedulesEmptyHint": "ۋاقتى كەلگەندە ئۆزلۈكىدىن سۆھبەتكە ئەۋەتىپ، سىز ئۈچۈن بىر قېتىم ئىجرا قىلىدۇ",
+  "featuresScheduleNewTask": "يېڭى ۋەزىپە",
+  "featuresSchedulesNoMatch": "ماس كېلىدىغان ۋەزىپە يوق",
+  "featuresSchedulesNoActive": "ئېچىلغان ۋەزىپە يوق",
+  "featuresSchedulesNoEnded": "ئاخىرلاشقان ۋەزىپە يوق",
+  "featuresSchedules": "ئاپتوماتىك ۋەزىپىلەر",
+  "featuresSchedulesSubtitle": "ۋاقتى كەلگەندە ئۆزلۈكىدىن ئەسلى سۆھبەتكە ئەۋەتىلىدۇ",
+  "featuresSchedulesSearch": "ۋەزىپە ئىزدەش",
+  "featuresSchedulesAllCount": "ھەممىسى {count}",
   "@featuresSchedulesAllCount": {
     "placeholders": {
       "count": {
@@ -626,28 +627,28 @@
       }
     }
   },
-  "featuresScheduleUntitled": "未命名任务",
-  "featuresScheduleSent": "已发进对话",
-  "featuresView": "查看",
-  "featuresSendFailed": "没能发送",
-  "featuresScheduleDeleteTitle": "删除这个任务？",
-  "featuresScheduleDeleteHint": "会停止之后的运行，并删掉它的运行记录。原来的对话不受影响。",
-  "featuresScheduleDeleted": "任务已删除",
-  "featuresScheduleActive": "已开启",
-  "featuresScheduleRun": "运行",
-  "featuresScheduleNextRun": "下次",
-  "featuresScheduleLastRun": "上次",
-  "featuresScheduleRule": "规则",
-  "featuresScheduleLinkedChat": "关联对话",
-  "featuresScheduleChatDeleted": "对话已删除",
-  "featuresScheduleEdit": "编辑任务",
-  "featuresScheduleRunNow": "立即运行",
-  "featuresScheduleHistory": "运行记录",
-  "featuresScheduleNeverRun": "还没有运行过",
-  "featuresScheduleHistoryUnavailable": "记录不可用",
-  "featuresScheduleHistoryReadFailed": "没能读取运行记录",
-  "featuresScheduleDelete": "删除任务",
-  "featuresExportSavedTo": "已存到 {path}",
+  "featuresScheduleUntitled": "نامسىز ۋەزىپە",
+  "featuresScheduleSent": "سۆھبەتكە ئەۋەتىلدى",
+  "featuresView": "كۆرۈش",
+  "featuresSendFailed": "ئەۋەتەلمىدى",
+  "featuresScheduleDeleteTitle": "بۇ ۋەزىپە ئۆچۈرۈلسۇنمۇ؟",
+  "featuresScheduleDeleteHint": "كېيىنكى ئىجرا توختايدۇ ۋە ئىجرا خاتىرىسى ئۆچۈرۈلىدۇ. ئەسلىدىكى سۆھبەتكە تەسىر يەتمەيدۇ.",
+  "featuresScheduleDeleted": "ۋەزىپە ئۆچۈرۈلدى",
+  "featuresScheduleActive": "ئېچىلغان",
+  "featuresScheduleRun": "ئىجرا قىلىش",
+  "featuresScheduleNextRun": "كېيىنكى",
+  "featuresScheduleLastRun": "ئالدىنقى",
+  "featuresScheduleRule": "قائىدە",
+  "featuresScheduleLinkedChat": "باغلانغان سۆھبەت",
+  "featuresScheduleChatDeleted": "سۆھبەت ئۆچۈرۈلدى",
+  "featuresScheduleEdit": "ۋەزىپىنى تەھرىرلەش",
+  "featuresScheduleRunNow": "دەرھال ئىجرا قىلىش",
+  "featuresScheduleHistory": "ئىجرا خاتىرىسى",
+  "featuresScheduleNeverRun": "تېخى ئىجرا قىلىنمىدى",
+  "featuresScheduleHistoryUnavailable": "خاتىرە ئىشلەتكىلى بولمايدۇ",
+  "featuresScheduleHistoryReadFailed": "ئىجرا خاتىرىسىنى ئوقۇيالمىدى",
+  "featuresScheduleDelete": "ۋەزىپىنى ئۆچۈرۈش",
+  "featuresExportSavedTo": "{path} غا ساقلاندى",
   "@featuresExportSavedTo": {
     "placeholders": {
       "path": {
@@ -655,22 +656,22 @@
       }
     }
   },
-  "featuresExportTitle": "导出对话日志",
-  "featuresExportSubtitle": "打包成一个 ZIP，用于反馈或备份",
-  "featuresExportUnavailable": "这个连接导不了",
-  "featuresExportRemoteHint": "经 DSH Remote 中转时拿不到日志，可以在电脑上的网页版导出",
-  "featuresExportShareHint": "附在问题反馈里，或发给自己",
-  "featuresExportSaveDownloads": "存到「下载」",
-  "featuresExportDownloadsHint": "存进 下载/DSH-Go",
-  "featuresExportContents": "含这个对话和子代理的全部记录与附件",
-  "featuresSkillUseHere": "在对话里用",
-  "featuresSkillUseNew": "新对话里用",
-  "featuresSkillsCallHint": "输入 /技能名 调用",
-  "featuresSkillsReadFailed": "没能读取技能",
-  "featuresSkillsEmpty": "这个对话还没有技能",
-  "featuresSkillsEmptyHint": "放进 .dsh/skills 的技能会出现在这里",
-  "featuresSkillsSourceHint": "来自项目和 ~/.dsh 下的 skills 目录",
-  "featuresSkillUsage": "适用：{usage}",
+  "featuresExportTitle": "سۆھبەت خاتىرىسىنى چىقىرىش",
+  "featuresExportSubtitle": "ZIP قىلىپ ئوراپ، تەكلىپ-پىكىر ياكى زاپاسلاشقا ئىشلىتىڭ",
+  "featuresExportUnavailable": "بۇ ئۇلىنىش چىقىرالمايدۇ",
+  "featuresExportRemoteHint": "DSH Remote ئارقىلىق ئۆتۈشكەندە خاتىرە ئېلىنمايدۇ، كومپيۇتېردىكى تور نەشرىدە چىقىرىڭ",
+  "featuresExportShareHint": "مەسىلە تەكلىپىگە قوشۇڭ ياكى ئۆزىڭىزگە ئەۋەتىڭ",
+  "featuresExportSaveDownloads": "«چۈشۈرمىلەر» گە ساقلاش",
+  "featuresExportDownloadsHint": "چۈشۈرۈش/DSH-Go غا ساقلىنىدۇ",
+  "featuresExportContents": "بۇ سۆھبەت ۋە تارماق ئاگېنتنىڭ بارلىق خاتىرىسى ۋە قوشۇمچە ھۆججەتلىرىنى ئۆز ئىچىگە ئالىدۇ",
+  "featuresSkillUseHere": "سۆھبەتتە ئىشلىتىش",
+  "featuresSkillUseNew": "يېڭى سۆھبەتتە ئىشلىتىش",
+  "featuresSkillsCallHint": "/ماھارەت ئىسمى نى كىرگۈزۈپ چاقىرىڭ",
+  "featuresSkillsReadFailed": "ماھارەتنى ئوقۇيالمىدى",
+  "featuresSkillsEmpty": "بۇ سۆھبەتتە تېخى ماھارەت يوق",
+  "featuresSkillsEmptyHint": ".dsh/skills غا ساقلانغان ماھارەتلەر بۇ يەردە كۆرۈنىدۇ",
+  "featuresSkillsSourceHint": "تۈر ۋە ~/.dsh ئاستىدىكى skills قىسقۇچىدىن كەلگەن",
+  "featuresSkillUsage": "قوللىنىلىدۇ: {usage}",
   "@featuresSkillUsage": {
     "placeholders": {
       "usage": {
@@ -678,8 +679,8 @@
       }
     }
   },
-  "featuresSkillManual": "仅手动",
-  "featuresArtifactsSemantic": "产出的文件，共 {count} 个，查看全部",
+  "featuresSkillManual": "پەقەت قولدا",
+  "featuresArtifactsSemantic": "چىقىرىلغان ھۆججەتلەر، جەمئىي {count} دانە، ھەممىسىنى كۆرۈش",
   "@featuresArtifactsSemantic": {
     "placeholders": {
       "count": {
@@ -687,8 +688,8 @@
       }
     }
   },
-  "featuresArtifactsTitle": "产出的文件",
-  "featuresArtifactsAllCount": "全部 {count} 个",
+  "featuresArtifactsTitle": "چىقىرىلغان ھۆججەتلەر",
+  "featuresArtifactsAllCount": "ھەممىسى {count} دانە",
   "@featuresArtifactsAllCount": {
     "placeholders": {
       "count": {
@@ -696,7 +697,7 @@
       }
     }
   },
-  "featuresArtifactsCount": "{count} 个",
+  "featuresArtifactsCount": "{count} دانە",
   "@featuresArtifactsCount": {
     "placeholders": {
       "count": {
@@ -704,8 +705,8 @@
       }
     }
   },
-  "featuresArtifactsNoFiles": "还没有文件",
-  "featuresArtifactsTotal": "{count} 个文件 · 交付的和生成的",
+  "featuresArtifactsNoFiles": "تېخى ھۆججەت يوق",
+  "featuresArtifactsTotal": "{count} ھۆججەت · تاپشۇرۇلغان ۋە ياسالغان",
   "@featuresArtifactsTotal": {
     "placeholders": {
       "count": {
@@ -713,9 +714,9 @@
       }
     }
   },
-  "featuresArtifactsEmpty": "还没有产出文件",
-  "featuresArtifactsEmptyHint": "AI 交付或生成的文件会出现在这里",
-  "featuresListSeparator": "、",
+  "featuresArtifactsEmpty": "تېخى ھۆججەت چىقىرىلمىدى",
+  "featuresArtifactsEmptyHint": "AI تاپشۇرغان ياكى ياسىغان ھۆججەتلەر بۇ يەردە كۆرۈنىدۇ",
+  "featuresListSeparator": "،",
   "featuresErrorReason": "{title}：{reason}",
   "@featuresErrorReason": {
     "placeholders": {
@@ -727,7 +728,7 @@
       }
     }
   },
-  "featuresYearDate": "{year}年{date}",
+  "featuresYearDate": "{year}-يىلى {date}",
   "@featuresYearDate": {
     "placeholders": {
       "year": {
@@ -752,7 +753,7 @@
       }
     }
   },
-  "featuresDateWeekday": "{date} 周{day}",
+  "featuresDateWeekday": "{date} ھەپتە {day}",
   "@featuresDateWeekday": {
     "placeholders": {
       "date": {
@@ -785,7 +786,7 @@
       }
     }
   },
-  "featuresRuleIntervalSeconds": "每 {count} 秒",
+  "featuresRuleIntervalSeconds": "ھەر {count} سېكۇنتتا",
   "@featuresRuleIntervalSeconds": {
     "placeholders": {
       "count": {
@@ -793,7 +794,7 @@
       }
     }
   },
-  "featuresRuleIntervalMinutes": "每 {count} 分钟",
+  "featuresRuleIntervalMinutes": "ھەر {count} مىنۇتتا",
   "@featuresRuleIntervalMinutes": {
     "placeholders": {
       "count": {
@@ -801,7 +802,7 @@
       }
     }
   },
-  "featuresRuleIntervalHours": "每 {count} 小时",
+  "featuresRuleIntervalHours": "ھەر {count} سائەتتە",
   "@featuresRuleIntervalHours": {
     "placeholders": {
       "count": {
@@ -809,7 +810,7 @@
       }
     }
   },
-  "featuresSchedulesActiveCount": "已开启 {count}",
+  "featuresSchedulesActiveCount": "{count} ئېچىلغان",
   "@featuresSchedulesActiveCount": {
     "placeholders": {
       "count": {
@@ -817,7 +818,7 @@
       }
     }
   },
-  "featuresSchedulesEndedCount": "已结束 {count}",
+  "featuresSchedulesEndedCount": "{count} ئاخىرلاشقان",
   "@featuresSchedulesEndedCount": {
     "placeholders": {
       "count": {
@@ -825,7 +826,7 @@
       }
     }
   },
-  "featuresScheduleRetention": "只保留最近 {days} 天、最多 {count} 条",
+  "featuresScheduleRetention": "پەقەت يېقىنقى {days} كۈن، ئەڭ كۆپ {count} خاتىرىنى ساقلايدۇ",
   "@featuresScheduleRetention": {
     "placeholders": {
       "days": {
@@ -836,7 +837,7 @@
       }
     }
   },
-  "featuresScheduleRetentionUnknown": "只保留最近 {days} 天、最多 — 条",
+  "featuresScheduleRetentionUnknown": "پەقەت يېقىنقى {days} كۈن، ئەڭ كۆپ — خاتىرىنى ساقلايدۇ",
   "@featuresScheduleRetentionUnknown": {
     "placeholders": {
       "days": {
@@ -844,7 +845,7 @@
       }
     }
   },
-  "featuresArtifactsDeliveredTurn": "第 {turn} 轮 · 交付",
+  "featuresArtifactsDeliveredTurn": "{turn}-قېتىم · تاپشۇرۇلدى",
   "@featuresArtifactsDeliveredTurn": {
     "placeholders": {
       "turn": {
@@ -852,7 +853,7 @@
       }
     }
   },
-  "featuresArtifactsGeneratedTurn": "第 {turn} 轮 · 生成",
+  "featuresArtifactsGeneratedTurn": "{turn}-قېتىم · قۇرۇلدى",
   "@featuresArtifactsGeneratedTurn": {
     "placeholders": {
       "turn": {
@@ -860,7 +861,7 @@
       }
     }
   },
-  "featuresPresetCreateRequest": "新建 Agent 预设「{name}」（{id}）：在工作区写下这两个文件（内容原样），再用 plugin_manager 的 install_bundle 安装 `{directory}` 目录。只做这些。\n\n",
+  "featuresPresetCreateRequest": "يېڭى Agent ئالدىن بەلگىلىمىسى «{name}» ({id}) نى قۇرۇش: خىزمەت رايونىدا بۇ ئىككى ھۆججەتنى يېزىڭ (مەزمۇنى ئەسلىدىكىدەك)، ئاندىن plugin_manager نىڭ install_bundle ئارقىلىق `{directory}` مۇندەرىجىسىنى قاچىلاڭ. پەقەت مۇشۇنى قىلىڭ.",
   "@featuresPresetCreateRequest": {
     "placeholders": {
       "name": {
@@ -874,7 +875,7 @@
       }
     }
   },
-  "featuresPresetUpdateRequest": "更新 Agent 预设「{name}」（{id}）：在工作区写下这两个文件（内容原样），用 plugin_manager 先移除组合包 `{replacing}`，再用 install_bundle 安装 `{directory}` 目录。只做这些。\n\n",
+  "featuresPresetUpdateRequest": "Agent ئالدىن بەلگىلىمىسى «{name}» ({id}) نى يېڭىلاش: خىزمەت رايونىدا بۇ ئىككى ھۆججەتنى يېزىڭ (مەزمۇنى ئەسلىدىكىدەك)، plugin_manager ئارقىلىق ئالدى بىلەن `{replacing}` توپلىمىنى چىقىرىڭ، ئاندىن install_bundle ئارقىلىق `{directory}` مۇندەرىجىسىنى قاچىلاڭ. پەقەت مۇشۇنى قىلىڭ.",
   "@featuresPresetUpdateRequest": {
     "placeholders": {
       "name": {
@@ -891,7 +892,7 @@
       }
     }
   },
-  "featuresZoneThisPhone": "{city} · 本机",
+  "featuresZoneThisPhone": "{city} · بۇ ئۈسكۈنە",
   "@featuresZoneThisPhone": {
     "placeholders": {
       "city": {
@@ -899,6 +900,6 @@
       }
     }
   },
-  "featuresPermissionResetHint": "新对话的默认权限已失效",
-  "featuresPermissionResetDefault": "恢复默认"
+  "featuresPermissionResetHint": "يېڭى سۆھبەتنىڭ كۆڭۈلدىكى ھوقۇقى ئىناۋەتسىز بولدى",
+  "featuresPermissionResetDefault": "كۆڭۈلدىكىگە قايتۇرۇش"
 }

@@ -1,33 +1,34 @@
 {
-  "marketSectionOfficial": "官方",
-  "marketSectionAdapted": "适配 Kit Go",
-  "marketSectionAll": "全部",
-  "marketSectionLoading": "正在载入…",
-  "marketSectionFailed": "官方目录没打开",
-  "marketSectionEmpty": "暂无",
-  "marketTierOfficial": "官方",
-  "marketTierAdapted": "适配 Kit Go",
-  "marketRiskMedium": "中风险",
-  "marketRiskHigh": "高风险",
-  "marketFlagInstallScripts": "安装时运行脚本",
-  "marketFlagInstallScriptsBody": "安装时会自动运行包里的脚本（preinstall、install 或 postinstall）",
-  "marketFlagNativeCode": "含原生程序",
-  "marketFlagNativeCodeBody": "包里有编译好的原生程序（.node、binding.gyp 或二进制文件），没法直接阅读",
-  "marketFlagShell": "执行命令",
-  "marketFlagShellBody": "代码里会调用系统命令（child_process）",
-  "marketFlagNetwork": "联网",
-  "marketFlagNetworkBody": "代码里会发起网络请求（fetch、http、WebSocket）",
-  "marketFlagFilesystem": "写工作区外的文件",
-  "marketFlagFilesystemBody": "会写入工作区以外的路径",
-  "marketFlagObfuscated": "代码难以审阅",
-  "marketFlagObfuscatedBody": "有压缩或混淆过的大文件，看不出它做什么",
-  "marketFlagNotAdapted": "未适配 Kit Go",
-  "marketFlagNotAdaptedBody": "没有声明 Kit Go 原生协议，在 App 里没有原生界面",
-  "marketFlagOtherBody": "自动检查报告的其他特征",
-  "marketChecksTitle": "自动检查",
-  "marketChecksClean": "没有发现风险特征",
-  "marketChecksNote": "自动检查发现的特征，不代表插件有恶意",
-  "marketCheckedOn": "检查于 {date}",
+  "@@locale": "ug",
+  "marketSectionOfficial": "رەسمىي",
+  "marketSectionAdapted": "Kit Go غا ماسلاشتۇرۇلغان",
+  "marketSectionAll": "ھەممىسى",
+  "marketSectionLoading": "يۈكلىنىۋاتىدۇ…",
+  "marketSectionFailed": "رەسمىي مۇندەرىجە ئېچىلمىدى",
+  "marketSectionEmpty": "ھازىرچە يوق",
+  "marketTierOfficial": "رەسمىي",
+  "marketTierAdapted": "Kit Go غا ماسلاشتۇرۇلغان",
+  "marketRiskMedium": "ئوتتۇرا خەتەر",
+  "marketRiskHigh": "يۇقىرى خەتەر",
+  "marketFlagInstallScripts": "قاچىلاش جەريانىدا سىكرىپت ئىجرا قىلىنىدۇ",
+  "marketFlagInstallScriptsBody": "قاچىلاش جەريانىدا بولاقتىكى سىكرىپتلار ئاپتوماتىك ئىجرا قىلىنىدۇ (preinstall، install ياكى postinstall)",
+  "marketFlagNativeCode": "يەرلىك پروگرامما بار",
+  "marketFlagNativeCodeBody": "بولاقتا كومپىيالىيىتەرلەنگەن يەرلىك پروگرامما بار (.node، binding.gyp ياكى بىنارلىق ھۆججەت)، بىۋاسىتە ئوقۇغىلى بولمايدۇ",
+  "marketFlagShell": "بۇيرۇق ئىجرا قىلىنىدۇ",
+  "marketFlagShellBody": "كودتا سىستېما بۇيرۇقلىرى چاقىرىلىدۇ (child_process)",
+  "marketFlagNetwork": "تورغا ئۇلىنىدۇ",
+  "marketFlagNetworkBody": "كودتا تور تەلەپلىرى قىلىنىدۇ (fetch، http، WebSocket)",
+  "marketFlagFilesystem": "خىزمەت رايونىدىن سىرتقا ھۆججەت يازىدۇ",
+  "marketFlagFilesystemBody": "خىزمەت رايونىدىن سىرتقى يولغا يازىدۇ",
+  "marketFlagObfuscated": "كودنى تەكشۈرۈش قىيىن",
+  "marketFlagObfuscatedBody": "پىرىسلانغان ياكى چىگىشلەشتۈرۈلگەن چوڭ ھۆججەتلەر بار، نېمە قىلىدىغانلىقىنى بىلگىلى بولمايدۇ",
+  "marketFlagNotAdapted": "Kit Go غا ماسلاشتۇرۇلمىغان",
+  "marketFlagNotAdaptedBody": "Kit Go نىڭ يەرلىك پروتوكولىنى ئېلان قىلمىغان، ئەپتە يەرلىك كۆرۈنمە يۈزى يوق",
+  "marketFlagOtherBody": "ئاپتوماتىك تەكشۈرۈش دوكلاتىنىڭ باشقا ئالاھىدىلىكلىرى",
+  "marketChecksTitle": "ئاپتوماتىك تەكشۈرۈش",
+  "marketChecksClean": "خەتەر ئالاھىدىلىكى تېپىلمىدى",
+  "marketChecksNote": "ئاپتوماتىك تەكشۈرۈشتە تېپىلغان ئالاھىدىلىكلەر قىستۇرمىنىڭ زىيانلىق ئىكەنلىكىنى بىلدۈرمەيدۇ",
+  "marketCheckedOn": "{date} تەكشۈرۈلگەن",
   "@marketCheckedOn": {
     "placeholders": {
       "date": {
@@ -35,7 +36,7 @@
       }
     }
   },
-  "marketScreenshot": "截图 {index}",
+  "marketScreenshot": "ئېكران كۆرۈنۈشى {index}",
   "@marketScreenshot": {
     "placeholders": {
       "index": {
@@ -43,7 +44,7 @@
       }
     }
   },
-  "marketRiskConfirmTitle": "「{name}」有风险特征",
+  "marketRiskConfirmTitle": "«{name}» دا خەتەر ئالاھىدىلىكى بار",
   "@marketRiskConfirmTitle": {
     "placeholders": {
       "name": {
@@ -51,10 +52,10 @@
       }
     }
   },
-  "marketRiskConfirmAction": "仍然安装",
-  "marketPinnedVersion": "锁定版本",
-  "marketRequiresApp": "需要 Kit Go",
-  "marketNeedsApp": "需要 Kit Go {version} 或更高版本",
+  "marketRiskConfirmAction": "يەنىلا قاچىلاش",
+  "marketPinnedVersion": "قۇلۇپلانغان نەشرى",
+  "marketRequiresApp": "Kit Go كېرەك",
+  "marketNeedsApp": "Kit Go {version} ياكى ئۇنىڭدىن يۇقىرى نەشرىسى كېرەك",
   "@marketNeedsApp": {
     "placeholders": {
       "version": {
@@ -62,9 +63,9 @@
       }
     }
   },
-  "marketUpdateAvailable": "有更新",
-  "marketBlockedTitle": "这个版本已下架",
-  "marketBlockedMessage": "已安装的 {version} 已从插件市场下架，建议卸载",
+  "marketUpdateAvailable": "يېڭىلانما بار",
+  "marketBlockedTitle": "بۇ نەشرى ئېلىنغان",
+  "marketBlockedMessage": "قاچىلانغان {version} قىستۇرما بازىرىدىن ئېلىنغان، ئۆچۈرۈشنى تەۋسىيە قىلىمىز",
   "@marketBlockedMessage": {
     "placeholders": {
       "version": {
@@ -72,11 +73,11 @@
       }
     }
   },
-  "marketBlockedRow": "此版本已下架，建议卸载",
-  "marketBlockedBadge": "已下架",
-  "marketVerifying": "正在核对版本…",
-  "marketMismatchTitle": "版本校验不一致",
-  "marketMismatchMessage": "npm 上的 {version} 和插件市场检查过的不是同一个包，已停止安装",
+  "marketBlockedRow": "بۇ نەشرى ئېلىنغان، ئۆچۈرۈشنى تەۋسىيە قىلىمىز",
+  "marketBlockedBadge": "ئېلىنغان",
+  "marketVerifying": "نەشرى سېلىشتۇرۇلۇۋاتىدۇ…",
+  "marketMismatchTitle": "نەشرى تەكشۈرۈش ماس كەلمىدى",
+  "marketMismatchMessage": "npm دىكى {version} بىلەن قىستۇرما بازىرى تەكشۈرگەن بولاق ئوخشاش ئەمەس، قاچىلاش توختىتىلدى",
   "@marketMismatchMessage": {
     "placeholders": {
       "version": {
@@ -84,9 +85,9 @@
       }
     }
   },
-  "marketSubmit": "提交插件",
-  "marketSubmitHint": "在 GitHub 提交，通过自动检查即上架",
-  "marketLinkNotFound": "插件市场里没有 {name}",
+  "marketSubmit": "قىستۇرما تاپشۇرۇش",
+  "marketSubmitHint": "GitHub دا تاپشۇرۇڭ، ئاپتوماتىك تەكشۈرۈشتىن ئۆتسە ئېلىنىدۇ",
+  "marketLinkNotFound": "قىستۇرما بازىرىدا {name} يوق",
   "@marketLinkNotFound": {
     "placeholders": {
       "name": {
@@ -94,9 +95,9 @@
       }
     }
   },
-  "marketVerificationUnavailableTitle": "暂时无法核对版本",
-  "marketVerificationUnavailableBody": "没能取得 npm 的版本校验信息，尚未开始安装。请检查网络后重试。",
-  "marketCombinedCount": "{count} 个插件",
+  "marketVerificationUnavailableTitle": "نەشرىنى ھازىرچە سېلىشتۇرغىلى بولمايدۇ",
+  "marketVerificationUnavailableBody": "npm نىڭ نەشرى تەكشۈرۈش ئۇچۇرىنى ئالالمىدۇق، قاچىلاش تېخى باشلانمىدى. تورنى تەكشۈرۈپ قايتا سىناڭ.",
+  "marketCombinedCount": "{count} قىستۇرما",
   "@marketCombinedCount": {
     "placeholders": {
       "count": {

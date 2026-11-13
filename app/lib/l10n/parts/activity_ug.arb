@@ -1,346 +1,347 @@
 {
-  "activityThinkingUntangle": "嗯…让我捋捋",
-  "activityThinkingWorkThrough": "盘一下盘一下",
-  "activityThinkingGears": "大脑转起来了",
-  "activityThinkingSecond": "给我一秒",
-  "activityThinkingSmoking": "脑子在冒烟",
-  "activityThinkingOnIt": "想呢想呢",
-  "activityThinkingNoRush": "别催别催",
-  "activityThinkingPonder": "让我琢磨下",
-  "activityThinkingLogic": "正在盘逻辑",
-  "activityThinkingBrain": "小脑瓜动一下",
-  "activityThinkingSort": "让我理理",
-  "activityThinkingMemory": "翻翻脑子",
-  "activityThinkingStorm": "脑内风暴中",
-  "activityThinkingSavor": "嗯…让我品品",
-  "activityThinkingMoment": "稍等，在想",
-  "activityThinkingHeadScratch": "挠头…",
-  "activityThinkingPlayOut": "让子弹飞一会",
-  "activityThinkingLoading": "思路加载中",
-  "activityThinkingMulling": "琢磨中",
-  "activityThinkingBreakDown": "嗯…让我拆一下",
-  "activityThinkingTrain": "脑内跑火车",
-  "activityThinkingSomething": "嗯…有点东西",
-  "activityThinkingJog": "小跑一下思路",
-  "activityThinkingPicture": "等下，有画面了",
-  "activityThinkingBubbles": "思考泡泡",
-  "activityThinkingWaves": "脑电波传输中",
-  "activityThinkingCoffee": "脑子在煮咖啡",
-  "activityThinkingDraft": "我打个腹稿",
-  "activityThinkingComing": "嗯，来了来了",
-  "activityThinkingBubbling": "脑子冒泡泡",
-  "activityThinkingTackle": "嗯…盘它",
-  "activityThinkingSpark": "闪个思路",
-  "activityThinkingLogicFirst": "先捋一下逻辑",
-  "activityThinkingLocate": "定位一下",
-  "activityThinkingInvestigate": "排查一下",
-  "activityThinkingGif": "思考.gif",
-  "activityThinkingLook": "让我康康",
-  "activityThinkingInteresting": "嗯…有点意思",
-  "activityThinkingHands": "搓搓手想想",
-  "activityThinkingFiveMinutes": "5 分钟，大工程",
-  "activityThinkingSerious": "这把我得认真",
-  "activityThinkingTricky": "确实有点绕",
-  "activityThinkingAscend": "我在修仙",
-  "activityThinkingAlmostPromise": "快好了，真的",
-  "activityThinkingLongWay": "盘了一大圈",
-  "activityThinkingWrapping": "在收尾了",
-  "activityThinkingSong": "给我一首歌的时间",
-  "activityThinkingBigMove": "憋大招中",
-  "activityThinkingSimple": "这个需求很简单（不是）",
-  "activityThinkingOneMinute": "1 分钟，还在想",
-  "activityThinkingChallenge": "这题有点东西",
-  "activityThinkingDig": "让我再钻研下",
-  "activityThinkingNotSimple": "问题不简单",
-  "activityThinkingDeep": "盘得有点深",
-  "activityThinkingBurning": "脑细胞在燃烧",
-  "activityThinkingNearlyClear": "快盘清了",
-  "activityThinkingTwisty": "这个有点绕…",
-  "activityThinkingWorkout": "烧脑中…",
-  "activityThinkingStay": "别走，快了",
-  "activityThinkingCloser": "嗯，让我细想想",
-  "activityThinkingThirtySeconds": "30 秒了，还在盘",
-  "activityThinkingSoon": "别急，快出结果了",
-  "activityThinkingAnotherPass": "让我再捋一捋",
-  "activityThinkingTrack": "思路没断",
-  "activityThinkingLead": "有眉目了",
-  "activityThinkingCircles": "转圈圈…",
-  "activityThinkingAnyMoment": "马上马上",
-  "activityThinkingStillLocate": "还在定位",
-  "activityWaitingCall": "呼叫模型…",
-  "activityWaitingOnWay": "模型在路上了",
-  "activityWaitingSpeak": "等它开口…",
-  "activityWaitingWords": "它在组织语言",
-  "activityWaitingAwake": "模型醒了么",
-  "activityWaitingStretch": "等它伸懒腰",
-  "activityWaitingYawn": "它打了个哈欠",
-  "activityWaitingComing": "模型：来了来了",
-  "activityWaitingText": "等它出字",
-  "activityWaitingQueue": "还在排队",
-  "activityWaitingBrew": "它在酝酿",
-  "activityWaitingWater": "模型在喝水",
-  "activityWaitingWarmup": "等它热身",
-  "activityWaitingMeditate": "模型在冥想",
-  "activityWaitingBlink": "等它眨个眼",
-  "activityWaitingMoment": "它说稍等",
-  "activityWritingWords": "组织语言中",
-  "activityWritingTyping": "码字中",
-  "activityWritingInspired": "下笔如有神",
-  "activityWritingOnIt": "在写了在写了",
-  "activityWritingCareful": "字斟句酌",
-  "activityWritingFlow": "一气呵成",
-  "activityWritingPlain": "整理成人话",
-  "activityWritingIdeas": "把想法写下来",
-  "activityWritingKeys": "敲字中",
-  "activityWritingAlmost": "马上写完",
-  "activityWritingTell": "娓娓道来",
-  "activityWritingFast": "奋笔疾书",
-  "activityWritingBreeze": "笔下生风",
-  "activityWritingFormat": "排个版",
-  "activityNightAscend": "修仙中…",
-  "activityNightHello": "深夜冒泡",
-  "activityNightOwl": "你也是夜猫子呀",
-  "activityNightMoon": "月亮不睡我不睡",
-  "activityNightSlow": "夜里脑子慢，谅解",
-  "activityNightChampion": "熬夜冠军上线",
-  "activityNightSleepy": "困了，但能行",
-  "activityNightMidnight": "过了零点照样肝",
-  "activityNightOpen": "深夜档营业",
-  "activityNightStars": "星星都睡了",
-  "activityNightDawn": "凌晨还在盘",
-  "activityWeekendChill": "周末摸鱼中",
-  "activityWeekendHere": "周末也在！",
-  "activityWeekendCompany": "放假也陪你",
-  "activityWeekendOnline": "周末不关机",
-  "activityWeekendSneak": "周末偷着盘",
-  "activityWeekendWorking": "周末也在卷？",
-  "activityWeekendMode": "周末模式 ON",
-  "activityWeekendBugs": "周末在修 bug",
-  "activityWeekendSkin": "周末限定皮肤",
-  "activityNewYearCheers": "新年快乐！",
-  "activityNewYearDay": "元旦快乐",
-  "activityNewYearBugs": "新的一年，新的 bug",
-  "activityNewYearFirstLine": "新年第一行代码",
-  "activityNewYearWork": "开工大吉",
-  "activityValentineCode": "情人节也在敲代码",
-  "activityValentineLove": "代码才是真爱",
-  "activityValentineDate": "今天不约会？",
-  "activityValentineKeyboard": "键盘就是玫瑰",
-  "activityPiDay": "π 节快乐",
-  "activityPiCircle": "今天的圆格外圆",
-  "activityAprilFools": "愚人节快乐",
-  "activityAprilBug": "这个 bug 是假的吧",
-  "activityAprilErrors": "小心假报错",
-  "activityAprilKidding": "骗你的，没报错",
-  "activityLaborWorking": "劳动节还在卷",
-  "activityLaborPride": "劳动最光荣",
-  "activityLaborSpirit": "打工人打工魂",
-  "activityChildrenDay": "儿童节快乐",
-  "activityChildrenHeart": "谁还不是个宝宝",
-  "activityChildrenCode": "今天代码要写得可爱",
-  "activityProgrammerCheers": "1024 程序员节快乐",
-  "activityProgrammerDay": "今天是程序员节",
-  "activityProgrammer1024": "1024，节日快乐",
-  "activityProgrammerCode": "程序员节也在写代码",
-  "activityHalloween": "万圣节快乐",
-  "activityHalloweenTreat": "不给糖就捣蛋",
-  "activityHalloweenCode": "代码也会吓人",
-  "activityChristmasEve": "平安夜快乐",
-  "activityChristmasEveThinking": "平安夜也在盘",
-  "activityChristmasEveGift": "今晚写代码有礼物",
-  "activityChristmas": "圣诞快乐",
-  "activityChristmasCompany": "圣诞也陪你",
-  "activityChristmasEgg": "圣诞限定彩蛋",
-  "activityChristmasReindeer": "麋鹿送代码来了",
-  "activityYearEndEve": "跨年夜",
-  "activityYearEndLast": "今年最后一盘",
-  "activityYearEndReady": "准备跨年",
-  "activityYearEndSeeYou": "明年见！",
-  "activityZodiacRat": "鼠",
-  "activityZodiacOx": "牛",
-  "activityZodiacTiger": "虎",
-  "activityZodiacRabbit": "兔",
-  "activityZodiacDragon": "龙",
-  "activityZodiacSnake": "蛇",
-  "activityZodiacHorse": "马",
-  "activityZodiacGoat": "羊",
-  "activityZodiacMonkey": "猴",
-  "activityZodiacRooster": "鸡",
-  "activityZodiacDog": "狗",
-  "activityZodiacPig": "猪",
-  "activityLunarCheers": "春节快乐！",
-  "activityLunarCode": "过年还在写代码",
-  "activityLunarEnvelope": "红包拿来",
-  "activityLunarSpring": "新春快乐",
-  "activityLunarGreeting": "过年好",
-  "activityLunarCodeGreeting": "代码也拜个年",
-  "activityRareSsr": "SSR！稀有彩蛋",
-  "activityRareUr": "UR 掉落",
-  "activityRareLegend": "金色传说！",
-  "activityRareOrange": "出橙了",
-  "activityRareEgg": "彩蛋砸脸",
-  "activityRareChosen": "天选时刻",
-  "activityRareHidden": "你发现了隐藏款",
-  "activityRareChat": "触发隐藏对话",
-  "activityRareMax": "稀有度 MAX",
-  "activityRareLucky": "欧皇降临",
-  "activityRareCritical": "暴击了",
-  "activityRareNextLevel": "这波在大气层",
-  "activityFailCrash": "翻车了",
-  "activityFailOops": "哎呀",
-  "activityFailRun": "没跑通",
-  "activityFailTrip": "摔了一跤",
-  "activityFailWrong": "这不对",
-  "activityFailHiccup": "出岔子了",
-  "activityFailBroken": "不灵了",
-  "activityFailLocal": "我本地能跑啊",
-  "activityFailYesterday": "昨天还能跑",
-  "activityFailTough": "难绷",
-  "activityFailCrack": "裂开",
-  "activityFailPressure": "血压上来了",
-  "activityFailCareless": "这波大意了",
-  "activityFailSlip": "手滑",
-  "activityFailTryAgain": "换个姿势再来",
-  "activityFailChance": "再给我一次机会",
-  "activityTestGreen": "测试全绿",
-  "activityTestAllGreen": "全绿，舒服",
-  "activityTestFirstTry": "一次过！",
-  "activityTestNoErrors": "没报错",
-  "activityTestPassed": "过了过了",
-  "activityTestSolid": "稳了",
-  "activityTestRed": "红了，看看哪挂了",
-  "activityTestInvestigate": "测试挂了，排查一下",
-  "activityTestStubborn": "有个用例不服",
-  "activityTestFix": "红灯，再改改",
-  "activityGitCommitSave": "提交了，存个档",
-  "activityGitSaved": "存档成功",
-  "activityGitCommitRelief": "commit 一下，安心",
-  "activityGitPushed": "推上去了",
-  "activityGitPushDone": "push 完成，起飞",
-  "activityGitCodeOut": "代码出门了",
-  "activityInstallDone": "依赖装好了",
-  "activityInstallInternet": "下载了半个互联网",
-  "activityInstallPackages": "包都到齐了",
-  "activityMilestoneFive": "工具 x5，手感来了",
-  "activityMilestoneTen": "工具连击 x10",
-  "activityMilestoneTwenty": "工具 x20，停不下来",
-  "activityMilestoneFifty": "工具 x50，劳模本模",
-  "activityRetryWait": "稍等，重试中",
-  "activityRetryBackoff": "刚被拒了，退避一下",
-  "activityRetryKnock": "再敲一次门",
-  "activityRateLimited": "被限流了，缓缓再试",
-  "activityRate429": "429 了，歇口气再来",
-  "activityRateQueue": "排队的人有点多",
-  "activityCompactContext": "收拾一下上下文…",
-  "activityCompactBag": "整理背包中…",
-  "activityCompactSpace": "腾地方中",
-  "activityCompactMemory": "给记忆瘦个身",
-  "activityCompactChats": "打包旧对话",
-  "activityReminderWater": "半小时了，喝口水？",
-  "activityReminderTenMinutes": "10 分钟了，这活不小",
-  "activityDiffTitle": "本轮改动",
-  "activityDiffCopied": "已复制补丁",
-  "activityDiffNoWrap": "不换行",
-  "activityDiffWrap": "自动换行",
-  "activityDiffCopy": "复制补丁",
-  "activityDiffEmpty": "空文件，没有可显示的改动",
-  "activityDiffNewFile": "新建文件",
-  "activityDiffUnknownLines": "行号未知",
-  "activityDiffCopyPath": "复制路径",
-  "activityThinking": "思考",
-  "activityReplyInterrupted": "回复（已中断）",
-  "activityWaitingApproval": "等待确认",
-  "activityWaitingAnswer": "等待回答",
-  "activityWriting": "写回复中",
-  "activityThinkingNow": "思考中",
-  "activityRetrying": "重试中",
-  "activityCompacting": "压缩上下文",
-  "activityVerbRun": "跑",
-  "activityVerbWrite": "写",
-  "activityVerbEdit": "改",
-  "activityVerbImage": "看图",
-  "activityVerbRead": "读",
-  "activityVerbFind": "找",
-  "activityVerbSearch": "搜",
-  "activityVerbWebSearch": "搜网页",
-  "activityVerbWebView": "看网页",
-  "activityVerbSubagent": "派子代理",
-  "activityVerbTodo": "更新待办",
-  "activitySecretHide": "隐藏密钥",
-  "activitySecretShow": "显示密钥",
-  "activitySlashNoMatch": "没有匹配的指令，按普通消息发送",
-  "activitySlashCommands": "指令",
-  "activitySlashEnterArgs": "输入参数后发送",
-  "activitySlashRunIntent": "命令 · 执行",
-  "activitySlashInsertIntent": "命令 · 填入",
-  "activitySlashSkillIntent": "技能 · 填入",
-  "activityStepTitle": "步骤详情",
-  "activityStepMissing": "这一步不在已加载的记录里",
-  "activityStepQuestion": "提问",
-  "activityStepSuccess": "成功",
-  "activityStepNeedsPermission": "需要授权",
-  "activityTools": "工具",
-  "activityStepDispatched": "发出",
-  "activityStepExecution": "执行",
-  "activityStepLocation": "所在",
-  "activityStepArguments": "参数",
-  "activityStepChanges": "改动",
-  "activityStepFullScreen": "全屏查看",
-  "activityStepReadContent": "读到的内容",
-  "activityStepWrittenContent": "写入的内容",
-  "activityStepError": "错误",
-  "activityOutput": "输出",
-  "activityStepResult": "结果",
-  "activityStepDeclined": "你拒绝了这次调用",
-  "activityStepNoOutput": "没有输出",
-  "activityStepStart": "开始",
-  "activityDuration": "用时",
-  "activityFirstToken": "首字",
-  "activityStepGeneration": "生成",
-  "activityStepSpeed": "速度",
-  "activityModel": "模型",
-  "activityStepTiming": "计时",
-  "activityUsage": "用量",
-  "activityInput": "输入",
-  "activityStepCacheHit": "  命中缓存",
-  "activityStepCacheMiss": "  未命中",
-  "activityStepCacheWrite": "  写入缓存",
-  "activityStepReasoning": "  推理",
-  "activityStepAnswer": "  回答",
-  "activityStepThinking": "思考过程",
-  "activityStepExplanation": "说明",
-  "activityStepToolCalls": "本步调用的工具",
-  "activityStepProcessing": "模型正在处理",
-  "activityApprovalAllowed": "允许了",
-  "activityApprovalUnanswered": "无人确认",
-  "activityApprovalAnswered": "已答复",
-  "activityToolRead": "读取",
-  "activityToolWrite": "写入",
-  "activityToolCall": "调用工具",
-  "activityTraceTitle": "本轮轨迹",
-  "activityTraceNotLoaded": "本轮记录尚未加载",
-  "activityTraceOutputLimit": "输出达到上限",
-  "activityTraceEngineRestarted": "引擎重启，已中断",
-  "activityTraceBlocked": "已被拦截",
-  "activityTraceHeading": "本轮轨迹  ",
-  "activityTraceWaiting": "等你",
-  "activityTraceNoSteps": "本轮没有可计时的步骤",
-  "activityUsageInputIncludesCache": "输入含缓存命中",
-  "activityCacheHit": "缓存命中",
-  "activitySummaryTodo": "更新了待办",
-  "activityUsageBalance": "LOSFER AI 余额",
-  "activityUsageContext": "上下文",
-  "activityUsageChat": "本对话",
-  "activityUsageAfterMessage": "发送消息后显示",
-  "activityUsageWaiting": "等待上下文用量数据",
-  "activityUsageProjected": "预计下次请求",
-  "activityUsageLastRequest": "上次请求",
-  "activityUsageBreakdownEstimate": "分项为独立估算，可能与总量不同",
-  "activityUsageCumulativeInput": "累计输入",
-  "activityUsageContextFull": "上下文将满，发送 /compact 可压缩",
-  "activitySpanZero": "0 秒",
-  "activitySpanTiny": "<0.1 秒",
-  "activityTokensTenThousands": "{value} 万",
+  "@@locale": "ug",
+  "activityThinkingUntangle": "ھەئە… تەرتىپكە سېلىپ باقاي",
+  "activityThinkingWorkThrough": "تالاپ تەكشۈرۈپ باقاي",
+  "activityThinkingGears": "مېڭە ئىشلەپ كەتتى",
+  "activityThinkingSecond": "بىر سېكۇنت بەرسەڭ",
+  "activityThinkingSmoking": "مېڭە ئىس چىقىرىۋاتىدۇ",
+  "activityThinkingOnIt": "ئويلاۋاتىمەن، ئويلاۋاتىمەن",
+  "activityThinkingNoRush": "ئالدىماڭ، ئالدىماڭ",
+  "activityThinkingPonder": "ئويلىنىپ باقاي",
+  "activityThinkingLogic": "لوگىكىنى تەھلىل قىلىۋاتىمەن",
+  "activityThinkingBrain": "مېڭىنى ئىشقا سېلىپ باقاي",
+  "activityThinkingSort": "تەرتىپكە سېلىۋالاي",
+  "activityThinkingMemory": "مېڭىنى ئاختۇرۇۋاتىمەن",
+  "activityThinkingStorm": "مېڭە بورىنىدا",
+  "activityThinkingSavor": "ھەئە… تەمشىپ باقاي",
+  "activityThinkingMoment": "ساقلاپ تۇرۇڭ، ئويلاۋاتىمەن",
+  "activityThinkingHeadScratch": "باش قاشلاۋاتىمەن…",
+  "activityThinkingPlayOut": "سەل ساقلاپ تۇراي",
+  "activityThinkingLoading": "ئىدىيە يۈكلىنىۋاتىدۇ",
+  "activityThinkingMulling": "ئويلىنىۋاتىمەن",
+  "activityThinkingBreakDown": "ھەئە… پارچىلاپ باقاي",
+  "activityThinkingTrain": "مېڭە پويىزى چېپىپ كەتتى",
+  "activityThinkingSomething": "ھەئە… بىر نەرسە بار",
+  "activityThinkingJog": "ئىدىيەنى يۈگۈرتۈپ باقاي",
+  "activityThinkingPicture": "ساقلا، كۆرۈنۈش كەلدى",
+  "activityThinkingBubbles": "پىكىر كۆپۈكچىلىرى",
+  "activityThinkingWaves": "مېڭە دولقۇنلىرى يوللىنىۋاتىدۇ",
+  "activityThinkingCoffee": "مېڭە قەھۋە قاينىتىۋاتىدۇ",
+  "activityThinkingDraft": "ئالدى بىلەن لايىھە تۈزۈۋالاي",
+  "activityThinkingComing": "ھەئە، كېلىۋاتىمەن",
+  "activityThinkingBubbling": "مېڭە كۆپۈكلەپ كېتىۋاتىدۇ",
+  "activityThinkingTackle": "ھەئە… بىر تەرەپ قىلاي",
+  "activityThinkingSpark": "بىر ئىدىيە چاقناپ كەتتى",
+  "activityThinkingLogicFirst": "ئالدى بىلەن لوگىكىنى تەرتىپلەي",
+  "activityThinkingLocate": "ئورنىنى تېپىۋالاي",
+  "activityThinkingInvestigate": "تەكشۈرۈپ باقاي",
+  "activityThinkingGif": "پىكىر.gif",
+  "activityThinkingLook": "مەن قاراپ باقاي",
+  "activityThinkingInteresting": "ھەئە… قىزىقىشلىق",
+  "activityThinkingHands": "قولۇمنى ئۇۋۇلاپ ئويلايمەن",
+  "activityThinkingFiveMinutes": "5 مىنۇت، چوڭ پروژە",
+  "activityThinkingSerious": "بۇ قېتىم جىددىي بولۇشۇم كېرەك",
+  "activityThinkingTricky": "ھەقىقەتەن چىگىشلىك",
+  "activityThinkingAscend": "مەن رىۋايەت چېنىقتىرىۋاتىمەن",
+  "activityThinkingAlmostPromise": "ئاز قالدى، راست",
+  "activityThinkingLongWay": "بىر چوڭ ئايلىنىپ چىقتىم",
+  "activityThinkingWrapping": "ئاخىرلاشتۇرۇۋاتىمەن",
+  "activityThinkingSong": "ماڭا بىرنەپەر ئۈن ۋاقىت بەر",
+  "activityThinkingBigMove": "چوڭ ھەرىكەت تەييارلاۋاتىمەن",
+  "activityThinkingSimple": "بۇ تەلەپ ئىنتايىن ئاددىي (ئەمەس)",
+  "activityThinkingOneMinute": "1 مىنۇت بولدى، تېخى ئويلىنىۋاتىمەن",
+  "activityThinkingChallenge": "بۇ سوئالدا ئاز-تولا گەپ بار",
+  "activityThinkingDig": "يەنە ئازراق تەتقىق قىلاي",
+  "activityThinkingNotSimple": "مەسىلە ئاددىي ئەمەس",
+  "activityThinkingDeep": "بىر ئاز چوڭقۇرلاشتۇرۇۋاتىمەن",
+  "activityThinkingBurning": "مېڭە ھۈجەيرىلىرى كۆيۈۋاتىدۇ",
+  "activityThinkingNearlyClear": "تېخىمۇ ئېنىقلىشىۋاتىدۇ",
+  "activityThinkingTwisty": "بۇنىڭ ئازراق چىگىشى بار…",
+  "activityThinkingWorkout": "مېڭە كۆيۈۋاتىدۇ…",
+  "activityThinkingStay": "كەتمەڭ، پات ئارىدا",
+  "activityThinkingCloser": "ئۇي، ئازراق ئويلىنىپ باقاي",
+  "activityThinkingThirtySeconds": "30 سېكۇنت بولدى، تېخى ئويلىنىۋاتىمەن",
+  "activityThinkingSoon": "ئالدىراپ كەتمەڭ، نەتىجە چىقىش ئالدىدا",
+  "activityThinkingAnotherPass": "يەنە بىر رەت رەتلەپ باقاي",
+  "activityThinkingTrack": "ئىدىيە ئۈزۈلگىنى يوق",
+  "activityThinkingLead": "ئىزى چىقىشقا باشلىدى",
+  "activityThinkingCircles": "چۆگىلەۋاتىدۇ…",
+  "activityThinkingAnyMoment": "دەرھال، دەرھال",
+  "activityThinkingStillLocate": "تېخى ئورۇنلاشتۇرۇۋاتىمەن",
+  "activityWaitingCall": "مودېلنى چاقىرىۋاتىمەن…",
+  "activityWaitingOnWay": "مودېل يولدا كېلىۋاتىدۇ",
+  "activityWaitingSpeak": "ئۇنىڭ ئېغىز ئېچىشىنى ساقلاۋاتىمەن…",
+  "activityWaitingWords": "ئۇ سۆز تەييارلاۋاتىدۇ",
+  "activityWaitingAwake": "مودېل ئويغاندىمۇ",
+  "activityWaitingStretch": "ئۇنىڭ سوزۇلۇشىنى كۈتۈۋاتىمىز",
+  "activityWaitingYawn": "ئۇ ئەسنەپ قويدى",
+  "activityWaitingComing": "مودېل: كېلىۋاتىمەن، كېلىۋاتىمەن",
+  "activityWaitingText": "ئۇنىڭ خەت چىقىرىشىنى كۈتۈۋاتىمىز",
+  "activityWaitingQueue": "يەنىلا ئۆچرەتتە",
+  "activityWaitingBrew": "ئۇ ئويلىنىۋاتىدۇ",
+  "activityWaitingWater": "مودېل سۇ ئىچىۋاتىدۇ",
+  "activityWaitingWarmup": "ئۇنىڭ قىزىشىنى كۈتۈۋاتىمىز",
+  "activityWaitingMeditate": "مودېل مېدىتاتسىيە قىلىۋاتىدۇ",
+  "activityWaitingBlink": "ئۇنىڭ كۆز قىسىشىنى كۈتۈۋاتىمىز",
+  "activityWaitingMoment": "ئۇ سەل ساقلاڭ دېدى",
+  "activityWritingWords": "سۆزلەرنى تەرتىپلەۋاتىدۇ",
+  "activityWritingTyping": "خەت مېدىتاتسىيە قىلىۋاتىدۇ",
+  "activityWritingInspired": "ئىلھام كەلدى",
+  "activityWritingOnIt": "يېزىۋاتىدۇ، يېزىۋاتىدۇ",
+  "activityWritingCareful": "سۆزمۇسۆز ئويلىنىۋاتىدۇ",
+  "activityWritingFlow": "بىر نەپەستە تاماملىدى",
+  "activityWritingPlain": "ئادەم تىلىغا تەرتىپلەۋاتىدۇ",
+  "activityWritingIdeas": "ئويلىرىنى يېزىۋاتىدۇ",
+  "activityWritingKeys": "خەت مېدىتاتسىيە قىلىۋاتىدۇ",
+  "activityWritingAlmost": "تاماملاش ئالدىدا",
+  "activityWritingTell": "ئاستا سۆزلەۋاتىدۇ",
+  "activityWritingFast": "چاپسان يېزىۋاتىدۇ",
+  "activityWritingBreeze": "ئەپچىل يېزىۋاتىمەن",
+  "activityWritingFormat": "تەرتىپلەپ بېرەي",
+  "activityNightAscend": "روھىي تەربىيەدە…",
+  "activityNightHello": "يېرىم كېچىدە كۆرۈندۈم",
+  "activityNightOwl": "سەنمۇ كېچىدە ئويغاقمۇ",
+  "activityNightMoon": "ئاي ئۇخلىمىسا مەن ئۇخلىمايمەن",
+  "activityNightSlow": "كېچىدە مېيىم ئاستا، كەچۈرۈڭ",
+  "activityNightChampion": "كېچە ئويغاقلىق چېمپىيونى كەلدى",
+  "activityNightSleepy": "ئۇيقوم كەلدى، ئەمما بېجىرەلەيمەن",
+  "activityNightMidnight": "يېرىم كېچىدىن ئاتسىمۇ داۋاملىق تىرىشىمەن",
+  "activityNightOpen": "كېچىلىك ئىش ئېچىلدى",
+  "activityNightStars": "يۇلتۇزلارمۇ ئۇخلىدى",
+  "activityNightDawn": "سەھەردە تېخى ئىشلەۋاتىمەن",
+  "activityWeekendChill": "دەم ئېلىش كۈنى بېلىق تۇتۇۋاتىمەن",
+  "activityWeekendHere": "دەم ئېلىش كۈنىمۇ بۇ يەردە!",
+  "activityWeekendCompany": "دەم ئېلىشتا سەن بىلەن",
+  "activityWeekendOnline": "دەم ئېلىش كۈنى ئۆچۈرمەيمەن",
+  "activityWeekendSneak": "دەم ئېلىش كۈنى يوشۇرۇن ئىشلەۋاتىمەن",
+  "activityWeekendWorking": "دەم ئېلىش كۈنىمۇ ئىشلەمسەن؟",
+  "activityWeekendMode": "دەم ئېلىش ھالىتى ئېچىلدى",
+  "activityWeekendBugs": "دەم ئېلىش كۈنى خاتالىق تۈزىتىۋاتىمەن",
+  "activityWeekendSkin": "دەم ئېلىش كۈنىگە خاس ئۇسلۇب",
+  "activityNewYearCheers": "يېڭى يىل مۇبارەك!",
+  "activityNewYearDay": "يېڭى يىل مۇبارەك",
+  "activityNewYearBugs": "يېڭى يىل، يېڭى خاتالىق",
+  "activityNewYearFirstLine": "يېڭى يىلدىكى تۇنجى قۇر كود",
+  "activityNewYearWork": "خىزمەت باشلاش مۇبارەك",
+  "activityValentineCode": "ئاشۇرلار كۈنىمۇ كود يازدۇق",
+  "activityValentineLove": "كودلا ھەقىقىي مۇھەببەت",
+  "activityValentineDate": "بۈگۈن ئۇچرىشىش يوقمۇ؟",
+  "activityValentineKeyboard": "كۇنۇپكا تاختىسى گۈل بولۇپ قالدى",
+  "activityPiDay": "π كۈنى قۇتلۇق بولسۇن",
+  "activityPiCircle": "بۈگۈنكى چەمبەر ئالاھىدە يۇمىلاق",
+  "activityAprilFools": "ئەخمەقلەر كۈنى قۇتلۇق بولسۇن",
+  "activityAprilBug": "بۇ خاتالىق يالغان بولغان بولسا كېرەك",
+  "activityAprilErrors": "يالغان خاتالىق ئۇچۇرلىرىدىن ھەزەر قىلىڭ",
+  "activityAprilKidding": "ئالدىم سىزنى، خاتالىق يوق",
+  "activityLaborWorking": "ئەمگەك كۈنىدىمۇ تىرىشىمىز",
+  "activityLaborPride": "ئەمگەك ئەڭ شەرەپلىك",
+  "activityLaborSpirit": "ئىشچىنىڭ روھى ئىشچى",
+  "activityChildrenDay": "بالىلار كۈنى قۇتلۇق بولسۇن",
+  "activityChildrenHeart": "كۆڭۈلدە ھېلىمۇ بالا",
+  "activityChildrenCode": "بۈگۈنكى كود يېقىملىق يېزىلسۇن",
+  "activityProgrammerCheers": "1024 پروگراممىچىلار كۈنى قۇتلۇق بولسۇن",
+  "activityProgrammerDay": "بۈگۈن پروگراممىچىلار كۈنى",
+  "activityProgrammer1024": "1024، بايرىمىڭىز قۇتلۇق بولسۇن",
+  "activityProgrammerCode": "پروگراممىچىلار كۈنىدىمۇ كود يازىمىز",
+  "activityHalloween": "ھەللوۋىن قۇتلۇق بولسۇن",
+  "activityHalloweenTreat": "تاتلىق بەرمىسەڭ شاۋقۇن",
+  "activityHalloweenCode": "كودمۇ قورقۇتار",
+  "activityChristmasEve": "ئاقشام تەنتەربىيىسى مۇبارەك",
+  "activityChristmasEveThinking": "ئاقشامدىمۇ ئويلىنىۋاتىمەن",
+  "activityChristmasEveGift": "بۈگۈن كېچە كود يازسا سوۋغات بار",
+  "activityChristmas": "روژدېستۋو مۇبارەك",
+  "activityChristmasCompany": "روژدېستۋودىمۇ ھەمراھ",
+  "activityChristmasEgg": "روژدېستۋو ئالاھىدە تۇخۇم",
+  "activityChristmasReindeer": "بۇغا كود ئېلىپ كەلدى",
+  "activityYearEndEve": "يىل ئاخىرى كېچىسى",
+  "activityYearEndLast": "بۇ يىلنىڭ ئاخىرقى ئويۇنى",
+  "activityYearEndReady": "يىل ئاخىرىغا تەييارلىق",
+  "activityYearEndSeeYou": "كەلەر يىل كۆرۈشەيلى!",
+  "activityZodiacRat": "چاشقان",
+  "activityZodiacOx": "كالا",
+  "activityZodiacTiger": "يولۋاس",
+  "activityZodiacRabbit": "توشقان",
+  "activityZodiacDragon": "ئەجدىھا",
+  "activityZodiacSnake": "يىلان",
+  "activityZodiacHorse": "ئات",
+  "activityZodiacGoat": "قوي",
+  "activityZodiacMonkey": "مايمۇن",
+  "activityZodiacRooster": "توخۇ",
+  "activityZodiacDog": "ئىت",
+  "activityZodiacPig": "چوشقا",
+  "activityLunarCheers": "باھار بايرىمىڭىزغا مۇبارەك!",
+  "activityLunarCode": "بايرامدا يەنىلا كود يېزىۋاتىمەن",
+  "activityLunarEnvelope": "قىزىل ھۆججەتنى ئېلىپ كەل",
+  "activityLunarSpring": "يېڭى باھار مۇبارەك",
+  "activityLunarGreeting": "بايرامىڭىزغا مۇبارەك",
+  "activityLunarCodeGreeting": "كودقىمۇ بايرام تىلەيمەن",
+  "activityRareSsr": "SSR! كام ئۇچرايدىغان يوشۇرۇن مەزمۇن",
+  "activityRareUr": "UR چۈشتى",
+  "activityRareLegend": "ئالتۇن رىۋايەت!",
+  "activityRareOrange": "ئاپتاپ رەڭلىك چىقتى",
+  "activityRareEgg": "يوشۇرۇن مەزمۇن چىقىپ قالدى",
+  "activityRareChosen": "تاللانغان پەيت",
+  "activityRareHidden": "يوشۇرۇن نۇسخىنى بايقىدىڭىز",
+  "activityRareChat": "يوشۇرۇن سۆھبەتنى قوزغاتتىڭىز",
+  "activityRareMax": "كاملىق دەرىجىسى MAX",
+  "activityRareLucky": "بەختىڭىز ئېچىلدى",
+  "activityRareCritical": "ئالاھىدە زەربە بولدى",
+  "activityRareNextLevel": "بۇ قېتىم ئاتموسفېرا قاتلىمىدا",
+  "activityFailCrash": "مەغلۇپ بولدى",
+  "activityFailOops": "ئۇي",
+  "activityFailRun": "يۈگۈرۈپ چىقمىدى",
+  "activityFailTrip": "يىقىلىپ چۈشتى",
+  "activityFailWrong": "بۇ توغرا ئەمەس",
+  "activityFailHiccup": "بىر ئاز كاشىلا كەتتى",
+  "activityFailBroken": "ئىشلىمەي قالدى",
+  "activityFailLocal": "ئۆزۈمدە نورمال يۈگۈرۈپتۇ",
+  "activityFailYesterday": "تۈنۈگۈن يەنە يۈگۈرەتتى",
+  "activityFailTough": "بەك قىيىن بولدى",
+  "activityFailCrack": "يېرىلدى",
+  "activityFailPressure": "بېسىم ئۆرلىدى",
+  "activityFailCareless": "بۇ قېتىم بىپەرۋالىق قىلدىم",
+  "activityFailSlip": "قېلىپ كەتتى",
+  "activityFailTryAgain": "باشقىچە ئۇسۇلدا قايتا سىناي",
+  "activityFailChance": "ماڭا يەنە بىر پۇرسەت بەرسىلەر",
+  "activityTestGreen": "سىناق ھەممىسى يېشىل",
+  "activityTestAllGreen": "ھەممىسى يېشىل، راھەت",
+  "activityTestFirstTry": "بىرلا قېتىمدا ئۆتتى!",
+  "activityTestNoErrors": "خاتالىق چىقمىدى",
+  "activityTestPassed": "ئۆتۈپ كەتتى",
+  "activityTestSolid": "مۇقىملاشتى",
+  "activityTestRed": "قىزىل بولدى، قەيەردە ئىشلىمىگەنلىكىنى قارايمىز",
+  "activityTestInvestigate": "سىناق ئىشلىمىدى، تەكشۈرۈپ باقاي",
+  "activityTestStubborn": "بىر سىناق ئەھۋالى باش ئەگمىدى",
+  "activityTestFix": "قىزىل چىراغ، يەنە تۈزىتىپ باقاي",
+  "activityGitCommitSave": "commit قىلدىم، بىر ئامبار قويۇپ قويدۇم",
+  "activityGitSaved": "ئامبارلاش مۇۋەپپەقىيەتلىك",
+  "activityGitCommitRelief": "commit قىلىپ قوياي، كۆڭلۈم خاتىرجەم",
+  "activityGitPushed": "ئىتتىرىلدى",
+  "activityGitPushDone": "push تامام، ئۇچۇش",
+  "activityGitCodeOut": "كود چىقىپ كەتتى",
+  "activityInstallDone": "بايلىق تەييار",
+  "activityInstallInternet": "يېرىم ئىنتېرنېتنى چۈشۈردى",
+  "activityInstallPackages": "بوغچىلار تولۇق كەلدى",
+  "activityMilestoneFive": "قورال x5، ھېسسىيات كەلدى",
+  "activityMilestoneTen": "قورال زەنجىرى x10",
+  "activityMilestoneTwenty": "قورال x20، توختىيالمايۋاتىدۇ",
+  "activityMilestoneFifty": "قورال x50، ئەمگەكچان ئۆزى",
+  "activityRetryWait": "ساقلاڭ، قايتا سىناۋاتىدۇ",
+  "activityRetryBackoff": "بايا رەت قىلىندى، كەينىگە چېكىنىپ باقايلى",
+  "activityRetryKnock": "يەنە بىر قېتىم ئىشىك قاقايلى",
+  "activityRateLimited": "چەكلەندى، تەستە قايتا سىنايمىز",
+  "activityRate429": "429 بولدى، دەم ئېلىپ كېلىڭ",
+  "activityRateQueue": "ئۆچىرەتتە كىشىلەر بىرقەدەر كۆپ",
+  "activityCompactContext": "مەزمۇن دائىرىسىنى تەرتىپكە سالايلى…",
+  "activityCompactBag": "خالتىنى تەرتىپلەۋاتىدۇ…",
+  "activityCompactSpace": "ئورۇن بوشىتىۋاتىدۇ",
+  "activityCompactMemory": "ئەسلىمىنى ئورۇقلىتىش",
+  "activityCompactChats": "كونا سۆھبەتلەرنى بوغچىلاۋاتىدۇ",
+  "activityReminderWater": "يېرىم سائەت بولدى، سۇ ئىچەمسىز؟",
+  "activityReminderTenMinutes": "10 مىنۇت بولدى، بۇ ئىش ئاز ئەمەس",
+  "activityDiffTitle": "بۇ قېتىمقى ئۆزگەرتىشلەر",
+  "activityDiffCopied": "ياماق كۆچۈرۈلدى",
+  "activityDiffNoWrap": "قايتۇرمايدۇ",
+  "activityDiffWrap": "ئاپتوماتىك قايتۇرۇش",
+  "activityDiffCopy": "ياماقنى كۆچۈرۈش",
+  "activityDiffEmpty": "قۇرۇق ھۆججەت، كۆرسىتىدىغان ئۆزگىرىش يوق",
+  "activityDiffNewFile": "يېڭى ھۆججەت",
+  "activityDiffUnknownLines": "قۇر نومۇرى نامەلۇم",
+  "activityDiffCopyPath": "يولنى كۆچۈرۈش",
+  "activityThinking": "ئويلىنىش",
+  "activityReplyInterrupted": "جاۋاب (ئۈزۈلگەن)",
+  "activityWaitingApproval": "تەستىق كۈتۈۋاتىدۇ",
+  "activityWaitingAnswer": "جاۋاب كۈتۈۋاتىدۇ",
+  "activityWriting": "جاۋاب يېزىۋاتىدۇ",
+  "activityThinkingNow": "ئويلىنىۋاتىدۇ",
+  "activityRetrying": "قايتا سىناۋاتىدۇ",
+  "activityCompacting": "مەزمۇن دائىرىسىنى زىچلاش",
+  "activityVerbRun": "يۈرگۈز",
+  "activityVerbWrite": "ياز",
+  "activityVerbEdit": "ئۆزگەرت",
+  "activityVerbImage": "رەسىم كۆر",
+  "activityVerbRead": "ئوقۇ",
+  "activityVerbFind": "تاپ",
+  "activityVerbSearch": "ئىزدە",
+  "activityVerbWebSearch": "تور ئىزدە",
+  "activityVerbWebView": "تور بېتىنى كۆرۈش",
+  "activityVerbSubagent": "تارماق ئاگېنت ئەۋەتىش",
+  "activityVerbTodo": "ۋەزىپىنى يېڭىلاش",
+  "activitySecretHide": "ئاچقۇچنى يوشۇرۇش",
+  "activitySecretShow": "ئاچقۇچنى كۆرسىتىش",
+  "activitySlashNoMatch": "ماس كېلىدىغان بۇيرۇق يوق، ئادەتتىكى ئۇچۇر سۈپىتىدە ئەۋەتىڭ",
+  "activitySlashCommands": "بۇيرۇقلار",
+  "activitySlashEnterArgs": "پارامېتىر كىرگۈزۈپ ئەۋەتىڭ",
+  "activitySlashRunIntent": "بۇيرۇق · ئىجرا قىلىش",
+  "activitySlashInsertIntent": "بۇيرۇق · كىرگۈزۈش",
+  "activitySlashSkillIntent": "ماھارەت · كىرگۈزۈش",
+  "activityStepTitle": "باسقۇچ تەپسىلاتى",
+  "activityStepMissing": "بۇ باسقۇچ يۈكلەنگەن خاتىرىدە يوق",
+  "activityStepQuestion": "سوراق",
+  "activityStepSuccess": "مۇۋەپپەقىيەت",
+  "activityStepNeedsPermission": "ھوقۇق كېرەك",
+  "activityTools": "قوراللار",
+  "activityStepDispatched": "ئەۋەتىلدى",
+  "activityStepExecution": "ئىجرا",
+  "activityStepLocation": "ئورنى",
+  "activityStepArguments": "پارامېتىرلار",
+  "activityStepChanges": "ئۆزگەرتىشلەر",
+  "activityStepFullScreen": "پۈتۈن ئېكراندا كۆرۈش",
+  "activityStepReadContent": "ئوقۇلغان مەزمۇن",
+  "activityStepWrittenContent": "يېزىلغان مەزمۇن",
+  "activityStepError": "خاتالىق",
+  "activityOutput": "چىقىرىش",
+  "activityStepResult": "نەتىجە",
+  "activityStepDeclined": "بۇ قېتىملىق چاقىرىشنى رەت قىلدىڭىز",
+  "activityStepNoOutput": "چىقىرىش يوق",
+  "activityStepStart": "باشلاش",
+  "activityDuration": "ئىشلىتىلگەن ۋاقىت",
+  "activityFirstToken": "تۇنجى ھەرپ",
+  "activityStepGeneration": "ھاسىل قىلىش",
+  "activityStepSpeed": "سۈرئەت",
+  "activityModel": "مودېل",
+  "activityStepTiming": "ۋاقىت ھېسابى",
+  "activityUsage": "ئىشلىتىش",
+  "activityInput": "كىرگۈزۈش",
+  "activityStepCacheHit": "كەشتىن ئېلىندى",
+  "activityStepCacheMiss": "كەشتىن ئېلىنمىدى",
+  "activityStepCacheWrite": "كەشكە يېزىلدى",
+  "activityStepReasoning": "مۇلاھىزە",
+  "activityStepAnswer": "جاۋاب",
+  "activityStepThinking": "ئويلىنىش جەريانى",
+  "activityStepExplanation": "چۈشەندۈرۈش",
+  "activityStepToolCalls": "بۇ باسقۇچتا چاقىرىلغان قوراللار",
+  "activityStepProcessing": "مودېل بىر تەرەپ قىلماقتا",
+  "activityApprovalAllowed": "رۇخسەت قىلىندى",
+  "activityApprovalUnanswered": "جەزملەشتۈرۈلمىدى",
+  "activityApprovalAnswered": "جاۋاب بېرىلدى",
+  "activityToolRead": "ئوقۇش",
+  "activityToolWrite": "يېزىش",
+  "activityToolCall": "قورال چاقىرىش",
+  "activityTraceTitle": "بۇ ئايلانما ئىزى",
+  "activityTraceNotLoaded": "بۇ ئايلانما خاتىرىسى تېخى يۈكلەنمىدى",
+  "activityTraceOutputLimit": "چىقىرىش چېكىگە يەتتى",
+  "activityTraceEngineRestarted": "ماتور قايتا قوزغىتىلدى، ئۈزۈلدى",
+  "activityTraceBlocked": "توسۇلدى",
+  "activityTraceHeading": "بۇ ئايلانما ئىزى",
+  "activityTraceWaiting": "سىزنى ساقلايدۇ",
+  "activityTraceNoSteps": "بۇ ئايلانمىدا ۋاقىت ھېسابلىغىلى بولىدىغان باسقۇچ يوق",
+  "activityUsageInputIncludesCache": "كىرگۈزۈشكە كەش ئۇچرىشى كىرگەن",
+  "activityCacheHit": "كەش ئۇچرىشى",
+  "activitySummaryTodo": "قىلىنىدىغان ئىشلار يېڭىلاندى",
+  "activityUsageBalance": "LOSFER AI قالدۇقى",
+  "activityUsageContext": "مەزمۇن دائىرىسى",
+  "activityUsageChat": "بۇ سۆھبەت",
+  "activityUsageAfterMessage": "ئۇچۇر ئەۋەتكەندىن كېيىن كۆرسىتىلىدۇ",
+  "activityUsageWaiting": "مەزمۇن دائىرىسى ئىشلىتىش سانلىق مەلۇماتىنى ساقلايدۇ",
+  "activityUsageProjected": "كېيىنكى تەلەپ مۆلچەرى",
+  "activityUsageLastRequest": "ئاخىرقى تەلەپ",
+  "activityUsageBreakdownEstimate": "تارماق تۈرلەر مۇستەقىل مۆلچەر، ئومۇمىي مىقداردىن پەرقلىنىشى مۇمكىن",
+  "activityUsageCumulativeInput": "جەمئىي كىرگۈزۈش",
+  "activityUsageContextFull": "مەزمۇن دائىرىسى تولاي دېدى، /compact ئەۋەتىپ قىسقارتىڭ",
+  "activitySpanZero": "0 سېكۇنت",
+  "activitySpanTiny": "<0.1 سېكۇنت",
+  "activityTokensTenThousands": "{value} مىڭ",
   "@activityTokensTenThousands": {
     "placeholders": {
       "value": {
@@ -348,7 +349,7 @@
       }
     }
   },
-  "activityTokensHundredMillions": "{value} 亿",
+  "activityTokensHundredMillions": "{value} يۈز مىليون",
   "@activityTokensHundredMillions": {
     "placeholders": {
       "value": {
@@ -356,7 +357,7 @@
       }
     }
   },
-  "activityUsageContextSemantics": "上下文已用 {percent}，查看用量",
+  "activityUsageContextSemantics": "مەزمۇن دائىرىسىدىن {percent} ئىشلىتىلدى، ئىشلىتىش مىقدارىنى كۆرۈش",
   "@activityUsageContextSemantics": {
     "placeholders": {
       "percent": {
@@ -364,7 +365,7 @@
       }
     }
   },
-  "activityUsageSystemTokens": "系统 {tokens}",
+  "activityUsageSystemTokens": "سىستېما {tokens}",
   "@activityUsageSystemTokens": {
     "placeholders": {
       "tokens": {
@@ -372,7 +373,7 @@
       }
     }
   },
-  "activityUsageToolTokens": "工具 {tokens}",
+  "activityUsageToolTokens": "قورال {tokens}",
   "@activityUsageToolTokens": {
     "placeholders": {
       "tokens": {
@@ -380,7 +381,7 @@
       }
     }
   },
-  "activityUsageMessageTokens": "消息 {tokens}",
+  "activityUsageMessageTokens": "ئۇچۇر {tokens}",
   "@activityUsageMessageTokens": {
     "placeholders": {
       "tokens": {
@@ -388,7 +389,7 @@
       }
     }
   },
-  "activityUsageTurns": "共 {count} 轮",
+  "activityUsageTurns": "جەمئىي {count} ئايلانما",
   "@activityUsageTurns": {
     "placeholders": {
       "count": {
@@ -396,7 +397,7 @@
       }
     }
   },
-  "activityUsageCacheWriteTokens": "写入缓存 {tokens}",
+  "activityUsageCacheWriteTokens": "كاتەكچە يېزىش {tokens}",
   "@activityUsageCacheWriteTokens": {
     "placeholders": {
       "tokens": {
@@ -404,7 +405,7 @@
       }
     }
   },
-  "activitySummaryCommands": "执行 {count} 条命令",
+  "activitySummaryCommands": "{count} بۇيرۇق ئىجرا قىلىندى",
   "@activitySummaryCommands": {
     "placeholders": {
       "count": {
@@ -412,7 +413,7 @@
       }
     }
   },
-  "activitySummaryEditedFiles": "改了 {count} 个文件",
+  "activitySummaryEditedFiles": "{count} ھۆججەت ئۆزگەرتىلدى",
   "@activitySummaryEditedFiles": {
     "placeholders": {
       "count": {
@@ -420,7 +421,7 @@
       }
     }
   },
-  "activitySummaryReadFiles": "读了 {count} 个文件",
+  "activitySummaryReadFiles": "{count} ھۆججەت ئوقۇلدى",
   "@activitySummaryReadFiles": {
     "placeholders": {
       "count": {
@@ -428,7 +429,7 @@
       }
     }
   },
-  "activitySummarySearches": "搜索 {count} 次",
+  "activitySummarySearches": "{count} قېتىم ئىزدەلدى",
   "@activitySummarySearches": {
     "placeholders": {
       "count": {
@@ -436,7 +437,7 @@
       }
     }
   },
-  "activitySummaryWeb": "联网 {count} 次",
+  "activitySummaryWeb": "{count} قېتىم تورغا چىقىلدى",
   "@activitySummaryWeb": {
     "placeholders": {
       "count": {
@@ -444,7 +445,7 @@
       }
     }
   },
-  "activitySummarySubagents": "调用子代理 {count} 次",
+  "activitySummarySubagents": "{count} قېتىم تارماق ئاگېنت چاقىرىلدى",
   "@activitySummarySubagents": {
     "placeholders": {
       "count": {
@@ -452,7 +453,7 @@
       }
     }
   },
-  "activitySummaryOther": "其他工具 {count} 次",
+  "activitySummaryOther": "باشقا قوراللار {count} قېتىم",
   "@activitySummaryOther": {
     "placeholders": {
       "count": {
@@ -460,7 +461,7 @@
       }
     }
   },
-  "activitySummaryTotal": "使用了 {count} 个工具",
+  "activitySummaryTotal": "{count} قورال ئىشلىتىلدى",
   "@activitySummaryTotal": {
     "placeholders": {
       "count": {
@@ -468,7 +469,7 @@
       }
     }
   },
-  "activityDiffBlockMarker": "@@ 第 {index}/{total} 处修改 @@",
+  "activityDiffBlockMarker": "@@ {index}/{total}-ئۆزگەرتىش @@",
   "@activityDiffBlockMarker": {
     "placeholders": {
       "index": {
@@ -479,7 +480,7 @@
       }
     }
   },
-  "activityDiffEditMarker": "第 {index} 次修改（共 {total} 次）",
+  "activityDiffEditMarker": "{index}-ئۆزگەرتىش (جەمئىي {total} قېتىم)",
   "@activityDiffEditMarker": {
     "placeholders": {
       "index": {
@@ -490,7 +491,7 @@
       }
     }
   },
-  "activityTraceSpanSemantics": "{title} {detail}，用时 {duration}",
+  "activityTraceSpanSemantics": "{title} {detail}، ۋاقىت {duration}",
   "@activityTraceSpanSemantics": {
     "placeholders": {
       "title": {
@@ -504,7 +505,7 @@
       }
     }
   },
-  "activityTraceGroupSemantics": "{label}，用时 {duration}",
+  "activityTraceGroupSemantics": "{label}، {duration} ئىشلىتىلدى",
   "@activityTraceGroupSemantics": {
     "placeholders": {
       "label": {
@@ -515,7 +516,7 @@
       }
     }
   },
-  "activityTraceEstimatedCost": "{cost}（按官方单价估算）",
+  "activityTraceEstimatedCost": "{cost} (رەسمىي باھادا مۆلچەرلەنگەن)",
   "@activityTraceEstimatedCost": {
     "placeholders": {
       "cost": {
@@ -523,7 +524,7 @@
       }
     }
   },
-  "activityTraceReasoningTokens": "其中推理 {tokens}",
+  "activityTraceReasoningTokens": "بۇنىڭ ئىچىدە چىقىرىش {tokens}",
   "@activityTraceReasoningTokens": {
     "placeholders": {
       "tokens": {
@@ -531,7 +532,7 @@
       }
     }
   },
-  "activityStepPosition": "第 {turn} 轮 · 第 {step} 步",
+  "activityStepPosition": "{turn}-ئايلانما · {step}-قەدەم",
   "@activityStepPosition": {
     "placeholders": {
       "turn": {
@@ -542,7 +543,7 @@
       }
     }
   },
-  "activityStepTokenSpeed": "{speed} tokens/秒",
+  "activityStepTokenSpeed": "{speed} tokens/سېكۇنت",
   "@activityStepTokenSpeed": {
     "placeholders": {
       "speed": {
@@ -550,7 +551,7 @@
       }
     }
   },
-  "activityStepRetryCount": "{count} 次",
+  "activityStepRetryCount": "{count} قېتىم",
   "@activityStepRetryCount": {
     "placeholders": {
       "count": {
@@ -558,7 +559,7 @@
       }
     }
   },
-  "activityStepTruncated": "{text}\n…（仅显示前 {count}k 字，复制可得全文）",
+  "activityStepTruncated": "{text}\n…(پەقەت ئالدىنقى {count}k ھەرپ كۆرسىتىلدى، پۈتۈن تېكىستنى كۆچۈرۈپ ئېلىڭ)",
   "@activityStepTruncated": {
     "placeholders": {
       "text": {
@@ -569,7 +570,7 @@
       }
     }
   },
-  "activityStepLiveElapsed": "{elapsed} · 进行中{suffix}",
+  "activityStepLiveElapsed": "{elapsed} · داۋاملىشىۋاتىدۇ{suffix}",
   "@activityStepLiveElapsed": {
     "placeholders": {
       "elapsed": {
@@ -580,7 +581,7 @@
       }
     }
   },
-  "activityStepCopySection": "复制{title}",
+  "activityStepCopySection": "{title}نى كۆچۈرۈش",
   "@activityStepCopySection": {
     "placeholders": {
       "title": {
@@ -588,7 +589,7 @@
       }
     }
   },
-  "activityStepCopiedSection": "已复制{title}",
+  "activityStepCopiedSection": "{title} كۆچۈرۈلدى",
   "@activityStepCopiedSection": {
     "placeholders": {
       "title": {
@@ -596,7 +597,7 @@
       }
     }
   },
-  "activitySlashDescriptionArgs": "{description} · 输入参数后发送",
+  "activitySlashDescriptionArgs": "{description} · پارامېتىر كىرگۈزۈپ ئەۋەتىڭ",
   "@activitySlashDescriptionArgs": {
     "placeholders": {
       "description": {
@@ -604,7 +605,7 @@
       }
     }
   },
-  "activitySpanSecondsText": "{seconds} 秒",
+  "activitySpanSecondsText": "{seconds} سېكۇنت",
   "@activitySpanSecondsText": {
     "placeholders": {
       "seconds": {
@@ -612,7 +613,7 @@
       }
     }
   },
-  "activitySpanSeconds": "{seconds} 秒",
+  "activitySpanSeconds": "{seconds} سېكۇنت",
   "@activitySpanSeconds": {
     "placeholders": {
       "seconds": {
@@ -620,7 +621,7 @@
       }
     }
   },
-  "activitySpanMinutesSeconds": "{minutes} 分 {seconds} 秒",
+  "activitySpanMinutesSeconds": "{minutes} مىنۇت {seconds} سېكۇنت",
   "@activitySpanMinutesSeconds": {
     "placeholders": {
       "minutes": {
@@ -631,7 +632,7 @@
       }
     }
   },
-  "activitySpanHoursMinutes": "{hours} 小时 {minutes} 分",
+  "activitySpanHoursMinutes": "{hours} سائەت {minutes} مىنۇت",
   "@activitySpanHoursMinutes": {
     "placeholders": {
       "hours": {
@@ -642,7 +643,7 @@
       }
     }
   },
-  "activityCostUnderCent": "不到 {symbol}0.01",
+  "activityCostUnderCent": "{symbol}0.01 دىن تۆۋەن",
   "@activityCostUnderCent": {
     "placeholders": {
       "symbol": {
@@ -650,7 +651,7 @@
       }
     }
   },
-  "activityCostApprox": "约 {symbol}{amount}",
+  "activityCostApprox": "تەخمىنەن {symbol}{amount}",
   "@activityCostApprox": {
     "placeholders": {
       "symbol": {
@@ -661,7 +662,7 @@
       }
     }
   },
-  "activitySpanRetries": "重试 {count} 次",
+  "activitySpanRetries": "قايتا سىناش {count} قېتىم",
   "@activitySpanRetries": {
     "placeholders": {
       "count": {
@@ -669,7 +670,7 @@
       }
     }
   },
-  "activitySpanToolCalls": "决定调用 {count} 个工具",
+  "activitySpanToolCalls": "{count} قورالنى چاقىرىشنى قارار قىلدى",
   "@activitySpanToolCalls": {
     "placeholders": {
       "count": {
@@ -677,7 +678,7 @@
       }
     }
   },
-  "activityRunningItems": "等 {count} 项",
+  "activityRunningItems": "{count} تۈرنى ساقلايدۇ",
   "@activityRunningItems": {
     "placeholders": {
       "count": {
@@ -685,7 +686,7 @@
       }
     }
   },
-  "activityRetryAttempt": "第 {count} 次",
+  "activityRetryAttempt": "{count}-قېتىم",
   "@activityRetryAttempt": {
     "placeholders": {
       "count": {
@@ -693,7 +694,7 @@
       }
     }
   },
-  "activityDiffFileCount": "{count} 个文件",
+  "activityDiffFileCount": "{count} ھۆججەت",
   "@activityDiffFileCount": {
     "placeholders": {
       "count": {
@@ -701,7 +702,7 @@
       }
     }
   },
-  "activityDiffFileSemantics": "{path}，新增 {added} 行，删除 {removed} 行",
+  "activityDiffFileSemantics": "{path}، {added} قۇر قوشۇلدى، {removed} قۇر ئۆچۈرۈلدى",
   "@activityDiffFileSemantics": {
     "placeholders": {
       "path": {
@@ -715,7 +716,7 @@
       }
     }
   },
-  "activityDiffEditNumber": "第 {edit} 次修改",
+  "activityDiffEditNumber": "{edit}-قېتىملىق ئۆزگەرتىش",
   "@activityDiffEditNumber": {
     "placeholders": {
       "edit": {
@@ -723,7 +724,7 @@
       }
     }
   },
-  "activityDiffHunkNumber": "第 {index} 处",
+  "activityDiffHunkNumber": "{index}-ئورۇن",
   "@activityDiffHunkNumber": {
     "placeholders": {
       "index": {
@@ -731,7 +732,7 @@
       }
     }
   },
-  "activityDiffFromLine": "第 {line} 行起",
+  "activityDiffFromLine": "{line}-قۇردىن باشلاپ",
   "@activityDiffFromLine": {
     "placeholders": {
       "line": {
@@ -739,7 +740,7 @@
       }
     }
   },
-  "activityDiffEditCount": "修改 {count} 次",
+  "activityDiffEditCount": "{count} قېتىم ئۆزگەرتىلدى",
   "@activityDiffEditCount": {
     "placeholders": {
       "count": {
@@ -747,7 +748,7 @@
       }
     }
   },
-  "activityLunarZodiac": "{animal}年大吉",
+  "activityLunarZodiac": "{animal} يىلى مۇبارەك",
   "@activityLunarZodiac": {
     "placeholders": {
       "animal": {
@@ -755,7 +756,7 @@
       }
     }
   },
-  "activityReminderHours": "已经连续干了 {hours} 小时，歇会儿？",
+  "activityReminderHours": "{hours} سائەت توختىماي ئىشلىدىڭىز، ئازراق دەم ئېلىڭ؟",
   "@activityReminderHours": {
     "placeholders": {
       "hours": {
@@ -763,8 +764,8 @@
       }
     }
   },
-  "activityStepModelRequest": "一次模型请求",
-  "activityStepModelRequestDetail": "一次模型请求 · {detail}",
+  "activityStepModelRequest": "بىر قېتىملىق مودېل تەلەپ",
+  "activityStepModelRequestDetail": "بىر قېتىملىق مودېل تەلەپ · {detail}",
   "@activityStepModelRequestDetail": {
     "placeholders": {
       "detail": {
@@ -772,7 +773,7 @@
       }
     }
   },
-  "activityUsageEstimatedCost": "约 {symbol}{amount}",
+  "activityUsageEstimatedCost": "تەخمىنەن {symbol}{amount}",
   "@activityUsageEstimatedCost": {
     "placeholders": {
       "symbol": {
@@ -783,7 +784,7 @@
       }
     }
   },
-  "activitySlashCommandSemantics": "{label}，/{name}",
+  "activitySlashCommandSemantics": "{label}، /{name}",
   "@activitySlashCommandSemantics": {
     "placeholders": {
       "label": {
@@ -794,23 +795,23 @@
       }
     }
   },
-  "activityQuotaTitle": "订阅额度",
-  "activityQuotaRefresh": "刷新额度",
-  "activityQuotaPermissionDenied": "订阅没有权限查询额度",
-  "activityQuotaAuthError": "登录已过期或无权查询，请检查订阅登录",
-  "activityQuotaNetworkError": "网络连接失败，请稍后重试",
-  "activityQuotaRateLimited": "查询过于频繁，请稍后重试",
-  "activityQuotaLoading": "正在查询订阅额度…",
-  "activityQuotaUnavailable": "暂时无法查询订阅额度，请稍后重试",
-  "activityQuotaUnsupported": "此主机暂不支持查询订阅额度",
-  "activityQuotaSignedOut": "订阅未登录",
-  "activityQuotaPrimary": "主要额度",
-  "activityQuotaSecondary": "次要额度",
-  "activityQuotaFiveHour": "5 小时",
-  "activityQuotaSevenDay": "7 天",
-  "activityQuotaSevenDaySonnet": "7 天 · Sonnet",
-  "activityQuotaSevenDayOpus": "7 天 · Opus",
-  "activityQuotaUsed": "已使用 {value}",
+  "activityQuotaTitle": "مۇشتەرىلىك نورمىسى",
+  "activityQuotaRefresh": "نورما يېڭىلاش",
+  "activityQuotaPermissionDenied": "مۇشتەرىلىكنىڭ نورما تەكشۈرۈش ھوقۇقى يوق",
+  "activityQuotaAuthError": "كىرىش مۇددىتى ئۆتكەن ياكى تەكشۈرۈش ھوقۇقى يوق، مۇشتەرىلىك كىرىشىنى تەكشۈرۈڭ",
+  "activityQuotaNetworkError": "تور ئۇلىنىشى مەغلۇپ بولدى، سەل تۇرۇپ قايتا سىناڭ",
+  "activityQuotaRateLimited": "تەكشۈرۈش بەك كۆپ بولدى، سەل تۇرۇپ قايتا سىناڭ",
+  "activityQuotaLoading": "مۇشتەرىلىك نورمىسى تەكشۈرۈلۈۋاتىدۇ…",
+  "activityQuotaUnavailable": "مۇشتەرىلىك نورمىسىنى ۋاقىتلىق تەكشۈرگىلى بولمايدۇ، سەل تۇرۇپ قايتا سىناڭ",
+  "activityQuotaUnsupported": "بۇ ئۈسكۈنە مۇشتەرىلىك نورمىسىنى تەكشۈرۈشنى ھازىرچە قوللىمايدۇ",
+  "activityQuotaSignedOut": "مۇشتەرىلىككە كىرمىگەن",
+  "activityQuotaPrimary": "ئاساسلىق نورما",
+  "activityQuotaSecondary": "ئىككىلەمچى نورما",
+  "activityQuotaFiveHour": "5 سائەت",
+  "activityQuotaSevenDay": "7 كۈن",
+  "activityQuotaSevenDaySonnet": "7 كۈن · Sonnet",
+  "activityQuotaSevenDayOpus": "7 كۈن · Opus",
+  "activityQuotaUsed": "{value} ئىشلىتىلدى",
   "@activityQuotaUsed": {
     "placeholders": {
       "value": {
@@ -818,7 +819,7 @@
       }
     }
   },
-  "activityQuotaReset": "重置时间：{time}",
+  "activityQuotaReset": "قايتا تەڭشەش ۋاقتى: {time}",
   "@activityQuotaReset": {
     "placeholders": {
       "time": {
@@ -826,5 +827,5 @@
       }
     }
   },
-  "activityToolListSeparator": "、"
+  "activityToolListSeparator": "،"
 }

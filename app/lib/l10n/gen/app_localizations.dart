@@ -16374,7 +16374,7 @@ abstract class L10n {
   /// No description provided for @kitGuideSubtitle.
   ///
   /// In zh, this message translates to:
-  /// **'DSH Go 维吾尔语版 · LOSFER AI'**
+  /// **'Kit Go 维吾尔语版 · LOSFER AI'**
   String get kitGuideSubtitle;
 
   /// No description provided for @kitGuideWelcome.
@@ -16386,7 +16386,7 @@ abstract class L10n {
   /// No description provided for @kitGuideWelcomeBody.
   ///
   /// In zh, this message translates to:
-  /// **'这是 DSH Go 的维吾尔语版二次开发版本，已接入 LOSFER AI。'**
+  /// **'这是 Kit Go 的维吾尔语版二次开发版本，已接入 LOSFER AI。'**
   String get kitGuideWelcomeBody;
 
   /// No description provided for @kitGuideAiTitle.

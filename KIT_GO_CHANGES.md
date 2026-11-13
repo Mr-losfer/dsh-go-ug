@@ -238,3 +238,58 @@ dsh web: http://127.0.0.1:3098/?token=WemJTWy-XTu62j82kNqDY5CPSXf_yovCAsNOV-PONX
 即发布出去的 arm64 包，其内嵌 runtime 在 ARM 上确实能起来，不是靠 x86_64 类推。
 
 > 教训：`${VAR:-default}` 在构建脚本里等于「外部环境可以静默改写产物」，凡是决定产物行为的关键版本都应在末尾加一道自检。
+
+## 1.0.18：维吾尔语全量、内置更新清单、LOSFER 模型能力
+
+### 1. 维吾尔语真正全量（7385 / 7385）
+
+1.0.17 及之前 `lib/l10n/parts/*_ug.arb` 只是中文模板的副本：7385 条里 7243 条与中文逐字相同、7173 条仍含汉字，实际翻译只有 142 条。界面选到「ئۇيغۇرچە」等于还是中文。
+
+本轮新增 `app/tool/translate_ug.py`，按 area 分批调用 LOSFER AI（`losfer-v1.0-flash`，`reasoning_effort: none`）翻译，并做三重校验：
+
+| 校验 | 处理 |
+| --- | --- |
+| 占位符 | `{name}` 集合必须与中文一致（多、少都拒），带空格写法 `{ name }` 自动规范化 |
+| ICU 结构 | `plural` / `select` 的变量名必须一致且保留 `other{…}`；案名交 `l10n_merge` 的 `parse_message` 复核 |
+| 残留 | 译文含汉字、为空、与原文相同、或无维吾尔字母，一律不写回 |
+
+术语表固定在脚本里（设置=تەڭشەك、文件=ھۆججەت、引擎=ماتور、模型=مودېل、插件=قىستۇرا…），专名（Kit Go、LOSFER、DSH、Shizuku、ADB、API…）原样保留。翻译结果缓存在 `.ug_cache.json`，中断可续跑；两道 sweep 收尾后仍有 18 条 plural/长句失败，放宽 ICU 结构校验到「变量名相同 + 保留 other」后补齐 7 条，最后 1 条长句人工落笔。
+
+实测结果：`7385` 条、`0` 条含汉字，`python3 tool/l10n_merge.py --check --locale ug` 与 `flutter analyze` 全绿，生成 `lib/l10n/gen/app_localizations_ug.dart`（24920 行）。
+
+启动指导页 3 条文案里的旧品牌「DSH Go」一并改为「Kit Go」（中/英/维三语）。
+
+### 2. 更新：内置下载 + 代理优先，且第一次就能命中清单
+
+原实现里 `UpdateMirror` 顺序已经是「gh-proxy → GitHub 直连」，下载、校验、增量补丁、Shizuku/系统安装器都在 App 内完成；但发布侧从来没上传过 `update.json` 和 `SHA256SUMS`，于是：
+
+- 清单端点 `releases/latest/download/update.json` 全 404，只能退到 `api.github.com`（匿名 60 次/小时，国内常年被限流或不可达）；
+- 发布资产名是 `kitgo-1.0.17-arm64.apk`，而 `_apkAssetPattern` 只认 `dsh-go-…`，走 API 路径时直接判定「该版本没有可用安装包」。
+
+修复：
+
+- `.github/workflows/release.yml` 新增 `Write update.json and SHA256SUMS` 步骤，从 `dist/` 里的 APK 生成 manifest（`schema: 1`、`version`、`tag`、`notes`、`assets.arm64.{name,size,sha256}`，不写 `url`，由 App 按 tag + 文件名拼 GitHub 地址），随 Release 一起上传；
+- `_apkAssetPattern` 改为 `^(?:kitgo|dsh-go)-(.+)-(arm64|x64)\.apk$`，旧资产不用重传；
+- `apkAssetName()` / `tooling/release_assets.py` 统一为 `kitgo-` 前缀，脚本里的 `REPO` 改回本仓库。
+
+现在检查更新的实际链路是：`releases/latest/download/update.json`（经 `gh-proxy.com`）→ 直连 GitHub → 才轮到 API；下载同样是代理优先、直连兜底、逐源校验 SHA-256。
+
+### 3. LOSFER 模型：Flash 默认、1M 上下文、图片与思考
+
+`lib/state/kit_config.dart` 与 `lib/state/losfer_provider.dart`：
+
+| 项 | 旧 | 新 |
+| --- | --- | --- |
+| 默认模型 | `losfer-v1.0-pro` | **`losfer-v1.0-flash`** |
+| 上下文 | 131072 | **1000000**（1M） |
+| 最大输出 | 32768 | 65536 |
+| 输入 | `text` | **`text` + `image`** |
+| 思考 | 未声明（模型不思考） | `off/low/medium/high`，`off` 发 `reasoning_effort: none` |
+
+- 工具调用不需要额外声明：`openai-completions` 路由默认透传 `tools`，模型侧能力由 LOSFER 提供；
+- `reasoningEfforts` 是 `llm-pi-ai` 的 `thinkingLevelMap` 来源，声明后「模型」页与会话里的思考档选择器才会出现这四个档位；
+- 旧版本写下的条目（128K、纯文本、无思考档）会在 `ensureLosferProvider()` 里自动升级一次；用户自己改过上下文或图片开关的条目不覆盖；新增路由才写默认模型，不覆盖用户之后的选择。
+
+### 4. 版本
+
+`1.0.17+1` → **`1.0.18+1`**（`app/pubspec.yaml`、`app/lib/state/app_info.dart`）。

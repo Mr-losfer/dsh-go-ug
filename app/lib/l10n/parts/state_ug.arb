@@ -1,319 +1,320 @@
 {
-  "stateDiagnosticsSubject": "Kit Go 诊断包",
-  "stateStoragePermission": "没有存储权限，存不进「下载」",
-  "stateDiagnosticsStorageFull": "存储空间不足，没能生成诊断包",
-  "stateDiagnosticsExportFailed": "没能导出诊断包",
-  "stateForumUnreachable": "没能连上论坛",
-  "stateSignInExpired": "登录已失效，请重新登录",
-  "stateForbidden": "没有权限",
-  "stateForumContentMissing": "内容不存在或已删除",
-  "stateTooManyActions": "操作太频繁，稍后再试",
-  "stateForumSendFailed": "没能发出去",
-  "stateForumServerError": "论坛暂时出了问题",
-  "stateBrowserOpenFailed": "没能打开浏览器",
-  "stateSignInStartFailed": "没能开始登录",
-  "stateSignInIncompleteRetry": "登录没有完成，请重试",
-  "statePluginLabel": "插件",
-  "stateConfigLabel": "配置",
-  "stateConfigShare": "配置分享",
-  "stateShareCode": "分享码",
-  "stateCopyShareCodeFirst": "先在分享里复制分享码",
-  "stateFileOpenFailed": "无法打开这个文件",
-  "stateLinkOpenFailed": "无法打开这个链接",
-  "stateAlertPublicDone": "有一轮完成了",
-  "stateAlertPublicFailed": "有一轮出错了",
-  "stateAlertPublicStopped": "有一轮停下了",
-  "stateAlertPublicApproval": "有一步等你确认",
-  "stateAlertPublicQuestion": "有个问题等你回答",
-  "stateAlertTurnDone": "这一轮已完成",
-  "stateAlertOutputLimit": "已结束 · 达到单次输出长度上限",
-  "stateAlertTurnBlocked": "这一轮被拦截了",
-  "stateAlertEngineRestarted": "已中断 · 引擎重启过",
-  "stateAlertMissingKey": "出错了 · 还没有配置密钥",
-  "stateAlertTurnFailed": "这一轮出错了",
-  "stateRunCommand": "运行命令",
-  "stateWriteFile": "写入文件",
-  "stateEditFile": "修改文件",
-  "stateOpenPage": "打开网页",
-  "stateWebSearch": "联网搜索",
-  "stateAlertQuestion": "问你一个问题",
-  "stateSizeSmall": "小",
-  "stateSizeStandard": "标准",
-  "stateSizeLarge": "大",
-  "statePetDone": "做完了",
-  "statePetFailed": "出错了",
-  "statePhoneNotReady": "手机操控模块未就绪",
-  "stateBackgroundRestricted": "后台联网被系统限制",
-  "stateBackgroundFinish": "让对话在后台也能跑完",
+  "@@locale": "ug",
+  "stateDiagnosticsSubject": "Kit Go دىئاگنوستىكا بولىقى",
+  "stateStoragePermission": "ساقلاش ھوقۇقى يوق، «چۈشۈرۈش»كە ساقلانمايدۇ",
+  "stateDiagnosticsStorageFull": "ساقلاش بوشلۇقى يېتىشمىدى، دىئاگنوستىكا بولىقى قۇرالمىدى",
+  "stateDiagnosticsExportFailed": "دىئاگنوستىكا بولىقى چىقىرىلمىدى",
+  "stateForumUnreachable": "مۇنبەرگە ئۇلىنالمىدى",
+  "stateSignInExpired": "كىرىش ئۈنۈمسىز بولدى، قايتا كىرىڭ",
+  "stateForbidden": "ھوقۇق يوق",
+  "stateForumContentMissing": "مەزمۇن مەۋجۇت ئەمەس ياكى ئۆچۈرۈلگەن",
+  "stateTooManyActions": "مەشغۇلات بەك كۆپ، سەل تۇرۇپ قايتا سىناڭ",
+  "stateForumSendFailed": "ئەۋەتىلمىدى",
+  "stateForumServerError": "مۇنبەردە ۋاقىتلىق مەسىلە كۆرۈلدى",
+  "stateBrowserOpenFailed": "توركۆرگۈ ئېچىلمىدى",
+  "stateSignInStartFailed": "كىرىش باشلانمىدى",
+  "stateSignInIncompleteRetry": "كىرىش تاماملانمىدى، قايتا سىناڭ",
+  "statePluginLabel": "قىستۇرما",
+  "stateConfigLabel": "سەپلىمە",
+  "stateConfigShare": "سەپلىمە ھەمبەھىرلەش",
+  "stateShareCode": "ھەمبەھىر كودى",
+  "stateCopyShareCodeFirst": "ئاۋۋال ھەمبەھىردىن ھەمبەھىر كودىنى كۆچۈرۈڭ",
+  "stateFileOpenFailed": "بۇ ھۆججەتنى ئېچىش مۇمكىن ئەمەس",
+  "stateLinkOpenFailed": "بۇ ئۇلىنىشنى ئېچىش مۇمكىن ئەمەس",
+  "stateAlertPublicDone": "بىر ئايلانما تاماملاندى",
+  "stateAlertPublicFailed": "بىر ئايلانمىدا خاتالىق كۆرۈلدى",
+  "stateAlertPublicStopped": "بىر ئايلانما توختىدى",
+  "stateAlertPublicApproval": "بىر قەدەم تەستىقلىشىڭىزنى ساقلاۋاتىدۇ",
+  "stateAlertPublicQuestion": "بىر سوئالغا جاۋاب بېرىشىڭىزنى ساقلاۋاتىدۇ",
+  "stateAlertTurnDone": "بۇ باسقۇچ تاماملاندى",
+  "stateAlertOutputLimit": "ئاخىرلاشتى · بىر قېتىملىق چىقىرىش ئۇزۇنلۇق چېكىگە يەتتى",
+  "stateAlertTurnBlocked": "بۇ باسقۇچ توسۇلدى",
+  "stateAlertEngineRestarted": "ئۈزۈلدى · ماتور قايتا قوزغىتىلغان",
+  "stateAlertMissingKey": "خاتالىق كۆرۈلدى · ئاچقۇچ تېخى تەڭشەلمىگەن",
+  "stateAlertTurnFailed": "بۇ باسقۇچتا خاتالىق كۆرۈلدى",
+  "stateRunCommand": "بۇيرۇق ئىجرا قىلىش",
+  "stateWriteFile": "ھۆججەت يېزىش",
+  "stateEditFile": "ھۆججەت ئۆزگەرتىش",
+  "stateOpenPage": "تور بېتىنى ئېچىش",
+  "stateWebSearch": "تور ئىزدەش",
+  "stateAlertQuestion": "سىزدىن بىر سوئال",
+  "stateSizeSmall": "كىچىك",
+  "stateSizeStandard": "ئۆلچەملىك",
+  "stateSizeLarge": "چوڭ",
+  "statePetDone": "تامام بولدى",
+  "statePetFailed": "خاتالىق كۆرۈلدى",
+  "statePhoneNotReady": "تېلېفون كونتروللاش بۆلىكى تەييار ئەمەس",
+  "stateBackgroundRestricted": "ئارقا سەپتىكى تور سىستېما تەرىپىدىن چەكلەندى",
+  "stateBackgroundFinish": "سۆھبەتنى ئارقا سەپتە تاماملاشقا قويۇش",
   "stateDeepSeekAccount": "LOSFER AI",
-  "stateAccountUnreachable": "连不上 LOSFER AI",
-  "stateAccountUnavailable": "LOSFER AI غا ۋاقتىنچە ئۇلانمىدى",
-  "stateSignInIncomplete": "登录没有完成",
-  "stateSignInTimeout": "登录超时",
-  "stateSignInSaveFailed": "登录信息没能保存",
-  "stateEngineNotReady": "引擎还没准备好",
-  "stateSignInInterrupted": "登录被中断",
-  "stateAccountUnsupported": "当前引擎不支持账号登录",
-  "stateCheckPhoneNetwork": "检查手机网络后重试",
-  "stateServiceUnavailableRetry": "服务暂时不可用，稍后重试",
-  "stateAuthorizationFailed": "授权没有成功，重新登录",
-  "stateAuthorizationExpired": "授权页面已失效，重新登录",
-  "stateRestartEngineRetry": "在「引擎」页重启后重试",
-  "stateEngineStartingRetry": "引擎正在启动，稍后再试",
-  "stateEngineDisconnectedSignIn": "引擎连接已断开，重新登录",
-  "stateUpdateRuntimeOrKey": "更新运行环境，或改用 API Key",
-  "stateEngineDisconnected": "引擎未连接",
-  "stateAgentError": "出错",
-  "stateNotRunning": "未运行",
-  "stateAgentOneShot": "一次性",
-  "stateAgentContinuable": "可继续",
-  "stateAgentExternal": "外部任务",
-  "stateSubagent": "子代理",
-  "stateParentChat": "上级对话",
-  "statePreparing": "准备中",
-  "stateIconMist": "雾蓝",
-  "stateIconNight": "夜幕",
-  "stateIconFrost": "霜白",
-  "stateIconInk": "墨",
-  "stateAppDisclaimer": "基于 DSH (LOSFER AI Harness) 二次开发 · 非 LOSFER AI 官方应用 · LOSFER AI 提供服务",
-  "stateWallpaper": "壁纸",
-  "stateFileMissing": "找不到这个文件了，可能已被删除或移走",
-  "stateFileNoApp": "手机上没有能打开这类文件的应用",
-  "stateFileConnectionLimit": "文件太大，这个连接传不过来",
-  "stateFileReadUnsupported": "这个连接不支持读取文件",
-  "stateArtifactImage": "图片",
-  "stateArtifactDocument": "文档",
-  "stateArtifactSheet": "表格",
-  "stateArtifactSlides": "演示文稿",
-  "stateArtifactArchive": "压缩包",
-  "stateArtifactAudio": "音频",
-  "stateArtifactVideo": "视频",
-  "stateArtifactWeb": "网页",
-  "stateArtifactText": "文本",
-  "stateArtifactFile": "文件",
-  "statePrivateKeyTooLarge": "文件太大，不像是私钥",
-  "stateBotTeamBusy": "另一个 DSH 正在使用这个团队",
-  "stateBotOperationFailed": "没能完成操作，再试一次",
-  "stateBotMissing": "这台主机没有 DS Bot",
-  "stateHostAuthFailed": "没能通过主机的验证",
-  "stateUnexpectedError": "出了点问题",
-  "stateGroupChat": "群聊",
-  "stateBotNewMessage": "Bot 有新消息",
-  "stateChatAgentBusy": "AI 正忙，稍后再试",
-  "stateChatWriterHeld": "这个对话正在别处使用",
-  "stateChatModelUnavailable": "这个模型现在用不了",
-  "stateChatAttachmentInvalid": "这个附件发不了",
-  "stateChatForkUnavailable": "这里不能分叉",
-  "stateChatImagesTooLarge": "图片太大，少选几张再发",
-  "stateChatSyncInterrupted": "对话同步中断",
-  "stateChatSynchronizing": "正在同步对话",
-  "stateChatSyncRetry": "重新同步",
-  "stateChatSyncRequired": "对话尚未同步，请重新同步后再试",
-  "stateChatAutoApproveFailed": "自动允许失败",
-  "stateCommandMissing": "没有这个指令",
-  "stateCommandFailed": "指令没有执行",
-  "stateChatStopSteered": "没能停下本轮，已作为插话发送",
-  "stateChatTextOnlyModel": "当前模型未声明支持图片，已按文件发送。可换模型，或把自定义模型的输入类型设为「文本和图片」",
-  "stateAttachmentUploadFailed": "附件上传失败",
-  "stateChatImageModelRequired": "当前模型未声明支持图片。请换模型，或把自定义模型的输入类型设为「文本和图片」再发",
-  "stateSendFailed": "发送失败",
-  "stateChatStopFailed": "没能停下，再试一次",
-  "stateChatTurnEnded": "这一轮已经结束，消息会作为新一轮发送",
-  "stateChatSteerFailed": "插话失败",
-  "stateChatUndoTooLate": "来不及了，AI 已经读到这条消息",
-  "stateChatUndoFailed": "撤回失败",
-  "stateChatApprovalFailed": "审批提交失败",
-  "stateChatAnswerFailed": "回答提交失败",
-  "stateChatModelSwitchFailed": "切换模型失败",
-  "stateChatHistoryFailed": "加载历史失败",
-  "stateChatBranchLastReply": "只能从已完成的一轮的最后一条回复分叉",
-  "stateChatBranchFailed": "分叉失败",
-  "stateChatEarlierHistoryFailed": "读取更早的记录失败",
-  "stateChatNoEarlierHistory": "这条消息之前没有能保留的记录，直接新建对话就好",
-  "stateCommandNewDescription": "开始一个新对话",
-  "stateModelLabel": "模型",
-  "stateCommandModelDescription": "切换模型与思考深度",
-  "stateCommandExportLabel": "导出日志",
-  "stateCommandExportDescription": "把这个对话的完整记录打包成 ZIP，分享或存到「下载」",
-  "stateAllFeatures": "全部功能",
-  "stateCommandFeaturesDescription": "官方网页版每项功能的入口",
-  "stateCompactLabel": "压缩",
-  "stateCommandCompactDescription": "压缩以上对话内容，腾出上下文",
-  "statePermissionLabel": "权限",
-  "stateCommandPermissionDescription": "切换权限预设（沙箱模式与审批策略）",
-  "stateCommandPermissionHint": "<预设名>",
-  "statePlanLabel": "计划",
-  "stateCommandPlanDescription": "进入或退出计划模式",
-  "stateGoalLabel": "目标",
-  "stateCommandGoalDescription": "设置或查看长期任务目标",
-  "stateFeedbackLabel": "反馈",
-  "stateCommandFeedbackDescription": "发送关于当前对话的反馈",
-  "stateCommandFeedbackHint": "<内容>",
-  "stateShareFileTooLarge": "有文件太大，未添加",
-  "stateShareFileUnreadable": "有文件没能读取",
-  "stateShareImagesOnly": "当前主机只能发送图片",
-  "stateComposerInserted": "已放进输入框",
-  "stateCordisPending": "待确认",
-  "stateCordisStarting": "启动中",
-  "stateCordisRunFailed": "运行失败",
-  "stateCordisNoApproval": "没有获得运行许可",
-  "stateCordisBackendFailed": "后台部分没能启动",
-  "stateCordisClientLoadFailed": "界面没能加载",
-  "stateCordisRenderFailed": "界面显示出错",
-  "stateCordisFailed": "没能运行",
-  "stateDrawerAll": "全部",
-  "stateDrawerUnread": "未读",
-  "stateDrawerToday": "今天",
-  "stateDrawerThisWeek": "本周",
-  "stateDrawerEarlier": "更早",
-  "stateEngineAuthFailed": "没能通过引擎的验证",
-  "stateChatMissing": "这个对话已经不在了",
-  "stateChatFormatUnsupported": "当前引擎无法读取此对话的日志格式，请导出诊断包排查",
-  "stateEngineUnsupported": "当前引擎版本不支持",
-  "stateEngineServiceUnavailable": "所需的引擎服务未就绪，请查看引擎日志或导出诊断包",
-  "stateEngineOperationUnavailable": "引擎当前无法执行此操作，请查看引擎日志",
-  "stateSettingsRefreshed": "刚在别处改过，已刷新",
-  "stateCredentialFromEnvironment": "引擎的启动环境已提供这个 Key，无法在这里修改",
-  "stateSettingsFromFile": "由配置文件固定",
-  "stateSettingsInteger": "请填整数",
-  "stateSettingsInvalidFormat": "格式不对",
-  "stateSettingsReadOnly": "引擎设置是只读的",
-  "statePluginDisabled": "插件已停用",
-  "stateSettingsRestartRequired": "这一项要重启引擎才能改",
-  "stateSettingsInvalidValue": "值不合法",
-  "stateSettingsRejected": "引擎没有接受这个值",
-  "stateInventoryEnabled": "已启用",
-  "stateInventoryDisabled": "未启用",
-  "stateLoading": "加载中",
-  "stateInventoryWaiting": "等待依赖",
-  "stateInventoryConditional": "条件启用",
-  "stateBundleBuiltIn": "DSH 内置",
-  "stateBundleHeadless": "无界面运行",
-  "stateConfigFile": "配置文件",
-  "stateGoalEmpty": "目标不能为空",
-  "stateGoalPauseFailed": "没能暂停",
-  "stateGoalResumeFailed": "没能恢复",
-  "stateGoalClearOffline": "没能清除：没能连上引擎",
-  "stateGoalClearFailed": "没能清除",
-  "stateGoalStale": "目标刚有变化，再试一次",
-  "stateGoalMissing": "目标已不在",
-  "stateGoalChatNotReady": "对话未就绪，稍后再试",
-  "stateGoalTurnsExhausted": "轮次已用完",
-  "stateGoalStateChanged": "目标状态已变化",
-  "stateSshHost": "SSH 主机",
-  "stateHostBrowserFailed": "没能打开浏览器，可以复制登录链接到浏览器里完成。",
-  "stateSignInFailed": "没能登录",
-  "stateMarketTooLarge": "插件目录太大，已停止下载",
-  "stateMarketUnreachable": "没能连上插件目录",
-  "stateMarketInsecure": "没能和插件目录建立安全连接",
-  "stateMarketTimeout": "插件目录加载超时",
-  "stateMarketInterrupted": "插件目录下载中断",
-  "stateRegistryDefault": "默认安装源",
-  "stateRegistryNpm": "npm 官方源",
-  "stateRegistryMirror": "npmmirror 镜像",
-  "statePluginIncompatible": "这个插件不支持当前的 DSH 版本。",
-  "statePluginInstallCancelled": "已取消安装",
-  "statePluginNoChanges": "没有改动任何东西",
-  "statePluginIncompatibleTitle": "和当前 DSH 不兼容",
-  "statePluginNetworkFailed": "网络连不上",
-  "statePluginSourceUnreachable": "连不上插件源码所在的网站",
-  "statePluginDownloadTimeout": "下载超时",
-  "statePluginRegistryUnavailable": "安装源暂时没有响应",
-  "statePluginPnpmMissing": "缺少 pnpm",
-  "statePluginPhonePnpmMissing": "这台手机缺少 pnpm",
-  "statePluginHostPnpmMissing": "这台主机缺少 pnpm",
-  "statePluginNotFound": "找不到这个插件",
-  "statePluginPackageMissing": "安装源里没有这个包",
-  "statePluginTooNew": "版本太新",
-  "statePluginWaitForRelease": "发布满 24 小时后才能安装",
-  "statePluginVersionMissing": "找不到这个版本",
-  "statePluginRegistryVersionMissing": "安装源里还没有这个版本",
-  "stateDeviceStorageFull": "设备存储空间不足",
-  "statePluginNoWritePermission": "没有写入权限",
-  "statePluginConfigReadOnly": "引擎配置目录不可写",
-  "statePluginIntegrityFailed": "文件校验失败",
-  "statePluginDownloadIncomplete": "下载的文件不完整",
-  "statePluginBuildScripts": "需要运行构建脚本",
-  "statePluginBuildApproval": "构建脚本等待允许",
-  "statePluginAlreadyInstalled": "已经装过了",
-  "statePluginUninstallFirst": "换版本需先卸载",
-  "statePluginInvalid": "这不是 DSH 插件",
-  "statePluginNoEntry": "这个包没有插件入口，已撤销安装",
-  "statePluginInUse": "插件正在被使用",
-  "statePluginHasDependents": "有其他插件依赖它",
-  "statePluginManagedElsewhere": "不能在这里修改",
-  "statePluginEngineManaged": "这个插件由引擎单独管理",
-  "statePluginAuthorizationExpired": "授权已过期",
-  "statePluginBuildChanged": "构建脚本已变化，需要重新安装",
-  "statePluginInvalidAddress": "安装地址无效",
-  "statePluginCatalogInvalidAddress": "插件目录的安装地址不正确",
-  "statePluginOperationIncomplete": "操作没有完成",
-  "statePluginRemoteForbidden": "这台主机不允许远程安装",
-  "statePluginRelayToggleOnly": "经中转连接只能开关插件",
-  "statePluginManagementUnsupported": "主机不支持插件管理",
-  "statePluginEngineUnsupported": "当前引擎不支持插件管理",
-  "statePluginResultMissing": "没能拿到安装结果",
-  "statePluginResultPending": "安装结果待确认",
-  "statePluginDisconnected": "连接断开了",
-  "statePluginQueued": "排队中",
-  "statePluginRemoving": "正在卸载旧版本",
-  "statePluginInstalling": "正在下载安装",
-  "statePluginApplying": "正在启用",
-  "statePluginCancelling": "正在取消",
-  "statePluginInstalledRestart": "已安装，重启后生效",
-  "statePluginInstallFailed": "安装失败",
-  "statePluginConnectFirst": "连接后可安装插件",
-  "stateProviderOpenAi": "OpenAI 兼容",
-  "stateProviderAnthropic": "Anthropic 兼容",
-  "stateProviderUrlRequired": "填写 Base URL",
-  "stateProviderUrlInvalid": "以 http:// 或 https:// 开头的完整地址",
-  "stateProviderUrlSuffix": "去掉 ? 或 # 之后的部分",
-  "stateProviderKeyRequired": "填写 API Key",
-  "stateProviderKeyOnly": "只粘贴 Key 本身，不带变量名",
-  "stateProviderKeyQuotes": "去掉两边的引号",
-  "stateProviderKeyInvalid": "Key 含有无效字符",
-  "stateProviderModelRequired": "填写模型 ID",
-  "stateProviderModelSpaces": "模型 ID 不能有空格",
-  "stateProviderAlreadyAdded": "已经添加过",
-  "stateProviderConflict": "渠道刚被改过，返回后重试",
-  "stateProviderUnsupported": "当前引擎版本不支持这个操作",
-  "stateProviderKeyRejected": "API Key 无效或没有权限",
-  "stateProviderModelsMissing": "找不到模型列表，检查 Base URL",
-  "stateProviderRateLimited": "请求太频繁，稍后再试",
-  "stateProviderResponseTooLarge": "返回的内容过大",
-  "stateProviderUnreachable": "连不上这个地址，检查 Base URL 和网络",
-  "stateProviderModelsUnreadable": "没有读到模型列表，检查 Base URL",
-  "stateProviderManualModels": "这个协议不能获取模型，请手动添加",
-  "stateProviderConfigRejected": "引擎拒绝了这个配置，检查协议和模型",
-  "stateProviderOffline": "没有连上引擎",
-  "stateSafeStartupFailed": "启动失败",
-  "stateSafeCrashedEarly": "启动后很快崩溃",
-  "stateSafeCrashedLate": "运行中崩溃",
-  "stateSafeKilled": "被系统结束",
-  "stateSafeManualEntry": "我手动进入了安全模式",
-  "stateScheduleNotCreated": "对话结束了，但没有建成任务",
-  "stateScheduleChatFailed": "对话出错了",
-  "stateScheduleResultPending": "还没等到结果",
-  "statePlanPending": "计划待审",
-  "stateQuestionPending": "待回答",
-  "stateExportRelayUnsupported": "经中转连接暂不支持导出",
-  "stateExportChatMissing": "找不到这个对话了",
-  "stateExportFailed": "没能导出",
-  "stateSizeExtraLarge": "特大",
-  "stateSubscriptionUnsupported": "当前引擎不支持订阅登录",
-  "stateSubscriptionUnreachable": "连不上登录服务，检查网络后重试",
-  "stateSubscriptionSignInFailed": "没能完成登录，再试一次",
-  "stateSubscriptionTimeout": "请求超时，检查网络后重试",
-  "stateSubscriptionDisconnected": "和引擎的连接断开了，稍后重试",
-  "stateTerminalLimit": "终端数量已达上限",
-  "stateTerminalStartFailed": "没能启动终端",
-  "stateTerminalDisabledOnHost": "这台电脑关掉了远程终端。在电脑上打开 Remote 设置里的「终端」，再回来重试",
-  "stateTileDuotone": "扁平双色",
-  "stateTileGeometric": "极简几何",
-  "stateTileGlassy": "玻璃渐变",
-  "stateUiNative": "原生",
-  "stateDefaultWorkspace": "默认工作区",
-  "stateDiagnosticsSaved": "已存到 {where}",
+  "stateAccountUnreachable": "LOSFER AI غا ئۇلىنالمايدۇ",
+  "stateAccountUnavailable": "LOSFER AI غا ۋاقىتلىق ئۇلىنالمايدۇ",
+  "stateSignInIncomplete": "كىرىش تاماملانمىدى",
+  "stateSignInTimeout": "كىرىش ۋاقتى ئۆتتى",
+  "stateSignInSaveFailed": "كىرىش ئۇچۇرى ساقلانمىدى",
+  "stateEngineNotReady": "ماتور تېخى تەييار ئەمەس",
+  "stateSignInInterrupted": "كىرىش ئۈزۈلدى",
+  "stateAccountUnsupported": "نۆۋەتتىكى ماتور ھېسابات كىرىشىنى قوللىمايدۇ",
+  "stateCheckPhoneNetwork": "تېلېفون تورىنى تەكشۈرۈپ قايتا سىناڭ",
+  "stateServiceUnavailableRetry": "مۇلازىمەت ۋاقىتلىق ئىشلىمەيدۇ، سەل تۇرۇپ قايتا سىناڭ",
+  "stateAuthorizationFailed": "ھوقۇق بېرىش مۇۋەپپەقىيەتلىك بولمىدى، قايتا كىرىڭ",
+  "stateAuthorizationExpired": "ھوقۇق بېرىش بېتى ئىناۋەتسىز بولدى، قايتا كىرىڭ",
+  "stateRestartEngineRetry": "«ماتور» بېتىدە قايتا قوزغىتىپ سىناڭ",
+  "stateEngineStartingRetry": "ماتور قوزغىلىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ",
+  "stateEngineDisconnectedSignIn": "ماتور ئۇلىنىشى ئۈزۈلدى، قايتا كىرىڭ",
+  "stateUpdateRuntimeOrKey": "يۈرگۈزۈش مۇھىتىنى يېڭىلاڭ ياكى API Key ئىشلىتىڭ",
+  "stateEngineDisconnected": "ماتور ئۇلانمىدى",
+  "stateAgentError": "خاتالىق كۆرۈلدى",
+  "stateNotRunning": "يۈرگۈزۈلمەيدۇ",
+  "stateAgentOneShot": "بىر قېتىملىق",
+  "stateAgentContinuable": "داۋاملاشتۇرغىلى بولىدۇ",
+  "stateAgentExternal": "سىرتقى ۋەزىپە",
+  "stateSubagent": "تارماق ئاگېنت",
+  "stateParentChat": "يۇقىرى دەرىجىلىك سۆھبەت",
+  "statePreparing": "تەييارلىنىۋاتىدۇ",
+  "stateIconMist": "تۇمان كۆك",
+  "stateIconNight": "تۈن",
+  "stateIconFrost": "قىرۆق",
+  "stateIconInk": "سىياھ",
+  "stateAppDisclaimer": "DSH (LOSFER AI Harness) ئاساسىدا قايتا ئىشلەنگەن · LOSFER AI نىڭ رەسمىي ئەپى ئەمەس · LOSFER AI مۇلازىمەت بىلەن تەمىنلەيدۇ",
+  "stateWallpaper": "تەخسە رەسىم",
+  "stateFileMissing": "بۇ ھۆججەت تېپىلمىدى، ئۆچۈرۈلگەن ياكى يۆتكەلگەن بولۇشى مۇمكىن",
+  "stateFileNoApp": "تېلېفوندا بۇ خىل ھۆججەتنى ئېچىيدىغان ئەپ يوق",
+  "stateFileConnectionLimit": "ھۆججەت بەك چوڭ، بۇ ئۇلىنىش ئارقىلىق يەتكۈزگىلى بولمايدۇ",
+  "stateFileReadUnsupported": "بۇ ئۇلىنىش ھۆججەت ئوقۇشنى قوللىمايدۇ",
+  "stateArtifactImage": "رەسىم",
+  "stateArtifactDocument": "ھۆججەت",
+  "stateArtifactSheet": "جەدۋەل",
+  "stateArtifactSlides": "تەقرىزات",
+  "stateArtifactArchive": "ئىختىسارلانغان بوغچا",
+  "stateArtifactAudio": "ئاۋاز",
+  "stateArtifactVideo": "سىن",
+  "stateArtifactWeb": "تور بەت",
+  "stateArtifactText": "تېكىست",
+  "stateArtifactFile": "ھۆججەت",
+  "statePrivateKeyTooLarge": "ھۆججەت بەك چوڭ، شەخسىي ئاچقۇچقا ئوخشىمايدۇ",
+  "stateBotTeamBusy": "باشقا بىر DSH بۇ گۇرۇپپىنى ئىشلىتىۋاتىدۇ",
+  "stateBotOperationFailed": "مەشغۇلاتنى تاماملىيالمىدى، قايتا سىناڭ",
+  "stateBotMissing": "بۇ كومپيۇتېردا DS Bot يوق",
+  "stateHostAuthFailed": "كومپيۇتېرنىڭ دەلىللەشتىن ئۆتەلمىدى",
+  "stateUnexpectedError": "خاتالىق كۆرۈلدى",
+  "stateGroupChat": "گۇرۇپپا سۆھبەت",
+  "stateBotNewMessage": "Bot نىڭ يېڭى ئۇچۇرى بار",
+  "stateChatAgentBusy": "AI بىلەن مەشغۇل، سەل تۇرۇپ قايتا سىناڭ",
+  "stateChatWriterHeld": "بۇ سۆھبەت باشقا جايدا ئىشلىتىلىۋاتىدۇ",
+  "stateChatModelUnavailable": "بۇ مودېل ھازىر ئىشلەتمەيدۇ",
+  "stateChatAttachmentInvalid": "بۇ قوشۇمچە ئەۋەتىلمەيدۇ",
+  "stateChatForkUnavailable": "بۇ يەردە تارماق ئاچقىلى بولمايدۇ",
+  "stateChatImagesTooLarge": "رەسىم بەك چوڭ، ئازراق تاللاپ قايتا ئەۋەتىڭ",
+  "stateChatSyncInterrupted": "سۆھبەت ماسلاشتۇرۇش ئۈزۈلدى",
+  "stateChatSynchronizing": "سۆھبەت ماسلاشتۇرۇلۇۋاتىدۇ",
+  "stateChatSyncRetry": "قايتا ماسلاشتۇرۇش",
+  "stateChatSyncRequired": "سۆھبەت تېخى ماسلاشتۇرۇلمىدى، قايتا ماسلاشتۇرۇپ قايتا سىناڭ",
+  "stateChatAutoApproveFailed": "ئاپتوماتىك رۇخسەت بېرىش مەغلۇپ بولدى",
+  "stateCommandMissing": "بۇ بۇيرۇق يوق",
+  "stateCommandFailed": "بۇيرۇق ئىجرا بولمىدى",
+  "stateChatStopSteered": "بۇ ئايلانمىنى توختىتالمىدى، ئارىلىق سۆز سۈپىتىدە ئەۋەتىلدى",
+  "stateChatTextOnlyModel": "نۆۋەتتىكى مودېل رەسىمنى قوللايدىغانلىقىنى ئېلان قىلمىدى، ھۆججەت سۈپىتىدە ئەۋەتىلدى. مودېل ئالماشتۇرۇڭ ياكى ئۆزىڭىز بەلگىلىگەن مودېلنىڭ كىرگۈزۈش تۈرىنى «تېكىست ۋە رەسىم» قىلىڭ",
+  "stateAttachmentUploadFailed": "قوشۇمچە يۈكلەش مەغلۇپ بولدى",
+  "stateChatImageModelRequired": "نۆۋەتتىكى مودېل رەسىمنى قوللايدىغانلىقىنى ئېلان قىلمىدى. مودېل ئالماشتۇرۇڭ ياكى ئۆزىڭىز بەلگىلىگەن مودېلنىڭ كىرگۈزۈش تۈرىنى «تېكىست ۋە رەسىم» قىلىپ قايتا ئەۋەتىڭ",
+  "stateSendFailed": "ئەۋەتىش مەغلۇپ بولدى",
+  "stateChatStopFailed": "توختىتالمىدى، قايتا سىناڭ",
+  "stateChatTurnEnded": "بۇ ئايلانما ئاخىرلاشتى، ئۇچۇر يېڭى ئايلانما سۈپىتىدە ئەۋەتىلىدۇ",
+  "stateChatSteerFailed": "ئارىلىق سۆز ئەۋەتىش مەغلۇپ بولدى",
+  "stateChatUndoTooLate": "كېچىكىپ قالدى، AI بۇ ئۇچۇرنى ئوقۇپ بولدى",
+  "stateChatUndoFailed": "قايتۇرۇۋېلىش مەغلۇپ بولدى",
+  "stateChatApprovalFailed": "تەستىقنى تاپشۇرۇش مەغلۇپ بولدى",
+  "stateChatAnswerFailed": "جاۋابنى تاپشۇرۇش مەغلۇپ بولدى",
+  "stateChatModelSwitchFailed": "مودېلنى ئالماشتۇرۇش مەغلۇپ بولدى",
+  "stateChatHistoryFailed": "تارىخنى يۈكلەش مەغلۇپ بولدى",
+  "stateChatBranchLastReply": "پەقەت تاماملانغان بىر ئايلانمىنىڭ ئاخىرقى جاۋابىدىن تارماق ئايرىغىلى بولىدۇ",
+  "stateChatBranchFailed": "تارماق ئايرىش مەغلۇپ بولدى",
+  "stateChatEarlierHistoryFailed": "ئالدىنقى خاتىرىلەرنى ئوقۇش مەغلۇپ بولدى",
+  "stateChatNoEarlierHistory": "بۇ ئۇچۇردىن ئىلگىرى ساقلىنىدىغان خاتىرە يوق، بىۋاسىتە يېڭى سۆھبەت قۇرسىڭىز بولىدۇ",
+  "stateCommandNewDescription": "يېڭى سۆھبەت باشلاش",
+  "stateModelLabel": "مودېل",
+  "stateCommandModelDescription": "مودېل ۋە ئويلىنىش چوڭقۇرلۇقىنى ئالماشتۇرۇش",
+  "stateCommandExportLabel": "خاتىرىنى چىقىرىش",
+  "stateCommandExportDescription": "بۇ سۆھبەتنىڭ تولۇق خاتىرىسىنى ZIP قىلىپ بولاقلاپ، ھەمبەھىرلەڭ ياكى «چۈشۈرمە»گە ساقلاڭ",
+  "stateAllFeatures": "ھەممە ئىقتىدار",
+  "stateCommandFeaturesDescription": "رەسمىي تور نەشرىدىكى ھەر بىر ئىقتىدارنىڭ كىرىش ئېغىزى",
+  "stateCompactLabel": "قىسقارتىش",
+  "stateCommandCompactDescription": "يۇقىرىدىكى سۆھبەت مەزمۇنىنى قىسقارتىپ، مەزمۇن دائىرىسى بوشىتىش",
+  "statePermissionLabel": "ھوقۇق",
+  "stateCommandPermissionDescription": "ھوقۇق ئالدىن بەلگىلىمىسىنى ئالماشتۇرۇش (ساندبوكس ھالىتى ۋە تەستىق سىياسىتى)",
+  "stateCommandPermissionHint": "<ئالدىن بەلگىلىمە نامى>",
+  "statePlanLabel": "پىلان",
+  "stateCommandPlanDescription": "پىلان ھالىتىگە كىرىش ياكى چېكىنىش",
+  "stateGoalLabel": "نىشان",
+  "stateCommandGoalDescription": "ئۇزۇن مۇددەتلىك ۋەزىپە نىشانىنى تەڭشەش ياكى كۆرۈش",
+  "stateFeedbackLabel": "ئىنكاس",
+  "stateCommandFeedbackDescription": "نۆۋەتتىكى سۆھبەت توغرىسىدا ئىنكاس ئەۋەتىش",
+  "stateCommandFeedbackHint": "<مەزمۇن>",
+  "stateShareFileTooLarge": "بەزى ھۆججەتلەر بەك چوڭ، قوشۇلمىدى",
+  "stateShareFileUnreadable": "بەزى ھۆججەتلەرنى ئوقۇغىلى بولمىدى",
+  "stateShareImagesOnly": "نۆۋەتتىكى باش ئۈسكۈنە پەقەت رەسىم ئەۋەتەلەيدۇ",
+  "stateComposerInserted": "كىرگۈزۈش رامكىسىغا قويۇلدى",
+  "stateCordisPending": "جەزملەشتۈرۈش كۈتۈلمەكتە",
+  "stateCordisStarting": "قوزغىتىلماقتا",
+  "stateCordisRunFailed": "يۈرگۈزۈش مەغلۇپ بولدى",
+  "stateCordisNoApproval": "يۈرگۈزۈش رۇخسىتى ئېلىنمىدى",
+  "stateCordisBackendFailed": "ئارقا سەھنىنىڭ بىر قىسمى قوزغىتىلمىدى",
+  "stateCordisClientLoadFailed": "كۆرۈنمە يۈزى يۈكلەنمىدى",
+  "stateCordisRenderFailed": "كۆرۈنمە يۈزى كۆرسىتىشتە خاتالىق كۆرۈلدى",
+  "stateCordisFailed": "يۈرگۈزگىلى بولمىدى",
+  "stateDrawerAll": "ھەممىسى",
+  "stateDrawerUnread": "ئوقۇلمىغان",
+  "stateDrawerToday": "بۈگۈن",
+  "stateDrawerThisWeek": "بۇ ھەپتە",
+  "stateDrawerEarlier": "ئىلگىرى",
+  "stateEngineAuthFailed": "ماتورنىڭ دەلىللەشتىن ئۆتەلمىدى",
+  "stateChatMissing": "بۇ سۆھبەت ئەمدى يوق",
+  "stateChatFormatUnsupported": "نۆۋەتتىكى ماتور بۇ سۆھبەتنىڭ خاتىرە فورماتىنى ئوقۇيالمايدۇ، دىئاگنوز بوغچىسىنى چىقىرىپ تەكشۈرۈڭ",
+  "stateEngineUnsupported": "نۆۋەتتىكى ماتور نەشرى قوللىمايدۇ",
+  "stateEngineServiceUnavailable": "كېرەكلىك ماتور مۇلازىمىتى تەييار ئەمەس، ماتور خاتىرىسىنى كۆرۈڭ ياكى دىئاگنوز بوغچىسىنى چىقىرىڭ",
+  "stateEngineOperationUnavailable": "ماتور ھازىر بۇ مەشغۇلاتنى ئىجرا قىلالمايدۇ، ماتور خاتىرىسىنى كۆرۈڭ",
+  "stateSettingsRefreshed": "بايا باشقا يەردە ئۆزگەرتىلگەن، يېڭىلاندى",
+  "stateCredentialFromEnvironment": "ماتورنىڭ قوزغىتىش مۇھىتى بۇ Key نى تەمىنلىگەن، بۇ يەردە ئۆزگەرتكىلى بولمايدۇ",
+  "stateSettingsFromFile": "سەپلىمە ھۆججىتى بەلگىلىگەن",
+  "stateSettingsInteger": "پۈتۈن سان كىرگۈزۈڭ",
+  "stateSettingsInvalidFormat": "فورماتى خاتا",
+  "stateSettingsReadOnly": "ماتور تەڭشىكى پەقەت ئوقۇشقا بولىدۇ",
+  "statePluginDisabled": "قىستۇرما تاقالدى",
+  "stateSettingsRestartRequired": "بۇ تۈرنى ئۆزگەرتىش ئۈچۈن ماتورنى قايتا قوزغىتىش كېرەك",
+  "stateSettingsInvalidValue": "قىممىتى قانۇنسىز",
+  "stateSettingsRejected": "ماتور بۇ قىممەتنى قوبۇل قىلمىدى",
+  "stateInventoryEnabled": "قوزغىتىلدى",
+  "stateInventoryDisabled": "قوزغىتىلمىدى",
+  "stateLoading": "يۈكلىنىۋاتىدۇ",
+  "stateInventoryWaiting": "باغلىنىشنى كۈتۈۋاتىدۇ",
+  "stateInventoryConditional": "شەرتلىك قوزغىتىلغان",
+  "stateBundleBuiltIn": "DSH ئىچىدە",
+  "stateBundleHeadless": "كۆرۈنمەس يۈزلىنىش",
+  "stateConfigFile": "سەپلىمە ھۆججىتى",
+  "stateGoalEmpty": "نىشان قۇرۇق بولمايدۇ",
+  "stateGoalPauseFailed": "توختىتالمىدى",
+  "stateGoalResumeFailed": "ئەسلىگە كەلتۈرەلمىدى",
+  "stateGoalClearOffline": "تازىلىيالمىدى: ماتورغا ئۇلانالمىدى",
+  "stateGoalClearFailed": "تازىلىيالمىدى",
+  "stateGoalStale": "نىشان ئۇنچە ئۆزگەردى، قايتا سىناڭ",
+  "stateGoalMissing": "نىشان يوق",
+  "stateGoalChatNotReady": "سۆھبەت تەييار ئەمەس، كېيىنرەك سىناڭ",
+  "stateGoalTurnsExhausted": "نۆۋەت تۈگىدى",
+  "stateGoalStateChanged": "نىشان ھالىتى ئۆزگەردى",
+  "stateSshHost": "SSH ماشىنا",
+  "stateHostBrowserFailed": "توركۆرگۈنى ئاچالمىدى، كىرىش ئۇلانمىسىنى كۆچۈرۈپ توركۆرگۈدە تاماملىسىڭىز بولىدۇ.",
+  "stateSignInFailed": "كىرەلمىدى",
+  "stateMarketTooLarge": "قىستۇرما مۇندەرىجىسى بەك چوڭ، چۈشۈرۈش توختىتىلدى",
+  "stateMarketUnreachable": "قىستۇرما مۇندەرىجىسىگە ئۇلانالمىدى",
+  "stateMarketInsecure": "قىستۇرما مۇندەرىجىسى بىلەن بىخەتەر ئۇلانما قۇرالمىدى",
+  "stateMarketTimeout": "قىستۇرما مۇندەرىجىسى يۈكلەشتە ۋاقىت ئاشتى",
+  "stateMarketInterrupted": "قىستۇرما مۇندەرىجىسى چۈشۈرۈش ئۈزۈلدى",
+  "stateRegistryDefault": "كۆڭۈلدىكى قاچىلاش مەنبەسى",
+  "stateRegistryNpm": "npm رەسمىي مەنبەسى",
+  "stateRegistryMirror": "npmmirror كۆزگۈسى",
+  "statePluginIncompatible": "بۇ قىستۇرما نۆۋەتتىكى DSH نەشرىنى قوللىمايدۇ.",
+  "statePluginInstallCancelled": "قاچىلاش بىكار قىلىندى",
+  "statePluginNoChanges": "ھېچقانداق ئۆزگەرتىش قىلىنمىدى",
+  "statePluginIncompatibleTitle": "نۆۋەتتىكى DSH بىلەن ماسلاشمايدۇ",
+  "statePluginNetworkFailed": "تورغا ئۇلانالمىدى",
+  "statePluginSourceUnreachable": "قىستۇرما مەنبەسى بار تور بېكىتىگە ئۇلىنالمايدۇ",
+  "statePluginDownloadTimeout": "چۈشۈرۈش ۋاقتى ئۆتتى",
+  "statePluginRegistryUnavailable": "قاچىلاش مەنبەسى ھازىرچە ئىنكاس قايتۇرمىدى",
+  "statePluginPnpmMissing": "pnpm كەم",
+  "statePluginPhonePnpmMissing": "بۇ تېلېفوندا pnpm كەم",
+  "statePluginHostPnpmMissing": "بۇ ئاساسىي ماشىنىدا pnpm كەم",
+  "statePluginNotFound": "بۇ قىستۇرما تېپىلمىدى",
+  "statePluginPackageMissing": "قاچىلاش مەنبەسىدە بۇ بولاق يوق",
+  "statePluginTooNew": "نەشرى بەك يېڭى",
+  "statePluginWaitForRelease": "تارقىتىلغان 24 سائەتتىن كېيىن ئاندىن قاچىلىغىلى بولىدۇ",
+  "statePluginVersionMissing": "بۇ نەشرى تېپىلمىدى",
+  "statePluginRegistryVersionMissing": "قاچىلاش مەنبەسىدە بۇ نەشرى يەنىلا يوق",
+  "stateDeviceStorageFull": "ئۈسكۈنە ساقلاش بوشلۇقى يېتەرلىك ئەمەس",
+  "statePluginNoWritePermission": "يېزىش ھوقۇقى يوق",
+  "statePluginConfigReadOnly": "ماتور سەپلىمە مۇندەرىجىسىگە يازغىلى بولمايدۇ",
+  "statePluginIntegrityFailed": "ھۆججەت دەلىللەش مەغلۇپ بولدى",
+  "statePluginDownloadIncomplete": "چۈشۈرۈلگەن ھۆججەت تولۇق ئەمەس",
+  "statePluginBuildScripts": "قۇرۇش قوليازمىسىنى ئىجرا قىلىش كېرەك",
+  "statePluginBuildApproval": "قۇرۇش قوليازمىسى رۇخسەت كۈتمەكتە",
+  "statePluginAlreadyInstalled": "ئاللىقاچان قاچىلانغان",
+  "statePluginUninstallFirst": "نەشرىنى ئالماشتۇرۇش ئۈچۈن ئاۋۋال چىقىرىۋېتىش كېرەك",
+  "statePluginInvalid": "بۇ DSH قىستۇرمىسى ئەمەس",
+  "statePluginNoEntry": "بۇ بولاقتا قىستۇرما كىرىش ئېغىزى يوق، قاچىلاش قايتۇرۇلدى",
+  "statePluginInUse": "قىستۇرما ئىشلىتىلىۋاتىدۇ",
+  "statePluginHasDependents": "باشقا قىستۇرمىلار بۇنىڭغا تايىنىدۇ",
+  "statePluginManagedElsewhere": "بۇ يەردە ئۆزگەرتىشكە بولمايدۇ",
+  "statePluginEngineManaged": "بۇ قىستۇرما ماتور تەرىپىدىن ئايرىم باشقۇرۇلىدۇ",
+  "statePluginAuthorizationExpired": "ھوقۇقى ئۆتكەن",
+  "statePluginBuildChanged": "قۇرۇش كودى ئۆزگەردى، قايتا قاچىلاش زۆرۈر",
+  "statePluginInvalidAddress": "قاچىلاش ئادرېسى ئىناۋەتسىز",
+  "statePluginCatalogInvalidAddress": "قىستۇرما مۇندەرىجىسىنىڭ قاچىلاش ئادرېسى خاتا",
+  "statePluginOperationIncomplete": "مەشغۇلات تاماملانمىدى",
+  "statePluginRemoteForbidden": "بۇ ساھىبخاندا يىراقتىن قاچىلاشقا رۇخسەت قويۇلمايدۇ",
+  "statePluginRelayToggleOnly": "ئارىلاش ئۇلىنىشتا پەقەت قىستۇرمىنى ئېچىپ-تاقىغىلى بولىدۇ",
+  "statePluginManagementUnsupported": "ساھىبخان قىستۇرما باشقۇرۇشنى قوللىمايدۇ",
+  "statePluginEngineUnsupported": "نۆۋەتتىكى ماتور قىستۇرما باشقۇرۇشنى قوللىمايدۇ",
+  "statePluginResultMissing": "قاچىلاش نەتىجىسىگە ئېرىشەلمىدى",
+  "statePluginResultPending": "قاچىلاش نەتىجىسى جەزملەشتۈرۈلۈشى كېرەك",
+  "statePluginDisconnected": "ئۇلىنىش ئۈزۈلدى",
+  "statePluginQueued": "ئۆچرەتتە",
+  "statePluginRemoving": "كونا نۇسخىسى چىقىرىۋېتىلىۋاتىدۇ",
+  "statePluginInstalling": "چۈشۈرۈلۈپ قاچىلىنىۋاتىدۇ",
+  "statePluginApplying": "ئېچىلىۋاتىدۇ",
+  "statePluginCancelling": "بىكار قىلىنىۋاتىدۇ",
+  "statePluginInstalledRestart": "قاچىلاندى، قايتا قوزغىتىلغاندىن كېيىن كۈچكە ئىگە",
+  "statePluginInstallFailed": "قاچىلاش مەغلۇپ بولدى",
+  "statePluginConnectFirst": "ئۇلانغاندىن كېيىن قىستۇرما قاچىلىغىلى بولىدۇ",
+  "stateProviderOpenAi": "OpenAI ماسلىشىشچان",
+  "stateProviderAnthropic": "Anthropic ماسلىشىشچان",
+  "stateProviderUrlRequired": "Base URL نى تولدۇرۇڭ",
+  "stateProviderUrlInvalid": "http:// ياكى https:// بىلەن باشلانغان تولۇق ئادرېس",
+  "stateProviderUrlSuffix": "? ياكى # دىن كېيىنكى قىسمىنى چىقىرىۋېتىڭ",
+  "stateProviderKeyRequired": "API Key نى تولدۇرۇڭ",
+  "stateProviderKeyOnly": "پەقەت Key نىلا چاپلاڭ، ئۆزگەرگۈچى نامىسىز",
+  "stateProviderKeyQuotes": "ئىككى تەرەپتىكى تىرناقنى چىقىرىۋېتىڭ",
+  "stateProviderKeyInvalid": "Key دا ئىناۋەتسىز ھەرپلەر بار",
+  "stateProviderModelRequired": "مودېل ID نى تولدۇرۇڭ",
+  "stateProviderModelSpaces": "مودېل ID دا بوشلۇق بولمايدۇ",
+  "stateProviderAlreadyAdded": "ئاللىقاچان قوشۇلغان",
+  "stateProviderConflict": "قانال ئۇنىڭدىن ئاز بۇرۇن ئۆزگەرتىلگەن، قايتىپ قايتا سىناڭ",
+  "stateProviderUnsupported": "نۆۋەتتىكى ماتور نەشرى بۇ مەشغۇلاتنى قوللىمايدۇ",
+  "stateProviderKeyRejected": "API Key ئىناۋەتسىز ياكى ھوقۇقى يوق",
+  "stateProviderModelsMissing": "مودېل تىزىملىكى تېپىلمىدى، Base URL نى تەكشۈرۈڭ",
+  "stateProviderRateLimited": "تەلەپ بەك كۆپ بولدى، ئازراق كېيىن قايتا سىناڭ",
+  "stateProviderResponseTooLarge": "قايتۇرۇلغان مەزمۇن بەك چوڭ",
+  "stateProviderUnreachable": "بۇ ئادرېسقا ئۇلىنالمىدى، Base URL ۋە تورنى تەكشۈرۈڭ",
+  "stateProviderModelsUnreadable": "مودېل تىزىملىكى ئوقۇلمىدى، Base URL نى تەكشۈرۈڭ",
+  "stateProviderManualModels": "بۇ پروتوكول مودېل ئالالمايدۇ، قولدا قوشۇڭ",
+  "stateProviderConfigRejected": "ماتور بۇ سەپلىمىنى رەت قىلدى، پروتوكول ۋە مودېلنى تەكشۈرۈڭ",
+  "stateProviderOffline": "ماتورغا ئۇلانمىدى",
+  "stateSafeStartupFailed": "قوزغىتىش مەغلۇپ بولدى",
+  "stateSafeCrashedEarly": "قوزغىتىلغاندىن كېيىن دەرھال قۇلاپ چۈشتى",
+  "stateSafeCrashedLate": "ئىجرا جەريانىدا قۇلاپ چۈشتى",
+  "stateSafeKilled": "سىستېما تەرىپىدىن توختىتىلدى",
+  "stateSafeManualEntry": "مەن بىخەتەر ھالەتكە قولدا كىردىم",
+  "stateScheduleNotCreated": "سۆھبەت ئاخىرلاشتى، ئەمما ۋەزىپە قۇرالمىدى",
+  "stateScheduleChatFailed": "سۆھبەتتە خاتالىق كۆرۈلدى",
+  "stateScheduleResultPending": "نەتىجە تېخى كۈتۈلمەكتە",
+  "statePlanPending": "پىلان تەكشۈرۈشكە تەقلىپ قىلىندى",
+  "stateQuestionPending": "جاۋاب كۈتۈلمەكتە",
+  "stateExportRelayUnsupported": "ئارىلىق ئۇلىنىش ئارقىلىق چىقىرىش ھازىرچە قوللانمايدۇ",
+  "stateExportChatMissing": "بۇ سۆھبەت تېپىلمىدى",
+  "stateExportFailed": "چىقىرىش مۇۋەپپەقىيەتلىك بولمىدى",
+  "stateSizeExtraLarge": "ئىنتايىن چوڭ",
+  "stateSubscriptionUnsupported": "نۆۋەتتىكى ماتور مۇشتەرىلىك كىرىشىنى قوللىمايدۇ",
+  "stateSubscriptionUnreachable": "كىرىش مۇلازىمىتىگە ئۇلىنالمىدى، تورنى تەكشۈرۈپ قايتا سىناڭ",
+  "stateSubscriptionSignInFailed": "كىرىش تاماملىنالمىدى، قايتا سىناڭ",
+  "stateSubscriptionTimeout": "تەلەپ ۋاقتى ئۆتتى، تورنى تەكشۈرۈپ قايتا سىناڭ",
+  "stateSubscriptionDisconnected": "ماتور بىلەن ئۇلىنىش ئۈزۈلدى، سەل كېيىن قايتا سىناڭ",
+  "stateTerminalLimit": "تېرمىنال سانى چەككە يەتتى",
+  "stateTerminalStartFailed": "تېرمىنالنى باشلاش مۇۋەپپەقىيەتلىك بولمىدى",
+  "stateTerminalDisabledOnHost": "بۇ كومپيۇتېر يىراق تېرمىنالنى تاقىۋەتتى. كومپيۇتېردا Remote تەڭشىكىدىكى «تېرمىنال» نى ئېچىپ، قايتىپ سىناڭ",
+  "stateTileDuotone": "تەكشى قوش رەڭ",
+  "stateTileGeometric": "ئىنتايىن ئاددىي گېئومېترىيە",
+  "stateTileGlassy": "ئەينەك گرادىيېنت",
+  "stateUiNative": "يەرلىك",
+  "stateDefaultWorkspace": "سۈكۈتتىكى خىزمەت رايونى",
+  "stateDiagnosticsSaved": "{where} غا ساقلاندى",
   "@stateDiagnosticsSaved": {
     "placeholders": {
       "where": {
@@ -321,8 +322,8 @@
       }
     }
   },
-  "stateDownloadsPrefix": "下载/",
-  "stateSharePluginCount": "{count} 个插件",
+  "stateDownloadsPrefix": "چۈشۈرۈش/",
+  "stateSharePluginCount": "{count} قىستۇرما",
   "@stateSharePluginCount": {
     "placeholders": {
       "count": {
@@ -330,7 +331,7 @@
       }
     }
   },
-  "stateShareSkillCount": "{count} 个技能",
+  "stateShareSkillCount": "{count} ماھارەت",
   "@stateShareSkillCount": {
     "placeholders": {
       "count": {
@@ -338,7 +339,7 @@
       }
     }
   },
-  "stateShareSettingCount": "{count} 组设置",
+  "stateShareSettingCount": "{count} گۇرۇپپا تەڭشەك",
   "@stateShareSettingCount": {
     "placeholders": {
       "count": {
@@ -346,7 +347,7 @@
       }
     }
   },
-  "stateAlertCompletedReply": "已完成 · {reply}",
+  "stateAlertCompletedReply": "تاماملاندى · {reply}",
   "@stateAlertCompletedReply": {
     "placeholders": {
       "reply": {
@@ -354,7 +355,7 @@
       }
     }
   },
-  "stateAlertErrorDetail": "出错了 · {detail}",
+  "stateAlertErrorDetail": "خاتالىق كۆرۈلدى · {detail}",
   "@stateAlertErrorDetail": {
     "placeholders": {
       "detail": {
@@ -362,7 +363,7 @@
       }
     }
   },
-  "stateAlertUseTool": "使用工具 {name}",
+  "stateAlertUseTool": "{name} قورالى ئىشلىتىلىدۇ",
   "@stateAlertUseTool": {
     "placeholders": {
       "name": {
@@ -370,7 +371,7 @@
       }
     }
   },
-  "stateAlertApprovalAction": "等你确认：{action}",
+  "stateAlertApprovalAction": "سىزنىڭ جەزملەشتۈرۈشىڭىزنى كۈتۈۋاتىدۇ: {action}",
   "@stateAlertApprovalAction": {
     "placeholders": {
       "action": {
@@ -378,7 +379,7 @@
       }
     }
   },
-  "stateAlertApprovalReason": "等你确认：{action} · {reason}",
+  "stateAlertApprovalReason": "سىزنىڭ جەزملەشتۈرۈشىڭىزنى كۈتۈۋاتىدۇ: {action} · {reason}",
   "@stateAlertApprovalReason": {
     "placeholders": {
       "action": {
@@ -389,7 +390,7 @@
       }
     }
   },
-  "stateAlertQuestions": "问你：{question}（共 {count} 个）",
+  "stateAlertQuestions": "سىزدىن سورايدۇ: {question} (جەمئىي {count} دانە)",
   "@stateAlertQuestions": {
     "placeholders": {
       "question": {
@@ -400,7 +401,7 @@
       }
     }
   },
-  "stateAlertQuestionText": "问你：{question}",
+  "stateAlertQuestionText": "سىزدىن سورايدۇ: {question}",
   "@stateAlertQuestionText": {
     "placeholders": {
       "question": {
@@ -408,7 +409,7 @@
       }
     }
   },
-  "statePetChatsDone": "{count} 个对话做完了",
+  "statePetChatsDone": "{count} سۆھبەت تاماملاندى",
   "@statePetChatsDone": {
     "placeholders": {
       "count": {
@@ -416,7 +417,7 @@
       }
     }
   },
-  "statePetChatsFailed": "{count} 个对话出错了",
+  "statePetChatsFailed": "{count} سۆھبەتتە خاتالىق كۆرۈلدى",
   "@statePetChatsFailed": {
     "placeholders": {
       "count": {
@@ -424,7 +425,7 @@
       }
     }
   },
-  "statePetChatsApproval": "{count} 个对话等你确认",
+  "statePetChatsApproval": "{count} سۆھبەت سىزنىڭ جەزملەشتۈرۈشىڭىزنى كۈتۈۋاتىدۇ",
   "@statePetChatsApproval": {
     "placeholders": {
       "count": {
@@ -432,7 +433,7 @@
       }
     }
   },
-  "statePetChatsQuestion": "{count} 个对话等你回答",
+  "statePetChatsQuestion": "{count} سۆھبەت سىزنىڭ جاۋابىڭىزنى كۈتۈۋاتىدۇ",
   "@statePetChatsQuestion": {
     "placeholders": {
       "count": {
@@ -440,7 +441,7 @@
       }
     }
   },
-  "stateAttachmentEmpty": "「{name}」是空文件",
+  "stateAttachmentEmpty": "«{name}» قۇرۇق ھۆججەت",
   "@stateAttachmentEmpty": {
     "placeholders": {
       "name": {
@@ -448,7 +449,7 @@
       }
     }
   },
-  "stateAttachmentImageLimit": "图片「{name}」超过 20 MB",
+  "stateAttachmentImageLimit": "«{name}» رەسىمى 20 MB دىن ئاشتى",
   "@stateAttachmentImageLimit": {
     "placeholders": {
       "name": {
@@ -456,7 +457,7 @@
       }
     }
   },
-  "stateAttachmentFileLimit": "文件「{name}」超过 200 MB",
+  "stateAttachmentFileLimit": "«{name}» ھۆججىتى 200 MB دىن ئاشتى",
   "@stateAttachmentFileLimit": {
     "placeholders": {
       "name": {
@@ -464,8 +465,8 @@
       }
     }
   },
-  "stateAttachmentTotalLimit": "附件总大小超过 400 MB",
-  "stateBotFinished": "{name} 完成了工作",
+  "stateAttachmentTotalLimit": "قوشۇمچە ھۆججەتلەرنىڭ ئومۇمىي چوڭلۇقى 400 MB دىن ئاشتى",
+  "stateBotFinished": "{name} خىزمەتنى تاماملىدى",
   "@stateBotFinished": {
     "placeholders": {
       "name": {
@@ -473,7 +474,7 @@
       }
     }
   },
-  "stateBotQuestion": "{name} 问你：{text}",
+  "stateBotQuestion": "{name} سىزدىن سورايدۇ: {text}",
   "@stateBotQuestion": {
     "placeholders": {
       "name": {
@@ -484,7 +485,7 @@
       }
     }
   },
-  "stateBotApproval": "{name} 等你批准：{text}",
+  "stateBotApproval": "{name} سىزنىڭ تەستىقلىشىڭىزنى كۈتۈۋاتىدۇ: {text}",
   "@stateBotApproval": {
     "placeholders": {
       "name": {
@@ -495,9 +496,9 @@
       }
     }
   },
-  "stateCommandPlanHint": "[off | 要求]",
-  "stateCommandGoalHint": "[目标 | clear | pause | resume]",
-  "stateShareReadFailed": "没能读取「{name}」",
+  "stateCommandPlanHint": "[off | تەلەپ]",
+  "stateCommandGoalHint": "[نىشان | clear | pause | resume]",
+  "stateShareReadFailed": "«{name}» نى ئوقۇيالمىدى",
   "@stateShareReadFailed": {
     "placeholders": {
       "name": {
@@ -505,7 +506,7 @@
       }
     }
   },
-  "stateShareAttachmentLimit": "每条消息最多 {count} 个附件",
+  "stateShareAttachmentLimit": "ھەر بىر ئۇچۇردا ئەڭ كۆپ {count} قوشۇلما",
   "@stateShareAttachmentLimit": {
     "placeholders": {
       "count": {
@@ -513,7 +514,7 @@
       }
     }
   },
-  "stateShareNamedFileTooLarge": "「{name}」太大，未添加",
+  "stateShareNamedFileTooLarge": "«{name}» بەك چوڭ، قوشۇلمىدى",
   "@stateShareNamedFileTooLarge": {
     "placeholders": {
       "name": {
@@ -521,7 +522,7 @@
       }
     }
   },
-  "stateShareTextTruncated": "文字太长，只保留了前 {count} 字",
+  "stateShareTextTruncated": "تېكىست بەك ئۇزۇن، پەقەت ئالدىنقى {count} ھەرپ ساقلاندى",
   "@stateShareTextTruncated": {
     "placeholders": {
       "count": {
@@ -529,7 +530,7 @@
       }
     }
   },
-  "stateSettingsMinimum": "不能小于 {bound}",
+  "stateSettingsMinimum": "{bound} دىن كىچىك بولالمايدۇ",
   "@stateSettingsMinimum": {
     "placeholders": {
       "bound": {
@@ -537,7 +538,7 @@
       }
     }
   },
-  "stateSettingsMaximum": "不能大于 {bound}",
+  "stateSettingsMaximum": "{bound} دىن چوڭ بولالمايدۇ",
   "@stateSettingsMaximum": {
     "placeholders": {
       "bound": {
@@ -545,7 +546,7 @@
       }
     }
   },
-  "stateSettingsMultiple": "需是 {bound} 的倍数",
+  "stateSettingsMultiple": "{bound} نىڭ ھەسسىسى بولۇشى كېرەك",
   "@stateSettingsMultiple": {
     "placeholders": {
       "bound": {
@@ -553,7 +554,7 @@
       }
     }
   },
-  "stateSettingsMinLength": "至少 {count} 个字符",
+  "stateSettingsMinLength": "ئەڭ ئاز {count} ھەرپ",
   "@stateSettingsMinLength": {
     "placeholders": {
       "count": {
@@ -561,7 +562,7 @@
       }
     }
   },
-  "stateSettingsMaxLength": "最多 {count} 个字符",
+  "stateSettingsMaxLength": "ئەڭ كۆپ {count} ھەرپ",
   "@stateSettingsMaxLength": {
     "placeholders": {
       "count": {
@@ -569,7 +570,7 @@
       }
     }
   },
-  "stateEngineHttpRejected": "引擎拒绝了请求（{status}）",
+  "stateEngineHttpRejected": "ماتور تەلەپنى رەت قىلدى ({status})",
   "@stateEngineHttpRejected": {
     "placeholders": {
       "status": {
@@ -577,7 +578,7 @@
       }
     }
   },
-  "stateGoalActionOffline": "{action}：没能连上引擎",
+  "stateGoalActionOffline": "{action}：ماتورغا ئۇلىنالمىدى",
   "@stateGoalActionOffline": {
     "placeholders": {
       "action": {
@@ -585,7 +586,7 @@
       }
     }
   },
-  "stateHostRemoteLabel": "{name} · 远程",
+  "stateHostRemoteLabel": "{name} · يىراقتىن",
   "@stateHostRemoteLabel": {
     "placeholders": {
       "name": {
@@ -593,7 +594,7 @@
       }
     }
   },
-  "stateMarketHttpError": "插件目录暂时打不开（HTTP {status}）",
+  "stateMarketHttpError": "قىستۇرما مۇندەرىجىسىنى ۋاقىتلىق ئاچقىلى بولمىدى (HTTP {status})",
   "@stateMarketHttpError": {
     "placeholders": {
       "status": {
@@ -601,7 +602,7 @@
       }
     }
   },
-  "statePluginRuntimeIncompatible": "这个插件不支持当前的 DSH 版本（{version}）。",
+  "statePluginRuntimeIncompatible": "بۇ قىستۇرما نۆۋەتتىكى DSH نەشرىنى ({version}) قوللىمايدۇ.",
   "@statePluginRuntimeIncompatible": {
     "placeholders": {
       "version": {
@@ -609,7 +610,7 @@
       }
     }
   },
-  "statePluginRequiredVersion": "这个插件要求 DSH {wanted}，当前是 {current}。",
+  "statePluginRequiredVersion": "بۇ قىستۇرما DSH {wanted} نى تەلەپ قىلىدۇ، نۆۋەتتىكىسى {current}۔",
   "@statePluginRequiredVersion": {
     "placeholders": {
       "wanted": {
@@ -620,8 +621,8 @@
       }
     }
   },
-  "statePluginRegistryUnreachable": "没能连上安装源",
-  "statePluginNamedRegistryUnreachable": "没能连上安装源（{registry}）",
+  "statePluginRegistryUnreachable": "قاچىلاش مەنبەسىگە ئۇلىنالمىدى",
+  "statePluginNamedRegistryUnreachable": "قاچىلاش مەنبەسىگە ({registry}) ئۇلانالمىدۇق",
   "@statePluginNamedRegistryUnreachable": {
     "placeholders": {
       "registry": {
@@ -629,7 +630,7 @@
       }
     }
   },
-  "statePluginBuildsPending": "等待允许：{builds}",
+  "statePluginBuildsPending": "رۇخسەت كۈتۈلمەكتە: {builds}",
   "@statePluginBuildsPending": {
     "placeholders": {
       "builds": {
@@ -637,7 +638,7 @@
       }
     }
   },
-  "statePluginRegistryProgress": "换用{registry}下载（第 {attempt}/{attempts} 个源）",
+  "statePluginRegistryProgress": "{registry} ئارقىلىق چۈشۈرۈش (مەنبە {attempt}/{attempts})",
   "@statePluginRegistryProgress": {
     "placeholders": {
       "registry": {
@@ -651,7 +652,7 @@
       }
     }
   },
-  "stateProviderServiceUnavailable": "服务暂时不可用（{status}）",
+  "stateProviderServiceUnavailable": "مۇلازىمەت ۋاقىتلىق ئىشلىتىلمەيدۇ ({status})",
   "@stateProviderServiceUnavailable": {
     "placeholders": {
       "status": {
@@ -659,7 +660,7 @@
       }
     }
   },
-  "stateProviderServiceStatus": "服务返回了 {status}",
+  "stateProviderServiceStatus": "مۇلازىمەت {status} نى قايتۇردى",
   "@stateProviderServiceStatus": {
     "placeholders": {
       "status": {
@@ -667,7 +668,7 @@
       }
     }
   },
-  "stateProviderKeySaveFailed": "渠道已保存，Key 没有存上：{reason}",
+  "stateProviderKeySaveFailed": "قانال ساقلاندى، Key ساقلانمىدى: {reason}",
   "@stateProviderKeySaveFailed": {
     "placeholders": {
       "reason": {
@@ -675,7 +676,7 @@
       }
     }
   },
-  "stateSafeSuspectPlugins": "{what}，可疑插件：{plugins}",
+  "stateSafeSuspectPlugins": "{what}، گۇمانلىق قىستۇرمىلار: {plugins}",
   "@stateSafeSuspectPlugins": {
     "placeholders": {
       "what": {
@@ -686,7 +687,7 @@
       }
     }
   },
-  "stateSafePreflightFailed": "{what}，启动检查没通过：{checks}",
+  "stateSafePreflightFailed": "{what}، قوزغىتىش تەكشۈرۈشىدىن ئۆتەلمىدى: {checks}",
   "@stateSafePreflightFailed": {
     "placeholders": {
       "what": {
@@ -697,8 +698,8 @@
       }
     }
   },
-  "stateListSeparator": "、",
-  "stateSafeRepairPrompt": "我的 DSH 正常模式出了问题（{what}）。请按「安全模式」说明排查原因，先用可逆的办法修好 web 配置，修完用 dsh-app-plugins trial 试启动验证，再告诉我改了什么。",
+  "stateListSeparator": "،",
+  "stateSafeRepairPrompt": "DSH نورمال ھالەتتە مەسىلە كۆرۈلدى ({what}). «بىخەتەر ھالەت» چۈشەندۈرۈشى بويىچە سەۋەبىنى تەكشۈرۈپ، ئاۋۋال قايتۇرۇش mumkin بولغان ئۇسۇل بىلەن web سەپلىمىسىنى رېمونت قىلىڭ، رېمونت قىلىپ بولغاندىن كېيىن dsh-app-plugins trial بىلەن قوزغىتىشنى سىناپ دەلىللەڭ، ئاندىن نېمە ئۆزگەرتكەنلىكىڭىزنى ئېيتىڭ.",
   "@stateSafeRepairPrompt": {
     "placeholders": {
       "what": {
@@ -706,7 +707,7 @@
       }
     }
   },
-  "stateScheduleCreatePrompt": "新建自动化任务「{title}」：{rule}。\n只调用一次 schedule_create，参数原样使用；现在不要执行任务内容。\n\n```json\n{args}\n```",
+  "stateScheduleCreatePrompt": "يېڭى ئاپتوماتىك ۋەزىپە «{title}» قۇرۇش: {rule}.\nپەقەت بىر قېتىم schedule_create نى چاقىرىڭ، پارامېتىرلارنى ئەسلىچە ئىشلىتىڭ؛ ھازىر ۋەزىپە مەزمۇنىنى ئىجرا قىلماڭ.\n\n```json\n{args}\n```",
   "@stateScheduleCreatePrompt": {
     "placeholders": {
       "title": {
@@ -731,7 +732,7 @@
       }
     }
   },
-  "stateAlertPreviewRun": "运行：{value}",
+  "stateAlertPreviewRun": "ئىجرا قىلىش: {value}",
   "@stateAlertPreviewRun": {
     "placeholders": {
       "value": {
@@ -739,7 +740,7 @@
       }
     }
   },
-  "stateAlertPreviewWrite": "写入：{value}",
+  "stateAlertPreviewWrite": "يېزىش: {value}",
   "@stateAlertPreviewWrite": {
     "placeholders": {
       "value": {
@@ -747,7 +748,7 @@
       }
     }
   },
-  "stateAlertPreviewEdit": "修改：{value}",
+  "stateAlertPreviewEdit": "ئۆزگەرتىش: {value}",
   "@stateAlertPreviewEdit": {
     "placeholders": {
       "value": {
@@ -755,7 +756,7 @@
       }
     }
   },
-  "stateAlertPreviewOpen": "打开：{value}",
+  "stateAlertPreviewOpen": "ئېچىش: {value}",
   "@stateAlertPreviewOpen": {
     "placeholders": {
       "value": {
@@ -763,7 +764,7 @@
       }
     }
   },
-  "stateAlertPreviewUse": "使用工具：{value}",
+  "stateAlertPreviewUse": "قورال ئىشلىتىش: {value}",
   "@stateAlertPreviewUse": {
     "placeholders": {
       "value": {
@@ -771,8 +772,8 @@
       }
     }
   },
-  "stateUiWeb": "网页",
-  "statePluginRegistryProgressUnknown": "换用{registry}下载（第 {attempt}/null 个源）",
+  "stateUiWeb": "تور بەت",
+  "statePluginRegistryProgressUnknown": "{registry} ئارقىلىق چۈشۈرۈشكە ئالماشتۇرۇلدى ({attempt}/null-مەنبە)",
   "@statePluginRegistryProgressUnknown": {
     "placeholders": {
       "registry": {
@@ -783,6 +784,6 @@
       }
     }
   },
-  "stateProviderTokenCountInvalid": "填写数字，如 128K",
-  "appSlogan": "随时随刻，想go就Go！"
+  "stateProviderTokenCountInvalid": "سان كىرگۈزۈڭ، مەسىلەن 128K",
+  "appSlogan": "ھەر ۋاقىت، ھەر يەردە، Go دېسىڭىز Go!"
 }

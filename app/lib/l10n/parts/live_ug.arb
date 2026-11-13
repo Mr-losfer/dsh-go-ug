@@ -1,9 +1,10 @@
 {
-  "liveThinking": "正在思考",
-  "liveWorking": "正在干活",
-  "liveJuggling": "子代理在帮忙",
-  "liveSweeping": "正在整理上下文",
-  "liveRunsCount": "{count} 个对话在跑",
+  "@@locale": "ug",
+  "liveThinking": "ئويلاۋاتىدۇ",
+  "liveWorking": "ئىشلەۋاتىدۇ",
+  "liveJuggling": "تارماق ئاگېنت ياردەم قىلىۋاتىدۇ",
+  "liveSweeping": "مەزمۇن دائىرىسى رەتلەۋاتىدۇ",
+  "liveRunsCount": "{count} سۆھبەت ئىجرا بولۇۋاتىدۇ",
   "@liveRunsCount": {
     "placeholders": {
       "count": {
@@ -11,23 +12,23 @@
       }
     }
   },
-  "liveChipThinking": "思考中",
-  "liveChipWorking": "干活中",
-  "liveChipJuggling": "协作中",
-  "liveChipSweeping": "整理中",
-  "liveChipApproval": "待确认",
-  "liveChipQuestion": "待回答",
-  "liveChipDone": "完成",
-  "liveChipFailed": "出错",
-  "livePublicRunning": "DSH 正在干活",
-  "livePublicWaiting": "DSH 在等你处理",
-  "livePublicDone": "DSH 做完了",
-  "livePublicFailed": "DSH 出错了",
-  "liveSettingsTitle": "实时活动",
-  "liveSettingsSwitch": "显示实时活动",
-  "liveSettingsSubtitle": "干活、等你处理、操作手机时，显示在状态栏胶囊和锁屏上；支持的手机会放进灵动岛",
-  "liveSettingsFooter": "Android 16 的实时活动（Live Updates）：小米 HyperOS 3.1+、OPPO / 一加 ColorOS 16、荣耀 MagicOS 10 和 Pixel 会显示；vivo 原子岛和三星 Now Bar 目前只对厂商合作的应用开放。",
-  "liveUnsupported": "这台手机的系统还不支持实时活动",
-  "liveBlockedTitle": "系统没有允许实时活动",
-  "liveBlockedText": "在系统设置里为 Kit Go 打开「实时活动」（有的手机叫「在流体云中显示」）"
+  "liveChipThinking": "ئويلاۋاتىدۇ",
+  "liveChipWorking": "ئىشلەۋاتىدۇ",
+  "liveChipJuggling": "ھەمكارلىشىۋاتىدۇ",
+  "liveChipSweeping": "رەتلەۋاتىدۇ",
+  "liveChipApproval": "تەستىق كۈتۈۋاتىدۇ",
+  "liveChipQuestion": "جاۋاب كۈتۈۋاتىدۇ",
+  "liveChipDone": "تامام",
+  "liveChipFailed": "خاتالىق",
+  "livePublicRunning": "DSH ئىشلەۋاتىدۇ",
+  "livePublicWaiting": "DSH سىزنىڭ بىر تەرەپ قىلىشىڭىزنى كۈتۈۋاتىدۇ",
+  "livePublicDone": "DSH تاماملىدى",
+  "livePublicFailed": "DSH خاتالىق بەردى",
+  "liveSettingsTitle": "رېئال ۋاقىتلىق ھەرىكەت",
+  "liveSettingsSwitch": "رېئال ۋاقىتلىق ھەرىكەتنى كۆرسىتىش",
+  "liveSettingsSubtitle": "ئىشلەۋاتقاندا، سىزنىڭ بىر تەرەپ قىلىشىڭىزنى كۈتكەندە، تېلېفوننى باشقۇرغاندا ھالەت بالدىقى ۋە قۇلۇپ ئېكرانىدا كۆرسىتىلىدۇ؛ قوللايدىغان تېلېفونلاردا Dynamic Island غا كىرگۈزۈلىدۇ",
+  "liveSettingsFooter": "Android 16 نىڭ رېئال ۋاقىتلىق ھەرىكىتى (Live Updates): Xiaomi HyperOS 3.1+، OPPO / OnePlus ColorOS 16، Honor MagicOS 10 ۋە Pixel دا كۆرسىتىلىدۇ؛ vivo Atomic Island ۋە Samsung Now Bar ھازىرچە پەقەت ئىشلەپچىقارغۇچى بىلەن ھەمكارلاشقان ئەپلەرگىلا ئېچىلغان.",
+  "liveUnsupported": "بۇ تېلېفوننىڭ سىستېمىسى تېخى رېئال ۋاقىتلىق ھەرىكەتنى قوللىمايدۇ",
+  "liveBlockedTitle": "سىستېما رېئال ۋاقىتلىق ھەرىكەتكە رۇخسەت قىلمىدى",
+  "liveBlockedText": "سىستېما تەڭشىكىدە Kit Go ئۈچۈن «رېئال ۋاقىتلىق ھەرىكەت» نى ئېچىڭ (بەزى تېلېفونلاردا «فلوئىد بۇلۇتتا كۆرسىتىش» دېيىلىدۇ)"
 }
