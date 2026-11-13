@@ -92,11 +92,28 @@ jobs:
         # The runner's preinstalled NDK is an older major version, and
         # runtime/tawcroot/build.py refuses to build against anything else, which
         # fails a release build outright.
+        #
+        # sdkmanager is not on PATH on this image, so its location is probed; if
+        # cmdline-tools is absent altogether the NDK archive (r28c is 28.2) is
+        # unpacked into place instead.
         run: |
           set -euo pipefail
-          yes | sdkmanager --licenses > /dev/null 2>&1 || true
-          sdkmanager --install "ndk;28.2.13676358"
-          ls -1 "$ANDROID_HOME/ndk"
+          sdk="$ANDROID_HOME"
+          sdkmanager_bin="$(ls "$sdk"/cmdline-tools/*/bin/sdkmanager 2>/dev/null | head -n 1 || true)"
+          if [ -n "$sdkmanager_bin" ]; then
+            yes | "$sdkmanager_bin" --licenses > /dev/null 2>&1 || true
+            "$sdkmanager_bin" --install "ndk;28.2.13676358"
+          else
+            echo "::warning::cmdline-tools not found under $sdk; unpacking the NDK archive"
+            curl -fsSL --retry 3 -o /tmp/ndk.zip \
+              "https://dl.google.com/android/repository/android-ndk-r28c-linux.zip"
+            unzip -q /tmp/ndk.zip -d /tmp/ndk-unpack
+            mkdir -p "$sdk/ndk"
+            rm -rf "$sdk/ndk/28.2.13676358"
+            mv /tmp/ndk-unpack/android-ndk-r28c "$sdk/ndk/28.2.13676358"
+          fi
+          ls -1 "$sdk/ndk"
+          test -f "$sdk/ndk/28.2.13676358/source.properties"
 
       - name: Cache the runtime downloads
         # ~400 MB of base tarball, Node, Python, debs and Termux packages. Keyed on
