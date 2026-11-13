@@ -34,3 +34,8 @@ site/build/
 # Release assets (tooling/release_assets.py)
 /dist/
 **/failures/
+
+# local signing material (CI restores it from secrets)
+app/android/key.properties
+*.jks
+*.keystore
