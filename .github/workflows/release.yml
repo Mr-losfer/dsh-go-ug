@@ -36,6 +36,9 @@ env:
   NODE_VERSION: 24.22.1
   GRADLE_VERSION: 9.3.1
   TZ: Asia/Shanghai
+  # The Aliyun mirrors in settings.gradle.kts are slow and flaky from a US runner
+  # (same reason ci.yml sets this).
+  DSH_MAVEN_MIRRORS: 0
   # Official origins: the script's defaults (TUNA / npmmirror) are slow from here.
   UBUNTU_MIRROR: https://cdimage.ubuntu.com/ubuntu-base/releases/24.04/release
   UBUNTU_ARCHIVE_AMD64: http://archive.ubuntu.com/ubuntu
@@ -114,6 +117,10 @@ jobs:
           fi
           ls -1 "$sdk/ndk"
           test -f "$sdk/ndk/28.2.13676358/source.properties"
+          # The image exports ANDROID_NDK_HOME=<old ndk>, and
+          # runtime/tawcroot/build.py prefers that variable over the SDK's ndk/
+          # directory, so point it at the one just installed.
+          echo "ANDROID_NDK_HOME=$sdk/ndk/28.2.13676358" >> "$GITHUB_ENV"
 
       - name: Cache the runtime downloads
         # ~400 MB of base tarball, Node, Python, debs and Termux packages. Keyed on
