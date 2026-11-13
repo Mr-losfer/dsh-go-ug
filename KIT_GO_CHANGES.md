@@ -225,4 +225,16 @@ dsh web: http://127.0.0.1:3099/?token=IbmAGcZnMMiZZ48IF8pZDlKpUIbZqkdY_zU7iRdE0K
 
 正常打印 token URL 并持续监听（原先静默 exit 0）。
 
+arm64 产物额外用 QEMU 用户态模拟器跑了一遍真机同款命令：
+
+```
+$ chroot <rootfs-arm64-v8a> qemu-aarch64-static /opt/node/bin/node \
+    --import=/opt/dsh-go/boot-cache.mjs .../dsh/lib/bin.js web --patch /etc/dsh-app/dsh-web.patch.yml \
+    --host 127.0.0.1 --port 3098 --no-open
+node v24.22.1 | import.meta.main = false
+dsh web: http://127.0.0.1:3098/?token=WemJTWy-XTu62j82kNqDY5CPSXf_yovCAsNOV-PONXg
+```
+
+即发布出去的 arm64 包，其内嵌 runtime 在 ARM 上确实能起来，不是靠 x86_64 类推。
+
 > 教训：`${VAR:-default}` 在构建脚本里等于「外部环境可以静默改写产物」，凡是决定产物行为的关键版本都应在末尾加一道自检。
