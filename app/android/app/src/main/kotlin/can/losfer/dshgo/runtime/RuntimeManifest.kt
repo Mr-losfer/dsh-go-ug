@@ -57,7 +57,9 @@ data class RuntimeManifest(
                             digest, layer.getLong("uncompressedBytes")).also {
                             require(it.bytes > 0 && it.uncompressedBytes >= 0 &&
                                 layer.getLong("tarBytes") >= 0 &&
-                                it.asset in listOf("$name-$abi.tar.xz", "$name-$abi.tar.gz") &&
+                                // .tgz is what build-runtime.sh writes for COMPRESS=gz; a
+                                // ".tar.gz" asset would be gunzipped by aapt2 and lose its suffix.
+                                it.asset in listOf("$name-$abi.tar.xz", "$name-$abi.tar.gz", "$name-$abi.tar.tgz") &&
                                 listOf(digest, tarDigest).all { hash -> hash.matches(Regex("[0-9a-f]{64}")) })
                         }
                     }

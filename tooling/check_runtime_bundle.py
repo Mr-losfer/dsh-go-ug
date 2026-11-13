@@ -64,7 +64,9 @@ def check_bundle(flavor):
         if not isinstance(archive, dict):
             raise ValueError(f"{manifest_path}: invalid {kind} archive record")
         name = archive["asset"]
-        if name not in (f"{kind}-{abi}.tar.xz", f"{kind}-{abi}.tar.gz"):
+        # .tgz, not .tar.gz: aapt2 gunzips ".gz" assets and drops that suffix on the way
+        # into the APK, which would leave the app looking for an asset that is not there.
+        if name not in (f"{kind}-{abi}.tar.xz", f"{kind}-{abi}.tar.gz", f"{kind}-{abi}.tar.tgz"):
             raise ValueError(f"{manifest_path}: invalid {kind} asset name for {abi}")
         check_file(assets / name, archive["bytes"], archive["sha256"])
     jni = manifest["jniLibs"]

@@ -1674,7 +1674,8 @@ def cmd_manifest(args):
         if set(report["layers"]) != {"base", "engine"} or "archive" in report or "archiveSha256" in report:
             raise SystemExit("layer report must contain only base and engine, without a single archive")
         for kind, layer in report["layers"].items():
-            names = {"%s-%s.tar.%s" % (kind, args.abi, suffix) for suffix in ("xz", "gz")}
+            # .tgz, not .tar.gz: aapt2 gunzips ".gz" assets and drops the suffix.
+            names = {"%s-%s.tar.%s" % (kind, args.abi, suffix) for suffix in ("xz", "gz", "tgz")}
             if layer["asset"] not in names:
                 raise SystemExit("invalid %s asset name for ABI %s" % (kind, args.abi))
     m = {
@@ -1684,7 +1685,7 @@ def cmd_manifest(args):
         "abi": args.abi,
         **({"layers": report["layers"], "baseCompatibility": report["baseCompatibility"]} if layered else {
             "rootfs": report["archive"],
-            "rootfsFormat": "tar.xz" if report["archive"].endswith(".xz") else "tar.gz",
+            "rootfsFormat": "tar.xz" if report["archive"].endswith(".xz") else "tar.gz",  # .tgz is gzip
             "rootfsSha256": report["archiveSha256"],
         }),
         "rootfsBytes": report["archiveBytes"],

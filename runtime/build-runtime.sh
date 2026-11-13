@@ -5,7 +5,7 @@
 #
 #   runtime/build-runtime.sh                 # both ABIs (x86_64 first)
 #   runtime/build-runtime.sh x86_64          # one ABI
-#   COMPRESS=gz runtime/build-runtime.sh     # .tar.gz instead of .tar.xz
+#   COMPRESS=gz runtime/build-runtime.sh     # .tar.tgz instead of .tar.xz
 #   RUNTIME_LAYERS=1 runtime/build-runtime.sh # opt in to base + engine assets
 #   RUNTIME_OUT=/path runtime/build-runtime.sh   # stage outputs outside runtime/out (not packaged)
 #
@@ -18,6 +18,7 @@
 # Outputs (consumed by app/android/app/build.gradle.kts flavors):
 #   runtime/out/<abi>/assets/runtime/rootfs-<abi>.tar.xz
 #     or base-<abi>.tar.xz + engine-<abi>.tar.xz when RUNTIME_LAYERS=1
+#     (COMPRESS=gz writes rootfs-<abi>.tar.tgz, see ARCHIVE_EXT below)
 #   runtime/out/<abi>/assets/runtime/manifest.json      (versions, hashes, launch template)
 #   runtime/out/<abi>/assets/runtime/licenses/...
 #   runtime/out/<abi>/jniLibs/<abi>/lib{proot,proot-loader,talloc,android-shmem}.so
@@ -55,20 +56,25 @@ UBUNTU_EXTRA="${UBUNTU_EXTRA:-tzdata ca-certificates git}"   # extra noble debs 
 PYTHON_VERSION="${PYTHON_VERSION:-3.12.15}"
 PBS_RELEASE="${PBS_RELEASE:-20261021}"    # astral-sh/python-build-standalone release tag
 COMPRESS="${COMPRESS:-xz}"          # xz | gz
+# aapt2 transparently gunzips any asset whose name ends in ".gz" and drops that
+# suffix, so a .tar.gz bundle would reach the APK as an uncompressed .tar (and be
+# stored, because "tar" is in noCompress). .tgz keeps the bytes intact and the
+# Kotlin extractor already treats it as gzip.
+if [[ "$COMPRESS" == gz ]]; then ARCHIVE_EXT="tgz"; else ARCHIVE_EXT="xz"; fi
 XZ_PRESET="${XZ_PRESET:-6}"         # 8 MiB dictionary: modest memory for xz-java on phones
 XZ_THREADS="${XZ_THREADS:-4}"       # xz 5.8.1 -6, 136704-byte sample: -T1=408 B, -T2/-T4=416 B; threads can change bytes
 PRUNE_DEV_METADATA="${PRUNE_DEV_METADATA:-1}"   # drop *.map / *.d.ts from node_modules
 SOURCE_DATE_EPOCH="${SOURCE_DATE_EPOCH:-1767225600}"  # 2026-01-01T00:00:00Z, fixed tar mtimes
 
-UBUNTU_MIRROR="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu-base/releases/24.04/release"
-NODE_MIRROR="https://npmmirror.com/mirrors/node"
-NPM_REGISTRY="https://registry.npmmirror.com"
-TERMUX_REPO="https://packages.termux.dev/apt/termux-main"
+UBUNTU_MIRROR="${UBUNTU_MIRROR:-https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu-base/releases/24.04/release}"
+NODE_MIRROR="${NODE_MIRROR:-https://npmmirror.com/mirrors/node}"
+NPM_REGISTRY="${NPM_REGISTRY:-https://registry.npmmirror.com}"
+TERMUX_REPO="${TERMUX_REPO:-https://packages.termux.dev/apt/termux-main}"
 UBUNTU_ARCHIVE_AMD64="${UBUNTU_ARCHIVE_AMD64:-https://archive.ubuntu.com/ubuntu}"        # InRelease verified with gpgv
 UBUNTU_ARCHIVE_ARM64="${UBUNTU_ARCHIVE_ARM64:-https://ports.ubuntu.com/ubuntu-ports}"
 UBUNTU_DEB_FALLBACK="https://launchpad.net/ubuntu/+archive/primary/+files"
-PBS_OFFICIAL="https://github.com/astral-sh/python-build-standalone/releases/download"
-PBS_MIRROR="https://registry.npmmirror.com/-/binary/python-build-standalone"
+PBS_OFFICIAL="${PBS_OFFICIAL:-https://github.com/astral-sh/python-build-standalone/releases/download}"
+PBS_MIRROR="${PBS_MIRROR:-https://registry.npmmirror.com/-/binary/python-build-standalone}"
 
 # sha256 pins, cross-checked against cdimage.ubuntu.com / nodejs.org / the Termux Packages
 # index. Unpinned version overrides still resolve the upstream checksum metadata.
@@ -474,10 +480,10 @@ PYEOF
     "$(cat "$work/dsh-patches.json")" "$bridge_version")"
 
   # -- rootfs archive --
-  local -a archives=("$assets/rootfs-$abi.tar.$COMPRESS")
+  local -a archives=("$assets/rootfs-$abi.tar.$ARCHIVE_EXT")
   local -a archive_args=(--out "${archives[0]}")
   if [[ "$RUNTIME_LAYERS" == 1 ]]; then
-    archives=("$assets/base-$abi.tar.$COMPRESS" "$assets/engine-$abi.tar.$COMPRESS")
+    archives=("$assets/base-$abi.tar.$ARCHIVE_EXT" "$assets/engine-$abi.tar.$ARCHIVE_EXT")
     archive_args=(--base-out "${archives[0]}" --engine-out "${archives[1]}" --base-cache "$BASE_LAYER_CACHE")
   fi
   local -a prune=(); [[ "$PRUNE_DEV_METADATA" == 1 ]] && prune=(--prune-dev-metadata)

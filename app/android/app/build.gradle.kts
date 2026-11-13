@@ -97,7 +97,10 @@ android {
     }
 
     androidResources {
-        noCompress += listOf("gz", "xz", "zst", "tar")
+        // "tgz" is the real name of the gzip bundle (see runtime/build-runtime.sh).
+        // "gz"/"tar" stay listed for older bundles, but note aapt2 gunzips ".gz" assets
+        // and drops the suffix, so a .tar.gz would arrive as a stored 675 MB .tar.
+        noCompress += listOf("gz", "xz", "zst", "tar", "tgz")
     }
 
     signingConfigs {
