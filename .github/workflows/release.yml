@@ -56,14 +56,15 @@ jobs:
           persist-credentials: false
 
       - name: Free disk space
-        # The runtime work tree, the Gradle cache and the APK together need more
-        # than a stock runner leaves free, and ~12 GB of preinstalled toolchains
-        # are dead weight here. The Android SDK and its NDK stay untouched:
-        # build-apk.sh compiles the optional tawcroot library against
-        # ndk/<version> and fails outright when that directory is missing.
+        # The runtime work tree, the Gradle cache, the NDK download and the APK
+        # together need more than a stock runner leaves free, and ~12 GB of
+        # preinstalled toolchains are dead weight here. The Android SDK stays:
+        # build-apk.sh compiles libtawcroot.so with it and a release build fails
+        # outright when that library cannot be produced.
         run: |
-          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost 2>/dev/null || true
-          du -sh /usr/local/lib/android/sdk/ndk 2>/dev/null || true
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost \
+                      /usr/share/swift /opt/microsoft /usr/local/graalvm \
+                      /usr/local/lib/android/sdk/ndk 2>/dev/null || true
           df -h /
 
       - uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
@@ -85,6 +86,17 @@ jobs:
         run: |
           sudo apt-get update -q
           sudo apt-get install -y --no-install-recommends xz-utils zstd gpgv binutils
+
+      - name: Install the NDK the tawcroot library is built against
+        # app/android/app/build.gradle.kts uses flutter.ndkVersion (28.2.13676358).
+        # The runner's preinstalled NDK is an older major version, and
+        # runtime/tawcroot/build.py refuses to build against anything else, which
+        # fails a release build outright.
+        run: |
+          set -euo pipefail
+          yes | sdkmanager --licenses > /dev/null 2>&1 || true
+          sdkmanager --install "ndk;28.2.13676358"
+          ls -1 "$ANDROID_HOME/ndk"
 
       - name: Cache the runtime downloads
         # ~400 MB of base tarball, Node, Python, debs and Termux packages. Keyed on
