@@ -97,6 +97,62 @@ declare -A PIN=(
 
 log() { printf '\033[1;34m[runtime %s]\033[0m %s\n' "$(date +%H:%M:%S)" "$*" >&2; }
 die() { printf '\033[1;31m[runtime] error:\033[0m %s\n' "$*" >&2; exit 1; }
+
+# True when version $1 satisfies the npm range $2 (>=, >, <=, <, =, ^, ~, x-ranges,
+# space-separated AND, "||" OR; a bare leading "v" and a missing patch are tolerated).
+# Used to refuse a runtime whose bundled Node predates what the DSH bundle needs.
+node_satisfies() {
+  python3 -I - "$1" "$2" <<'PY'
+import re, sys
+
+def parse(v):
+    m = re.match(r'^v?(\d+)(?:\.(\d+))?(?:\.(\d+))?', v.strip())
+    if not m:
+        raise SystemExit(2)
+    return tuple(int(g or 0) for g in m.groups())
+
+def test(version, one):
+    one = one.strip()
+    if not one or one in ('*', 'x', 'X', 'latest'):
+        return True
+    m = re.match(r'^(>=|<=|>|<|=|\^|~)?\s*v?([0-9xX*][0-9xX*.]*)$', one)
+    if not m:
+        raise SystemExit(2)
+    op, want = m.group(1) or '=', m.group(2)
+    loose = any(p in ('x', 'X', '*') for p in want.split('.'))
+    want = parse(want)
+    if loose:
+        # x-ranges: the listed components are compared, the rest count as 0.
+        kept = [p for p in m.group(2).split('.') if p not in ('x', 'X', '*')]
+        if op in ('>=', '>'):
+            return version >= want
+        if op in ('<=', '<'):
+            return version <= want
+        return version[:len(kept)] == want[:len(kept)]
+    if op == '=':
+        return version == want
+    if op == '>':
+        return version > want
+    if op == '>=':
+        return version >= want
+    if op == '<':
+        return version < want
+    if op == '<=':
+        return version <= want
+    if op == '^':
+        if want[0] > 0:
+            return want <= version < (want[0] + 1, 0, 0)
+        if want[1] > 0:
+            return want <= version < (0, want[1] + 1, 0)
+        return want <= version < (0, 0, want[2] + 1)
+    # '~'
+    return want <= version < (want[0], want[1] + 1, 0)
+
+version, spec = parse(sys.argv[1]), sys.argv[2].strip()
+ok = any(all(test(version, term) for term in alt.split()) for alt in spec.split('||'))
+sys.exit(0 if ok else 1)
+PY
+}
 sha256() { sha256sum "$1" | cut -d' ' -f1; }
 
 case "$RUNTIME_LAYERS" in 0|1) ;; *) die "RUNTIME_LAYERS must be 0 or 1" ;; esac
@@ -331,6 +387,16 @@ install_dsh() {  # $1 = npm cpu, $2 = prefix dir
   local got; got="$(python3 -I -c 'import json,sys; print(json.load(open(sys.argv[1]))["version"])' \
     "$prefix/node_modules/@deepseek-ai/dsh/package.json")"
   [[ "$got" == "$DSH_VERSION" ]] || die "installed dsh $got != $DSH_VERSION"
+  # DSH declares the Node it runs on. A runtime built against an older Node installs and packs
+  # fine and then does nothing: bin.js ends with `if (import.meta.main) await runCli()`, and
+  # `import.meta.main` only exists from Node 22.18 / 24.2 on. Under 22.13.1 the guard is
+  # `undefined`, `dsh web` never starts, and the process exits 0 within a few hundred ms — the
+  # app reports that as "the engine was killed by the system". Cheap to check here, impossible
+  # to diagnose on a phone.
+  local wants; wants="$(python3 -I -c 'import json,sys; print((json.load(open(sys.argv[1])).get("engines") or {}).get("node",""))' \
+    "$prefix/node_modules/@deepseek-ai/dsh/package.json")"
+  node_satisfies "$NODE_VERSION" "$wants" ||
+    die "node $NODE_VERSION does not satisfy @deepseek-ai/dsh@$DSH_VERSION engines.node ($wants); set NODE_VERSION to a supported release"
 }
 
 # pnpm for the guest (zero dependencies, plain JS). Same lock-then-`npm ci` scheme as DSH; the

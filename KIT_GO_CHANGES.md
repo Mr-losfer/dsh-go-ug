@@ -177,3 +177,52 @@ aapt2 会把以 `.gz` 结尾的 asset 自动 gunzip 并去掉后缀：
 | Gradle 依赖拉取缓慢 | `settings.gradle.kts` 默认走阿里云镜像 | 设 `DSH_MAVEN_MIRRORS=0` |
 
 境外 runner 使用官方源（`cdimage.ubuntu.com` / `archive.ubuntu.com` / `nodejs.org` / `registry.npmjs.org`），故 `build-runtime.sh` 的镜像地址全部改为可被环境变量覆盖。
+
+---
+
+## 1.0.17 修复：引擎启动即退出（Node 版本过旧）
+
+### 现象
+
+安装 1.0.16 后引擎始终起不来，界面提示「引擎被系统结束了」。诊断包里是：
+
+```
+crash.json:  kind = "killed",  exitCode = 0
+engine.log:  launch 后约 250 ms → "DSH exited with code 0"
+runtime:     bundledVersion = r15-...-node22.13.1-...   （Node 22.13.1）
+```
+
+退出码是 0，且子进程一个字都没输出——**不是被系统杀掉，是自己静默退出**。
+
+### 根因
+
+DSH 0.2.2-rc.1 的 `package.json` 声明 `engines.node >= 24.9.0`，其 `lib/bin.js` 结尾是：
+
+```js
+if (import.meta.main) await runCli();
+```
+
+`import.meta.main` 直到 Node 22.18 / 24.2 才提供。Node 22.13.1 上它是 `undefined`，于是 `runCli()` 从不执行，模块加载完事件循环空转，Node 以退出码 0 结束。
+
+而 `runtime/build-runtime.sh` 写的是 `NODE_VERSION="${NODE_VERSION:-24.22.1}"`——**shell 里的同名环境变量会覆盖默认值**。本机构建环境的 `NODE_VERSION=22.13.1`（沙箱自带）正好命中，于是打出了 node22.13.1 的 runtime：能装、能解包、能拉起 proot，然后立刻静默退出。
+
+### 修复
+
+1. **构建期守卫**：`install_dsh()` 装完 DSH 后读取其 `engines.node`，用新增的 `node_satisfies()` 校验 `$NODE_VERSION`；不满足直接 `die`，不允许产出「能打包但跑不起来」的 runtime。
+2. **重建 runtime**：`NODE_VERSION=24.22.1`（= 脚本默认值），版本串变为
+   `r15-dsh0.2.2-rc.1-node24.22.1-ubuntu24.04.5-d28492f09855`，
+   `build.nodeSha256 = dbabf7a1…`（与 node-v24.22.1-linux-arm64 官方包一致）。
+3. 版本号 1.0.16 → **1.0.17**。
+
+### 验证
+
+把 x86_64 rootfs 里的 `/opt/node` 换成 node 24.22.1 后，在 chroot 中执行与 App 相同的启动命令：
+
+```
+$ dsh web --patch /etc/dsh-app/dsh-web.patch.yml --host 127.0.0.1 --port 3099 --no-open
+dsh web: http://127.0.0.1:3099/?token=IbmAGcZnMMiZZ48IF8pZDlKpUIbZqkdY_zU7iRdE0KA
+```
+
+正常打印 token URL 并持续监听（原先静默 exit 0）。
+
+> 教训：`${VAR:-default}` 在构建脚本里等于「外部环境可以静默改写产物」，凡是决定产物行为的关键版本都应在末尾加一道自检。
