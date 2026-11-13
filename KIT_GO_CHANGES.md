@@ -121,3 +121,59 @@ python3 tool/l10n_merge.py --locale ug --check
 python3 tool/guide_sync.py --check
 flutter test test/forum/ test/l10n/ --reporter compact
 ```
+
+---
+
+## 打包与发布（2026-11-13）
+
+### 签名
+- 密钥库：`kitgo-release.jks`（RSA 4096，有效期 30 年，DN `CN=LOSFER, OU=Kit Go, O=LOSFER, C=CN`）
+- 别名：`kitgo`；口令见 `/root/keys/kitgo-pass.txt`（**本地留存，勿入库**）
+- GitHub Secrets：`KEYSTORE_B64` / `KEYSTORE_PASSWORD` / `KEY_ALIAS`
+- 证书 SHA-256：`a49e38a37252ad6f6d630b8514ca2a07a07cbb7a1327b62014d3f2b0cb08af02`
+
+> 该密钥库是 APK 的长期身份。丢失后无法给已安装用户推送升级（只能卸载重装、数据清空），请离线备份。
+
+### 关键缺陷与修复：aapt2 解压 `.gz` 资源
+
+aapt2 会把以 `.gz` 结尾的 asset 自动 gunzip 并去掉后缀：
+
+| 阶段 | 文件名 | 大小 |
+|---|---|---|
+| `runtime/out` | `rootfs-arm64-v8a.tar.gz` | 187 MB |
+| APK 内 | `rootfs-arm64-v8a.tar`（未压缩） | 675 MB |
+
+又因 `noCompress` 含 `"tar"`，它以 stored 方式原样存储，APK 从 235 MB 涨到 **692 MB**。更严重的是 `manifest.json` 仍指向 `.tar.gz`，`RuntimeInstaller` 的 `assets.open()` 必然抛 `FileNotFoundException`，安装阶段直接失败。
+
+**修复**：改用 `.tgz`（aapt2 只处理 `.gz`），解包器本就支持 `.tgz` 走 `GZIPInputStream`。同步修改：
+
+- `runtime/build-runtime.sh` — 新增 `ARCHIVE_EXT`，`COMPRESS=gz` → `tgz`
+- `runtime/lib/rtbuild.py` — manifest 白名单加 `tgz`
+- `tooling/check_runtime_bundle.py` — 校验白名单加 `tgz`
+- `RuntimeManifest.kt` — schema 2 白名单加 `.tgz`
+- `app/android/app/build.gradle.kts` — `noCompress` 加 `"tgz"`
+
+结果：APK **235 MB**，且 APK 内 `manifest.rootfsSha256` 与实际字节逐字节一致。
+
+### 构建产物
+
+| 项 | 值 |
+|---|---|
+| 文件 | `kitgo-1.0.16-arm64.apk` |
+| 大小 | 234.3 MB |
+| 包名 / 版本 | `can.losfer.dshgo` / 1.0.16 |
+| minSdk / targetSdk | 26 / 28 |
+| ABI | arm64-v8a |
+| runtime | `r15-dsh0.2.2-rc.1-node22.13.1-ubuntu24.04.5-9e930263e280` |
+| SHA-256 | `a92e7aa0a0616852e31192b55171085b1d01a536f7fcdd34da54f7b4a723ea81` |
+
+### CI 踩过的坑（release.yml）
+
+| 现象 | 原因 | 处理 |
+|---|---|---|
+| `tawcroot build failed: needs NDK 28.2.13676358` | runner 预装 NDK 27.3，`build.gradle.kts` 用 `flutter.ndkVersion` | 磁盘清理时移除旧 NDK，用 `sdkmanager` 装 28.2 |
+| `sdkmanager: command not found` | 该镜像不在 PATH | 探测 `$ANDROID_HOME/cmdline-tools/*/bin/sdkmanager`，缺失则解压 `android-ndk-r28c-linux.zip` |
+| `ndk/27.3.13750724/source.properties` 不存在 | `default_ndk()` 优先读 `ANDROID_NDK_HOME`，镜像仍指向旧 NDK | 装完后把该变量写入 `$GITHUB_ENV` |
+| Gradle 依赖拉取缓慢 | `settings.gradle.kts` 默认走阿里云镜像 | 设 `DSH_MAVEN_MIRRORS=0` |
+
+境外 runner 使用官方源（`cdimage.ubuntu.com` / `archive.ubuntu.com` / `nodejs.org` / `registry.npmjs.org`），故 `build-runtime.sh` 的镜像地址全部改为可被环境变量覆盖。
